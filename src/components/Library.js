@@ -95,6 +95,7 @@ const SearchInput = styled.input`
   padding: 0.5rem 1rem;
   margin: 0 auto 1rem 1rem;
   border: 1px solid rgba(155, 155, 155, 0.5);
+  top: 2rem;
   border-radius: 5px;
   outline: none;
   position: sticky; // Añade esta línea
