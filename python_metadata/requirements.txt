@@ -1,0 +1,5 @@
+eyed3
+requests
+pillow
+tqdm
+mutagen
