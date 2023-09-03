@@ -53,10 +53,12 @@ const Img = styled.img`
 
 const H1 = styled.h2`
   padding: 3rem 1rem 1rem 1rem;
+  text-align: center;
 `;
 
 const H2 = styled.h3`
   font-size: 1rem;
+  text-align: center;
 `;
 
 export default Song;

@@ -104,6 +104,11 @@ const SearchInput = styled.input`
   &:focus {
     border-color: rgba(155, 155, 155, 0.8);
   }
+
+  @media screen and (max-width: 768px) {
+    top: 1.1rem; // Añade esta línea
+    width: 65%;
+  }
 `;
 
 export default Library;
