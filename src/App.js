@@ -62,11 +62,9 @@ const App = () => {
   };
 
   const parts = currentSong.audio.split("/");
-
-  // Codifica la última parte de la URL
-  parts[parts.length - 1] = encodeURIComponent(parts[parts.length - 1]);
-
-  // Une las partes nuevamente para obtener la URL completa codificada
+  const lastPart = parts[parts.length - 1].split("?");
+  lastPart[0] = encodeURIComponent(lastPart[0]);
+  parts[parts.length - 1] = lastPart.join("?");
   const audioSrc = parts.join("/");
 
   return (

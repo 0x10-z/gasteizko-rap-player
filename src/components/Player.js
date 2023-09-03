@@ -49,10 +49,8 @@ const Player = ({
   };
 
   const dragHandler = (e) => {
-    e.persist(); // Esto retiene el evento sintético para que no sea reutilizado
-    const newTime = e.nativeEvent.target.value;
-    audioRef.current.currentTime = newTime;
-    setSongInfo({ ...songInfo, currentTime: newTime });
+    audioRef.current.currentTime = e.target.value;
+    setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
   const skipTrackHandler = async (direction) => {
