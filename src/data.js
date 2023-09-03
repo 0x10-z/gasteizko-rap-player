@@ -8,8 +8,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/1- 86 (con Dj Nead) [Producido por Warm On Family].mp3",
-      color: ["#d01c4c", "#c8fa58"],
-      id: "9cfce935-f3fa-4602-958d-b624d1a54a86",
+      color: ["#8412c8", "#2442f3"],
+      id: "475c67e7-5667-4c7a-98c2-5e9bb435fbc3",
       active: false,
     },
     {
@@ -20,8 +20,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/2- Crema (con Dj Nead) [NNay beats].mp3",
-      color: ["#f9ab3a", "#03bb50"],
-      id: "99cb0c39-711f-4e50-a1cb-eda688257e03",
+      color: ["#9a4c26", "#32173c"],
+      id: "86e622bd-ce9f-47e8-ac11-092fa6776245",
       active: false,
     },
     {
@@ -32,8 +32,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/3- Cosmos [Producido por Telmo Trenor].mp3",
-      color: ["#62ef52", "#70cad6"],
-      id: "5c5fdd35-c18d-4a6e-a83e-b0565dbe2f1f",
+      color: ["#a566d3", "#a38fca"],
+      id: "9f33bc55-e87a-4bcb-b54e-642477a15321",
       active: false,
     },
     {
@@ -44,8 +44,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/4- Easy come [Producido por Warm On Family].mp3",
-      color: ["#08aacc", "#8e7dd8"],
-      id: "89a2d4b3-5905-4507-b5f6-6eed0f48c525",
+      color: ["#8db362", "#0781da"],
+      id: "24a69df1-48b4-4679-a95c-7765fc84e79b",
       active: false,
     },
     {
@@ -56,8 +56,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/5- Classic (con +kesoul) [Producido por Juan R\u00edos].mp3",
-      color: ["#9e1ec7", "#d040b8"],
-      id: "fd1406e0-ddce-4a94-bdc2-4cefc90ea306",
+      color: ["#50775e", "#7e9fb2"],
+      id: "bfbe5c23-a083-477e-b072-9a2624402d34",
       active: false,
     },
     {
@@ -68,8 +68,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/6- Todo el d\u00eda [Producido por MLMz].mp3",
-      color: ["#6108bf", "#764b44"],
-      id: "ddca7fff-6a86-4797-8333-4c1c9120f1fe",
+      color: ["#dc25ce", "#fbae0a"],
+      id: "2d2c00cb-bccc-4d28-a387-35dc37a4800c",
       active: false,
     },
     {
@@ -80,8 +80,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/7- O.D.I.O. [Producido por Chulapo].mp3",
-      color: ["#094b43", "#f2b368"],
-      id: "14f1b092-acd8-4033-9cdf-3fc5a7878755",
+      color: ["#edfac2", "#c4a38d"],
+      id: "b67652d4-4ea4-4129-bbcd-059f101585fc",
       active: false,
     },
     {
@@ -92,8 +92,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/8- Txioka (con Sorkun) [Producido por Telmo Trenor].mp3",
-      color: ["#052b6c", "#27a0ff"],
-      id: "1234fafe-f9ab-4895-bd48-896a1c717ae9",
+      color: ["#cf9578", "#a8eed4"],
+      id: "81088271-8493-49c4-b741-a4f6fdf3926a",
       active: false,
     },
     {
@@ -104,8 +104,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - 86/9 - Pa'nada (con Dj Nead) [Producido por MLMZ].mp3",
-      color: ["#229a22", "#03ca36"],
-      id: "a7dcffb9-be9f-4584-860c-83e86e9d16b4",
+      color: ["#5f4822", "#05a9b5"],
+      id: "26a678f7-d10e-4645-a187-9250b0f3c599",
       active: false,
     },
     {
@@ -116,8 +116,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/01.- Intro (Prod. DanielBum).mp3",
-      color: ["#8206df", "#3bdcef"],
-      id: "59ba8c25-0ec3-404f-9675-13065c5544f0",
+      color: ["#dff8f5", "#5ae7ab"],
+      id: "e90c4c21-32ea-45c8-96e0-3205d890566c",
       active: false,
     },
     {
@@ -128,8 +128,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/02.- Rap en Vena (Prod. DanielBum).mp3",
-      color: ["#10e08e", "#f4b58e"],
-      id: "47c1f2f9-6cea-4e30-926b-8bc8d982702f",
+      color: ["#180df4", "#df3d63"],
+      id: "c70996e9-2b35-495e-ba66-858710ee7cdc",
       active: false,
     },
     {
@@ -140,8 +140,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/03.- Ahora cuenta (Prod. Telmo Trenor).mp3",
-      color: ["#619f5e", "#360efc"],
-      id: "8ca72b63-3f2e-4277-a41d-123cda953540",
+      color: ["#81a904", "#fb2c9c"],
+      id: "8a05395c-ad7a-4e10-b541-e18eb8287eb6",
       active: false,
     },
     {
@@ -152,8 +152,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/04.- Ella -con Patrizia- (Prod. DanielBum).mp3",
-      color: ["#545dd5", "#143a14"],
-      id: "788abedb-2bb9-4cc0-b2aa-fc2d32643152",
+      color: ["#6fb87a", "#13d305"],
+      id: "2e6f50b2-d5b9-4342-832c-16cf8bd4e8b4",
       active: false,
     },
     {
@@ -164,8 +164,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/05.- La vida sonr\u00ede a los que sonr\u00eden -con Blime-.mp3",
-      color: ["#aad0f5", "#21b045"],
-      id: "e28d1fb6-2576-426f-b587-8aedc3947ce0",
+      color: ["#56bfe0", "#703144"],
+      id: "72f2e98a-ba59-448a-9a60-5a942e8c13c9",
       active: false,
     },
     {
@@ -176,8 +176,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/06.- Despierta baby! (Prod. DanielBum).mp3",
-      color: ["#23fa01", "#9805f6"],
-      id: "1676d5c9-42be-495f-8056-35af35453dc4",
+      color: ["#6ef7a0", "#26ca7c"],
+      id: "e1b70d8d-6c11-4d7b-b3f0-7e6a2ddce6f2",
       active: false,
     },
     {
@@ -188,8 +188,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/07.- Tu#Amor#Mi coraz\u00f3n#Diferente -con Javi Pro, Blime & Cramer- (Prod. CramerOne).mp3",
-      color: ["#60fae1", "#3cba3c"],
-      id: "213d84b2-b726-470c-aaa8-7fcb3bb08770",
+      color: ["#71c425", "#5f1cd3"],
+      id: "40f6a74b-c08a-4d1f-8055-e1c41e79326d",
       active: false,
     },
     {
@@ -200,8 +200,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/08.- Interludio -con Dj Rubireal-.mp3",
-      color: ["#b27e73", "#633151"],
-      id: "87cd25b9-ee85-4b80-ae06-5852615b75e6",
+      color: ["#df7a92", "#70c289"],
+      id: "3e0aaee2-ff3e-4a74-80a5-8b906a89da5f",
       active: false,
     },
     {
@@ -212,8 +212,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/09.- Flipa -con Olaso- (Prod. DanielBum).mp3",
-      color: ["#c071b0", "#b6d0e0"],
-      id: "7f746ec5-5151-4842-b6dd-91df02c636f9",
+      color: ["#f2fef9", "#a25d13"],
+      id: "49e894fe-5340-406b-9222-2d3c20f813d3",
       active: false,
     },
     {
@@ -224,8 +224,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/10.- Hope -con Blacqman- (Prod. DanielBum).mp3",
-      color: ["#491bdb", "#46894e"],
-      id: "f99b1a3d-5a2e-4613-a578-3262e63c5ed1",
+      color: ["#1c7a20", "#1e6124"],
+      id: "e6d7f91e-f7be-46d3-ab03-fb69fe43470e",
       active: false,
     },
     {
@@ -236,8 +236,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/11.- Fluyendo Beat1 (Prod. DanielBum).mp3",
-      color: ["#c4d6ec", "#518fbd"],
-      id: "c55db165-d645-4777-a9a0-23a2d48ec438",
+      color: ["#bc435a", "#21a6ad"],
+      id: "ae73b1ab-961d-44f1-a99a-f7a5d2bfeade",
       active: false,
     },
     {
@@ -248,8 +248,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/12.- Cada d\u00eda sale el sol (Prod. WallyLoopOne).mp3",
-      color: ["#c2358c", "#25ad3b"],
-      id: "1234df2a-1c6f-4590-a534-4faa37d984c5",
+      color: ["#d2c495", "#b320f3"],
+      id: "833c224e-e801-4eb4-8a2f-61d324cc639a",
       active: false,
     },
     {
@@ -260,8 +260,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/13.- EsDan -con Patrizia- (Prod. DanielBum).mp3",
-      color: ["#bcfdac", "#267971"],
-      id: "66388fdd-23a6-4a75-9f68-d218c7bd5bb2",
+      color: ["#666858", "#155224"],
+      id: "3c726d38-d46c-4a7c-845c-53c722240a5b",
       active: false,
     },
     {
@@ -272,8 +272,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/14.- Infinito -con La Omega- (Prod. DanielBum).mp3",
-      color: ["#9d3d8e", "#8ff3fc"],
-      id: "ea5d53f0-95fb-4052-9cda-de6cd146042b",
+      color: ["#ce41eb", "#b104ea"],
+      id: "d75e216a-4234-48ae-9178-5ba266627d2e",
       active: false,
     },
     {
@@ -284,8 +284,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/15.- Sabes como va -con Gallinero AllStars- (Prod. Telmo Trenor).mp3",
-      color: ["#34d227", "#3b59a7"],
-      id: "0769f124-2a23-41c5-b6be-0dc112f475dd",
+      color: ["#82a9e8", "#6f8255"],
+      id: "b809762b-0eac-4691-ba10-0e4a73a74d5b",
       active: false,
     },
     {
@@ -296,8 +296,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/16.- Jarkor en el parke -con Conexi\u00f3n directa & Paco- (Prod. Spike).mp3",
-      color: ["#b59b14", "#19e9a4"],
-      id: "069c39b9-849e-4204-b9b9-6fb3c338c23f",
+      color: ["#88e8c4", "#a4183b"],
+      id: "d267a9c5-a673-4cde-b720-3fd7fcce28ed",
       active: false,
     },
     {
@@ -308,8 +308,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vena/17.- Noche de.. -con Juza-.mp3",
-      color: ["#6f16ba", "#79d502"],
-      id: "409297ae-d3ee-487f-908f-1881423c01b9",
+      color: ["#308b6c", "#3da48a"],
+      id: "ea664eab-f095-4b47-a372-de8ac94a885e",
       active: false,
     },
     {
@@ -320,8 +320,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/01. Danielbum - Intro [Producido por DSolaSoulBeatz] - www.HHGroups.com.mp3",
-      color: ["#5c880f", "#c0d00c"],
-      id: "0d4497be-45b7-4f3e-9748-53e042fb0a22",
+      color: ["#2dad94", "#76f7df"],
+      id: "953cb684-efd3-483f-8366-b46271f77528",
       active: false,
     },
     {
@@ -332,8 +332,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/02. Danielbum - Rap en vida [Producido por DSolaSoulBeatz] - www.HHGroups.com.mp3",
-      color: ["#2fbbac", "#744fc7"],
-      id: "0010bfb3-6c52-4842-bdc9-6239afed4c4e",
+      color: ["#c0b884", "#6b2a13"],
+      id: "cd9dd833-7ffe-4228-a8e8-4c0557d8668d",
       active: false,
     },
     {
@@ -344,8 +344,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/03. Danielbum - La muchacha y los pecados de la carne [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#13e13e", "#d8f4c0"],
-      id: "8f0e786a-d102-47f4-a44a-8b85fab3dd25",
+      color: ["#1f8689", "#7874d8"],
+      id: "38ebfa5a-7b69-40ec-be82-9578a305a438",
       active: false,
     },
     {
@@ -356,8 +356,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/04. Danielbum - Que quieres ser (con MiChicaBonita) [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#8267a7", "#51a9fc"],
-      id: "26020818-50a8-4c77-9d0a-b42807159ae0",
+      color: ["#3dd7fb", "#a47621"],
+      id: "5d44f15d-22cb-49a3-aeba-f95ebcf4f22f",
       active: false,
     },
     {
@@ -368,8 +368,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/05. Danielbum - Ansiedad [Producido por DSolaSoulBeatz] - www.HHGroups.com.mp3",
-      color: ["#7df4e3", "#afb78d"],
-      id: "a852ea3a-8268-4c85-ba7d-e0bc936445d0",
+      color: ["#ee1049", "#d9131c"],
+      id: "3642ed6a-0021-4121-96ed-4e57c2d62d5f",
       active: false,
     },
     {
@@ -380,8 +380,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/06. Danielbum - Esto es - www.HHGroups.com.mp3",
-      color: ["#460a0e", "#6c278a"],
-      id: "b00f4323-a99d-4fdb-820c-4da2d2bcba19",
+      color: ["#83507d", "#e8234f"],
+      id: "78ff9376-5ab4-4589-8e90-7c476710c0b2",
       active: false,
     },
     {
@@ -392,8 +392,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/07. DanielBum -  90s ft Marks.mp3",
-      color: ["#5411d0", "#a5e34a"],
-      id: "12d28d7e-ff76-477f-b5ea-ca051a705226",
+      color: ["#7fbb9e", "#617b03"],
+      id: "88ab0c1d-5037-43f6-8888-b0e9764cfa2c",
       active: false,
     },
     {
@@ -404,8 +404,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/08. Danielbum - Rabia y pasion [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#ed9c89", "#7c8a3e"],
-      id: "b64682fc-ab92-4378-9e7a-5eb1ef4fdf23",
+      color: ["#ccd12c", "#d056b4"],
+      id: "b1b8f61e-5399-4cdf-a3aa-ccc00e36d37e",
       active: false,
     },
     {
@@ -416,8 +416,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/09. Danielbum - Don vito fonk (con Mccoy Jeremy Jefferson) [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#16673c", "#f50c61"],
-      id: "d47967b4-7e8a-4153-bc8f-646d7ced81da",
+      color: ["#93b836", "#683dc5"],
+      id: "650c0e42-2506-4d66-912a-8b45a82ca385",
       active: false,
     },
     {
@@ -428,8 +428,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/10. Danielbum - Muevelo (con Emepetres) [Producido por M_Molas Prods.] - www.HHGroups.com.mp3",
-      color: ["#d17025", "#e13e84"],
-      id: "9bdb6860-6819-4fca-a2f8-2c60d386997d",
+      color: ["#1742c6", "#612306"],
+      id: "f72e50a1-4b54-4679-be97-def2ed40a19d",
       active: false,
     },
     {
@@ -440,8 +440,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/11. Danielbum - En el blanco [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#8ed049", "#dfd74b"],
-      id: "289c0221-46ca-4833-913f-e65ec06f99c9",
+      color: ["#b0748b", "#075fd8"],
+      id: "bf7e225d-89cc-421e-a477-544320d2c5b3",
       active: false,
     },
     {
@@ -452,8 +452,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/12. Danielbum - Llueve (con Boneman) [Producido por DanielBum] - www.HHGroups.com.mp3",
-      color: ["#0eb6af", "#306a1d"],
-      id: "e45053ee-537a-4497-8f70-a01954f5e97a",
+      color: ["#f950ab", "#68dcaf"],
+      id: "bfb55e15-ce77-4a45-a700-63e1bc0aa7ef",
       active: false,
     },
     {
@@ -464,8 +464,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/13. Danielbum - Geminis (con Sasa y Ruan) [Producido por Mero] - www.HHGroups.com.mp3",
-      color: ["#35a726", "#d1a8b7"],
-      id: "2cd9046c-d7aa-43b0-b42a-8fd2d46ff8c3",
+      color: ["#691447", "#bd7b49"],
+      id: "f24b9581-16be-470b-bab4-88fe7cde07ad",
       active: false,
     },
     {
@@ -476,8 +476,8 @@ function chillHop() {
       artist: "DanielBum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Rap en Vida/14. Danielbum - Bonustrack (con Coros por Boneman) [Base Internet] - www.HHGroups.com.mp3",
-      color: ["#085a8e", "#1b1903"],
-      id: "025af6fa-dfd4-414c-a24e-a8b1349057f8",
+      color: ["#2f2f5d", "#34ec4b"],
+      id: "40c8d8c6-d0db-48db-9079-bf96055d5876",
       active: false,
     },
     {
@@ -488,8 +488,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum   Maaneros.mp3",
-      color: ["#b8f2df", "#3d958c"],
-      id: "ccb30a75-7c69-422a-8595-a07b830879ce",
+      color: ["#c4ebdb", "#5c85e6"],
+      id: "8f960123-4835-49da-a9b6-142036562bb2",
       active: false,
     },
     {
@@ -500,8 +500,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum   Machacan los dias.mp3",
-      color: ["#597f78", "#ed38f1"],
-      id: "4606ff97-b4d0-484e-a1fd-56fffd2360c8",
+      color: ["#400b14", "#1ca2f2"],
+      id: "f8d78ad0-9055-47d1-bfb8-8a52b15d2e2d",
       active: false,
     },
     {
@@ -512,8 +512,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum   Piratas.mp3",
-      color: ["#d8da1d", "#3a7e9c"],
-      id: "f6972489-37bb-4838-840c-9401ea732afe",
+      color: ["#7cf5a5", "#500bac"],
+      id: "132d2f11-8615-4325-b32e-f732618a217c",
       active: false,
     },
     {
@@ -524,8 +524,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum   Voy a reventar tus buffles.mp3",
-      color: ["#4804f5", "#f72e9b"],
-      id: "4604e549-be45-47d8-8595-26a8d3407b2e",
+      color: ["#f65184", "#84c4db"],
+      id: "fe84f607-7fee-4cad-b223-6c31087c329d",
       active: false,
     },
     {
@@ -536,8 +536,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum ft Cramer   Perdiendo los estribos.mp3",
-      color: ["#f4ac73", "#7188a7"],
-      id: "b7466221-ecff-440f-956b-f07e49f9048a",
+      color: ["#9f0f9f", "#5da97d"],
+      id: "b506912f-a43d-4f2f-9dcf-8740a210d8d2",
       active: false,
     },
     {
@@ -548,8 +548,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum ft KEZ   Coronas entre sombras.mp3",
-      color: ["#b3b1bb", "#b235cb"],
-      id: "462b80fd-1e0a-4ff8-89cf-1699214543df",
+      color: ["#f43416", "#54406c"],
+      id: "77911086-0960-44f2-aa08-cad1826cd46e",
       active: false,
     },
     {
@@ -560,8 +560,8 @@ function chillHop() {
       artist: "danielbum",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum - Varios/DanielBum ft Odey   Cien por ciento.mp3",
-      color: ["#3b90f8", "#e4836b"],
-      id: "fca962b2-69a0-452b-bdcb-14a4903caf03",
+      color: ["#e613f1", "#93b901"],
+      id: "a3fc7bfd-72f9-492b-a5a6-3d19c9c5f815",
       active: false,
     },
     {
@@ -572,8 +572,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/01.- Introexperimental.mp3",
-      color: ["#a07276", "#5baba6"],
-      id: "462a0da5-6a7f-4a40-aedd-47d371224f23",
+      color: ["#4e1b7e", "#9cbeeb"],
+      id: "6f966517-163d-411b-9164-b5bb0865ffec",
       active: false,
     },
     {
@@ -584,8 +584,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/02.- Cambios.mp3",
-      color: ["#0e0eb9", "#7936db"],
-      id: "8c412ac1-2b6c-4687-a5d5-ceb88815128b",
+      color: ["#9227f2", "#ee1607"],
+      id: "bf24b3b8-fada-41a2-8606-9e9d60ba4cea",
       active: false,
     },
     {
@@ -596,8 +596,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/03.- Arte.mp3",
-      color: ["#b17b56", "#909ab9"],
-      id: "a428bf50-1c8f-47fa-8c05-a89aba4d9f83",
+      color: ["#cd19ad", "#b8b733"],
+      id: "03dcfc08-6c4e-456b-b66f-af9af0265d59",
       active: false,
     },
     {
@@ -608,8 +608,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/04.- Cristal.mp3",
-      color: ["#09b7ee", "#675a12"],
-      id: "32413609-bb01-4d3a-a75f-2a042a35c228",
+      color: ["#a685ac", "#166c74"],
+      id: "62e8f921-c95f-4b2c-8762-ba1c780332fb",
       active: false,
     },
     {
@@ -620,8 +620,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/05.- Eclipse.mp3",
-      color: ["#d86c55", "#6a1715"],
-      id: "7d61aa71-d537-44d8-a3d0-fcc61da63efd",
+      color: ["#c7c2aa", "#ec849b"],
+      id: "280d474b-7f49-4370-b982-4d263ec12387",
       active: false,
     },
     {
@@ -632,8 +632,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/06.- Est\u00e1 bien.mp3",
-      color: ["#a75268", "#cd2b35"],
-      id: "052ea9ee-66e7-461c-b083-bd91546a4a28",
+      color: ["#623d0a", "#6a0184"],
+      id: "b14a9728-6ea1-47a0-bba7-9c8ccb6c56c8",
       active: false,
     },
     {
@@ -644,8 +644,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/07.- Es Dani.mp3",
-      color: ["#4ba35e", "#9715b1"],
-      id: "e102c1bf-64f7-47a2-811d-c7328ce0f4d6",
+      color: ["#704104", "#7e0531"],
+      id: "e0d8f0b5-7c2b-4408-876f-0b1c1f95b3fe",
       active: false,
     },
     {
@@ -656,8 +656,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/08.- Let_s go.mp3",
-      color: ["#98f21f", "#47150a"],
-      id: "abce0a16-1704-4c6f-9d71-8919637fdde2",
+      color: ["#691318", "#78d7fc"],
+      id: "f947535a-2ba4-47c0-9e0a-e93fe040c570",
       active: false,
     },
     {
@@ -668,8 +668,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/09.- Flamingo.mp3",
-      color: ["#3fad10", "#8d7da6"],
-      id: "39e63da6-4c24-4faf-a481-ec1cfa678c69",
+      color: ["#a966c9", "#bbea9a"],
+      id: "0e602881-bb05-435f-903c-093a0e205260",
       active: false,
     },
     {
@@ -680,8 +680,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/10.- Outsider.mp3",
-      color: ["#93908f", "#7d01db"],
-      id: "3ae8ff5b-6599-4f7c-8d14-31b64ed3e6c8",
+      color: ["#6eecaf", "#e766e5"],
+      id: "e519adff-56dc-4b9b-8b05-9b9f7b9f5b60",
       active: false,
     },
     {
@@ -692,8 +692,8 @@ function chillHop() {
       artist: "DanielBUM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/DanielBum&TelmoTrenor - Cambios/11.- Respiro.mp3",
-      color: ["#bd82c7", "#333c29"],
-      id: "2f981288-a6d7-44e2-a445-fea74f0bf390",
+      color: ["#43a3ac", "#ca2a64"],
+      id: "c5a70894-c2cb-4d57-9229-d3ce5d7e84cc",
       active: false,
     },
     {
@@ -704,8 +704,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/01. Dave uno - Intro [Producido por UH Tracks] - www.HHGroups.com.mp3",
-      color: ["#3b2bc2", "#9e3625"],
-      id: "aaeee5d6-c36b-4ae8-b20f-23efe84a411d",
+      color: ["#972566", "#6b7d29"],
+      id: "70dd8dd4-633c-4f0d-b83b-26e688b0a405",
       active: false,
     },
     {
@@ -716,8 +716,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/02. Dave uno - Bilbao city is mine - www.HHGroups.com.mp3",
-      color: ["#b2977e", "#8c242c"],
-      id: "885e1273-28de-4ddc-bc2d-66017c909c51",
+      color: ["#0cfc13", "#989df3"],
+      id: "dfb2b47b-13cf-4b48-8945-ef912e02d3a8",
       active: false,
     },
     {
@@ -728,8 +728,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/03. Dave uno - Quien es el extranio - www.HHGroups.com.mp3",
-      color: ["#145018", "#38349a"],
-      id: "827dd895-4aca-4f48-8402-e90de8ed70c2",
+      color: ["#4d6c98", "#b44bcd"],
+      id: "8219455f-8128-4a17-a892-1abbb7999223",
       active: false,
     },
     {
@@ -740,8 +740,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/04. Dave uno - No nos importa (con Sucio) - www.HHGroups.com.mp3",
-      color: ["#231908", "#3ee059"],
-      id: "9ef5b16a-123e-4406-a976-e91c5a3b1498",
+      color: ["#bd9487", "#7f39b8"],
+      id: "89c2d04d-dee2-4eb5-8114-a7c63f257324",
       active: false,
     },
     {
@@ -752,8 +752,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/05. Dave uno - Words like bullets [Producido por UH Tracks] - www.HHGroups.com.mp3",
-      color: ["#4426ee", "#4441c8"],
-      id: "e1838383-b6d8-4636-9b3b-aee1f3c6b4a6",
+      color: ["#8d6b81", "#05d16d"],
+      id: "44e12e5f-4ef3-44c9-a697-cdc6bb1b7227",
       active: false,
     },
     {
@@ -764,8 +764,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/06. Dave uno - I run bilbao - www.HHGroups.com.mp3",
-      color: ["#768f94", "#c8536f"],
-      id: "69f25021-8158-4fb0-ae80-a2bbd6b3efb1",
+      color: ["#bfc1eb", "#ef7a10"],
+      id: "2fc5ac97-c41f-438b-a956-f947ffd5f8cb",
       active: false,
     },
     {
@@ -776,8 +776,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/07. Dave uno - Pink flamingo - www.HHGroups.com.mp3",
-      color: ["#7c7c24", "#2b04d0"],
-      id: "751aca82-8baa-43c1-9d43-e946c47856ef",
+      color: ["#27022d", "#efa25b"],
+      id: "9722edf5-b116-4911-b887-cd470b7e81b0",
       active: false,
     },
     {
@@ -788,8 +788,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/08. Dave uno - Esto es para mi gente - www.HHGroups.com.mp3",
-      color: ["#bd720b", "#b92757"],
-      id: "8d7467e1-d438-4095-a884-0e339986617d",
+      color: ["#e76bfa", "#c5f221"],
+      id: "9d96a7d2-fe03-42ea-89a2-821d856f7588",
       active: false,
     },
     {
@@ -800,8 +800,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/09. Dave uno - The city [Producido por Vic Vega] - www.HHGroups.com.mp3",
-      color: ["#b574fb", "#0aff26"],
-      id: "1543ccbb-da4a-4abd-9ac0-b45f6ae39436",
+      color: ["#22c651", "#f6340d"],
+      id: "7fa3236f-6b06-4569-acc0-babe34238ae2",
       active: false,
     },
     {
@@ -812,8 +812,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/10. Dave uno - Vivo al margen (con Markes) - www.HHGroups.com.mp3",
-      color: ["#bbc9e9", "#ad2b87"],
-      id: "962fc000-931f-4e19-96c7-370c0af816f2",
+      color: ["#f11265", "#959355"],
+      id: "2a069071-f973-4ed5-92f1-4fb69c3d0e3d",
       active: false,
     },
     {
@@ -824,8 +824,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/11. Dave uno - Los autenticos perros [Producido por Ese Lopez] - www.HHGroups.com.mp3",
-      color: ["#997782", "#6a4f8d"],
-      id: "e8d7ab32-d27a-4cc5-b1bf-be4fd21de036",
+      color: ["#877e1b", "#68b4ad"],
+      id: "d6b5d065-b7ba-4ce7-a62f-2ab8cdf64f17",
       active: false,
     },
     {
@@ -836,8 +836,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/12. Dave uno - Asi es como lo hacemos (con Elsso Rodriguez) - www.HHGroups.com.mp3",
-      color: ["#0d20ff", "#bfbb0b"],
-      id: "7d62446e-f87b-4b41-919a-0328154d1516",
+      color: ["#fe072d", "#95b093"],
+      id: "3b9e5ea9-c43b-4bb1-bbf3-d6ad301ba04c",
       active: false,
     },
     {
@@ -848,8 +848,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/13. Dave uno - Un poquito - www.HHGroups.com.mp3",
-      color: ["#4eaea3", "#5df809"],
-      id: "346ba058-eec9-4918-85b5-681c421ec75e",
+      color: ["#30ab63", "#9f9c55"],
+      id: "3d5e767c-7d80-4bb9-b631-cac2541a6c0a",
       active: false,
     },
     {
@@ -860,8 +860,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/14. Dave uno - Dame de eso - www.HHGroups.com.mp3",
-      color: ["#0077ce", "#100e11"],
-      id: "5da90b03-515d-4224-a0fc-8e90e8b9ce2c",
+      color: ["#0cc894", "#b1bfce"],
+      id: "10c42454-f7ed-47c3-b65c-180326cdbae1",
       active: false,
     },
     {
@@ -872,8 +872,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/15. Dave uno - La cruda realidad (con Chulo Restrepo) - www.HHGroups.com.mp3",
-      color: ["#598c31", "#26c485"],
-      id: "bce8d035-a6a1-47cb-b8e1-6a4c80000f34",
+      color: ["#f29c13", "#13819c"],
+      id: "45470d1a-a96a-494d-ada6-7ee82c212731",
       active: false,
     },
     {
@@ -884,8 +884,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/16. Dave uno - All in [Producido por Ochoa] - www.HHGroups.com.mp3",
-      color: ["#cd0579", "#2d9b04"],
-      id: "26f797ab-8d90-41ce-9275-d1e64fa855b8",
+      color: ["#959542", "#af08b7"],
+      id: "152468b9-49cb-4a60-b668-d7970e3ea6c1",
       active: false,
     },
     {
@@ -896,8 +896,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/17. Dave uno - Almah mater (con Ese Lopez y Jonkalevale) [Producido por Ese Lopez] - www.HHGroups.com.mp3",
-      color: ["#6d7fdd", "#caba53"],
-      id: "3c4bbc41-19a4-4aed-8bd6-7fe82101e8b3",
+      color: ["#149c33", "#827057"],
+      id: "2da3ad97-5bad-47cb-8378-108e1d4a8bd3",
       active: false,
     },
     {
@@ -908,8 +908,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/18. Dave uno - Tu quieres ser como yo - www.HHGroups.com.mp3",
-      color: ["#8b5314", "#ff21ad"],
-      id: "e8b3f4e5-f145-407a-a72e-9a3865aee14c",
+      color: ["#e087e9", "#2b2a4b"],
+      id: "9f4ef4ed-b1cc-4e67-8b87-4a9e94859d72",
       active: false,
     },
     {
@@ -920,8 +920,8 @@ function chillHop() {
       artist: "Dave Uno",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Dave Uno - Bilbao city is mine/19. Dave uno - Outro - www.HHGroups.com.mp3",
-      color: ["#91c050", "#32b492"],
-      id: "d5a3c137-9b49-4cf9-9e0f-27c876420fd9",
+      color: ["#af3bba", "#52841b"],
+      id: "17857791-feae-4592-85c4-166a38609d2b",
       active: false,
     },
     {
@@ -932,8 +932,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/01 6 (VI) - www.HHGroups.com.mp3",
-      color: ["#0b44fa", "#b8d0cd"],
-      id: "928fc222-816c-40f7-b4c1-7720ac1a7a8b",
+      color: ["#943e93", "#61aba3"],
+      id: "5af53a96-36be-4cdf-be12-2f52a0e56403",
       active: false,
     },
     {
@@ -944,8 +944,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/02 Amor y odio - www.HHGroups.com.mp3",
-      color: ["#4e7c83", "#f36c4b"],
-      id: "b9e857d8-4a5c-4dd8-b66d-87deb05ab211",
+      color: ["#39ea23", "#5a5369"],
+      id: "80256cd3-341d-41aa-b1e3-fae752f38836",
       active: false,
     },
     {
@@ -956,8 +956,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/03 160 horas - www.HHGroups.com.mp3",
-      color: ["#035c01", "#dd25d7"],
-      id: "839249d0-850f-401f-af0c-3688f7cd036b",
+      color: ["#f7bd65", "#2ce722"],
+      id: "ee2262ff-ca21-4b08-a687-ca61a43eca31",
       active: false,
     },
     {
@@ -968,8 +968,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/04 Disciplina - www.HHGroups.com.mp3",
-      color: ["#54055f", "#8a5d3d"],
-      id: "6f5d316b-3675-46a9-95e3-d3ed1e3651a7",
+      color: ["#769ac1", "#d25e64"],
+      id: "4cbf8abb-1550-4a11-a837-575c15f7e701",
       active: false,
     },
     {
@@ -980,8 +980,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/05 Actitud - www.HHGroups.com.mp3",
-      color: ["#09235f", "#b79c15"],
-      id: "a939e97c-a8af-4972-b4c5-7c187db1b75e",
+      color: ["#f65ed7", "#3627d2"],
+      id: "8ded7838-90ac-4b0e-9daa-0356a931caa4",
       active: false,
     },
     {
@@ -992,8 +992,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/06 La gente cambia (Parte III) - www.HHGroups.com.mp3",
-      color: ["#507a7c", "#76f1a9"],
-      id: "884e9829-e038-4a9f-b975-0adfd26274b4",
+      color: ["#03a300", "#949a1d"],
+      id: "68c12e48-ca18-43d4-a7e8-6b255f67f441",
       active: false,
     },
     {
@@ -1004,8 +1004,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/07 9mm (con Markes) - www.HHGroups.com.mp3",
-      color: ["#ee3fa1", "#f9fc9d"],
-      id: "416ffdc8-b02b-4a80-ad59-4f0b6de09e1f",
+      color: ["#f8efa8", "#abb952"],
+      id: "13542fd3-d741-49b3-9a1d-ff5c7a629b4f",
       active: false,
     },
     {
@@ -1016,8 +1016,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/08 Nuevo mundo - www.HHGroups.com.mp3",
-      color: ["#573a1e", "#9affbd"],
-      id: "8f333c0e-bed6-49be-9ae2-937899be36a3",
+      color: ["#7502d5", "#661576"],
+      id: "8f04400a-724a-4e90-9750-c81087326180",
       active: false,
     },
     {
@@ -1028,8 +1028,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/09 Mi musica es pecado - www.HHGroups.com.mp3",
-      color: ["#223efe", "#6cde4a"],
-      id: "8a75173a-be2e-40b8-ad3e-2f4f2b9d4432",
+      color: ["#2c57f8", "#0ed1b1"],
+      id: "3134469f-9dd8-4c8b-b00a-cdea63e573aa",
       active: false,
     },
     {
@@ -1040,8 +1040,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - 6/10 Escape al paraiso - www.HHGroups.com.mp3",
-      color: ["#ce4f08", "#3b0956"],
-      id: "8eeb8244-7a92-4dc3-a732-cd1513226a9f",
+      color: ["#2ee5f6", "#4ca731"],
+      id: "397ee682-5050-4b4f-bcd1-6116a2795ccd",
       active: false,
     },
     {
@@ -1052,8 +1052,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/01 Por Nosotros - www.HHGroups.com.mp3",
-      color: ["#813ee2", "#686ffd"],
-      id: "c8cbdcec-c4b4-4b09-b327-fe5074311356",
+      color: ["#2b15f1", "#bedb6f"],
+      id: "2238df0a-860b-4b4a-9ca7-06ef6ff58291",
       active: false,
     },
     {
@@ -1064,8 +1064,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/02 A.N.T.I.D.O.T.O - www.HHGroups.com.mp3",
-      color: ["#97240a", "#04150e"],
-      id: "617eaf76-6580-4bd2-b0b6-e6186ed529c9",
+      color: ["#ef978e", "#57e8c5"],
+      id: "ef49c30b-a629-4ebd-9e35-011f13fb1cc6",
       active: false,
     },
     {
@@ -1076,8 +1076,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/03 Get Up Stand Up (Con Ohiane) - www.HHGroups.com.mp3",
-      color: ["#7006e2", "#778bb7"],
-      id: "01ec9a3b-65ee-43b6-a6b5-95f650094c34",
+      color: ["#3c01ef", "#629b6b"],
+      id: "05076a9d-9857-40c5-b8da-e9d5e851c471",
       active: false,
     },
     {
@@ -1088,8 +1088,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/04 Que Te Hizo Hacer - www.HHGroups.com.mp3",
-      color: ["#e0ec07", "#ba9fd0"],
-      id: "a2ccfba0-e39c-4a67-9d35-b4289d587f47",
+      color: ["#4e8d0b", "#795aba"],
+      id: "f00a3d6d-31f0-49d2-b2db-533ab5a192ea",
       active: false,
     },
     {
@@ -1100,8 +1100,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/05 Caracter 1 - www.HHGroups.com.mp3",
-      color: ["#02c249", "#2450ad"],
-      id: "cc92787f-6edd-4e3f-a035-9ba10b6abb02",
+      color: ["#30f28e", "#09f630"],
+      id: "35022bb4-9fdb-4103-ae63-c22ff39f3154",
       active: false,
     },
     {
@@ -1112,8 +1112,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/06 De Errores Se Aprende - www.HHGroups.com.mp3",
-      color: ["#37d4b9", "#e55bd5"],
-      id: "2c56396c-b8c3-4a41-bb7a-7af30452b487",
+      color: ["#e4281a", "#0450c6"],
+      id: "2629e372-fd60-4ec4-ba45-4ef82151ef44",
       active: false,
     },
     {
@@ -1124,8 +1124,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/07 945 Scratch - www.HHGroups.com.mp3",
-      color: ["#34abc6", "#d885a6"],
-      id: "a4d3966d-f690-431d-8f33-7c6c6f948ab1",
+      color: ["#51a457", "#3ed84e"],
+      id: "3018a634-9cbc-424d-bbcc-54318e8846fc",
       active: false,
     },
     {
@@ -1136,8 +1136,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/08 Modestia Aparte - www.HHGroups.com.mp3",
-      color: ["#47eb1a", "#b1b496"],
-      id: "5efcbd2c-7b67-4f3b-8dce-2d76176116db",
+      color: ["#71a05d", "#a2a358"],
+      id: "f7182a3a-8dfe-4aaf-83ee-564ed4790a7d",
       active: false,
     },
     {
@@ -1148,8 +1148,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/09 Lo Que Hay - www.HHGroups.com.mp3",
-      color: ["#bb2cfb", "#9b3115"],
-      id: "0f062b68-2345-49fd-9b53-371af0b29ba8",
+      color: ["#5e1084", "#ff98de"],
+      id: "320b3784-ccf2-402a-83c8-9fb232223523",
       active: false,
     },
     {
@@ -1160,8 +1160,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/10 Estado De Malestar (Con Gorka De Kodigo Nort - www.HHGroups.com.mp3",
-      color: ["#d01105", "#62eb57"],
-      id: "602e8797-29b7-4bd4-ae5e-dbf2137a13fc",
+      color: ["#4ddf91", "#e7f4bb"],
+      id: "85ddca65-2d41-4192-922e-a429361fbe93",
       active: false,
     },
     {
@@ -1172,8 +1172,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/11 Obsesion (Con Ohiane) - www.HHGroups.com.mp3",
-      color: ["#f8da09", "#b489cd"],
-      id: "5a2465de-548f-4d57-ae78-e3c7e8ce49e2",
+      color: ["#642b61", "#ff2351"],
+      id: "3ee42d28-5175-4cab-b8b2-f42c96e60d7a",
       active: false,
     },
     {
@@ -1184,8 +1184,8 @@ function chillHop() {
       artist: "El Antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Caracter/12 Por Vosotros 1 - www.HHGroups.com.mp3",
-      color: ["#1a4471", "#07f687"],
-      id: "e1a62d8f-37fc-4e26-90a4-02547724fefd",
+      color: ["#31ecb1", "#d27ecc"],
+      id: "3a6c1b47-d4af-4b53-b065-e04c4d479fbf",
       active: false,
     },
     {
@@ -1196,8 +1196,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/01. El antidoto - Intro - www.hhgroups.com.mp3",
-      color: ["#bee5a7", "#f7dbab"],
-      id: "27358fb9-505e-4840-b8a7-cf8c16aa8781",
+      color: ["#a7f35e", "#62691a"],
+      id: "56b4f8e7-86a3-4131-9b8e-a69c35c9bfa6",
       active: false,
     },
     {
@@ -1208,8 +1208,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/02. El antidoto - Tecnica de incognito - www.hhgroups.com.mp3",
-      color: ["#277f8c", "#7e4030"],
-      id: "4e77a9ae-08e3-4eae-aa97-74010c59e85e",
+      color: ["#04fdfe", "#c73d83"],
+      id: "ee9accf9-7159-47e6-9bea-e8435cc97623",
       active: false,
     },
     {
@@ -1220,8 +1220,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/03. El antidoto - Libertad - www.hhgroups.com.mp3",
-      color: ["#7d8c78", "#173162"],
-      id: "8d27e4c2-d155-4d51-9484-0e6665880881",
+      color: ["#8ae692", "#954daf"],
+      id: "e2e6454a-096f-48e2-b495-b650b28fab45",
       active: false,
     },
     {
@@ -1232,8 +1232,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/04. El antidoto - Punto y aparte - www.hhgroups.com.mp3",
-      color: ["#916059", "#d81a44"],
-      id: "a347d781-815f-4d3a-a850-856aea210f91",
+      color: ["#19c8b6", "#963c2f"],
+      id: "a34e5f6a-3d10-4d71-b4a0-1ca7b0a1e439",
       active: false,
     },
     {
@@ -1244,8 +1244,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/05. El antidoto - Eusko label (con g14 y fuera de lugar) - www.hhgroups.com.mp3",
-      color: ["#63043e", "#5b5a51"],
-      id: "25d41658-de54-48d7-b68f-a84b4f595ff4",
+      color: ["#3570b9", "#32689e"],
+      id: "4533ff70-63eb-4269-a031-c796d0ebb4a5",
       active: false,
     },
     {
@@ -1256,8 +1256,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/06. El antidoto - Scratch de luxe (dj nead y dj ochoa) - www.hhgroups.com.mp3",
-      color: ["#1ba285", "#ac4178"],
-      id: "a2243219-db7a-4e3c-ab54-b875a02c0d9d",
+      color: ["#dba2b8", "#05ea83"],
+      id: "2a4446fa-ca89-4e0e-a8d0-3afe9583667c",
       active: false,
     },
     {
@@ -1268,8 +1268,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/07. El antidoto - Estres - www.hhgroups.com.mp3",
-      color: ["#21744d", "#bbdbdf"],
-      id: "bc81cd93-8b37-470b-a0c1-8b4c9d51f76e",
+      color: ["#cbfe1c", "#568092"],
+      id: "5d7baadb-2984-4e57-8da3-a79b182e0f56",
       active: false,
     },
     {
@@ -1280,8 +1280,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/08. El antidoto - Resperimento - www.hhgroups.com.mp3",
-      color: ["#97fcdc", "#774ee5"],
-      id: "298ebad3-e959-4a83-9ce6-8d46f5664dc1",
+      color: ["#06be34", "#25929d"],
+      id: "d5eb69bc-264c-4ec1-b254-850bb1883458",
       active: false,
     },
     {
@@ -1292,8 +1292,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/09. El antidoto - Sperantto (con A3Bandas) - www.hhgroups.com.mp3",
-      color: ["#82fc57", "#4d05fe"],
-      id: "e331c767-3b4d-449f-a646-9443f5f94391",
+      color: ["#850815", "#a8ad78"],
+      id: "a2c92b9e-a335-4837-9115-ff0180bf3452",
       active: false,
     },
     {
@@ -1304,8 +1304,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/10. El antidoto - Brillad - www.hhgroups.com.mp3",
-      color: ["#f24f48", "#e9c45e"],
-      id: "2262da67-28dc-46e3-94ac-843c576c4133",
+      color: ["#46af07", "#be1d81"],
+      id: "927d351d-7f3d-4d3a-bbd0-e062f7f3e60a",
       active: false,
     },
     {
@@ -1316,8 +1316,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/11. El antidoto - Estas en deuda - www.hhgroups.com.mp3",
-      color: ["#cd1c92", "#be86c9"],
-      id: "f44daefe-a83f-4e5d-ac5d-eeed598ab4d8",
+      color: ["#070674", "#53c012"],
+      id: "90916644-9d7d-4f8e-b66b-8eecbc9de506",
       active: false,
     },
     {
@@ -1328,8 +1328,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/12. El antidoto - Tan solo rabia - www.hhgroups.com.mp3",
-      color: ["#17b998", "#783ffb"],
-      id: "c57ac443-7100-4f45-97eb-677fd0438993",
+      color: ["#25e4d6", "#3fa3de"],
+      id: "94280d74-548a-4742-bf90-e35d7858fc58",
       active: false,
     },
     {
@@ -1340,8 +1340,8 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/13. El antidoto - Amistades - www.hhgroups.com.mp3",
-      color: ["#f9638c", "#82fae1"],
-      id: "39baf034-0788-48e2-9cf5-aba73f3ecb2a",
+      color: ["#405b77", "#c36616"],
+      id: "eccc02fa-229c-4c40-a086-8b9ab82e4c12",
       active: false,
     },
     {
@@ -1352,512 +1352,152 @@ function chillHop() {
       artist: "El antidoto",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto - Dosis/14. El antidoto - Que se jodan - www.hhgroups.com.mp3",
-      color: ["#1debb9", "#d42ac6"],
-      id: "57d1fcb6-50ad-457b-b056-6623768f8236",
+      color: ["#a2e770", "#add2fc"],
+      id: "5c35d72c-a5c6-4c27-aa5b-d50b594e7fe6",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "INTRO prod. Matoo",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/01 INTRO prod. Matoo.mp3",
-      color: ["#c35b99", "#03523d"],
-      id: "cb8e28b0-711e-4b6c-a38e-f27ce91e4bae",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/01 INTRO prod. Matoo.mp3",
+      color: ["#a48949", "#ad85e8"],
+      id: "29c79f84-5647-49e8-a2d2-a8b3c4a65928",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "KIERES MAS RAP prod. Matoo",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/02 KIERES MAS RAP prod. Matoo.mp3",
-      color: ["#65394a", "#01ec1a"],
-      id: "860135eb-a677-4f52-8ea0-35ee2337702c",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/02 KIERES MAS RAP prod. Matoo.mp3",
+      color: ["#8b5b39", "#af1e06"],
+      id: "cbd30f31-0582-4820-8770-826682b3e1ac",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "KOMO KEREMOS con RHEKIEHM prod. Big Z",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/03 KOMO KEREMOS con RHEKIEHM prod. Big Z.mp3",
-      color: ["#2c8cbf", "#db59c4"],
-      id: "864292f2-5f1d-4262-b8f2-c60d7f631a15",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/03 KOMO KEREMOS con RHEKIEHM prod. Big Z.mp3",
+      color: ["#b95949", "#199414"],
+      id: "07516e4c-3077-462c-8693-f8e7027756b8",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "MIRADA ATRAS con AF1 prod. Xabi",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/04 MIRADA ATRAS con AF1 prod. Xabi.mp3",
-      color: ["#308b0f", "#1b3520"],
-      id: "84fcc500-519a-4965-bde3-99a85d3efb3e",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/04 MIRADA ATRAS con AF1 prod. Xabi.mp3",
+      color: ["#6938c6", "#cad7fe"],
+      id: "23d64bce-7d55-4f63-9f05-2f31f0c4f5e4",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "COMFORT prod. Xabi",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/05 COMFORT prod. Xabi.mp3",
-      color: ["#0d8aae", "#0ccddd"],
-      id: "60975eeb-316a-4171-b174-5713e3bac266",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/05 COMFORT prod. Xabi.mp3",
+      color: ["#f14655", "#719b84"],
+      id: "47d55e38-5172-4e2d-9233-8176e9618b1d",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "ME ARDE prod. Matoo",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/06 ME ARDE prod. Matoo.mp3",
-      color: ["#800257", "#bf1501"],
-      id: "adde7fb8-1800-4552-87a0-91d18a75d06a",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/06 ME ARDE prod. Matoo.mp3",
+      color: ["#89c494", "#eebf3a"],
+      id: "7c98cce3-30b4-43d9-a171-2e1104af0ed2",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "SOMOS UNOS ANIMALES con KLOY prod. MATOO",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/07 SOMOS UNOS ANIMALES con KLOY prod. MATOO.mp3",
-      color: ["#178cef", "#9f735a"],
-      id: "2d75776c-16f2-4b23-a6de-dad96f6e8e82",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/07 SOMOS UNOS ANIMALES con KLOY prod. MATOO.mp3",
+      color: ["#df9472", "#397572"],
+      id: "4584ab04-5136-4ae3-9042-55637fd382e6",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "LA RESISTANCE con MP3 prod. Matoo",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/08 LA RESISTANCE con MP3 prod. Matoo.mp3",
-      color: ["#ef8366", "#d95333"],
-      id: "e94072e7-d30b-4075-8f3e-876e4d09dc8e",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/08 LA RESISTANCE con MP3 prod. Matoo.mp3",
+      color: ["#c4d5ad", "#e65dc3"],
+      id: "d623a254-68c4-4849-81a2-7af331786374",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "MUSIKA prod. Xabi",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/09 MUSIKA prod. Xabi.mp3",
-      color: ["#b6859c", "#4c6d39"],
-      id: "e7b3bc38-48f0-4dd1-bdaa-e4d70edd2e02",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/09 MUSIKA prod. Xabi.mp3",
+      color: ["#e6bf5d", "#034e06"],
+      id: "e7898299-0824-41bc-aea8-c98422652832",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "BENDECIDOS con DRUJAS prod. AF1",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/10 BENDECIDOS con DRUJAS prod. AF1.mp3",
-      color: ["#7052f6", "#5a3ccd"],
-      id: "0fba18b1-9188-498d-baa1-882d17b1264b",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/10 BENDECIDOS con DRUJAS prod. AF1.mp3",
+      color: ["#89dc74", "#701a98"],
+      id: "c57b9473-0609-4c24-b197-1dd6264b3788",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "AHI FUERA LLUEVE con FDL prod. AF1",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/11 AHI FUERA LLUEVE con FDL prod. AF1.mp3",
-      color: ["#b7ff39", "#37b84f"],
-      id: "6d6440c1-e6d9-426d-9168-e628c7a5dfe9",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/11 AHI FUERA LLUEVE con FDL prod. AF1.mp3",
+      color: ["#7511ee", "#9f68a1"],
+      id: "261386d9-c683-4c29-a3d9-d7cc98c66beb",
       active: false,
     },
     {
-      album: "RESCIENTOS",
+      album: "El Antidoto presenta REScientos",
       name: "DETALLES con EL ANTIDOTO prod. MATOO",
       cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/cover.jpg",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/cover.jpg",
       artist: "El Antidoto",
       audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/RESCIENTOS/12 DETALLES con EL ANTIDOTO prod. MATOO.mp3",
-      color: ["#58446a", "#468c0b"],
-      id: "18ea8cd0-4dd5-4660-bb65-fc080fb6b22b",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "El Forastero",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/01-el$$o_rodriguez-el_forastero.mp3",
-      color: ["#b61672", "#65c583"],
-      id: "e1c51730-d4ff-47f4-b622-c7af0a62182c",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Vac\u00edo",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/02-el$$o_rodriguez-vacio.mp3",
-      color: ["#3cb29a", "#b174a2"],
-      id: "0d575ef9-3af6-450b-9134-0cea80b38b28",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Menudeces",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/03-el$$o_rodriguez-menudeces.mp3",
-      color: ["#129e47", "#a57c1b"],
-      id: "f6d04a89-9f53-478f-a03c-62f86428aeff",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Cr\u00e1pulas Caducados feat Amarillo Slim",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/04-el$$o_rodriguez-crapulas_capucados_feat_amarillo_slim.mp3",
-      color: ["#48dc81", "#ac0a82"],
-      id: "b8961942-9505-4046-829f-cb0f7b18215d",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Bailaba Descalza",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/05-el$$o_rodriguez-bailaba_descalza.mp3",
-      color: ["#dd0b69", "#b6df9c"],
-      id: "5a12172c-df61-4275-9093-1e99631a3d97",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Lady feat Chulo Restrepo",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/06-el$$o_rodriguez-lady_feat_chulo_restrepo.mp3",
-      color: ["#db1355", "#1c5a5d"],
-      id: "ef3c9906-74ba-436c-bb0e-5eb6253ee7e6",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Canci\u00f3n Triste (Balada N\u00ba13) feat Cleo Jones",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/07-el$$o_rodriguez-cancion_triste_(balada_n13)_feat_cleo_jones.mp3",
-      color: ["#62060d", "#2aa507"],
-      id: "2cad3090-9133-4190-803e-99c017f1d0b9",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "El Rinc\u00f3n De La Infamia",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/08-el$$o_rodriguez-el_rincon_de_la_infamia.mp3",
-      color: ["#8548b9", "#925e4f"],
-      id: "0a241648-ae83-4bdd-a094-19610159c31f",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "\u00daltimo Cartucho feat Chulo Restrepo",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/09-el$$o_rodriguez-ultimo_cartucho_feat_chulo_restrepo.mp3",
-      color: ["#ffbdfc", "#192bdf"],
-      id: "b1e7fcde-533d-4188-873e-eeef2bda0ebd",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "El Rosario De La Aurora",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/10-el$$o_rodriguez-el_rosario_de_la_aurora.mp3",
-      color: ["#2fd453", "#04b5de"],
-      id: "0af2e177-9154-45d7-865b-094f273ab1ce",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "El Gadget Del Milenio feat Urano Players",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/11-el$$o_rodriguez-el_gadget_del_milenio_feat_urano_players.mp3",
-      color: ["#238321", "#4c5108"],
-      id: "1a3201cb-7c53-415d-befb-72873eb0a1f3",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Baladas Heavys",
-      name: "Un Tango En Cada Esquina",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Baladas Heavys/12-el$$o_rodriguez-un_tango_en_cada_esquina.mp3",
-      color: ["#20e8d2", "#11b5a5"],
-      id: "b66051db-15e0-49e0-a1eb-58e9ef862edf",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Intro",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/01-elsso_rodriguez-intro.mp3",
-      color: ["#3ac97e", "#14c529"],
-      id: "39112ac5-e470-456a-81e7-9e5fb3cd0644",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Mis Reebok En El Suelo (feat Dj DR)",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/02-elsso_rodriguez-mis_reebok_en_el_suelo_(feat_dj_dr).mp3",
-      color: ["#9ee097", "#1e8fbc"],
-      id: "f7a5d960-b991-4a5f-bee1-5bdb30b7a4c7",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "R.O.D.R.I.G.U.E.Z (feat Chulo Restrepo)",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/03-elsso_rodriguez-r.o.d.r.i.g.u.e.z_(feat_chulo_restrepo).mp3",
-      color: ["#ccb8bc", "#76853e"],
-      id: "6be914be-b1b4-4f4c-8c10-f00b35bda182",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Escupe Al Suelo",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/04-elsso_rodriguez-escupe_al_suelo.mp3",
-      color: ["#51e206", "#f7d43d"],
-      id: "d72db0fe-2b9e-409c-9101-17a39c96bdcc",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Left Coast Himno",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/05-elsso_rodriguez-left_coast_himno.mp3",
-      color: ["#5fdbfa", "#01a44b"],
-      id: "80f418c8-aa7c-4c70-9e21-ac739e3fac64",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Freestyle #1",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/06-elsso_rodriguez-freestyle_#1.mp3",
-      color: ["#063a39", "#dc894c"],
-      id: "9e941fbb-58e0-41b7-a17f-9deeee8422c9",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Brindo Por Nuestro Sombrero",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/07-elsso_rodriguez-brindo_por_nuestro_sombrero.mp3",
-      color: ["#bf41e9", "#e8c930"],
-      id: "a20628e4-c848-48fb-bb35-e4fb47caabd1",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "La Mala Vida (feat El$$o & The Gang)  || Freestyle #2",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/08-elsso_rodriguez-la_mala_vida_(feat_elsso_&_the_gang)_bw_freestyle_#2.mp3",
-      color: ["#bb0422", "#84e226"],
-      id: "a08b69b1-637b-4a9f-a6e2-1850ca27cb1c",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Resulta Carisima",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/09-elsso_rodriguez-resulta_carisima.mp3",
-      color: ["#3a7818", "#df7c58"],
-      id: "7ac10e13-5084-4859-95c8-f48c4a449c53",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Anal Emporio ft El Perro",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/10-elsso_rodriguez-anal_emporio_(feat_el_perro).mp3",
-      color: ["#357a1f", "#0b1046"],
-      id: "64f54d0c-f2a3-4fca-8933-72367f05e922",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Cuando Llego",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/11-elsso_rodriguez-cuando_llego.mp3",
-      color: ["#2c453f", "#35a79c"],
-      id: "6f8209cf-ecd0-4373-9fd4-6e8b1ad65068",
-      active: false,
-    },
-    {
-      album: "El$$o Rodriguez - Streetz Tragicomedia",
-      name: "Sobre ruedas ft Ru$o",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/cover.jpg",
-      artist: "El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodriguez - Streetz Tragicomedia/12-elsso_rodriguez-sobre_ruedas_(feat_ru$o).mp3",
-      color: ["#220701", "#21411b"],
-      id: "faf4ba7d-f6dc-4a40-86f1-cdaa118ca282",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "Intro",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/01 Intro.mp3",
-      color: ["#02b525", "#dffe48"],
-      id: "e3d5dbb7-64bd-455b-be19-70127b1d40f4",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "Memorias",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/02 Memorias.mp3",
-      color: ["#bb3613", "#5a17f9"],
-      id: "03f143c4-de72-404f-bfeb-d6eacd059826",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "Caras Sucias",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/03 Caras Sucias.mp3",
-      color: ["#144e88", "#01821a"],
-      id: "106d9392-ed27-4195-a4ff-bf79f2bab6a4",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "30 Palos (con Amarillo Slim)",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/04 30 Palos (con Amarillo Slim).mp3",
-      color: ["#241e4b", "#2a81a8"],
-      id: "0d08bf2a-7f13-4241-9804-afd19488d3c7",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "Descreidos",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/05 Descreidos.mp3",
-      color: ["#762c72", "#c24c2a"],
-      id: "4c70467d-5be7-42e8-b708-0c187f2877c7",
-      active: false,
-    },
-    {
-      album: "El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)",
-      name: "Chimo Bayo (Bonus Track)",
-      cover:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/cover.jpg",
-      artist: "Zar 1 & El$$o Rodriguez",
-      audio:
-        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/06 Chimo Bayo (Bonus Track).mp3",
-      color: ["#e96e01", "#2856b7"],
-      id: "1bedc56c-2a2b-4b7d-a8b1-e926cda79536",
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El Antidoto presenta REScientos/12 DETALLES con EL ANTIDOTO prod. MATOO.mp3",
+      color: ["#484ea5", "#c6cea2"],
+      id: "74ac4b62-72ee-4722-8200-5b872c35f043",
       active: false,
     },
     {
@@ -1868,8 +1508,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/01-el$$o_rodriguez-el_forastero.mp3",
-      color: ["#ad7110", "#882f90"],
-      id: "2bbc69a0-dcbc-4d5f-9f6f-881689578f01",
+      color: ["#bbaf1e", "#11a66b"],
+      id: "91c48329-78aa-4802-b8f5-62acf6853736",
       active: false,
     },
     {
@@ -1880,8 +1520,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/02-el$$o_rodriguez-vacio.mp3",
-      color: ["#838ba3", "#37e3eb"],
-      id: "9b7b8d90-a638-420f-8dd1-e62e101c83e5",
+      color: ["#5902e1", "#5b7baa"],
+      id: "6e0dd139-63a5-4b80-890e-e490d730c435",
       active: false,
     },
     {
@@ -1892,8 +1532,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/03-el$$o_rodriguez-menudeces.mp3",
-      color: ["#61f48c", "#edd71f"],
-      id: "16c91bc8-7a44-4011-b08c-e39a961a787b",
+      color: ["#00992d", "#ef8e9d"],
+      id: "d30955e3-ff2e-4716-9a61-4a7c35ef96e4",
       active: false,
     },
     {
@@ -1904,8 +1544,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/04-el$$o_rodriguez-crapulas_capucados_feat_amarillo_slim.mp3",
-      color: ["#29e60e", "#60a045"],
-      id: "084f0927-29a8-4be5-be8d-b344368ec78a",
+      color: ["#c4d5b0", "#512b73"],
+      id: "74c80ade-fa40-4caf-b1c5-8e6f006b1385",
       active: false,
     },
     {
@@ -1916,8 +1556,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/05-el$$o_rodriguez-bailaba_descalza.mp3",
-      color: ["#619015", "#57797b"],
-      id: "4b6a2a47-135b-4c9a-9373-90de7e381e3c",
+      color: ["#f827bd", "#5bf7e0"],
+      id: "dd4c32e3-032e-49ab-adcc-2532c52a2977",
       active: false,
     },
     {
@@ -1928,8 +1568,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/06-el$$o_rodriguez-lady_feat_chulo_restrepo.mp3",
-      color: ["#3864ee", "#5f80d3"],
-      id: "6c8acbb9-67f8-48d5-b2cf-61cf2bf6af7d",
+      color: ["#b050d4", "#d4fadb"],
+      id: "c0784e34-99d0-4a1f-ba65-b66532734cde",
       active: false,
     },
     {
@@ -1940,8 +1580,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/07-el$$o_rodriguez-cancion_triste_(balada_n13)_feat_cleo_jones.mp3",
-      color: ["#3a1454", "#7ed09a"],
-      id: "439054c2-6307-42f6-a166-0ba5b5895037",
+      color: ["#550c22", "#11d6d9"],
+      id: "00b076b0-5b54-4b8a-afe7-ca0ae7242dea",
       active: false,
     },
     {
@@ -1952,8 +1592,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/08-el$$o_rodriguez-el_rincon_de_la_infamia.mp3",
-      color: ["#195af6", "#ab8959"],
-      id: "db69ff36-15a7-4e6c-87c4-b74cef12468a",
+      color: ["#7351ec", "#bb1222"],
+      id: "e470c64c-28a0-4ed9-be83-d48ead7d230f",
       active: false,
     },
     {
@@ -1964,8 +1604,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/09-el$$o_rodriguez-ultimo_cartucho_feat_chulo_restrepo.mp3",
-      color: ["#895729", "#f07a3e"],
-      id: "94c4e668-e00a-4229-9484-d369adc00851",
+      color: ["#997569", "#23f1d6"],
+      id: "9ba8a763-201b-42cf-9bca-7985c9780218",
       active: false,
     },
     {
@@ -1976,8 +1616,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/10-el$$o_rodriguez-el_rosario_de_la_aurora.mp3",
-      color: ["#ee7d50", "#5efd6e"],
-      id: "ed929d1c-9a59-4b88-af55-df18cceb4c58",
+      color: ["#69ecb1", "#a138ba"],
+      id: "ad55d983-5c76-4970-9605-22e6249227ec",
       active: false,
     },
     {
@@ -1988,8 +1628,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/11-el$$o_rodriguez-el_gadget_del_milenio_feat_urano_players.mp3",
-      color: ["#3224cc", "#d1fa7d"],
-      id: "cc7200af-8aa1-4bcf-bdb8-ebf6d9f2bc6d",
+      color: ["#e927b5", "#56679b"],
+      id: "5607be8c-cecf-4b36-a09c-85c63f84447d",
       active: false,
     },
     {
@@ -2000,8 +1640,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Baladas Heavys/12-el$$o_rodriguez-un_tango_en_cada_esquina.mp3",
-      color: ["#89a764", "#d08fcc"],
-      id: "6ff1436b-aa09-45d9-bfbe-79d2bc13ce5f",
+      color: ["#3b4a73", "#ce8f55"],
+      id: "4c427aa9-813f-46b5-a168-9bc929461df7",
       active: false,
     },
     {
@@ -2012,8 +1652,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/01-elsso_rodriguez-intro.mp3",
-      color: ["#8bce30", "#1de275"],
-      id: "24540c1a-b28e-4af7-9dcb-173d79bea0d2",
+      color: ["#a8a5ac", "#712ca4"],
+      id: "f6e373f8-93c9-404c-8f0c-f8991caab36e",
       active: false,
     },
     {
@@ -2024,8 +1664,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/02-elsso_rodriguez-mis_reebok_en_el_suelo_(feat_dj_dr).mp3",
-      color: ["#fd2244", "#dbc912"],
-      id: "278df651-e59c-4463-b13e-188ca48dc168",
+      color: ["#64733d", "#e7fcce"],
+      id: "debb47dc-d3de-4f13-bdda-d0761a5616a9",
       active: false,
     },
     {
@@ -2036,8 +1676,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/03-elsso_rodriguez-r.o.d.r.i.g.u.e.z_(feat_chulo_restrepo).mp3",
-      color: ["#448b7e", "#86048e"],
-      id: "9f11c217-2dae-4acc-826d-465c4f0eb825",
+      color: ["#d08ca6", "#e39a5d"],
+      id: "5b48d447-fabf-4fa1-b665-687a9b48e4f6",
       active: false,
     },
     {
@@ -2048,8 +1688,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/04-elsso_rodriguez-escupe_al_suelo.mp3",
-      color: ["#e0ec9f", "#5e12b1"],
-      id: "70b49792-5a06-4f84-873d-8e5b38c9e740",
+      color: ["#5f3333", "#4aedb6"],
+      id: "a1aeb656-1a3d-4b2c-91c3-f49fcef2fc30",
       active: false,
     },
     {
@@ -2060,8 +1700,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/05-elsso_rodriguez-left_coast_himno.mp3",
-      color: ["#aa88d3", "#868ee0"],
-      id: "e6d9bad1-35dd-4ea0-8b71-a53bcd1cf647",
+      color: ["#d45439", "#ce7718"],
+      id: "c0894ecc-2168-49bd-b736-e0e8befe2d97",
       active: false,
     },
     {
@@ -2072,8 +1712,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/06-elsso_rodriguez-freestyle_#1.mp3",
-      color: ["#d57e2d", "#abc4ba"],
-      id: "644726ad-ab2c-4a1d-833b-0f07b6e7a81b",
+      color: ["#2ffb61", "#0bd0b0"],
+      id: "42e86e22-2808-47da-b086-6b7ae9b88d8b",
       active: false,
     },
     {
@@ -2084,8 +1724,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/07-elsso_rodriguez-brindo_por_nuestro_sombrero.mp3",
-      color: ["#08315f", "#386ee7"],
-      id: "2f2de1f3-5d58-426c-9cb0-5733c40a3768",
+      color: ["#36481c", "#e3fae9"],
+      id: "3f2d751d-8431-43d9-8551-fc0ab9796785",
       active: false,
     },
     {
@@ -2096,8 +1736,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/08-elsso_rodriguez-la_mala_vida_(feat_elsso_&_the_gang)_bw_freestyle_#2.mp3",
-      color: ["#1f2420", "#3a2d7e"],
-      id: "71dcb0e8-2179-4f32-a01a-8fda420805ee",
+      color: ["#fb80ef", "#7ae983"],
+      id: "b36df797-d39b-4514-9fe4-bb107dc54a81",
       active: false,
     },
     {
@@ -2108,8 +1748,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/09-elsso_rodriguez-resulta_carisima.mp3",
-      color: ["#92c376", "#969ac8"],
-      id: "05cdf0ca-0ec9-40ef-abc1-bfbe8c20a36f",
+      color: ["#a390a8", "#664ebd"],
+      id: "1844a700-153b-468a-82ce-28cebc227bd0",
       active: false,
     },
     {
@@ -2120,8 +1760,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/10-elsso_rodriguez-anal_emporio_(feat_el_perro).mp3",
-      color: ["#28f15d", "#bd4ac5"],
-      id: "d2e76934-e646-42f3-9bfb-c4eff5264f40",
+      color: ["#2f16ab", "#bf4574"],
+      id: "788ea7c0-03ef-4c4d-b502-797df6bb1027",
       active: false,
     },
     {
@@ -2132,8 +1772,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/11-elsso_rodriguez-cuando_llego.mp3",
-      color: ["#00ae26", "#3d6523"],
-      id: "4d8039d6-8983-4650-ad7f-222f3d6d6fbd",
+      color: ["#3fa42b", "#e9b75a"],
+      id: "bd67ca5a-bcc4-4ded-9edc-81154b910c88",
       active: false,
     },
     {
@@ -2144,8 +1784,8 @@ function chillHop() {
       artist: "El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodriguez - Streetz Tragicomedia/12-elsso_rodriguez-sobre_ruedas_(feat_ru$o).mp3",
-      color: ["#9d04b5", "#7ee320"],
-      id: "313433ed-c9d4-4448-ab53-50a09a34c418",
+      color: ["#678963", "#2e27d2"],
+      id: "3eab34c1-7d5b-4e27-a80a-adea0d1cbb18",
       active: false,
     },
     {
@@ -2156,8 +1796,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/01 Intro.mp3",
-      color: ["#f76dc5", "#4dbc9d"],
-      id: "3f88d79e-f7fc-4985-ac4a-a1820cac4162",
+      color: ["#ace29e", "#dbde5a"],
+      id: "73d403bb-3ff8-48dd-89ba-e8280bcd20a6",
       active: false,
     },
     {
@@ -2168,8 +1808,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/02 Memorias.mp3",
-      color: ["#6ed479", "#091260"],
-      id: "d7a47811-9bb7-4aee-b160-78f0209662aa",
+      color: ["#13af94", "#82cfbc"],
+      id: "36411663-a2ba-4245-837d-f00b45978d30",
       active: false,
     },
     {
@@ -2180,8 +1820,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/03 Caras Sucias.mp3",
-      color: ["#e317a8", "#be1d07"],
-      id: "97357ce8-c3f3-4dd1-8973-7ebb2e633942",
+      color: ["#56986a", "#c393c4"],
+      id: "525e460a-1926-4d40-8227-942a2a6b8ece",
       active: false,
     },
     {
@@ -2192,8 +1832,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/04 30 Palos (con Amarillo Slim).mp3",
-      color: ["#2a5a04", "#a2dfb6"],
-      id: "8a45f25c-5b61-4205-a2fb-bb0bd3b9a175",
+      color: ["#f1e314", "#1f8cd7"],
+      id: "9d4ba146-22a9-4804-bde8-4599327282f4",
       active: false,
     },
     {
@@ -2204,8 +1844,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/05 Descreidos.mp3",
-      color: ["#be8ff1", "#acd249"],
-      id: "122e1b16-8318-441c-9f8e-5315a81e083b",
+      color: ["#53b47a", "#82f707"],
+      id: "4dd5ef8a-10c2-4873-ae61-7d8badcd6cbc",
       active: false,
     },
     {
@@ -2216,8 +1856,8 @@ function chillHop() {
       artist: "Zar 1 & El$$o Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/El$$o Rodr\u00edguez y Zar1 - Feelmatic (2013)/06 Chimo Bayo (Bonus Track).mp3",
-      color: ["#c72a88", "#d153b5"],
-      id: "7a2e0be1-0438-4f4e-a447-1b0c77d61a72",
+      color: ["#f70f5f", "#e1f88d"],
+      id: "f1a535ba-e05e-4f67-9072-c3b259ccb1d7",
       active: false,
     },
     {
@@ -2228,8 +1868,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/01- intro 2004.mp3",
-      color: ["#78af97", "#2fbad8"],
-      id: "6896ed62-81c7-44cc-a355-b72d10597b7d",
+      color: ["#d72217", "#79f416"],
+      id: "9a8776ed-3055-4f29-be5d-35027260d7ee",
       active: false,
     },
     {
@@ -2240,8 +1880,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/02- espa\u00f1a huele a culo.mp3",
-      color: ["#0b783f", "#f483f5"],
-      id: "84fa3791-e6ab-467b-af7b-a7f8b9f7dbb2",
+      color: ["#65ce54", "#bc7283"],
+      id: "9783bdeb-de70-40d6-bbef-aa2b16825cda",
       active: false,
     },
     {
@@ -2252,8 +1892,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/03-luces y sirenas (con roz).mp3",
-      color: ["#543de4", "#5faf51"],
-      id: "72be34b2-ce36-409f-af08-f7fef5a72103",
+      color: ["#e02d6a", "#0c638d"],
+      id: "3a27de71-4249-4911-8ce7-63f4dfcb11e3",
       active: false,
     },
     {
@@ -2264,8 +1904,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/04- venimos con el boom (con ramses).mp3",
-      color: ["#3cdccf", "#f4f5de"],
-      id: "a89366b7-176f-471f-ad7e-fe26347f42d8",
+      color: ["#fcddee", "#139c4e"],
+      id: "cbaf4009-f499-41c2-a2f6-bc85f8485c5e",
       active: false,
     },
     {
@@ -2276,8 +1916,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/05- mortal (con arko).mp3",
-      color: ["#c9ae01", "#45c4cc"],
-      id: "6dfe22cf-3e5b-4f16-9e7b-04bc8d2c8a23",
+      color: ["#5b37c5", "#26491f"],
+      id: "ccd3bbe1-7e03-4833-98fd-60930ee38b2c",
       active: false,
     },
     {
@@ -2288,8 +1928,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/06- chicos con ma\u00f1a (con moshadona).mp3",
-      color: ["#a647f7", "#3e1355"],
-      id: "20fbe4d7-cd0c-4d2a-8040-14b8fd3b2613",
+      color: ["#3a4329", "#98553e"],
+      id: "08883cd9-53b4-4342-b67b-5cba5b01ddce",
       active: false,
     },
     {
@@ -2300,8 +1940,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/07- lloviendo sobre mojado (con paes, mv y moshadona).mp3",
-      color: ["#cfc50b", "#cc1dfa"],
-      id: "25abf98b-96dd-4fa6-942b-4940cc710bf4",
+      color: ["#281af2", "#78cfc1"],
+      id: "7d76821a-7f3c-4e1d-a418-99b1771af59b",
       active: false,
     },
     {
@@ -2312,8 +1952,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/08- cantinera.mp3",
-      color: ["#03fbcd", "#b6149d"],
-      id: "7a52128c-456e-4e34-912c-4dc15bb366a9",
+      color: ["#5080c3", "#2d65a6"],
+      id: "bb155cca-e624-45c0-8587-2dcb2a77be21",
       active: false,
     },
     {
@@ -2324,8 +1964,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/09- reyes del romance (con mp3).mp3",
-      color: ["#b7496f", "#730f30"],
-      id: "229c48cc-9dc3-42b3-8dfb-9ec2140b2600",
+      color: ["#57566d", "#86cc98"],
+      id: "4c93a91b-b3fa-4022-82f3-5d34ec8f9080",
       active: false,
     },
     {
@@ -2336,8 +1976,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Fat Fish - Kalashnikov/10- el final del cd.mp3",
-      color: ["#160be3", "#c20bd4"],
-      id: "286c3580-e67d-4ee1-8da4-809e263e3f8a",
+      color: ["#1d840f", "#16e21f"],
+      id: "cf6ee140-68ed-444c-b8ce-037e561f950d",
       active: false,
     },
     {
@@ -2348,8 +1988,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/01 Abre la ventana para oirla.m4a",
-      color: ["#276abe", "#f6c3dd"],
-      id: "df39225b-783a-4b62-a50a-390b566c324b",
+      color: ["#d1baec", "#fc849e"],
+      id: "dcf792e7-f0d6-4e74-8d75-ebda40b2c8ed",
       active: false,
     },
     {
@@ -2360,8 +2000,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/02 Efeeleipeaoese.m4a",
-      color: ["#dcab63", "#a1def5"],
-      id: "e56b4049-7590-49a1-9ef0-9fd7e2b39842",
+      color: ["#7b33ed", "#de88e8"],
+      id: "d7860d18-8a56-4eb5-bea5-f75fcbfc3e78",
       active: false,
     },
     {
@@ -2372,8 +2012,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/03 Alika3.m4a",
-      color: ["#4a474f", "#21f2a6"],
-      id: "062b8857-b80a-4b1a-8a8f-29bc661ddcdb",
+      color: ["#c0870e", "#eff368"],
+      id: "1d2ed4cc-d948-4677-a9a3-fb4d1ffcd82e",
       active: false,
     },
     {
@@ -2384,8 +2024,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/04 Komo te po.m4a",
-      color: ["#8e1ce9", "#834d78"],
-      id: "40a7172d-c83b-4ea3-8436-f5d88533ca16",
+      color: ["#b4e3ab", "#096cbe"],
+      id: "52d1e48e-3ab0-4a46-812c-77962b66cb6d",
       active: false,
     },
     {
@@ -2396,8 +2036,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/05 No quiero escucharte.m4a",
-      color: ["#880ecf", "#c4d6a3"],
-      id: "91efd374-f013-427d-8380-3c39a66cd7f9",
+      color: ["#e6da4d", "#137c47"],
+      id: "07b994db-f42b-48a8-af2f-af4cfb6d1800",
       active: false,
     },
     {
@@ -2408,8 +2048,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/06 15_00.m4a",
-      color: ["#2431d6", "#aca3a4"],
-      id: "460e57ec-5007-4f88-b939-505518c8f7d8",
+      color: ["#443858", "#272cfe"],
+      id: "f587852e-4d65-450e-b0f1-d6dafc5e5084",
       active: false,
     },
     {
@@ -2420,8 +2060,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/07 Diva divina (con Greenvalley).m4a",
-      color: ["#14f45e", "#6a5d32"],
-      id: "acac9625-9a32-47eb-abb7-e8e17e4471a7",
+      color: ["#76e9a1", "#07ec62"],
+      id: "57401976-bcc0-48fa-847e-d5ee90474e9c",
       active: false,
     },
     {
@@ -2432,8 +2072,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Alik3/08 Sistema de intercambio.m4a",
-      color: ["#501a2a", "#2090a6"],
-      id: "3a085377-478d-4fab-af0e-ed79401c6246",
+      color: ["#7f22f8", "#ac2721"],
+      id: "e5355122-292a-497f-b89d-96799fda66f5",
       active: false,
     },
     {
@@ -2444,8 +2084,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/01 Intro.m4a",
-      color: ["#5fbe80", "#f6986a"],
-      id: "c5f832cf-8e7d-4377-8583-fec707aa121f",
+      color: ["#9bb7c8", "#155f7d"],
+      id: "d898ba63-bd7f-4680-abf5-f64bd21d3c85",
       active: false,
     },
     {
@@ -2456,8 +2096,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/02 G14 _07.m4a",
-      color: ["#0afa03", "#d3dd91"],
-      id: "539fa8b5-b396-4364-8389-cc6d2d9a94aa",
+      color: ["#fcd252", "#1c0cef"],
+      id: "2b4ecc43-37c3-485b-b215-e5cb17f2833c",
       active: false,
     },
     {
@@ -2468,8 +2108,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/03 Juego De Palabras.m4a",
-      color: ["#a7a5b0", "#ffa842"],
-      id: "b949ebc0-38c3-4d17-9e6f-3673e83cf59e",
+      color: ["#c4d166", "#cb060f"],
+      id: "43519f08-0e86-432e-a58c-96de2ce2493c",
       active: false,
     },
     {
@@ -2480,8 +2120,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/04 VI, El Cambio En La Ciudad Con Mic A.m4a",
-      color: ["#7c178e", "#4a74dd"],
-      id: "c2798c0a-b14f-4d05-ab48-a08cd53e8be7",
+      color: ["#edfa8e", "#0503e2"],
+      id: "e85955d4-b7bb-4e71-9d3f-8801e7e5323b",
       active: false,
     },
     {
@@ -2492,8 +2132,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/05 Mustang Song.m4a",
-      color: ["#9e0a36", "#1ce272"],
-      id: "ce085572-84ce-4d47-9824-b1f65faa3690",
+      color: ["#3b3a27", "#a61ba0"],
+      id: "70aa7f84-89a6-4990-8f8d-9b8c2d6d023b",
       active: false,
     },
     {
@@ -2504,8 +2144,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/06 Decision Con Kodigo Norte.m4a",
-      color: ["#970d7e", "#dab0f0"],
-      id: "acdc43ab-3e9c-4a5a-902c-5f3433cb40ce",
+      color: ["#f55a5a", "#1001fa"],
+      id: "71f6eafa-21a4-435d-9cf4-da01b2daa3ee",
       active: false,
     },
     {
@@ -2516,8 +2156,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/07 Oyelo (Interludio).m4a",
-      color: ["#d9f137", "#81a321"],
-      id: "577bcaca-34e9-400e-9bb1-6581cf695adf",
+      color: ["#09b465", "#8b6457"],
+      id: "607300d3-cf42-4e37-abb0-c9176400c4ca",
       active: false,
     },
     {
@@ -2528,8 +2168,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/08 Euskadi (Con Elaia Y Gernika).m4a",
-      color: ["#6822b7", "#f10b4e"],
-      id: "a1a8f793-8dab-4000-886f-9726efb23401",
+      color: ["#b79033", "#ac7627"],
+      id: "65ffa95d-ae7d-4387-891a-65fe565b1d9f",
       active: false,
     },
     {
@@ -2540,8 +2180,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/09 Todo El Dia Entero.m4a",
-      color: ["#c298fc", "#e1933e"],
-      id: "8f87fb6a-69fe-4c9c-a72f-af7ef06c9102",
+      color: ["#50473f", "#5be5f6"],
+      id: "a7cfaa51-1acc-4f78-8fe1-5a895b80ba6a",
       active: false,
     },
     {
@@ -2552,8 +2192,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/10 Regreso Al Pasado Con Oihane.m4a",
-      color: ["#4060b1", "#5ea26b"],
-      id: "e6a38767-2b4c-426f-bfdb-4ddab06c8986",
+      color: ["#66e75a", "#c99953"],
+      id: "3ae97f70-404e-4ac3-a5a0-7dc1eb812d74",
       active: false,
     },
     {
@@ -2564,8 +2204,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/11 Punto De Inflexion.m4a",
-      color: ["#d5e8b6", "#108e51"],
-      id: "1ba085e6-9352-4add-b9e6-8840e1fb9903",
+      color: ["#e7051e", "#7a2439"],
+      id: "ca598fa4-1148-4e9d-97bb-cdc1ea74af9b",
       active: false,
     },
     {
@@ -2576,8 +2216,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/12 Pasaje Bohemio (Skit).m4a",
-      color: ["#a02c41", "#ac7596"],
-      id: "42d10dc4-0d5f-49e9-a283-5df8f34752ee",
+      color: ["#b9f0d5", "#507e5a"],
+      id: "4f1c804b-8e32-4869-b515-542c18185e53",
       active: false,
     },
     {
@@ -2588,8 +2228,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/13 A.M.O.R..m4a",
-      color: ["#c25fda", "#9bcb40"],
-      id: "003f0ada-b997-40fe-b5b8-0922b2fa8563",
+      color: ["#d9d28c", "#ca2ecd"],
+      id: "c3afe80b-c5eb-4dda-9712-39efcdeec570",
       active: false,
     },
     {
@@ -2600,8 +2240,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Erogena/14 Superarse.m4a",
-      color: ["#d2dadb", "#24e21d"],
-      id: "4ef31fe8-aa10-4421-a91b-94bd0a1805b7",
+      color: ["#8e8380", "#dea68f"],
+      id: "6e461bc8-aed4-4e00-93ab-642cdbd0c5c5",
       active: false,
     },
     {
@@ -2612,8 +2252,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/01 Entrin - G14.m4a",
-      color: ["#69a88b", "#c76683"],
-      id: "03e55705-323a-4dfb-9134-a9d26dfdc656",
+      color: ["#0b7ffc", "#2fcfca"],
+      id: "7ef229b1-8dfc-4494-aaa3-5b3d769ba1c7",
       active: false,
     },
     {
@@ -2624,8 +2264,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/02 Con un cal-c-tin.m4a",
-      color: ["#fcf025", "#8097cd"],
-      id: "df8b16f3-9437-4a3c-854e-6bdd86aa1bc4",
+      color: ["#921232", "#54b4f3"],
+      id: "46541632-4c65-4888-b35d-b360c4506f18",
       active: false,
     },
     {
@@ -2636,8 +2276,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/03 Nunca pierdo el tiempo (con Afro).m4a",
-      color: ["#af5fbf", "#68a79d"],
-      id: "197cdd1e-2082-4be1-a1ab-852f37ac10d5",
+      color: ["#533308", "#ae0b9e"],
+      id: "08d3ca1f-48a4-446c-96f0-f0561681a404",
       active: false,
     },
     {
@@ -2648,8 +2288,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/04 Atentos MCs (con Same).m4a",
-      color: ["#3f2d1d", "#d4b55b"],
-      id: "871650b5-b0fd-4ddd-9e67-117f76b99f09",
+      color: ["#65f903", "#2ea120"],
+      id: "590d4fb7-88a7-4e45-bb10-aad3337eaf17",
       active: false,
     },
     {
@@ -2660,8 +2300,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/05 De vuelta a casa (con Hostil).m4a",
-      color: ["#d26cf3", "#86d7b2"],
-      id: "d3947d47-9562-42eb-8d2f-33f3b5178598",
+      color: ["#c28e8a", "#23bd32"],
+      id: "e77bbaad-7563-4bd7-95f3-4c38c1ef62b1",
       active: false,
     },
     {
@@ -2672,8 +2312,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/06 Ellos (interludio).m4a",
-      color: ["#a5f7b4", "#e5e6b5"],
-      id: "631fc6a2-85f0-4649-9dfe-fab19148caa7",
+      color: ["#e6c8eb", "#1d20bb"],
+      id: "3297cdd2-9384-4377-b1ca-f4f53c3dbcd9",
       active: false,
     },
     {
@@ -2684,8 +2324,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/07 Hacerlo Wapo.m4a",
-      color: ["#c91803", "#ca8484"],
-      id: "e2caeed8-e12c-4cc0-bd93-8629c9a9c17f",
+      color: ["#556a2a", "#d0bca4"],
+      id: "e309af9d-8009-4920-8825-03945698b288",
       active: false,
     },
     {
@@ -2696,8 +2336,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/08 Harto.m4a",
-      color: ["#042d37", "#f747d1"],
-      id: "d2b9b573-fe2f-46b1-a42e-cf4f8ac8c664",
+      color: ["#45d75c", "#ba581f"],
+      id: "2646e277-def7-45e1-a0a5-9bdfc2614d39",
       active: false,
     },
     {
@@ -2708,8 +2348,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/09 Historias de un txabalin.m4a",
-      color: ["#c06811", "#aa5dad"],
-      id: "eaccb3a1-fe84-43c7-a5a6-484db6a377be",
+      color: ["#fb1cfd", "#e0c453"],
+      id: "ede997b9-fb94-4fb8-8a7e-c6618d32bcf4",
       active: false,
     },
     {
@@ -2720,8 +2360,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/10 No fear this year! (Res y Drujas).m4a",
-      color: ["#582d72", "#70b78a"],
-      id: "e2f3d31a-6955-4d75-b3b4-14d4a6ee988a",
+      color: ["#50ebd4", "#fe359a"],
+      id: "6b14aeda-f089-4058-af03-a1e71a7ffd72",
       active: false,
     },
     {
@@ -2732,8 +2372,8 @@ function chillHop() {
       artist: "G14",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/G14 - Punto G/11 Porque yo pude elegir.m4a",
-      color: ["#3d47f5", "#315bce"],
-      id: "e458e32a-8504-4f41-9dc0-ffed6f7328dc",
+      color: ["#b59fc0", "#09960d"],
+      id: "eca740be-2fc0-4e3a-bb1f-7eeabd7b9e33",
       active: false,
     },
     {
@@ -2744,8 +2384,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/1- Intro.mp3",
-      color: ["#212598", "#8d2fce"],
-      id: "e50b1d00-4483-4c07-a085-cfa248489293",
+      color: ["#a6e140", "#6596f5"],
+      id: "b9f3727d-825b-4fe0-be23-efc45c32935a",
       active: false,
     },
     {
@@ -2756,8 +2396,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/10- Supervivencia con Xabi.mp3",
-      color: ["#635d75", "#96a157"],
-      id: "910eec70-0e46-4dcc-b05c-1c2590de947d",
+      color: ["#4647d5", "#61da24"],
+      id: "99fbf27d-656e-42b8-98a9-d9c63e73ed70",
       active: false,
     },
     {
@@ -2768,8 +2408,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/11- Malagasteiz con Murianafobia, Maze, Skull, Pixone, Xabi, Conexi\u00f3n directa..mp3",
-      color: ["#f0827c", "#78f86e"],
-      id: "f3cdc6a0-01ec-4bca-93f7-dbe12322afb1",
+      color: ["#4e9d38", "#cb2f3e"],
+      id: "706ef88b-a88a-43c6-a12b-0049d42a14c1",
       active: false,
     },
     {
@@ -2780,8 +2420,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/2- No quiero que me entiendas. con Xabi.mp3",
-      color: ["#38e990", "#ea8143"],
-      id: "faffbdc8-b76c-4d57-92e5-10dca368da4b",
+      color: ["#fd1e28", "#eb5eda"],
+      id: "0d30b200-f70f-4e17-80ce-612837410e96",
       active: false,
     },
     {
@@ -2792,8 +2432,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/3- Dos caras.mp3",
-      color: ["#d558b1", "#92854b"],
-      id: "4aba8429-797e-4496-90f9-5026ff42a968",
+      color: ["#5df86e", "#7bfd1d"],
+      id: "160ff586-79ac-427e-9143-a55722bdc76a",
       active: false,
     },
     {
@@ -2804,8 +2444,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/4- Bando con Maze.mp3",
-      color: ["#9b10be", "#17e732"],
-      id: "9a8fe5e6-8ed3-44b8-bb1e-3482b66eb9be",
+      color: ["#7c580e", "#9f0bc8"],
+      id: "9061dbdd-0c79-4d0c-9e61-30534ec44e73",
       active: false,
     },
     {
@@ -2816,8 +2456,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/5- Escuchalo.mp3",
-      color: ["#836ac5", "#eed3e3"],
-      id: "5af5e107-89a3-41f6-9ee3-414ed154963f",
+      color: ["#082128", "#af8472"],
+      id: "8e4d2f1d-2009-41ec-bed2-58df12cf009f",
       active: false,
     },
     {
@@ -2828,8 +2468,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/6- Carretera con El Ant\u00eddoto.mp3",
-      color: ["#9273a6", "#9aa194"],
-      id: "8a099504-fa8b-4be4-aff4-9a25beda8848",
+      color: ["#8ade61", "#232819"],
+      id: "dcb8f48b-37ff-49a4-890f-b581c03ea96d",
       active: false,
     },
     {
@@ -2840,8 +2480,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/7- Es usted... con Kloy.mp3",
-      color: ["#815383", "#fca6f3"],
-      id: "83572842-57a9-4892-a27a-2404ce75eca8",
+      color: ["#557102", "#d7406d"],
+      id: "49ae5d74-853b-4ddf-ae1c-d5e58103d2d1",
       active: false,
     },
     {
@@ -2852,8 +2492,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/8- Desde que amanece.mp3",
-      color: ["#caf200", "#cfa9e1"],
-      id: "ba999d90-f633-4c61-9f69-d9a0eca831ae",
+      color: ["#21e0da", "#2c74ac"],
+      id: "29071cdd-b6fa-447c-86fb-2b1631e690dd",
       active: false,
     },
     {
@@ -2864,8 +2504,8 @@ function chillHop() {
       artist: "Iona",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Iona - El coleccionista de frases (2011)/9- Soy un vago.mp3",
-      color: ["#b61a4d", "#5e3dca"],
-      id: "00af7990-a2dc-4251-aa61-38bcf3ce6f35",
+      color: ["#fad6bd", "#0be914"],
+      id: "7ecb57e0-908a-4d2d-a807-f514de1cbc1e",
       active: false,
     },
     {
@@ -2876,8 +2516,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/1-IGNITION hosted by Dj Nead.mp3",
-      color: ["#86873b", "#22ba57"],
-      id: "a3fae541-9686-4350-9918-aea058dd45c7",
+      color: ["#144f2d", "#d6c180"],
+      id: "724ccf28-60a6-44d7-ae9d-fb494a340c3f",
       active: false,
     },
     {
@@ -2888,8 +2528,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/10-VOLANDO LIBRE Feat Enoe.mp3",
-      color: ["#e514ce", "#de7ec2"],
-      id: "bc422562-7ab6-4713-9f96-da5565377b4e",
+      color: ["#daa112", "#e6a93d"],
+      id: "f5fbdc57-3fba-404b-a4ad-54e2a1512733",
       active: false,
     },
     {
@@ -2900,8 +2540,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/11-LAS CALLES ARDEN.mp3",
-      color: ["#0c13ae", "#797ebb"],
-      id: "abb2875b-a2a9-4b67-98a2-80c1d20e2928",
+      color: ["#49f435", "#e8215a"],
+      id: "3effe03d-c51a-4617-9d62-88df71ddea7a",
       active: false,
     },
     {
@@ -2912,8 +2552,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/12-GREEN CAPITAL.mp3",
-      color: ["#f22c1b", "#fcd144"],
-      id: "c63c2b02-c531-4cba-a2e4-3d311c35e9b0",
+      color: ["#9a51af", "#5d4e9a"],
+      id: "a7b46ab3-4df1-446b-a220-827aa993364d",
       active: false,
     },
     {
@@ -2924,8 +2564,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/13-AT THE MOON Feat Euri.mp3",
-      color: ["#547ec3", "#787ad1"],
-      id: "bf594dc3-eb95-4207-8dfc-e666f8e8410b",
+      color: ["#9ae142", "#0607d9"],
+      id: "1f472da1-ae65-40bf-ac7e-a1cc5364ec2b",
       active: false,
     },
     {
@@ -2936,8 +2576,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/14-HASTA EL FINAL.mp3",
-      color: ["#76fd7c", "#867383"],
-      id: "f8ba9327-0a8a-44dd-856e-3986b8885fc4",
+      color: ["#139199", "#61df0b"],
+      id: "1b704c07-1e03-40a2-8cc8-fd7e6896c301",
       active: false,
     },
     {
@@ -2948,8 +2588,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/2-DESDE LA LUNA.mp3",
-      color: ["#878968", "#f3cdd5"],
-      id: "90985655-2656-4c13-8be2-5c46c3d778d7",
+      color: ["#fcf7da", "#f8e793"],
+      id: "26e80b2b-8c3a-4e37-8f11-a4b7594465b4",
       active: false,
     },
     {
@@ -2960,8 +2600,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/3-QUEMANDO LA VIDA.mp3",
-      color: ["#247cdd", "#e25700"],
-      id: "0fab04a6-96d7-4a12-89c1-fc42c31155a7",
+      color: ["#2320f4", "#921d48"],
+      id: "92760615-4210-45ce-866f-f6276e2a35fe",
       active: false,
     },
     {
@@ -2972,8 +2612,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/4-ESPERANDO.mp3",
-      color: ["#901f78", "#dc8498"],
-      id: "d49b22b9-3c10-41e0-a2e2-9f0b094e83fb",
+      color: ["#a262a8", "#1f1bef"],
+      id: "d5b6a7d6-8ba5-49bd-8e84-9e87e711292c",
       active: false,
     },
     {
@@ -2984,8 +2624,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/5-JUMANJI.mp3",
-      color: ["#aa65fe", "#088d56"],
-      id: "27f5b1b7-8875-4d7b-8bbd-dda5fc49c015",
+      color: ["#d3c157", "#f0ed62"],
+      id: "06bcbe49-ff53-4201-9411-0842b6d6febe",
       active: false,
     },
     {
@@ -2996,8 +2636,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/6-PALOS DE CIEGO.mp3",
-      color: ["#a90bf6", "#2a9bef"],
-      id: "646746a3-e533-4913-ae87-dff3c14ace35",
+      color: ["#192bd6", "#ba2ed0"],
+      id: "6cc629e9-22b7-4831-becc-e25000c1839b",
       active: false,
     },
     {
@@ -3008,8 +2648,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/7-ALGO TAN SENCILLO feat Enoe.mp3",
-      color: ["#3c3a6a", "#a58c1f"],
-      id: "5f8f1b60-99cf-4044-96f3-4b6102e7f24b",
+      color: ["#7c9587", "#327337"],
+      id: "3439c063-76b4-49a8-8347-200a5693b244",
       active: false,
     },
     {
@@ -3020,8 +2660,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/8-ES ASI.mp3",
-      color: ["#4103ab", "#521acf"],
-      id: "9bcd9725-8610-43cf-899b-72e3c8666beb",
+      color: ["#c761e2", "#61fcc7"],
+      id: "dc3b6b5b-e7fe-4f1d-bff4-4e550dd3d096",
       active: false,
     },
     {
@@ -3032,8 +2672,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/JABO MILENARIO (Desde la luna)/9-5.00 PM 0.00 AM Feat Blime.mp3",
-      color: ["#d16218", "#1bdde1"],
-      id: "44a19911-0b4f-4e45-8d12-6d651ccf4c9b",
+      color: ["#eae21c", "#13d17e"],
+      id: "43032b5c-1fce-4b72-b6b6-492f9379e55c",
       active: false,
     },
     {
@@ -3044,8 +2684,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/01. Jabo Milenario - Deuda saldada [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#73661b", "#de090f"],
-      id: "e67fd033-2d13-4673-8c55-5d9be04b6af1",
+      color: ["#6039d6", "#65b4f3"],
+      id: "fb7a3241-62ed-4caf-abde-d317bc8aa16c",
       active: false,
     },
     {
@@ -3056,8 +2696,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/02. Jabo Milenario - Hablamos de jabo [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#22f74e", "#537e06"],
-      id: "0b61f598-affa-4781-a13b-9c034f47384d",
+      color: ["#e36a37", "#9b9fda"],
+      id: "e811794a-dbd0-48cb-860f-c86b4dcbba7d",
       active: false,
     },
     {
@@ -3068,8 +2708,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/03. Jabo Milenario - Viviendo a mi manera [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#664907", "#0a181f"],
-      id: "67e17baf-66c7-45ce-aa4f-e9ab7fbfd6d6",
+      color: ["#e97b18", "#ad3359"],
+      id: "75174252-f18a-44a0-aba2-53b597bd1e75",
       active: false,
     },
     {
@@ -3080,8 +2720,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/04. Jabo Milenario - Hoy puede ser [Producido por Pablo beat bruto] - www.hhgroups.com.mp3",
-      color: ["#d772b6", "#5fcebb"],
-      id: "9eb0f4fc-8696-4b79-8038-f0cbe272dd82",
+      color: ["#c5afff", "#41cb99"],
+      id: "8d33192a-13cf-406c-b6b6-308fd64cda97",
       active: false,
     },
     {
@@ -3092,8 +2732,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/05. Jabo Milenario - Tu sabes lo que es esto [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#74a9b9", "#c6dd8f"],
-      id: "e8aa4c62-3b13-453e-9a94-89034e3153ac",
+      color: ["#519868", "#156104"],
+      id: "3e7e9c34-d9fe-4823-a7ca-59b0ae508839",
       active: false,
     },
     {
@@ -3104,8 +2744,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/06. Jabo Milenario - Este es el momento [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#ba40a9", "#692aa0"],
-      id: "68637773-30cb-446e-a5b1-6bfd8dc94f78",
+      color: ["#29b90f", "#ec87e8"],
+      id: "9bced61f-b71c-4c91-b343-b09e8589e3c5",
       active: false,
     },
     {
@@ -3116,8 +2756,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/07. Jabo Milenario - Veneno [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#d5fd62", "#c179cb"],
-      id: "1982f0d6-08bc-445b-a6ef-ef7d2f41346a",
+      color: ["#41dc30", "#895022"],
+      id: "7219769f-80c9-44e2-8b80-4a56321fc747",
       active: false,
     },
     {
@@ -3128,8 +2768,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/08. Jabo Milenario - Solo sirven [Producido por Pablo beat bruto] - www.hhgroups.com.mp3",
-      color: ["#bba58e", "#f9c774"],
-      id: "f390117e-0fc4-4eba-bf40-b24d34dbd2c6",
+      color: ["#f84c9d", "#6fc89b"],
+      id: "53e8cbc4-452f-4a76-a4ae-93b0c72b7d0a",
       active: false,
     },
     {
@@ -3140,8 +2780,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/09. Jabo Milenario - Lo prometido es deuda [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#8110ee", "#eaedf1"],
-      id: "ffb48d55-d874-444a-8945-22e8fe363e17",
+      color: ["#fc1d4d", "#77d09e"],
+      id: "65ea4d16-e698-4b28-85b8-a38c588dd53a",
       active: false,
     },
     {
@@ -3152,8 +2792,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/10. Jabo Milenario - Piensalo [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#1d8ada", "#b5cdb6"],
-      id: "c8f8e47c-13e3-48b7-9c4a-c69204bc2452",
+      color: ["#4d123f", "#2afa4f"],
+      id: "0e31a37a-b03d-4ce7-beb8-4df96027ba12",
       active: false,
     },
     {
@@ -3164,8 +2804,8 @@ function chillHop() {
       artist: "Jabo Milenario",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jabo Milenario - Lo prometido es deuda/11. Jabo Milenario - Espacio tiempo y dinero [Producido por Ruan] - www.hhgroups.com.mp3",
-      color: ["#bbeebe", "#7e6c78"],
-      id: "cf5e5c78-c93d-40fe-aff5-5a75f84fe5c0",
+      color: ["#e12ecd", "#f2ba30"],
+      id: "2e37c486-3520-4c08-8888-4b983463fe79",
       active: false,
     },
     {
@@ -3176,8 +2816,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/01 Blue Rivers.m4a",
-      color: ["#e87367", "#1e83c1"],
-      id: "f9f7f5c3-ae76-43a9-aecd-9c967a681456",
+      color: ["#e246c9", "#94b6cd"],
+      id: "ff95786c-ab4f-4c95-a016-832ca1bf4c24",
       active: false,
     },
     {
@@ -3188,8 +2828,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/02 Jean Paul.m4a",
-      color: ["#8c20be", "#8f32d3"],
-      id: "3181a187-6dde-4ec4-840a-6b3c5d5a4f1b",
+      color: ["#ac6b3d", "#0b29c8"],
+      id: "cf5ad933-d104-436a-bfb5-3a008e26bf17",
       active: false,
     },
     {
@@ -3200,8 +2840,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/03 Mama Said Love (Featuring DJ Loro).m4a",
-      color: ["#038431", "#9a12c9"],
-      id: "c427de8c-2ff8-4ace-acbc-70b8d54451c5",
+      color: ["#6fc623", "#6848a7"],
+      id: "9b619f0e-d2ff-4622-9524-01733b023ff4",
       active: false,
     },
     {
@@ -3212,8 +2852,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/04 2009, All Right.m4a",
-      color: ["#8c4b75", "#4e7c2b"],
-      id: "a5db4026-47d3-4b0e-b1b6-915d014c14e1",
+      color: ["#8ee1bc", "#a068cd"],
+      id: "ae03d9fa-c581-4a3d-9cd1-a9d8ead4a15b",
       active: false,
     },
     {
@@ -3224,8 +2864,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/05 En Cursiva.m4a",
-      color: ["#0c921a", "#bb5f84"],
-      id: "cd3b1c01-c3df-453e-a847-280aa6f4e6a6",
+      color: ["#305db8", "#a8361e"],
+      id: "daddb042-f5fc-404c-aac0-b536adc3b088",
       active: false,
     },
     {
@@ -3236,8 +2876,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/06 Cool.m4a",
-      color: ["#1f6c30", "#d14d3f"],
-      id: "f6f32eff-c9af-4705-ba39-65946bcba392",
+      color: ["#333daa", "#3b136c"],
+      id: "72b894c1-d431-49a1-84ef-4bd8738e7619",
       active: false,
     },
     {
@@ -3248,8 +2888,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/07 Al Cien Por Cien.m4a",
-      color: ["#33a64a", "#80c01a"],
-      id: "1c3eabe7-75de-4676-bf28-8d31bdff46f4",
+      color: ["#6b8591", "#12100e"],
+      id: "a1b0c261-af0c-4b63-8626-20bd62994bca",
       active: false,
     },
     {
@@ -3260,8 +2900,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/08 Vuela (Featuring Sok & Requiem).m4a",
-      color: ["#746398", "#5a0af0"],
-      id: "950efc86-019a-4d92-bbdf-96fb1c7b5870",
+      color: ["#17b87c", "#f74cf4"],
+      id: "ce62b693-5db6-4842-8edb-12fe51be9616",
       active: false,
     },
     {
@@ -3272,8 +2912,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/09 So Colapper (Piano Por Oihane).m4a",
-      color: ["#a678a4", "#eb01a3"],
-      id: "a0f56291-a10a-4831-8be3-b8f71deacc64",
+      color: ["#170424", "#35cfa1"],
+      id: "1d459715-cf5d-4000-af3b-817dd7e6a83d",
       active: false,
     },
     {
@@ -3284,8 +2924,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/10 Ma Thang.m4a",
-      color: ["#ae4174", "#03d45f"],
-      id: "8ce99ec4-9c0b-47ac-baba-4991173a0127",
+      color: ["#e08434", "#a74a27"],
+      id: "02b366e1-aaec-43ec-83a4-4bac6a373de3",
       active: false,
     },
     {
@@ -3296,8 +2936,8 @@ function chillHop() {
       artist: "Jean Paul & Jazzy Dark",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - En Cursiva/11 Wake Up (Featuring Daflouz & Requiem).m4a",
-      color: ["#09081e", "#cf2c7b"],
-      id: "1567776b-6604-45ba-85ca-9f8529630405",
+      color: ["#c57b94", "#a686a5"],
+      id: "37782b34-c045-413e-a4b1-1a3e81fcb6ae",
       active: false,
     },
     {
@@ -3308,8 +2948,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/01_Wide Open- Jean Paul.mp3",
-      color: ["#cfb1c1", "#eeab88"],
-      id: "7d90f179-d354-4934-943f-da4e2e9212ab",
+      color: ["#39afbf", "#500a80"],
+      id: "de04a01d-2eaf-4098-a74d-50f1e8a355e4",
       active: false,
     },
     {
@@ -3320,8 +2960,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/02_One- Jean Paul.mp3",
-      color: ["#aed708", "#6eb037"],
-      id: "35dc0da3-dc82-451d-90d4-c25550819905",
+      color: ["#68c2e7", "#85e01d"],
+      id: "a49b4d6f-0c8a-46b9-9fa8-6159448e0b0b",
       active: false,
     },
     {
@@ -3332,8 +2972,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/03_SWAG (feat Rak) - Jean Paul.mp3",
-      color: ["#c4ce4e", "#6ff52b"],
-      id: "d53276de-e732-49da-b071-73bbcb086162",
+      color: ["#8600d1", "#a68432"],
+      id: "d8ed26b8-86e6-4f80-a33d-7aebf74ada35",
       active: false,
     },
     {
@@ -3344,8 +2984,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/04_7th sun draft -Jean Paul.mp3",
-      color: ["#656768", "#baa826"],
-      id: "e2aa2c21-833b-4996-86e1-964ddfb4a284",
+      color: ["#7a66f2", "#075beb"],
+      id: "bce390a1-1ce5-4c3f-91e7-9c9fb2d335d5",
       active: false,
     },
     {
@@ -3356,8 +2996,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/05_Estoy mejor (feat. Sok)- Jean Paul.mp3",
-      color: ["#6a1272", "#9a59f1"],
-      id: "2c5ba788-95e2-40eb-8fc5-670790c6ea30",
+      color: ["#5e5d14", "#be1fc9"],
+      id: "5bbd7353-6729-40ae-b396-5cd1e394265b",
       active: false,
     },
     {
@@ -3368,8 +3008,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/06_No trouble-Jean Paul.mp3",
-      color: ["#bf4c77", "#de0ae0"],
-      id: "dec8365e-b1e7-4108-b3f9-b89625a5b679",
+      color: ["#391b4e", "#8b8b56"],
+      id: "8058ecdd-a46b-4aba-b19c-8593480e87ef",
       active: false,
     },
     {
@@ -3380,8 +3020,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/07_A tiempo (feat. Markes)-Jean Paul.mp3",
-      color: ["#38a5ce", "#2599eb"],
-      id: "3f16371d-bec6-4bb4-a7ae-73862d4306bb",
+      color: ["#34a826", "#258f54"],
+      id: "5872fdb4-5ffe-42b2-8acf-ceb1b6ac721e",
       active: false,
     },
     {
@@ -3392,8 +3032,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul - SWAG/08_If I come back again-Jean Paul.mp3",
-      color: ["#5e318e", "#a3f7c2"],
-      id: "75a52aa5-b1f6-4cf6-a663-ed739491c3fc",
+      color: ["#ead42e", "#e95248"],
+      id: "c18d07d9-e29b-4e8f-a96b-b007fb2a18ad",
       active: false,
     },
     {
@@ -3404,8 +3044,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul- De Lunes a Viernes vol.2/01_En el banco del parque (prod. by Shigeto) - Jean Paul.mp3",
-      color: ["#2d2b89", "#798e5c"],
-      id: "1dbb0482-cd30-4952-8656-2632303c4afc",
+      color: ["#8d2ad5", "#735508"],
+      id: "762323b8-fc2e-4231-bcc0-c8c4c983b39c",
       active: false,
     },
     {
@@ -3416,8 +3056,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul- De Lunes a Viernes vol.2/02_Que me vas a contar (prod. by Feux & Kalifornia Kurt) - Jean Paul.mp3",
-      color: ["#1f97cf", "#97f07e"],
-      id: "4e651599-346e-43bd-95db-1e165d9d7017",
+      color: ["#9b05f3", "#93e79f"],
+      id: "1770abe9-eb17-48fa-bb27-f96a86b34470",
       active: false,
     },
     {
@@ -3428,8 +3068,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul- De Lunes a Viernes vol.2/03_Don't give up Fella (prod. by AFTA-1) - Jean Paul.mp3",
-      color: ["#856142", "#5362e9"],
-      id: "09c8bc26-48b1-4ac1-836b-950097d72d7b",
+      color: ["#bb0ff7", "#fab01c"],
+      id: "5077608c-7d08-43dd-a656-ad5c2a6cbb9d",
       active: false,
     },
     {
@@ -3440,8 +3080,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul- De Lunes a Viernes vol.2/04_Est\u00e1 enfadada conmigo (prod. by Anthony Drawn) - Jean Paul.mp3",
-      color: ["#24c0ca", "#dd7d19"],
-      id: "2cb50693-1d91-452d-ba2b-9769ba73b886",
+      color: ["#26af01", "#7fb5cc"],
+      id: "a427a646-8af5-4db2-8cde-926fb0c58aeb",
       active: false,
     },
     {
@@ -3452,8 +3092,8 @@ function chillHop() {
       artist: "Jean Paul",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Jean Paul- De Lunes a Viernes vol.2/05_I wanna take your heart (prod. by Ta-Ku) - Jean Paul.mp3",
-      color: ["#f437b6", "#c69059"],
-      id: "9c71d6dd-267c-452e-9c85-e52498d27b20",
+      color: ["#9a0701", "#aa921f"],
+      id: "cb0b53ec-e63b-49f0-8fe1-086c1de60a00",
       active: false,
     },
     {
@@ -3464,8 +3104,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/01-kafes_-_intro-4x4hh.mp3",
-      color: ["#1a7ac0", "#8f9f42"],
-      id: "dc7b7dd7-76ba-4622-bd55-49a29164ca1b",
+      color: ["#e4a064", "#5350b9"],
+      id: "172a44bf-2ff6-4926-b79e-c1fe2d290ec2",
       active: false,
     },
     {
@@ -3476,8 +3116,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/02-kafes_-_no_hay_pasion-4x4hh.mp3",
-      color: ["#9a2ebb", "#db6dda"],
-      id: "3c6249ba-8903-405e-ad58-664972b4d9a7",
+      color: ["#9e1712", "#e0b934"],
+      id: "f3cb2468-4409-4784-9c8f-9a16e02bc1ea",
       active: false,
     },
     {
@@ -3488,8 +3128,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/03-kafes_-_correveidiles-4x4hh.mp3",
-      color: ["#d6344a", "#02cff5"],
-      id: "6dd36b5f-cdba-472c-b9f9-8c777a994f9d",
+      color: ["#08c8ea", "#5686a2"],
+      id: "3f01e3b6-6dae-4078-83a3-f673053c76b5",
       active: false,
     },
     {
@@ -3500,8 +3140,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/04-kafes_-_vida_normal-4x4hh.mp3",
-      color: ["#745d85", "#c14438"],
-      id: "27606f8c-ff13-4389-a237-c84eeb8458b2",
+      color: ["#a4452c", "#353ff8"],
+      id: "641228e7-71e7-4fe9-b783-58b44296d4c9",
       active: false,
     },
     {
@@ -3512,8 +3152,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/05-kafes_-_siempre-4x4hh.mp3",
-      color: ["#f46adc", "#527d1a"],
-      id: "36cfe41a-4125-4a2b-9c34-d09aa1c06fb6",
+      color: ["#64d847", "#d5db35"],
+      id: "1304d02c-a5ba-49f2-883c-569477b9027e",
       active: false,
     },
     {
@@ -3524,8 +3164,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/06-kafes_-_no_creo_que_nos_compres-4x4hh.mp3",
-      color: ["#cd6b97", "#b8b9f3"],
-      id: "fe0d7404-3e79-4fe6-ae64-82c51da467cc",
+      color: ["#de49ad", "#dfcda4"],
+      id: "83e8f1fe-af4a-4b1c-b71a-e88e46ab8f80",
       active: false,
     },
     {
@@ -3536,8 +3176,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/07-kafes_-_esta_en_tus_manos-4x4hh.mp3",
-      color: ["#ca1539", "#ef94f0"],
-      id: "3e384de9-74f2-4561-b83b-1294f57ec454",
+      color: ["#ff7f94", "#e51996"],
+      id: "6e24c32a-9fce-420f-b8ad-350fe30504dc",
       active: false,
     },
     {
@@ -3548,8 +3188,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/08-kafes_-_respirar_mas-4x4hh.mp3",
-      color: ["#794a86", "#a0b121"],
-      id: "6b1afdb6-524f-4782-852d-0427bbc51607",
+      color: ["#eb6164", "#2e96c4"],
+      id: "f8007447-6dfe-43ea-8d04-9b6f6e4a3446",
       active: false,
     },
     {
@@ -3560,8 +3200,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/09-kafes_-_fruto_del_amor-4x4hh.mp3",
-      color: ["#17a387", "#be54fc"],
-      id: "d5b9fd7c-5189-40a2-9b96-b2b5e563fe42",
+      color: ["#bdf645", "#ff8068"],
+      id: "ac8d84d5-2f8e-45bf-acd2-4fc30c7a28cf",
       active: false,
     },
     {
@@ -3572,8 +3212,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kafes - Correveidiles/10-kafes_-_outro-4x4hh.mp3",
-      color: ["#f5a483", "#ea2eae"],
-      id: "8530f42f-6cfe-46f0-8bbe-db0d5cb6d5f5",
+      color: ["#758cc4", "#2ed74b"],
+      id: "4c9870fa-d95d-4b0c-aab1-6b6f73375d21",
       active: false,
     },
     {
@@ -3584,8 +3224,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 01 - Buscando cobre.mp3",
-      color: ["#a8bc7c", "#4fe42e"],
-      id: "0829a89c-476f-452a-94e7-63fa475cc28f",
+      color: ["#760d6c", "#f55d94"],
+      id: "6d415cbd-a65c-4f42-8c1b-bd91694576ac",
       active: false,
     },
     {
@@ -3596,8 +3236,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 02 - Huir.mp3",
-      color: ["#618aec", "#68a70b"],
-      id: "5e6c640c-dc5a-4204-9b28-e7c043a56914",
+      color: ["#50a6d6", "#808709"],
+      id: "1422a1c1-7dbd-46e8-9a7c-f572875c9f7e",
       active: false,
     },
     {
@@ -3608,8 +3248,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 03 - El mismo nivel .mp3",
-      color: ["#e1c4fc", "#a085c0"],
-      id: "64d0d97f-ba53-4fcb-bb76-db077fca118c",
+      color: ["#341467", "#5cf4c1"],
+      id: "eae5218d-21f8-4ef8-ad63-590f666f29c9",
       active: false,
     },
     {
@@ -3620,8 +3260,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 04 - Schemes on my mind.mp3",
-      color: ["#ec8c04", "#bf22dc"],
-      id: "20a886db-8bde-49c6-afc0-6f21142ee12b",
+      color: ["#995511", "#5fb014"],
+      id: "a59d3f66-e1d3-466e-bcaf-06fde5a16e89",
       active: false,
     },
     {
@@ -3632,8 +3272,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 05 - Buscando cobre (Instrumental).mp3",
-      color: ["#1aae03", "#61cfeb"],
-      id: "07421999-a6fa-4c65-9cd9-d46fd0ccec63",
+      color: ["#5ef1b8", "#c13ab0"],
+      id: "2ac95d83-781a-4800-aef9-e6768d9bf0b0",
       active: false,
     },
     {
@@ -3644,8 +3284,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 06 - Huir (Instrumental).mp3",
-      color: ["#b1048b", "#472b19"],
-      id: "8cb7c6a8-0310-4456-9bf0-9884dafe685e",
+      color: ["#040b52", "#a0f4a4"],
+      id: "fd6fe439-1ec1-4cda-879e-6a1234813a06",
       active: false,
     },
     {
@@ -3656,8 +3296,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 07 - El mismo nivel (Instrumental).mp3",
-      color: ["#1ae457", "#4324c8"],
-      id: "c3926a39-7901-47d6-b5ad-a7a0d67a83ff",
+      color: ["#133070", "#de14ea"],
+      id: "2aeb165f-25d5-4376-b30b-4225cd062637",
       active: false,
     },
     {
@@ -3668,8 +3308,8 @@ function chillHop() {
       artist: "KFS & Ochoa",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/KFS & Ochoa - Huir/KFS & Ochoa - 08 - Schemes on my mind (Instrumental).mp3",
-      color: ["#cb4b1f", "#3aae93"],
-      id: "d1cfb69f-b941-49fd-8291-0f5cb6f033a1",
+      color: ["#a3ff5f", "#e4c999"],
+      id: "3a5ab4d9-391f-4e20-8cc1-58987e3a3f1f",
       active: false,
     },
     {
@@ -3680,8 +3320,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/01 Lets go.mp3",
-      color: ["#c8f680", "#b8a506"],
-      id: "00a1d277-a266-481e-941c-85128bd70e91",
+      color: ["#53fb00", "#5b9b7f"],
+      id: "e87b1c53-3353-4590-b445-2d7a37984078",
       active: false,
     },
     {
@@ -3692,8 +3332,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/02 Corazon y respeto.mp3",
-      color: ["#b1e099", "#4d2424"],
-      id: "5b867737-0e5f-422f-b096-95b4428e6346",
+      color: ["#1a9fdc", "#1e89e6"],
+      id: "756738f3-ca57-4ff4-b98d-329e5d1a99ee",
       active: false,
     },
     {
@@ -3704,8 +3344,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/03 Erran ozenki.mp3",
-      color: ["#1d2376", "#d65a40"],
-      id: "28285612-243c-4b51-b4b5-af276d616d8c",
+      color: ["#13724c", "#c16e48"],
+      id: "78799514-a15d-4145-a2e7-f61a23b2db59",
       active: false,
     },
     {
@@ -3716,8 +3356,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/04 Zabalzazu mezua (feat. Green Valley).mp3",
-      color: ["#1f0e86", "#9b3e01"],
-      id: "6c1fddce-e484-4db7-ba97-53b4442bb6b4",
+      color: ["#b887e1", "#fe3f9b"],
+      id: "e6f5eff4-07af-484e-864b-24365e0d7787",
       active: false,
     },
     {
@@ -3728,8 +3368,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/05 Me molesta.mp3",
-      color: ["#d3c561", "#40877f"],
-      id: "5b3a587c-187f-4edb-9ca7-fedb241f7df4",
+      color: ["#3a66eb", "#292c89"],
+      id: "7e87e453-6660-4f8a-a885-39c20ebbb830",
       active: false,
     },
     {
@@ -3740,8 +3380,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/06 Ni un paso atras.mp3",
-      color: ["#8bcc07", "#0494fc"],
-      id: "a4c07944-8e47-41a0-9697-59507d189445",
+      color: ["#7239fc", "#99c8cc"],
+      id: "c1800b25-118a-4dbf-b8fc-0490e8499002",
       active: false,
     },
     {
@@ -3752,8 +3392,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/07 Radio skit.mp3",
-      color: ["#a68e90", "#479fe5"],
-      id: "a28d286c-1208-49dc-b955-955b1ac3599f",
+      color: ["#006657", "#ffaf1c"],
+      id: "e206ff18-f365-4a12-8959-e8f221a66d5c",
       active: false,
     },
     {
@@ -3764,8 +3404,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/08 Eutsi (feat. Gorka Suaia).mp3",
-      color: ["#ce4e62", "#a4a08a"],
-      id: "9660a468-dcc6-4b60-b633-f456080f5b75",
+      color: ["#b6e6fa", "#7ea16f"],
+      id: "0a743f00-8bf8-4180-b9b5-bd8723414b55",
       active: false,
     },
     {
@@ -3776,8 +3416,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/09 No se puede.mp3",
-      color: ["#1644e3", "#7036b4"],
-      id: "f971c592-47ef-42fe-aa53-c51a1ee04f97",
+      color: ["#e0828e", "#c18158"],
+      id: "79ccf18c-0823-4805-a2de-77d9b4f11f82",
       active: false,
     },
     {
@@ -3788,8 +3428,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/10 Shangai.mp3",
-      color: ["#42ed04", "#0b677a"],
-      id: "6800f98c-2dbd-41f0-bf74-9c169c15b725",
+      color: ["#91f4db", "#2c13b2"],
+      id: "14d97534-4c3b-4a15-b46a-b805b143712a",
       active: false,
     },
     {
@@ -3800,8 +3440,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/11 Bigarren Mundua.mp3",
-      color: ["#b51816", "#4e724b"],
-      id: "a4849155-1a5d-4435-aed6-02c650452e44",
+      color: ["#1a4a93", "#12c6e5"],
+      id: "8a0fdfee-0812-4e89-ac09-b22b85d54365",
       active: false,
     },
     {
@@ -3812,8 +3452,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/12 Esa sensacion (interludio).mp3",
-      color: ["#c901c4", "#0079c2"],
-      id: "025b079f-3d8d-4838-839d-839b4c1978a1",
+      color: ["#60d57d", "#258e2f"],
+      id: "2ddb0be3-0c03-4967-bca2-834e3842b56f",
       active: false,
     },
     {
@@ -3824,8 +3464,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/13 Gure izana.mp3",
-      color: ["#beb8a1", "#ecab2c"],
-      id: "e2ffa6c6-f4b2-480c-9c60-d64c1ee38f74",
+      color: ["#fdf8c7", "#c4ae2f"],
+      id: "75e8ff1c-ca4a-4048-a80e-984e9dd6bee4",
       active: false,
     },
     {
@@ -3836,8 +3476,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/14 Impacto (feat. Leo).mp3",
-      color: ["#bd103d", "#7139fb"],
-      id: "be39f22a-1685-4097-8b08-20c24922b52c",
+      color: ["#18569c", "#c1823c"],
+      id: "4b6457fa-75eb-4ae8-b6ef-1cf7fff3174f",
       active: false,
     },
     {
@@ -3848,8 +3488,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Eutsi/15 Mas de mil.mp3",
-      color: ["#891ab0", "#451354"],
-      id: "42786004-1bbd-4df8-8e94-14f82f12e9bf",
+      color: ["#7f2014", "#8f27b7"],
+      id: "997b116a-dbbd-40ec-b0ff-0d08f864241e",
       active: false,
     },
     {
@@ -3860,8 +3500,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/01 Todo Es . . . (Con Markes, Sok & Ferran M.D.E.).mp3",
-      color: ["#470c17", "#06f449"],
-      id: "a202eaad-b8bf-4f1b-890c-6dcb3b801d2c",
+      color: ["#a968ed", "#568122"],
+      id: "f2d843a2-7b88-4ef0-935e-307e105d831a",
       active: false,
     },
     {
@@ -3872,8 +3512,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/02 Original (Con H.R.).mp3",
-      color: ["#376927", "#bfd192"],
-      id: "c2680710-132f-426c-b703-5ac81e993543",
+      color: ["#0ca802", "#dce2f4"],
+      id: "99b6b6e8-ce6f-4731-9403-9ebef9fa3bd0",
       active: false,
     },
     {
@@ -3884,8 +3524,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/03 Grabatelo En Cinta (Con G14).mp3",
-      color: ["#5437b3", "#0b12fa"],
-      id: "c2e71271-4453-4139-9191-b2df9fc0b4c9",
+      color: ["#8b4c8c", "#5373e9"],
+      id: "1c7e60c4-a5e5-4fb7-a592-9973686d28e4",
       active: false,
     },
     {
@@ -3896,8 +3536,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/04 La Ultima Linea (Con Afro).mp3",
-      color: ["#511380", "#fa2457"],
-      id: "db0a9173-4748-4242-8b30-c1f0288f74e5",
+      color: ["#71efff", "#214685"],
+      id: "31097a2d-63f1-4c17-aa97-f5ceeeaf9ebe",
       active: false,
     },
     {
@@ -3908,8 +3548,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/05 Doble Filo (Con Ese Lopez & Rushblac-Ka).mp3",
-      color: ["#6d825d", "#264763"],
-      id: "f8831c11-07c5-4a67-8791-b46bf04f640c",
+      color: ["#65a46f", "#9b52e8"],
+      id: "42b26eb7-0369-4684-809f-59c1c80a2128",
       active: false,
     },
     {
@@ -3920,8 +3560,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/06 Interludio.mp3",
-      color: ["#ccbf27", "#98ce0a"],
-      id: "7ea1bba4-2c83-46fd-b77e-9b52578f8345",
+      color: ["#8bd5c4", "#17f199"],
+      id: "982b0487-282f-4c80-b80e-57724276657f",
       active: false,
     },
     {
@@ -3932,8 +3572,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/07 Lista Negra Pt.1 (Con Gorkha).mp3",
-      color: ["#513783", "#6b4d1b"],
-      id: "8394c267-3eeb-453a-bcba-e7cda58be9fa",
+      color: ["#3ef7c6", "#52e322"],
+      id: "12c37c02-2bd7-4ba5-8bff-b6bc609c8679",
       active: false,
     },
     {
@@ -3944,8 +3584,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/08 Tendras Que Oirlo (Con Mitiko).mp3",
-      color: ["#052958", "#bed6dc"],
-      id: "39fbe76c-ced5-4c99-b114-c70eb42936cb",
+      color: ["#0042c7", "#311fa6"],
+      id: "ad3fc552-629b-4af8-a8de-8c5ca966fb36",
       active: false,
     },
     {
@@ -3956,8 +3596,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/09 Se Por Lo Que Apuesto (Con Kafes & Eseeme).mp3",
-      color: ["#9d2b75", "#31a2cd"],
-      id: "e0ac306a-0cfb-432d-8c2e-31a688b2798b",
+      color: ["#17e8ca", "#64bb98"],
+      id: "c5860961-eb40-4dd4-9387-2b3ee87fd3b2",
       active: false,
     },
     {
@@ -3968,8 +3608,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/10 Intro A 20 Segundos.mp3",
-      color: ["#ad8690", "#741238"],
-      id: "5ce9916a-4e27-45b3-853c-2a5b1c177771",
+      color: ["#c28c8e", "#17a24d"],
+      id: "328add33-4f07-4632-a6dd-ff66f74e1508",
       active: false,
     },
     {
@@ -3980,8 +3620,8 @@ function chillHop() {
       artist: "Dj Loro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Friends & Family/11 20 Segundos (Con Friends & Family MC_s).mp3",
-      color: ["#ea42d3", "#cf09f9"],
-      id: "5dceaf46-6357-4f84-9211-9ecd268b598b",
+      color: ["#09a612", "#642c51"],
+      id: "230305d3-d9cf-4403-9207-ca2a2bbcf6e1",
       active: false,
     },
     {
@@ -3992,8 +3632,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/01 Vientos Del Norte.mp3",
-      color: ["#f55311", "#b9c376"],
-      id: "039f4018-b44d-4fba-9491-2fd93bf45fd8",
+      color: ["#ffaecf", "#24166b"],
+      id: "cf60613d-a3af-4702-ba4a-9f1217ce4318",
       active: false,
     },
     {
@@ -4004,8 +3644,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/02 Hablamos Claro.mp3",
-      color: ["#0c18bb", "#8c673c"],
-      id: "5319a8a5-f94b-48b0-a5ec-6a076c7c2826",
+      color: ["#809dd8", "#795ed5"],
+      id: "c1eec53a-0a63-466a-b8af-bab39e81e36d",
       active: false,
     },
     {
@@ -4016,8 +3656,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/03 El Problema (Interludio).mp3",
-      color: ["#8938ff", "#141604"],
-      id: "fa8c17ee-2aa1-46dd-9392-b24968bd4f10",
+      color: ["#da34ec", "#aadd0f"],
+      id: "a275e5a6-114b-4924-9cb6-41932a0d8ccc",
       active: false,
     },
     {
@@ -4028,8 +3668,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/04 Lujos Del Rap.mp3",
-      color: ["#9acf5c", "#63c321"],
-      id: "0e6dd938-f912-44f5-9141-b6100f17c441",
+      color: ["#b1dbbb", "#0b4b61"],
+      id: "0b884440-40f5-41fd-80ea-3b857129f10c",
       active: false,
     },
     {
@@ -4040,8 +3680,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/05 Cruel.mp3",
-      color: ["#6886e0", "#87484b"],
-      id: "fc175ca2-2d2a-42cf-9bdd-bed436a6d002",
+      color: ["#914246", "#ba30f9"],
+      id: "69475c59-1acf-4066-a948-3120fc23ffbb",
       active: false,
     },
     {
@@ -4052,8 +3692,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/06 Viviendo My Life.mp3",
-      color: ["#6ec5c2", "#c9fd41"],
-      id: "8d1e1283-61e0-41da-ad4d-5217dbd39de7",
+      color: ["#18aa20", "#508dc3"],
+      id: "7841316f-23d0-43a5-8186-903a1a75edad",
       active: false,
     },
     {
@@ -4064,8 +3704,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Iceberg E.P/07 A Los Que Saben Sujetarte (Remix 2007).mp3",
-      color: ["#35bdb8", "#48938a"],
-      id: "93ad24f3-fe66-4462-a923-444aedae50fd",
+      color: ["#b690a6", "#42a231"],
+      id: "c1af72b7-e68a-497f-9504-fec79cdb9702",
       active: false,
     },
     {
@@ -4076,8 +3716,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/01 Intro.mp3",
-      color: ["#0584fb", "#d31def"],
-      id: "6b923bc5-9b6d-47d5-8c2f-714b4382332c",
+      color: ["#e0ce90", "#8843ed"],
+      id: "73ca4d48-e8c3-4406-9760-21f446bfdada",
       active: false,
     },
     {
@@ -4088,8 +3728,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/02 Que Triste.mp3",
-      color: ["#fd5630", "#e44307"],
-      id: "da37064a-6b8a-4aaf-a2e4-b7d1a834f677",
+      color: ["#7b0478", "#b1bacd"],
+      id: "b9e91e86-94b4-4714-a708-2bf91962b173",
       active: false,
     },
     {
@@ -4100,8 +3740,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/03 Nocturnos.mp3",
-      color: ["#ce4cd0", "#ec0fea"],
-      id: "6bb0946d-2dce-4c20-a5a0-a2f7bb0b2a44",
+      color: ["#33b08e", "#e5ad5b"],
+      id: "e100dcb2-df52-4d05-8845-b0f1400aedb1",
       active: false,
     },
     {
@@ -4112,8 +3752,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/04 A Los Que Saben Sujetarte.mp3",
-      color: ["#d46f40", "#7c2655"],
-      id: "0184fd01-ddbb-4266-aedf-9a10cd616e62",
+      color: ["#f38843", "#13543a"],
+      id: "f264ad1b-fbbd-41da-9305-b7ebd6b02dff",
       active: false,
     },
     {
@@ -4124,8 +3764,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/05 M.A.R.K.E.S.mp3",
-      color: ["#f43485", "#066c73"],
-      id: "03f1fc77-6084-4605-8160-3288cc5a6dbe",
+      color: ["#e1a104", "#90b7a1"],
+      id: "49600c21-469d-4f78-9ddb-6087dcf8614e",
       active: false,
     },
     {
@@ -4136,8 +3776,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/06 Kodigo Norte.mp3",
-      color: ["#a2ca6c", "#3398bb"],
-      id: "646856c0-0252-4803-b2b4-deefd2e82d3d",
+      color: ["#2cdcca", "#ca9371"],
+      id: "2594d660-74f5-407f-a73d-c903ad4fde6b",
       active: false,
     },
     {
@@ -4148,8 +3788,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/07 Interludio.mp3",
-      color: ["#998d75", "#07d222"],
-      id: "c1d975d0-7b36-481f-8e16-67a0830b6394",
+      color: ["#49837c", "#8ef240"],
+      id: "ff416035-7404-4ed5-9ee0-5c02d5b6e289",
       active: false,
     },
     {
@@ -4160,8 +3800,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/08 En Una Cala Perdida.mp3",
-      color: ["#adb735", "#7b6f83"],
-      id: "6b2c5e69-d526-4393-8cb5-d7c42db9baea",
+      color: ["#e8c295", "#6f4898"],
+      id: "ac827812-f9c0-43f4-b9fb-f96df45fad45",
       active: false,
     },
     {
@@ -4172,8 +3812,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/09 Humildad.mp3",
-      color: ["#1d6b9d", "#4b4626"],
-      id: "a04fffc4-cff2-4678-9c14-5e5d5f84b8b4",
+      color: ["#ce7e46", "#c14990"],
+      id: "d44ce02e-6e53-42a6-828c-8f4c65add311",
       active: false,
     },
     {
@@ -4184,8 +3824,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/10 V.I. Es Clase (Arko).mp3",
-      color: ["#55121e", "#c420d3"],
-      id: "87b9928a-a220-4c87-88b0-9d09e7e39d32",
+      color: ["#75fbee", "#7db48e"],
+      id: "d3ada8dd-f2d7-4a7c-8b3f-5de57b51bb97",
       active: false,
     },
     {
@@ -4196,8 +3836,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/11 Hoy Salimos.mp3",
-      color: ["#04f93c", "#99a7ff"],
-      id: "fe9fe2ec-e673-4ede-aa30-75d38e013fa9",
+      color: ["#0b8977", "#441946"],
+      id: "b97199d2-3fd4-4dd1-bacc-84c8e34f678d",
       active: false,
     },
     {
@@ -4208,8 +3848,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/12 Hitzak.mp3",
-      color: ["#70873d", "#bb15a4"],
-      id: "e933eba9-be91-4068-b7ec-ca2d88b519b3",
+      color: ["#d189c4", "#6cf8aa"],
+      id: "62b2b5ee-5196-4922-b29c-20a07a421182",
       active: false,
     },
     {
@@ -4220,8 +3860,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/13 No Van A Parar (con Bad Sound System).mp3",
-      color: ["#e878c9", "#e6f311"],
-      id: "7bab0e7d-f361-452b-9802-2b6dfefdc105",
+      color: ["#67b578", "#756f04"],
+      id: "0d5c1b84-5561-472e-846f-2fd396928a11",
       active: false,
     },
     {
@@ -4232,8 +3872,8 @@ function chillHop() {
       artist: "Kodigo Norte [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Kodigo Norte/14 Aporta.mp3",
-      color: ["#dad55c", "#9b7965"],
-      id: "82aa7931-de87-446b-8ac6-2aaa3746b964",
+      color: ["#839b3d", "#326d65"],
+      id: "e079ee4c-6f0e-4f81-b6f3-fdbe1d91d93c",
       active: false,
     },
     {
@@ -4244,8 +3884,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/01 Desde la VI.mp3",
-      color: ["#071262", "#f4e96f"],
-      id: "bd498f63-d51d-4974-b9c6-685acdd16a19",
+      color: ["#0d7ea8", "#0817b1"],
+      id: "fbcfd9ca-ac58-4800-99cd-894e8589bcfa",
       active: false,
     },
     {
@@ -4256,8 +3896,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/02 Music soldierz.mp3",
-      color: ["#e58753", "#136f0a"],
-      id: "f80bd16a-f685-4a4c-9795-7ef5e6631a10",
+      color: ["#ee6fe6", "#666a1f"],
+      id: "253d7029-f48b-44ff-91aa-4add953f1a62",
       active: false,
     },
     {
@@ -4268,8 +3908,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/03 Defiendela.mp3",
-      color: ["#8a95e4", "#c30299"],
-      id: "0c1e0225-1f68-425a-94df-c6bb81030db9",
+      color: ["#b83c0b", "#751084"],
+      id: "47bc2721-ffd5-40f8-af6e-eb5d2cda25d8",
       active: false,
     },
     {
@@ -4280,8 +3920,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/04 No me lo creo - con Jean Paul.mp3",
-      color: ["#81ad1f", "#5c958f"],
-      id: "ed2d1a7e-75cb-4160-b5ad-b89f2e403841",
+      color: ["#e52077", "#f365a9"],
+      id: "d17bfbce-b59f-4fb3-b7dc-0036b5cb83db",
       active: false,
     },
     {
@@ -4292,8 +3932,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/05 Abre los ojos.mp3",
-      color: ["#c9aee8", "#53b48e"],
-      id: "56d71e32-f219-48b5-8ead-b667f6a7ccb5",
+      color: ["#935df0", "#078ad9"],
+      id: "4a7b4d54-a312-4606-a559-ca754a95b1d8",
       active: false,
     },
     {
@@ -4304,8 +3944,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/06 De su lucha tu fe.mp3",
-      color: ["#fe4974", "#78d17e"],
-      id: "42899224-3164-4da1-bc6a-56880686a370",
+      color: ["#0e8890", "#456469"],
+      id: "ebb2d0ee-aba4-49e1-a88e-fa5d38f85ce4",
       active: false,
     },
     {
@@ -4316,8 +3956,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/07 4 my real people.mp3",
-      color: ["#b3346e", "#8dd497"],
-      id: "04248f8e-66c8-4c56-82b4-6fa12b37c7d9",
+      color: ["#470a8e", "#a9e2cc"],
+      id: "254c9328-cd36-40fc-9a97-4ee6b32d97a5",
       active: false,
     },
     {
@@ -4328,8 +3968,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/08 Algo que contar.mp3",
-      color: ["#a5b3b7", "#feaa84"],
-      id: "a71323c9-a1a1-4e7b-a77c-3387f8c9696e",
+      color: ["#9534a3", "#124b78"],
+      id: "eb1e9983-29a9-46b4-9124-7ea5aba8a2dc",
       active: false,
     },
     {
@@ -4340,8 +3980,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/09 Que siga y no pare.mp3",
-      color: ["#5171d4", "#dc4d8a"],
-      id: "39a9684a-5701-4c28-8b43-fcc9a91d8d11",
+      color: ["#1a5d93", "#4fef3d"],
+      id: "b003dd5d-339c-4cce-80be-6069e90bf2be",
       active: false,
     },
     {
@@ -4352,8 +3992,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/10 Es la musica.mp3",
-      color: ["#dc266d", "#45544c"],
-      id: "2fc502fd-1791-460c-a258-ee81c16bf418",
+      color: ["#462dbd", "#f3b591"],
+      id: "64f5ce8f-7fa0-40df-bd7d-0931f3d424b4",
       active: false,
     },
     {
@@ -4364,8 +4004,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/11 One love _ one shot.mp3",
-      color: ["#3a298f", "#8e630f"],
-      id: "3a3d5d39-375a-475b-b451-f23db16ab453",
+      color: ["#488ee2", "#c1b1a6"],
+      id: "80f3fd3a-c0b4-490a-8fd4-7ffe4eca8c8c",
       active: false,
     },
     {
@@ -4376,8 +4016,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/12 Nada nuevo (interludio).mp3",
-      color: ["#399780", "#70084a"],
-      id: "155a39d5-b714-4d39-aa60-39405b59c801",
+      color: ["#fcd201", "#216793"],
+      id: "58f114d1-5a03-429c-8b05-b5b1a16685cc",
       active: false,
     },
     {
@@ -4388,8 +4028,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/13 Canto de liberacion.mp3",
-      color: ["#49a723", "#f1f240"],
-      id: "f9431fb7-31f8-46f1-8493-26268a8454d7",
+      color: ["#216382", "#341ba0"],
+      id: "e49407ab-89c9-4dcc-8d94-f72390d3b777",
       active: false,
     },
     {
@@ -4400,8 +4040,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/14 Fotogramas.mp3",
-      color: ["#2d4a2d", "#0757a1"],
-      id: "ebc11e86-85f2-4c4a-87ef-08c28577185a",
+      color: ["#5e806c", "#4e6270"],
+      id: "f6f98182-e554-4f85-a1e3-9c9f162657ce",
       active: false,
     },
     {
@@ -4412,8 +4052,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/15 Mis asuntos.mp3",
-      color: ["#e9005f", "#3ebcb0"],
-      id: "38eb7e29-dc93-499d-b835-a9b16e8cd047",
+      color: ["#d32259", "#5b3819"],
+      id: "01d3d9dd-83b9-4bd5-847d-90d8ab815d0c",
       active: false,
     },
     {
@@ -4424,8 +4064,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/16 Sin corte - con Priteo y Ganda.mp3",
-      color: ["#b2bea1", "#87c7d3"],
-      id: "39ad89e5-e9db-40d6-8aec-e21fb88be95c",
+      color: ["#23b311", "#4b5bbc"],
+      id: "23cb7109-f5fa-4cd2-952f-9affe7ece4a0",
       active: false,
     },
     {
@@ -4436,8 +4076,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - One Love One shot/17 Tratar de vivir.mp3",
-      color: ["#65135c", "#cd8fbb"],
-      id: "8452f8ef-eed9-4405-8432-b1c689dbeef6",
+      color: ["#4eedd9", "#22c64b"],
+      id: "035af2e2-ca75-47c6-bb2d-187d83f2b03a",
       active: false,
     },
     {
@@ -4448,8 +4088,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Sutan Blai/01 Sutan Blai con Junior Reid.mp3",
-      color: ["#9fb8af", "#9054af"],
-      id: "663cfea1-4d69-41b0-a77e-e9c8a588076f",
+      color: ["#65b327", "#b0085f"],
+      id: "5de16824-c33e-466b-ab7c-a26facf73c0f",
       active: false,
     },
     {
@@ -4460,8 +4100,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Sutan Blai/02 Duele.mp3",
-      color: ["#454f86", "#1895d7"],
-      id: "5db50ad0-707a-459a-96c2-41405404695f",
+      color: ["#ce68b4", "#9664d7"],
+      id: "2ad37222-1b18-4f49-a28d-7ed325f9e692",
       active: false,
     },
     {
@@ -4472,8 +4112,8 @@ function chillHop() {
       artist: "Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte - Sutan Blai/03 Buena Vibra.mp3",
-      color: ["#4de260", "#4942ce"],
-      id: "2a71ad29-34e5-4cb8-9d4a-6db4ed11db4f",
+      color: ["#52027e", "#a1249b"],
+      id: "08987f67-6067-4bd7-baae-58bd9afcd773",
       active: false,
     },
     {
@@ -4484,8 +4124,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/01 Intro.mp3",
-      color: ["#0762b5", "#edd107"],
-      id: "a020ecba-2326-471c-8b11-c99bf839611f",
+      color: ["#5c2aee", "#f132d9"],
+      id: "e4c361ea-cf15-4560-9bb4-1b991b3b1906",
       active: false,
     },
     {
@@ -4496,8 +4136,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/02 Mi Momento.mp3",
-      color: ["#6139db", "#e5fc3c"],
-      id: "43bbd0d0-6db5-4e81-97c3-b3feb5c39308",
+      color: ["#ed12e6", "#7bfff8"],
+      id: "d4417128-2c79-4796-8760-70e9bfcb0e55",
       active: false,
     },
     {
@@ -4508,8 +4148,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/03 Rap en la V-I.mp3",
-      color: ["#37f752", "#a8981f"],
-      id: "969c59c6-f7e7-4ece-8f33-0aa9f72232ff",
+      color: ["#be60ca", "#9ec19a"],
+      id: "6b885b53-94f6-4bca-acd8-85eea6ef40f4",
       active: false,
     },
     {
@@ -4520,8 +4160,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/04 Nire Moduan.mp3",
-      color: ["#32836a", "#11ea99"],
-      id: "9017d617-272f-407e-8ad1-e76f30cf36f6",
+      color: ["#4b3bf5", "#e611a4"],
+      id: "75393914-36da-4b30-b452-ea6d0ad05904",
       active: false,
     },
     {
@@ -4532,8 +4172,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/05 Exito y Felicidad.mp3",
-      color: ["#c7fb7b", "#3798fe"],
-      id: "12d7a574-01c6-4ac1-915f-50a8b59498b0",
+      color: ["#748c91", "#cd5fef"],
+      id: "8f59f899-ba47-4da5-a914-271f097c2147",
       active: false,
     },
     {
@@ -4544,8 +4184,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/06 Baskonia.mp3",
-      color: ["#c6f55a", "#942dcc"],
-      id: "8a1f735a-82b2-4452-9b9b-88bbda5c9426",
+      color: ["#0bf976", "#faf8e5"],
+      id: "186a926b-aa59-464f-be4d-76a8be84df88",
       active: false,
     },
     {
@@ -4556,8 +4196,8 @@ function chillHop() {
       artist: "Sok",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Kodigo Norte presenta... Sok - Mi momento/Sok - Mi momento/07 \u00bf Quien me quita lo bailao _.mp3",
-      color: ["#0499c5", "#0d4614"],
-      id: "439428bc-630c-4664-bb9b-c0dbef9ce15b",
+      color: ["#e8bcbe", "#95dc55"],
+      id: "afb1d451-6e5b-4781-9e24-481f0a39c64b",
       active: false,
     },
     {
@@ -4568,8 +4208,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/01 Sean Bienvenidos (por F. Swing) - Prod. Dj Loro.mp3",
-      color: ["#399c8a", "#15d8d4"],
-      id: "b2f1a55b-fee0-49e4-b5db-4fd3e476e618",
+      color: ["#a146c2", "#d9da3f"],
+      id: "d29f17d4-d8bf-4bc4-af1f-669e4fba07d7",
       active: false,
     },
     {
@@ -4580,8 +4220,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/02 Apostar - Prod. Independent Hommies.mp3",
-      color: ["#7a59b4", "#0c004b"],
-      id: "9696f258-3edf-4816-8c0c-9225013264cb",
+      color: ["#3a455b", "#03e7cf"],
+      id: "262722a3-74da-4fff-ab78-cdce20070cb0",
       active: false,
     },
     {
@@ -4592,8 +4232,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/03 Serio & De Primera (con Arko) - Prod. Independent Hommies.mp3",
-      color: ["#2baaad", "#23ae2d"],
-      id: "7a3adbdf-9b3d-4f08-b9d0-c1ebc30b6c68",
+      color: ["#7dd22a", "#38cbce"],
+      id: "035da224-4699-4ecc-a742-e5d82978cf39",
       active: false,
     },
     {
@@ -4604,8 +4244,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/04 Vida Por Esto (con Sakana, Jahmal y Dee) - Prod. De Doble E.mp3",
-      color: ["#81414a", "#e8d9f2"],
-      id: "fc792f6c-9703-4166-bdf6-27ab1e50dd57",
+      color: ["#b294ca", "#448265"],
+      id: "50725a99-b961-46c6-83f7-cbffd76bb5e2",
       active: false,
     },
     {
@@ -4616,8 +4256,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/05 Voces Afiladas (con Sok) - Prod. ESE Lopez.mp3",
-      color: ["#703528", "#ce63b1"],
-      id: "107d41e6-b310-4f95-bb86-d7d535923048",
+      color: ["#a834a1", "#156dbd"],
+      id: "27a301c3-9211-4f19-a701-bdec7539e5e8",
       active: false,
     },
     {
@@ -4628,8 +4268,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/06 Independencia - Prod. Dj Loro.mp3",
-      color: ["#967df4", "#a7ddcd"],
-      id: "c4c93b85-0e53-4453-946b-54ea2e810faa",
+      color: ["#32459f", "#436ec9"],
+      id: "e623b36d-b3c7-4527-8859-5dc5bdb3e087",
       active: false,
     },
     {
@@ -4640,8 +4280,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/07 Despejado (con Afro aka AF 1) - Prod. Afro.mp3",
-      color: ["#98ec7e", "#8b2113"],
-      id: "9c68156b-3a32-4b0a-9387-055e1249cc4e",
+      color: ["#1a4f08", "#c04c71"],
+      id: "632d9f67-4eaa-489e-a27e-acfc46717a8d",
       active: false,
     },
     {
@@ -4652,8 +4292,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/08 Mi Estilo - Prod. Elfer Beats.mp3",
-      color: ["#1d18f3", "#63a05b"],
-      id: "d0860625-db53-4f91-8534-1abffa08dc88",
+      color: ["#3d5b91", "#94c3e2"],
+      id: "b820161b-97ce-4f48-b518-d4f87e6bb843",
       active: false,
     },
     {
@@ -4664,8 +4304,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/09 Tus Cuentos (con Kafes & Eseeme) - Prod. Ochoa.mp3",
-      color: ["#fefdfb", "#78a7eb"],
-      id: "84a832f7-62b5-46dc-8347-89a70e0841f6",
+      color: ["#4bc86d", "#5d53f8"],
+      id: "cb83b1df-512e-4778-955e-33a4f64bc610",
       active: false,
     },
     {
@@ -4676,8 +4316,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/10 Que Pase El Tiempo (con Eimo & Sauna) - Prod. E-Dortimus Beats.mp3",
-      color: ["#8927c6", "#76cea0"],
-      id: "1b867e89-879f-45e4-8a94-1800cc15d081",
+      color: ["#876cc0", "#b9e87c"],
+      id: "daff9ec4-1191-4be9-9310-86f6f263dc42",
       active: false,
     },
     {
@@ -4688,8 +4328,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/11 Pasion (con Oihane) - Prod. Vic Vega.mp3",
-      color: ["#bea002", "#44d0ea"],
-      id: "a170aa8c-7d73-4772-a5b9-50e493eddb51",
+      color: ["#1bc198", "#e39f7f"],
+      id: "e3e24e5c-21fa-4ef0-8a45-0cda9ef1832a",
       active: false,
     },
     {
@@ -4700,8 +4340,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/12 El Hombre Equivocado - Prod. Jazzy Dark.mp3",
-      color: ["#56dc60", "#7cc176"],
-      id: "a9052272-9e94-4e0a-bf5a-130b613323fa",
+      color: ["#67b367", "#9240a2"],
+      id: "9ddcee6f-c4ae-4ff8-b763-b2a85c29ca31",
       active: false,
     },
     {
@@ -4712,8 +4352,8 @@ function chillHop() {
       artist: "Markes",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Independecia (street album)/13 VI Chillin (con Gorka Suaia) - Prod. Dj Loro.mp3",
-      color: ["#722484", "#3e49c8"],
-      id: "331d262b-d203-45ba-ac72-34504245e557",
+      color: ["#01b439", "#b6d514"],
+      id: "5b80d126-de5b-48c6-9330-00c717cfb9e8",
       active: false,
     },
     {
@@ -4724,8 +4364,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/01. Markes Iraizoz y Elf\u00e9r - Classic (Intro) [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#6e9322", "#769894"],
-      id: "b7e7f546-9494-4f5a-ab93-7e633c91cb37",
+      color: ["#f4a326", "#69af44"],
+      id: "a1b82117-34b8-4629-aab8-6cd9c6fb9cb8",
       active: false,
     },
     {
@@ -4736,8 +4376,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/02. Markes Iraizoz y Elf\u00e9r - Nadie est\u00e1 a salvo [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#cfe4f9", "#d1f783"],
-      id: "383ca8e9-133d-4072-b0c6-6a231a69a1e1",
+      color: ["#44a716", "#81c4f1"],
+      id: "14155d6f-a980-498f-9881-3510ab20b50f",
       active: false,
     },
     {
@@ -4748,8 +4388,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/03. Markes Iraizoz y Elf\u00e9r - Respirando [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#daa623", "#45ef57"],
-      id: "c9ffac79-381b-435d-b139-72a421b28e17",
+      color: ["#6ccb1a", "#31c76b"],
+      id: "603d6ce3-558e-4e56-9926-911ce9cfa300",
       active: false,
     },
     {
@@ -4760,8 +4400,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/04. Markes Iraizoz y Elf\u00e9r - Suena Hip Hop [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#8b4ec4", "#003e82"],
-      id: "6ccb0d73-f92e-4985-80b9-dbf99d05d906",
+      color: ["#c53671", "#0a3d50"],
+      id: "dbde4e48-cefa-4a4b-9c3d-a3b9bf86bc0d",
       active: false,
     },
     {
@@ -4772,8 +4412,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/05. Markes Iraizoz y Elf\u00e9r - Musicamina (con Pseud\u00f3nimo y Patrizia) [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#959662", "#ca2a2b"],
-      id: "d1046f68-7ed2-4cc6-a788-aa76843e7870",
+      color: ["#f190c0", "#da052d"],
+      id: "b54741c5-92ef-4433-9a8a-778967cf26cb",
       active: false,
     },
     {
@@ -4784,8 +4424,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/06. Markes Iraizoz y Elf\u00e9r - Aske [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#5f69aa", "#0bfd5e"],
-      id: "8ae0b93d-bc49-4a47-9603-ad2ac2f7476a",
+      color: ["#6058ae", "#f04e1b"],
+      id: "62e5595b-e776-4f74-a491-5a9bf06ea4d9",
       active: false,
     },
     {
@@ -4796,8 +4436,8 @@ function chillHop() {
       artist: "Markes Iraizoz y Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Musicamina/07. Markes Iraizoz y Elf\u00e9r - Doncs clar [Producido por Elf\u00e9r] - www.hhgroups.com.mp3",
-      color: ["#e6aeb8", "#91c039"],
-      id: "ebddfe01-5b16-4e80-afe7-9bbdc44991c8",
+      color: ["#91485c", "#b65efc"],
+      id: "39104f9b-2fd9-4e47-857e-2334928b17b1",
       active: false,
     },
     {
@@ -4808,8 +4448,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/01 Intro.mp3",
-      color: ["#d0bbba", "#a10f92"],
-      id: "97a7ff22-c44a-4d58-b558-9cff27eabe03",
+      color: ["#b6c79f", "#6161d5"],
+      id: "6f535512-adc2-4bdd-b603-571b57da099e",
       active: false,
     },
     {
@@ -4820,8 +4460,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/02 El 5\u00c2\u00ba Jinete.mp3",
-      color: ["#e4823d", "#b7cc47"],
-      id: "c24465fe-c610-470c-b018-550f4cdd4bc3",
+      color: ["#a6bee0", "#492af8"],
+      id: "ce769869-32c0-4cbd-b3e4-69ecb8ed1864",
       active: false,
     },
     {
@@ -4832,8 +4472,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/03 Hablamos De Placer.mp3",
-      color: ["#335376", "#446b82"],
-      id: "29d44508-0a41-44ac-bee9-825f13a6199e",
+      color: ["#8d9181", "#298668"],
+      id: "7bb90548-8dec-4f5c-8775-02256b1ff5ee",
       active: false,
     },
     {
@@ -4844,8 +4484,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/04 Ayer Y Hoy.mp3",
-      color: ["#d50d55", "#7c3c29"],
-      id: "eed36aa9-992c-4266-be36-c1dc3e759f61",
+      color: ["#cc077e", "#7c6ea9"],
+      id: "16c71306-012a-4861-97c0-3aee10e9db9e",
       active: false,
     },
     {
@@ -4856,8 +4496,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/05 Positivo.mp3",
-      color: ["#0ba99e", "#09edbe"],
-      id: "319a7bcc-4b68-41be-b019-ccfa9fa14841",
+      color: ["#5f7784", "#149923"],
+      id: "a29a7a24-4009-4dbc-a6a3-7a157b3f4194",
       active: false,
     },
     {
@@ -4868,8 +4508,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/06 Interludio Contadores.mp3",
-      color: ["#4c84e6", "#f76cdf"],
-      id: "1751f9bd-1820-4420-95f5-7622d5216c0f",
+      color: ["#de2f77", "#a63d7c"],
+      id: "1ddcd652-6f9e-40d3-b531-741775a29f90",
       active: false,
     },
     {
@@ -4880,8 +4520,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/07 Contadores Del Rap.mp3",
-      color: ["#fe5deb", "#e3a2b9"],
-      id: "e7a3c114-2861-40dc-aa2c-7a265a5201cd",
+      color: ["#5024e4", "#ce313f"],
+      id: "37abb731-0bfd-4520-a142-48a93d2ced1f",
       active: false,
     },
     {
@@ -4892,8 +4532,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/08 Asi Funciona Esto.mp3",
-      color: ["#4a85b3", "#8708b5"],
-      id: "4b79bfca-cc9d-4cb1-a8d8-c3d03c806159",
+      color: ["#6f2fd5", "#555793"],
+      id: "c15b4f53-4415-4f91-a8ba-734d0d0e27b6",
       active: false,
     },
     {
@@ -4904,8 +4544,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/09 Para Ti.mp3",
-      color: ["#621d05", "#7b5305"],
-      id: "82590663-7e17-4faf-ab25-cbd4c8c28b9a",
+      color: ["#285a24", "#4e669f"],
+      id: "5ce15dee-b99a-46ef-bbd5-65b4805fbe02",
       active: false,
     },
     {
@@ -4916,8 +4556,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/10 El Puto Hip Hop (Skit).mp3",
-      color: ["#9bbafd", "#9b4a2b"],
-      id: "440917cf-2e65-4786-ba47-63e11d0a2c73",
+      color: ["#ea02fd", "#e0ca54"],
+      id: "0e8805a1-8b2c-4490-8ce7-a268b45ea1e0",
       active: false,
     },
     {
@@ -4928,8 +4568,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/11 Factor Sorpresa.mp3",
-      color: ["#a0e93d", "#994227"],
-      id: "7f7b9f21-f85e-4e12-9dc6-0a0a44a6906e",
+      color: ["#222819", "#ae5a88"],
+      id: "c88803fe-e37b-48ec-a1ee-7154da960617",
       active: false,
     },
     {
@@ -4940,8 +4580,8 @@ function chillHop() {
       artist: "MARKES [www.kodigonorte.com]",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes - Un Paseo Por Mi Mente/12 La Cupula.mp3",
-      color: ["#fcb12a", "#a079fa"],
-      id: "3cca2e54-fb90-478e-af6a-1e20aa2efec4",
+      color: ["#7e2e37", "#7ab5d1"],
+      id: "413cde7c-b566-40b8-8e0d-f7971c6c3a13",
       active: false,
     },
     {
@@ -4952,8 +4592,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/01 Classic (intro).mp3",
-      color: ["#a3a266", "#efa893"],
-      id: "f967c49f-c00b-44c9-823c-39765f1b7d38",
+      color: ["#0441b7", "#11f79d"],
+      id: "a49a464c-2ddf-42a0-b88d-8c6d6fed264c",
       active: false,
     },
     {
@@ -4964,8 +4604,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/02 Nadie esta\u0301 a salvo.mp3",
-      color: ["#d8434a", "#57ad2e"],
-      id: "a159e974-ab3c-449a-8804-9b6a4e949e72",
+      color: ["#cb88ed", "#415cc7"],
+      id: "f024df82-c37d-4075-befa-78436b3b458d",
       active: false,
     },
     {
@@ -4976,8 +4616,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/03 Respirando.mp3",
-      color: ["#992906", "#38bd9c"],
-      id: "bae89573-0a6d-4425-8c39-f295a9df2a59",
+      color: ["#42029b", "#ef0632"],
+      id: "5d2de8f8-8273-4701-9c61-1bac23512e6d",
       active: false,
     },
     {
@@ -4988,8 +4628,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/04 Suena Hip Hop.mp3",
-      color: ["#a8d16f", "#16d07a"],
-      id: "63a9d1a1-13d6-401a-98f8-0681f6b2b923",
+      color: ["#fff3f6", "#68165d"],
+      id: "3a5e73b7-b845-480e-a0e3-6752f4d420b1",
       active: false,
     },
     {
@@ -5000,8 +4640,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/05 Musicamina (con Pseudonimo y Patrizia).mp3",
-      color: ["#22639a", "#9b08f1"],
-      id: "0d799a49-4db3-497c-9454-f1bfd031d7f4",
+      color: ["#1eb965", "#d64ccb"],
+      id: "7bdfa94e-ab19-427c-a8f4-0fd81b6f0363",
       active: false,
     },
     {
@@ -5012,8 +4652,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/06 Aske.mp3",
-      color: ["#cff2ca", "#dcb9be"],
-      id: "c1c8a376-57a4-43a4-a167-cc2f3ddf8a61",
+      color: ["#c624f6", "#82c2fc"],
+      id: "68caad66-eab4-43e8-9316-5092efab77bb",
       active: false,
     },
     {
@@ -5024,8 +4664,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/07 Doncs clar.mp3",
-      color: ["#db9ae9", "#92806f"],
-      id: "6412e617-7620-427d-aadd-982fa4aad15e",
+      color: ["#5a4e61", "#3aa70f"],
+      id: "816c883f-a835-4793-a5fc-a8c18cfa5313",
       active: false,
     },
     {
@@ -5036,8 +4676,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/01 Classic (intro).mp3",
-      color: ["#efdf60", "#6866f7"],
-      id: "f754468a-9ed1-48f1-bbe0-c28132b92457",
+      color: ["#bdabf3", "#a552da"],
+      id: "90970177-cdd9-43f4-af20-068f137cb24e",
       active: false,
     },
     {
@@ -5048,8 +4688,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/02 Nadie esta\u0301 a salvo.mp3",
-      color: ["#d10d93", "#c8d76a"],
-      id: "da16a3b6-6a65-4011-b49b-3ad439c11df7",
+      color: ["#19b5eb", "#f372e6"],
+      id: "c6d4eda1-a0fd-4bea-b480-563937879c57",
       active: false,
     },
     {
@@ -5060,8 +4700,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/03 Respirando.mp3",
-      color: ["#f6541c", "#da4f75"],
-      id: "6f62f837-9cac-4e27-8654-1ded91ccd271",
+      color: ["#101f44", "#20ed49"],
+      id: "b742f236-e313-4362-bf86-fc0e9181cc35",
       active: false,
     },
     {
@@ -5072,8 +4712,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/04 Suena Hip Hop.mp3",
-      color: ["#3b56a9", "#a9ad3f"],
-      id: "47dface1-d08d-4434-9829-025d7ed3bf67",
+      color: ["#2f307b", "#1b0be1"],
+      id: "68f7a7cc-8efa-4004-b7be-44c926999d55",
       active: false,
     },
     {
@@ -5084,8 +4724,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/05 Musicamina (con Pseudonimo y Patrizia).mp3",
-      color: ["#d0ae53", "#6b70fa"],
-      id: "b449fd29-43e0-4926-ad40-d82d2ffda675",
+      color: ["#73c5ac", "#f05b49"],
+      id: "c48081c3-1c9c-4baa-8fb1-e01a1c2e94cb",
       active: false,
     },
     {
@@ -5096,8 +4736,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/06 Aske.mp3",
-      color: ["#a5e9d4", "#e65aa4"],
-      id: "106408cb-8550-481b-98db-028f07788167",
+      color: ["#a406f4", "#589009"],
+      id: "afb7344f-d43c-4341-87cf-56be09bd6bb7",
       active: false,
     },
     {
@@ -5108,8 +4748,8 @@ function chillHop() {
       artist: "Markes Iraizoz & Elf\u00e9r",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Markes_Iraizoz_&_Elfer_-_Musicamina_(2014)/Markes Iraizoz & Elfe\u0301r - Musicamina (2014)/07 Doncs clar.mp3",
-      color: ["#c4047e", "#bd3ff4"],
-      id: "82c717e5-3727-4160-a76e-34030666a640",
+      color: ["#2e8288", "#16f180"],
+      id: "57c569df-fdd1-436a-b19d-7a50ebba83ed",
       active: false,
     },
     {
@@ -5120,8 +4760,8 @@ function chillHop() {
       artist: "G. Fern\u00e1ndez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/1. G. Fernandez - Back to Basics.mp3",
-      color: ["#0f9b10", "#08f50f"],
-      id: "b5fa45bc-9a7b-413f-b2d5-bc505500aa3c",
+      color: ["#1ab9b2", "#6c2382"],
+      id: "19cdacf3-5389-4775-9987-158f070e6de1",
       active: false,
     },
     {
@@ -5132,8 +4772,8 @@ function chillHop() {
       artist: "Escandaloso Xp\u00f3sito",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/2. Escandaloso Xp\u00f3sito - Children of the Ghetto.mp3",
-      color: ["#8c3ad9", "#58a854"],
-      id: "9a3c4b4b-b4a2-4515-8bb5-9b48f3f17775",
+      color: ["#e9cbd3", "#044dc8"],
+      id: "c2d1d69a-d57b-41ae-81e1-dd87a39203c1",
       active: false,
     },
     {
@@ -5144,8 +4784,8 @@ function chillHop() {
       artist: "Darmo",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/3. Darmo - Me cans\u00e9 de todo.mp3",
-      color: ["#4fc2d9", "#8f119f"],
-      id: "fe8765ad-104d-475e-bb96-7908a93c8041",
+      color: ["#1a94a2", "#404196"],
+      id: "d2ff0e37-8113-4374-b183-7a4d3606d52b",
       active: false,
     },
     {
@@ -5156,8 +4796,8 @@ function chillHop() {
       artist: "Elsso Rodriguez",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/4. Elsso Rodriguez - Nada que ver.mp3",
-      color: ["#5075cd", "#4cee6a"],
-      id: "e247ec70-9a1b-47e5-bed7-0501d0957d52",
+      color: ["#a3362e", "#f81dd0"],
+      id: "1b37049c-1e79-437a-98db-728bbae7b569",
       active: false,
     },
     {
@@ -5168,8 +4808,8 @@ function chillHop() {
       artist: "Chico Es3",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/5. Chico Es3 - Por encima de ti.mp3",
-      color: ["#428893", "#c635be"],
-      id: "81849753-b8a9-4eef-b6ee-69afc52d10a2",
+      color: ["#37d641", "#ddd7c2"],
+      id: "64d0e04a-b43f-45e6-8574-56e9b46a3519",
       active: false,
     },
     {
@@ -5180,8 +4820,8 @@ function chillHop() {
       artist: "Priteo",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/6. Priteo - El mismo enemigo.mp3",
-      color: ["#2864ce", "#fbce9d"],
-      id: "64a19d36-2f3c-4429-84c6-1aec6db6d1c9",
+      color: ["#b8667a", "#befef0"],
+      id: "c9811983-ab43-4415-bac7-492b6aa0f432",
       active: false,
     },
     {
@@ -5192,8 +4832,8 @@ function chillHop() {
       artist: "Agorazein",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Ochoa - Back to Basics (2013)/7. Bonus - Agorazein - Balas Perdidas (Ochoa remix).mp3",
-      color: ["#400315", "#160e1e"],
-      id: "7da4352d-c027-48e4-bffa-156ee78fcd18",
+      color: ["#c7ad2e", "#5a89ec"],
+      id: "527eba8f-e1b3-4200-97bf-eb84690e4265",
       active: false,
     },
     {
@@ -5204,8 +4844,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/01. La omega - Introduccion (con Dj Kaisu) [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#cab6eb", "#f6ab30"],
-      id: "10833d94-df06-414f-87ad-a31dc4f53144",
+      color: ["#b93864", "#65c130"],
+      id: "bf94ca2f-d589-4ba4-b8e0-e39b90f6d397",
       active: false,
     },
     {
@@ -5216,8 +4856,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/02. La omega - Drama skit I [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#bfe9e3", "#01655a"],
-      id: "c3de3e20-6f3b-479e-ab54-39959eeb5825",
+      color: ["#633d9a", "#7faba7"],
+      id: "656c5d8d-9a96-4db6-86e4-dcdf6ac22752",
       active: false,
     },
     {
@@ -5228,8 +4868,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/03. La omega - Rollo bollo [Base Internet] - www.HHGroups.com.mp3",
-      color: ["#f3cece", "#198242"],
-      id: "f2bd794d-3401-4d6c-aa73-e44c84db2a72",
+      color: ["#11ff89", "#cbdf1d"],
+      id: "1a739b7e-ccb2-438e-b6f1-53439d96de7c",
       active: false,
     },
     {
@@ -5240,8 +4880,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/04. La omega - Mas amor [Producido por Sak] - www.HHGroups.com.mp3",
-      color: ["#2ac333", "#6a4917"],
-      id: "ab5072b4-f124-408a-8056-2c296c2b8392",
+      color: ["#28b3f0", "#c9cbae"],
+      id: "0335139d-5d74-4fa6-97fe-310bdfbc4f65",
       active: false,
     },
     {
@@ -5252,8 +4892,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/05. La omega - Chica fashion (con Kloy KonKadekrimen) [Producido por Sak] - www.HHGroups.com.mp3",
-      color: ["#ad5681", "#e5d4ed"],
-      id: "714c3add-173a-4cd7-ac23-f7f423ee5c75",
+      color: ["#6cd2ad", "#2efaaf"],
+      id: "78ef9ab1-ee15-4387-83f1-417cb2b170f7",
       active: false,
     },
     {
@@ -5264,8 +4904,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/06. La omega - Interludio (con Rubi Real) - www.HHGroups.com.mp3",
-      color: ["#1aa5b9", "#50a654"],
-      id: "79955140-7caf-4b19-b55b-03918f49b6f8",
+      color: ["#9290ee", "#cd3f28"],
+      id: "56ae55e0-a604-4d13-861e-8916d4059e5e",
       active: false,
     },
     {
@@ -5276,8 +4916,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/07. La omega - Esta es mi mierda [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#77b956", "#a72a94"],
-      id: "25f279c6-d69c-4a62-88c3-b97f12d766b9",
+      color: ["#27e3f5", "#54399a"],
+      id: "d864f8f2-c7ca-48f3-bad5-aaba67ee2e51",
       active: false,
     },
     {
@@ -5288,8 +4928,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/08. La omega - Drama skit II (con Dj Kaisu) [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#dee38c", "#4b2c09"],
-      id: "cedae88d-eb41-473b-bbdb-a7a7acc1e673",
+      color: ["#8d3d2c", "#f44598"],
+      id: "b080e523-c66b-4b5e-8629-b27b61b8fb09",
       active: false,
     },
     {
@@ -5300,8 +4940,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/09. La omega - C.l.k.s.a.i.o. (con Cramer y Blime) [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#3d8288", "#d506c3"],
-      id: "5c6c5aa0-5af4-4fa1-9429-731518ac4ca2",
+      color: ["#cbe4cd", "#fba6c2"],
+      id: "fcbf8b0c-1d04-4fe9-a1d1-9d457711d5ca",
       active: false,
     },
     {
@@ -5312,8 +4952,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/10. La omega - Alaz rotaz (con Sandra Rodriguez) [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#dc3550", "#912d3e"],
-      id: "a0de7c82-8f90-46d2-8f48-65e64f12f4a5",
+      color: ["#7f6a13", "#11bb3a"],
+      id: "83bb56e6-0f63-4b46-82c3-f195d1b5f831",
       active: false,
     },
     {
@@ -5324,8 +4964,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/11. La omega - No como antes (con Daniel Bum) [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#a4b427", "#1a5368"],
-      id: "2fedffb9-0b90-4c2c-89c3-fed7f102ee43",
+      color: ["#203c3a", "#ac4f26"],
+      id: "7d5021b7-73e0-48af-b2e3-56107e21608c",
       active: false,
     },
     {
@@ -5336,8 +4976,8 @@ function chillHop() {
       artist: "La Omega",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Omega - Se\u00f1orita Drama/12. La omega - Vivir sonar sufrir estar [Producido por Daniel Bum] - www.HHGroups.com.mp3",
-      color: ["#a3713c", "#17ae3c"],
-      id: "865e86cd-c9d2-4225-8283-a7b917c99242",
+      color: ["#7d82d4", "#70939f"],
+      id: "6ce1699a-becc-41c4-8880-1a4e9d54a804",
       active: false,
     },
     {
@@ -5348,8 +4988,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/01_Intro.mp3",
-      color: ["#3f6f65", "#9f5856"],
-      id: "695d950a-0090-4cd3-abd2-f9ae1747aa62",
+      color: ["#ef5fa1", "#373f81"],
+      id: "672eca98-9596-4fe1-a21f-e46402ee53db",
       active: false,
     },
     {
@@ -5360,8 +5000,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/02_Adivina quien ha vuelto.mp3",
-      color: ["#e2f285", "#f494ef"],
-      id: "6c0a9313-5023-4143-8375-3892e74af9ea",
+      color: ["#772a0e", "#27186f"],
+      id: "bf38397a-22cc-4704-8c56-ab64529a2305",
       active: false,
     },
     {
@@ -5372,8 +5012,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/03_Chao.mp3",
-      color: ["#90e9c8", "#a28050"],
-      id: "f3032f9f-49ee-4e43-af3f-221b7912c646",
+      color: ["#7bdba9", "#b35384"],
+      id: "757099fd-848c-4b67-ad74-5382b3d9cac8",
       active: false,
     },
     {
@@ -5384,8 +5024,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/04_Es un bonito dia.mp3",
-      color: ["#b7c752", "#36e835"],
-      id: "e5f8e3f0-36e6-46f3-8dd6-02d8e795bdc0",
+      color: ["#aa0b8e", "#90b0b7"],
+      id: "e0221175-f477-48bb-8984-d7235411aa28",
       active: false,
     },
     {
@@ -5396,8 +5036,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/05_Lo que fuman es muy fuerte.mp3",
-      color: ["#5af679", "#bb5a84"],
-      id: "60a391ea-1afc-4576-8842-dfb1b0952a4a",
+      color: ["#168f3e", "#fcc667"],
+      id: "fea99215-13a8-4049-ab3d-efb215d3ca3c",
       active: false,
     },
     {
@@ -5408,8 +5048,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/06_Skit Membrillo y pepinillo.mp3",
-      color: ["#0397fe", "#3a1693"],
-      id: "c53dbca4-6bc6-4564-b518-bdba8e72ef59",
+      color: ["#a413d1", "#5522a1"],
+      id: "6f79bcd5-69f5-41e2-a381-ff97f00eb4e4",
       active: false,
     },
     {
@@ -5420,8 +5060,8 @@ function chillHop() {
       artist: "Fat Fish",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/07_Mal ejemplo.mp3",
-      color: ["#261182", "#7f5201"],
-      id: "c6f00674-c2ea-4930-a403-66e694e892b9",
+      color: ["#528212", "#fbe6b1"],
+      id: "f52b5f26-5da8-423a-9ab4-1ae5ec054360",
       active: false,
     },
     {
@@ -5432,8 +5072,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/08_Represento.mp3",
-      color: ["#cf147f", "#d5d42a"],
-      id: "bab3b7a3-acb9-4924-9464-02a0641c968b",
+      color: ["#e20cc8", "#b8b8c0"],
+      id: "0d10599a-aaea-456c-82db-a7d06a0a7720",
       active: false,
     },
     {
@@ -5444,8 +5084,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/09_Levantate y resiste.mp3",
-      color: ["#7b5542", "#77e689"],
-      id: "d02cef2b-8d97-4d7a-a310-915a9c57e7cc",
+      color: ["#60550f", "#44b7b2"],
+      id: "2a927de8-df3b-4b0b-bb14-285f47688156",
       active: false,
     },
     {
@@ -5456,8 +5096,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/10_Podeis ir llamando al juez.mp3",
-      color: ["#e9ac62", "#6e7633"],
-      id: "0563dd44-0f8d-43f0-8b13-1e93e85c3c4b",
+      color: ["#52232b", "#eb8475"],
+      id: "2b58c65f-cb70-4c68-8ef4-446af01ee0cd",
       active: false,
     },
     {
@@ -5468,8 +5108,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/11_A quien le importa.mp3",
-      color: ["#7b1b4b", "#16bff6"],
-      id: "6e7619d8-7189-46d4-8335-035c81940b11",
+      color: ["#cd847c", "#8d0798"],
+      id: "bd8264ad-3bca-45a6-8850-3b72d074de5c",
       active: false,
     },
     {
@@ -5480,8 +5120,8 @@ function chillHop() {
       artist: "PAES",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Paes - Good Night Gasteiz/12_Outro.mp3",
-      color: ["#9d2d40", "#b121f3"],
-      id: "86ad9ef3-4fde-4caf-9cd3-27bf17836f89",
+      color: ["#8ab0d9", "#804bd1"],
+      id: "22de932c-b6bd-4a27-aac0-3ec4d6b8b75c",
       active: false,
     },
     {
@@ -5492,8 +5132,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/01 Jamie Foxx Ft. Soulja Boy - Yep That's Me.mp3",
-      color: ["#82a9be", "#23dbf3"],
-      id: "84bff57f-41e1-49aa-b2f7-28c8fc8d1a33",
+      color: ["#24462d", "#fc7031"],
+      id: "4b163975-bba8-4790-b880-266fa5583251",
       active: false,
     },
     {
@@ -5504,8 +5144,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/02 Pimp C Ft. Young Jeezy - Dickies.mp3",
-      color: ["#576e33", "#10b677"],
-      id: "533e7eef-3772-46c0-b954-ef0568adc2ea",
+      color: ["#adf601", "#1eb094"],
+      id: "bc2c46d8-bb76-4116-bf5c-8475860b5d39",
       active: false,
     },
     {
@@ -5516,8 +5156,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/03 Paul Wall - Showin Skillz.mp3",
-      color: ["#1b8a86", "#a64441"],
-      id: "2ff7a566-335d-4a87-8932-1409001e6171",
+      color: ["#36ac58", "#837f17"],
+      id: "8d45e29f-9934-4254-aaae-92cee702b3c9",
       active: false,
     },
     {
@@ -5528,8 +5168,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/04 Wiz Khalifa - Black & Yellow.mp3",
-      color: ["#4e4f48", "#8b1bab"],
-      id: "b17bc407-fe6a-4bf0-a017-caf1914cb5b9",
+      color: ["#cfaece", "#74f716"],
+      id: "49dc2ede-0d8f-4e7b-b6a1-d039b0bf2f76",
       active: false,
     },
     {
@@ -5540,8 +5180,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/05 Lloyd Banks - Beamer Benz or Bentley.mp3",
-      color: ["#461b6e", "#f6e3c6"],
-      id: "4417224c-f494-4772-8230-727e47bc8272",
+      color: ["#4e04a1", "#9c61f4"],
+      id: "e75b124f-e7d2-45ee-a126-32ec674d8eb9",
       active: false,
     },
     {
@@ -5552,8 +5192,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/06 Nicki Minaj - Did It on 'Em.mp3",
-      color: ["#8b91f8", "#66e5df"],
-      id: "aaf789cf-b753-466b-9479-cf909e1f3455",
+      color: ["#d08edb", "#e2b1ab"],
+      id: "10225dbb-a450-48c2-b6b6-f4aa9b1739be",
       active: false,
     },
     {
@@ -5564,8 +5204,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/07 Snoop Dogg Ft. Souljah Boy - Pronto.mp3",
-      color: ["#124ac3", "#cf51e2"],
-      id: "1dc5bd3b-8280-4602-a87c-fc52f726957d",
+      color: ["#09228f", "#07cd37"],
+      id: "336f1431-2189-4063-8ddd-83b20a06dc57",
       active: false,
     },
     {
@@ -5576,8 +5216,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/08 Willow Smith - Whip My Hair.mp3",
-      color: ["#a7fcf7", "#f97f84"],
-      id: "54df6a45-e36c-4958-a8a5-cb2713b7d52e",
+      color: ["#2beeaa", "#fbba49"],
+      id: "7d196e9a-93a6-4cfb-9e22-bde8ba76d384",
       active: false,
     },
     {
@@ -5588,8 +5228,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/09 Kanye West, Swizz Beatz, Ryan Leslie & Pusha T - Start It Up.mp3",
-      color: ["#d15d29", "#e96247"],
-      id: "6e640ce7-3733-4648-90bc-05251fb08113",
+      color: ["#e22926", "#90ccb5"],
+      id: "d6d03365-64a6-468e-b625-7ca95a1a3589",
       active: false,
     },
     {
@@ -5600,8 +5240,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/10 Slim Thug Ft. B.o.B - So High.mp3",
-      color: ["#656e04", "#badd51"],
-      id: "40bf47b3-de88-4fa3-ad29-79ee86c22ad2",
+      color: ["#700b3e", "#4a980a"],
+      id: "391abb5a-8f79-403b-b10f-261a86fb722d",
       active: false,
     },
     {
@@ -5612,8 +5252,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/11 T.I. Ft.Trey Songz - Strip.mp3",
-      color: ["#ab2d1c", "#76726a"],
-      id: "ce05089e-d525-4aa4-9b69-34a9dbbc2f40",
+      color: ["#76443d", "#fb739d"],
+      id: "9a41b54f-3a89-4b93-a401-97ab8d47d16a",
       active: false,
     },
     {
@@ -5624,8 +5264,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/12 Jeremih Ft. 50 Cent - Down On Me.mp3",
-      color: ["#8fb4c9", "#12667d"],
-      id: "507248fb-225e-4ea4-ad86-8cf35d54431c",
+      color: ["#6c7865", "#705608"],
+      id: "c1de8cf4-8e1d-4b3f-8517-200518797461",
       active: false,
     },
     {
@@ -5636,8 +5276,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/13 California Swag District - Teach Me How to Dougie.mp3",
-      color: ["#942b4c", "#c3fa9c"],
-      id: "59b467b1-a44a-464f-b587-a2650374b5f9",
+      color: ["#9dcc0f", "#fde2c4"],
+      id: "64a6b22b-fdb9-43ad-8236-c26bc74d92f8",
       active: false,
     },
     {
@@ -5648,8 +5288,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/14 Damages - Silver Glitch.mp3",
-      color: ["#8eccdf", "#9f192d"],
-      id: "e2858d11-74bc-4d76-9804-9242941958de",
+      color: ["#5e05ba", "#3243c9"],
+      id: "247b6f98-e8b5-4044-861a-a0a6b5936352",
       active: false,
     },
     {
@@ -5660,8 +5300,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/15 Usher Feat. Jay-Z - Hot Toddy.mp3",
-      color: ["#cd81b6", "#7a3041"],
-      id: "e027fc49-959b-4cdf-a953-802924ff3f46",
+      color: ["#37d6a3", "#20fb59"],
+      id: "89d388b8-40b3-47bf-bf61-7819f6e0f992",
       active: false,
     },
     {
@@ -5672,8 +5312,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/16 Lil Wayne Ft. Booby Valentino - Mrs.Officer PLATA REMIX prod. BigZ.mp3",
-      color: ["#1cc3a2", "#73d312"],
-      id: "389e32d0-a004-48f7-b9d1-707f69928cf3",
+      color: ["#a51557", "#7e616c"],
+      id: "ec6f9611-4f94-4a50-8fd7-2681e6ad7f3b",
       active: false,
     },
     {
@@ -5684,8 +5324,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/17 El$$o Rodriguez - Clean Version prod. BigZ.mp3",
-      color: ["#c1db24", "#3cd0f5"],
-      id: "24b2be17-6c1c-452b-b3d4-a4fae781b194",
+      color: ["#0b7ebc", "#f5999d"],
+      id: "8cfc43be-145a-4063-9855-33e03fb91031",
       active: false,
     },
     {
@@ -5696,8 +5336,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/18 Dr. Dre Ft. Akon - Kush.mp3",
-      color: ["#cf8308", "#069d36"],
-      id: "a47b4f3f-296c-4a08-9151-6efad76f5c14",
+      color: ["#15fdcc", "#6e5b3c"],
+      id: "f65ee218-44ad-470c-b0b8-6b7897f86fd1",
       active: false,
     },
     {
@@ -5708,8 +5348,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/19 Toteking - Quieres hacerlo como yo REMIX prod.BIg Z.mp3",
-      color: ["#607d6f", "#a0a12d"],
-      id: "0c2e1de1-9c97-44dd-bc24-cb3e0cfded4a",
+      color: ["#be4e05", "#2f39ec"],
+      id: "acb68210-3d4e-45ba-ac74-ca9089191940",
       active: false,
     },
     {
@@ -5720,8 +5360,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/20 Jim Jones - Go Cinderella.mp3",
-      color: ["#859369", "#06b805"],
-      id: "cfb77849-a8c6-4d13-94a8-f89540a24fbf",
+      color: ["#373e32", "#e512b0"],
+      id: "154093ef-afd4-443c-8356-2f99d80b74f8",
       active: false,
     },
     {
@@ -5732,8 +5372,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/21 Miguel Ft J.Cole - All I Want is You.mp3",
-      color: ["#3139e3", "#76f739"],
-      id: "fafb0853-d38b-4f48-b655-9175de6ffe60",
+      color: ["#78f6a0", "#42c949"],
+      id: "792b220d-b479-4447-9bbb-b3d8edaffffa",
       active: false,
     },
     {
@@ -5744,8 +5384,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/22 Trad Montana & Lil Ghalin Ft.Yako Mun\u00cc\u0192oz - Todo lo que tengo.mp3",
-      color: ["#feaf0a", "#79332f"],
-      id: "8e0fdaad-87a7-43ae-9d5b-e82a80b3402a",
+      color: ["#3ba783", "#17f683"],
+      id: "af7e0fae-8698-421b-96ce-27cc4fb0a646",
       active: false,
     },
     {
@@ -5756,8 +5396,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/23 Big Boi Ft. Vonnegutt - Follow Us.mp3",
-      color: ["#bb42f1", "#850d78"],
-      id: "0f815208-16b7-4270-92e0-84b989720bd8",
+      color: ["#b92a70", "#d0df10"],
+      id: "6a91823f-3074-4bfc-8ba3-dc192f8c9b0f",
       active: false,
     },
     {
@@ -5768,8 +5408,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/24 Kid Cudi - I Do My Thing.mp3",
-      color: ["#10385a", "#b6866c"],
-      id: "e6b26888-8d00-4990-b3a4-65fc6b1de2c6",
+      color: ["#b02e03", "#0c1c20"],
+      id: "5a169ec7-553b-4e90-bb14-29fbf352b365",
       active: false,
     },
     {
@@ -5780,8 +5420,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/25 R. Kelly - Crazy Night.mp3",
-      color: ["#562424", "#871349"],
-      id: "91f8b8da-2a1d-4f05-84ea-5bc3118b3684",
+      color: ["#5df82f", "#aed4ed"],
+      id: "29bebb14-3874-4cab-98a0-b489ca058ccc",
       active: false,
     },
     {
@@ -5792,8 +5432,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/26 Fat Joe Ft. Young Jeezy - Slow Down (Haha).mp3",
-      color: ["#5ccc0b", "#14c6cc"],
-      id: "2d717624-9f38-4170-8d86-d926c94b3c5d",
+      color: ["#38ba67", "#d800b5"],
+      id: "86dae3a4-caf7-40a2-8647-abb22b5f9d68",
       active: false,
     },
     {
@@ -5804,8 +5444,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/27 Cookin Bananas - Cuanto hablais.mp3",
-      color: ["#41ed25", "#db3e57"],
-      id: "0d63de06-66f5-4353-8837-9e66eb635364",
+      color: ["#43d8df", "#5d4872"],
+      id: "1de88ad3-864e-4155-acdb-776fb5e1fff5",
       active: false,
     },
     {
@@ -5816,8 +5456,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/28 P Diddy Ft. Rick Ross - Hello Good Morning (Remix).mp3",
-      color: ["#116696", "#6aad64"],
-      id: "e4dbf5f7-b7fc-47f1-9aae-1d09ffdb9c6f",
+      color: ["#cfb4ad", "#b220b8"],
+      id: "b86a5423-53d9-43d1-93e1-c1196e925617",
       active: false,
     },
     {
@@ -5828,8 +5468,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/29 Yako Mun\u00cc\u0192oz - Sangre en la Tarima prod.BigZ.mp3",
-      color: ["#40a492", "#75e7e5"],
-      id: "37005709-9d9b-4f77-a60d-99b67ab54bd1",
+      color: ["#69ee70", "#70fdd1"],
+      id: "68073b68-2352-400c-836e-4f389bb37c16",
       active: false,
     },
     {
@@ -5840,8 +5480,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/30 The Game FT. Lil Wayne - Everything R.E.D..mp3",
-      color: ["#7fcab3", "#82a85e"],
-      id: "45113d68-721e-4a36-b148-a3e54b590b92",
+      color: ["#986b6c", "#37137e"],
+      id: "c1d2cd67-b532-4b55-ac9c-e9fb1499ec91",
       active: false,
     },
     {
@@ -5852,8 +5492,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/31 Kurupt - Im burnt.mp3",
-      color: ["#123679", "#e7e2cb"],
-      id: "6c83a64f-687d-4091-988d-9f76712ecdcb",
+      color: ["#ac2528", "#ffa459"],
+      id: "2aabe438-293a-4374-8e6f-7f0a766d3019",
       active: false,
     },
     {
@@ -5864,8 +5504,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/32 New Boyz - You're A Jerk.mp3",
-      color: ["#aec581", "#89e04d"],
-      id: "89c7ac36-fdd8-47e6-bba4-9df0b52508ca",
+      color: ["#bb66ca", "#9c2486"],
+      id: "aff4c301-4dea-4042-b328-d085b96b8424",
       active: false,
     },
     {
@@ -5876,8 +5516,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/33 The REj3ctz - Cat Daddy.mp3",
-      color: ["#1364f7", "#491551"],
-      id: "29e6491c-26aa-4893-8046-d4b622a3df4c",
+      color: ["#f73cc3", "#91294a"],
+      id: "79c144be-748f-4061-8e67-0804a7fa6955",
       active: false,
     },
     {
@@ -5888,8 +5528,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/34 Jadakiss Ft. Pharrell - Stress Ya.mp3",
-      color: ["#a55139", "#5d23dc"],
-      id: "133b829b-a42c-4607-b190-4744191574d3",
+      color: ["#54405b", "#88363e"],
+      id: "a4293272-ae4d-4dd8-ae0d-5a8c30585630",
       active: false,
     },
     {
@@ -5900,8 +5540,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/35 Costa - Ice Tea.mp3",
-      color: ["#782e99", "#5c0d64"],
-      id: "13f109f7-2b53-4218-9907-d6811cd83299",
+      color: ["#e52efc", "#04c58f"],
+      id: "63ebf621-740e-47a3-bfc3-e2c8fc8d9afb",
       active: false,
     },
     {
@@ -5912,8 +5552,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/36 Trad Montana & Lil Ghalin - Ralentiza.mp3",
-      color: ["#e05979", "#69cecd"],
-      id: "40bf96a9-cf13-46e9-9510-6f7821fadccf",
+      color: ["#d7ca5d", "#6a7908"],
+      id: "b27b1f0e-763e-4dcf-99b9-49a083cf0689",
       active: false,
     },
     {
@@ -5924,8 +5564,8 @@ function chillHop() {
       artist: "Plata Clothing dj\u00b4s",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules I -  Everything Mixtape/37 Redman Ft.Dj Kool - Thats Were I Be.mp3",
-      color: ["#c797b7", "#567817"],
-      id: "625abb28-3335-43e9-a9a5-66538b01f997",
+      color: ["#f857b3", "#8004ec"],
+      id: "0e38731e-a60e-4db4-8fcd-14e277e15323",
       active: false,
     },
     {
@@ -5936,8 +5576,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/01 Last Man Standing \u00d4\u00c7\u00f4 Asher Roth ft_ Akon.mp3",
-      color: ["#095644", "#e78208"],
-      id: "f64b7fae-ecb2-4ae5-a4d3-78bf632ea7ce",
+      color: ["#70028c", "#fb1f0e"],
+      id: "358c0d04-77f7-45f6-9b24-bcadfb815d70",
       active: false,
     },
     {
@@ -5948,8 +5588,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/02 Written In The Stars \u00d4\u00c7\u00f4 Tinie Tempah ft Eric Turner.mp3",
-      color: ["#94922e", "#55640f"],
-      id: "5b16fb83-a9c8-4d53-a1af-152501205e71",
+      color: ["#70cd28", "#f8000b"],
+      id: "77a48213-f2ca-4b80-b47b-e310dfa31f12",
       active: false,
     },
     {
@@ -5960,8 +5600,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/03 So What \u00d4\u00c7\u00f4 EFM.mp3",
-      color: ["#21ab4b", "#028d66"],
-      id: "59c5eb00-b098-4a0b-b549-d4fbf8c6c316",
+      color: ["#06ba05", "#6c5ec8"],
+      id: "703b6016-3fd6-4a5f-8c69-fcf22839ed72",
       active: false,
     },
     {
@@ -5972,8 +5612,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/04 How to do that M-Bone \u00d4\u00c7\u00f4 Cali Swag District.mp3",
-      color: ["#319821", "#10c405"],
-      id: "fbc11466-b798-495b-a34c-eb47b1a699c1",
+      color: ["#94fcae", "#ad273b"],
+      id: "2608d92d-78b9-494a-abff-473ec7dde577",
       active: false,
     },
     {
@@ -5984,8 +5624,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/05 Party Bout To Pop Remix \u00d4\u00c7\u00f4 Papoose ft Lloyd Banks & Busta Rhymes.mp3",
-      color: ["#c8e8fb", "#3b69f6"],
-      id: "91035538-23a6-44b8-9f2d-2209fcd1d318",
+      color: ["#457b08", "#7cd159"],
+      id: "07a69725-2313-4692-9960-e61d342db5b6",
       active: false,
     },
     {
@@ -5996,8 +5636,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/06 Catch Me \u00d4\u00c7\u00f4 Nicki Minaj.mp3",
-      color: ["#d36022", "#f96093"],
-      id: "73cffb67-2156-4fe7-9b68-6952c8f6c67d",
+      color: ["#c32247", "#3c806e"],
+      id: "ea1f61c8-e0c4-4a21-b2ae-7a40d5736713",
       active: false,
     },
     {
@@ -6008,8 +5648,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/07 Novacane \u00d4\u00c7\u00f4 Frank Ocean.mp3",
-      color: ["#6c9922", "#846d55"],
-      id: "47b8558a-9e5f-4aa9-85b8-c3a128362c63",
+      color: ["#c746a9", "#a3c9bd"],
+      id: "a1ea97fe-8d6f-42d5-8405-ac670494161a",
       active: false,
     },
     {
@@ -6020,8 +5660,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/08 So Forgetful \u00d4\u00c7\u00f4 Lloyd Banks Ft Ryan Leslie.mp3",
-      color: ["#ec4c5c", "#91a531"],
-      id: "d30c92e1-e663-4d28-82a8-fd458265b682",
+      color: ["#69fe8b", "#c64585"],
+      id: "6279a4ad-36ac-435e-a81e-ae2e6d8441eb",
       active: false,
     },
     {
@@ -6032,8 +5672,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/09 My Last \u00d4\u00c7\u00f4 Big Sean Ft Chris Brown.mp3",
-      color: ["#415b11", "#249faa"],
-      id: "5038a78a-9731-40f6-b5dc-e6812a33327b",
+      color: ["#625ff0", "#06168c"],
+      id: "7bc61ed9-380a-4283-9177-829eda9f4b3a",
       active: false,
     },
     {
@@ -6044,8 +5684,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/10 Feelin Myself \u00d4\u00c7\u00f4 Pusha T ft Kevin Cossom.mp3",
-      color: ["#24cbf8", "#79157c"],
-      id: "9fc4e8a1-6756-4a10-9179-0ab3733e4bcc",
+      color: ["#1445c3", "#dcfb5c"],
+      id: "1805c1cb-5a29-4ea0-af0f-86cfc48c3e91",
       active: false,
     },
     {
@@ -6056,8 +5696,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/11 Party \u00d4\u00c7\u00f4 Beyonce Ft Kanye West & Andre 3000.mp3",
-      color: ["#16cf99", "#073899"],
-      id: "ec292251-bc15-4fde-83aa-0b4d9ca2eb08",
+      color: ["#8a476f", "#b267ff"],
+      id: "c1e16eb8-ac39-41f8-abe3-9d5a2bb87daf",
       active: false,
     },
     {
@@ -6068,8 +5708,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/12 Gucci Gucci \u00d4\u00c7\u00f4 Kreayshawn.mp3",
-      color: ["#8a4d43", "#0adc2e"],
-      id: "c180df74-87c9-4c52-9d42-a07b13cf48bc",
+      color: ["#9409d7", "#246820"],
+      id: "171ad283-9ef2-4154-aed8-0bee463ee3af",
       active: false,
     },
     {
@@ -6080,8 +5720,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/13 I_m On One \u00d4\u00c7\u00f4 Dj Khaled ft Drake, Rick Ross & Lil Wayne.mp3",
-      color: ["#0affdb", "#198aef"],
-      id: "33058e83-e4f8-453d-9e61-1cc68755f4c6",
+      color: ["#9a45b5", "#a10d5a"],
+      id: "d9ee74ef-5c67-47a0-8efe-80384e6741f7",
       active: false,
     },
     {
@@ -6092,8 +5732,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/14 Wildfire \u00d4\u00c7\u00f4 SBTRKT ft Drake.mp3",
-      color: ["#75767e", "#6b9bb1"],
-      id: "5c229f7a-0e7e-49a2-8fd7-6b2bace84275",
+      color: ["#060f89", "#400fcb"],
+      id: "b2d39f24-db55-4c00-946a-51ed40e9189d",
       active: false,
     },
     {
@@ -6104,8 +5744,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/15 Motivation (Diplo Remix) \u00d4\u00c7\u00f4 Kelly Rowland ft Lil Wayne.mp3",
-      color: ["#c3da25", "#b7b059"],
-      id: "3ff411fe-4a4a-4955-9961-bdbf6a4ac7a1",
+      color: ["#041daf", "#6f95ad"],
+      id: "047e2929-6bb5-424b-bf66-4d90633b6432",
       active: false,
     },
     {
@@ -6116,8 +5756,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/16 Big In Japan \u00d4\u00c7\u00f4 Martin Solveig ft Dragonette & Idoling.mp3",
-      color: ["#21d61f", "#04ff70"],
-      id: "d4b58c25-4db6-4faa-9781-86fc029aed60",
+      color: ["#a65cdd", "#da6f76"],
+      id: "56747db4-72eb-451a-8d77-0e73481807f5",
       active: false,
     },
     {
@@ -6128,8 +5768,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/17 Civilization (Dj DLG Lazor Remix) \u00d4\u00c7\u00f4 Justice.mp3",
-      color: ["#20bae2", "#6dd011"],
-      id: "4ac48062-10d4-451b-8589-1de57fcfdec9",
+      color: ["#b15282", "#957d30"],
+      id: "d7513817-7120-4dc9-b465-6896fd185034",
       active: false,
     },
     {
@@ -6140,8 +5780,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/18 Champagne Showers \u00d4\u00c7\u00f4 LMFAO ft Natalia Kills.mp3",
-      color: ["#687f13", "#9e4eba"],
-      id: "5e1b2f22-8e1a-4d79-8018-53ab2be098c6",
+      color: ["#b22aa6", "#93bf00"],
+      id: "b4a94d73-321f-4117-b84d-cf1e4f08dcef",
       active: false,
     },
     {
@@ -6152,8 +5792,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/19 Rolling In The Deep (Supersede & Nick Morrison Remix) \u00d4\u00c7\u00f4 Adele.mp3",
-      color: ["#64292f", "#4d4a66"],
-      id: "260804a0-e2ff-4463-9a3d-e7ad8e60cfd1",
+      color: ["#29fab1", "#548b91"],
+      id: "41f3e8f1-e47a-4a9f-afa6-1369b062577b",
       active: false,
     },
     {
@@ -6164,8 +5804,8 @@ function chillHop() {
       artist: "Plata Rules Everything Mixtape Vol II \u2013 Mixed By Dj Wilor",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata Rules II Mixed By Dj Wilor/20 Keisha \u00d4\u00c7\u00f4 Jawan Harris Ft Tyga.mp3",
-      color: ["#87660a", "#302ebd"],
-      id: "44cf9474-6629-4af6-9bdc-c42a67e895fd",
+      color: ["#3e5e7c", "#ac993f"],
+      id: "78e29c5f-09b7-4881-be71-0f1af6dd6a9c",
       active: false,
     },
     {
@@ -6176,8 +5816,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/01 DJ Khaled - I'm On One (feat. Drake).mp3",
-      color: ["#cdfc05", "#b83527"],
-      id: "1c24754e-99d7-4c66-8925-c054d11bffd4",
+      color: ["#2b708f", "#4813fa"],
+      id: "18ba3132-7b79-4767-869a-2adce066f0ac",
       active: false,
     },
     {
@@ -6188,8 +5828,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/02 Chris Brown - Look at Me Now.mp3",
-      color: ["#778df9", "#4782bd"],
-      id: "023520aa-431d-418c-afc2-29b58462e39a",
+      color: ["#efb97c", "#693f44"],
+      id: "96468345-6825-4c44-8f01-88a70ab4923e",
       active: false,
     },
     {
@@ -6200,8 +5840,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/03 Big Sean - I Do It.mp3",
-      color: ["#7d30e4", "#bed90e"],
-      id: "c11afa8c-c96d-42a4-b0f5-e6f10b9bc06f",
+      color: ["#863d6e", "#4bd744"],
+      id: "b825e13e-ce97-46e3-99fa-7d43cee90c61",
       active: false,
     },
     {
@@ -6212,8 +5852,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/04 Wiz Khalifa - On My Level.mp3",
-      color: ["#ec41bd", "#255840"],
-      id: "38cb3b77-20f8-49c9-9f04-4d9baaca2e7b",
+      color: ["#5ad32f", "#350975"],
+      id: "38116c03-f82f-4177-87a2-a7eadf36a943",
       active: false,
     },
     {
@@ -6224,8 +5864,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/05 Trae Tha Truth - Getting Paid.mp3",
-      color: ["#3b2e70", "#8c92bb"],
-      id: "c7cb357f-8ba7-4fbd-b1db-820620a37bdb",
+      color: ["#6d52ac", "#dfc554"],
+      id: "eef7f08e-188f-4450-9653-3239b39fedb4",
       active: false,
     },
     {
@@ -6236,8 +5876,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/06 Kanye West & Jay-Z - H.A.M.mp3",
-      color: ["#68bcc4", "#5624a8"],
-      id: "ffe1d520-396b-4c26-81ac-6d69dad55573",
+      color: ["#b27e3a", "#a2c680"],
+      id: "8c1f20a8-2cf5-4296-a5a9-886b39eb8bd3",
       active: false,
     },
     {
@@ -6248,8 +5888,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/07 Jim Jones-The Paper.mp3",
-      color: ["#29e988", "#1771ac"],
-      id: "318480be-fd17-4626-aaee-932f50f8b9b1",
+      color: ["#f3b19d", "#5157ff"],
+      id: "6f109331-d490-4bee-8944-f5e655a70dea",
       active: false,
     },
     {
@@ -6260,8 +5900,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/08 T Pain - Hustle Hard TMIX.mp3",
-      color: ["#1c4567", "#5f9992"],
-      id: "e7f1bb67-173e-4bff-9bbc-f8a9f1a0e967",
+      color: ["#35349c", "#e1ea87"],
+      id: "9cee6e2d-cc6e-4fef-ae78-ae55b78dcb10",
       active: false,
     },
     {
@@ -6272,8 +5912,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/09 B.o.B - Make It Rain ft Travis Porter.mp3",
-      color: ["#61eede", "#117ee2"],
-      id: "1aaa550e-80d9-4897-87c6-5ad27669a674",
+      color: ["#ad07b5", "#3c4ff4"],
+      id: "a880aa89-14cf-4feb-90f8-1ef2c48b4d3d",
       active: false,
     },
     {
@@ -6284,8 +5924,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/10 Lil Wayne ft Birdman - Fire Flame (Remix).mp3",
-      color: ["#0c8e38", "#250081"],
-      id: "cdedc09c-543f-423e-8089-264954f38e38",
+      color: ["#9fdb05", "#6e70fa"],
+      id: "624e9f71-2a29-49c5-83aa-6ded675eb6c2",
       active: false,
     },
     {
@@ -6296,8 +5936,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/11 Baby Bash -  Swanananana (Ft.Stooi Bros, Michael).mp3",
-      color: ["#8c19cc", "#5ff18a"],
-      id: "a9d68fbc-57d9-4abc-a105-268fde355b46",
+      color: ["#f020de", "#2c4a6c"],
+      id: "6fcb6914-fa7b-4ca2-b83e-31c01d4a7cfa",
       active: false,
     },
     {
@@ -6308,8 +5948,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/12 Trina - Currency (ft Rick Ross).mp3",
-      color: ["#e74c43", "#a2c087"],
-      id: "5e5a4721-d49c-419a-8ab9-d6c7ae0930dd",
+      color: ["#f03985", "#04ebd3"],
+      id: "1c59f5af-34ea-43bd-89ef-0052620faadf",
       active: false,
     },
     {
@@ -6320,8 +5960,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/13 T-Pain - Booty Work (One Cheek At A Time).mp3",
-      color: ["#0e98ee", "#3ebdbc"],
-      id: "84424249-6b3d-43cf-a15b-fd547aa16b19",
+      color: ["#232e65", "#f0c393"],
+      id: "830c4915-78ef-4370-a078-3ffe75b36479",
       active: false,
     },
     {
@@ -6332,8 +5972,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/14 Far East Movement - Drop It Down (Ft. Redman).mp3",
-      color: ["#6eeb34", "#6287c9"],
-      id: "4daca342-3778-48e4-b610-d059d877c05f",
+      color: ["#482cee", "#29a5f2"],
+      id: "979d7582-8656-4d9f-9ec1-f6ab802d710b",
       active: false,
     },
     {
@@ -6344,8 +5984,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/15 Chris Brown - Love the Girls (Ft. Game).mp3",
-      color: ["#d7b320", "#19b15d"],
-      id: "c28f95d5-9746-4010-8a79-ed8639df8676",
+      color: ["#5e29c3", "#46672d"],
+      id: "31564585-aaf8-48b7-be9f-b66b915bcb9f",
       active: false,
     },
     {
@@ -6356,8 +5996,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/16 Cali Swag District- Burn Out (Drive Fast).mp3",
-      color: ["#4177df", "#218ce3"],
-      id: "5d32d20c-be1c-45ae-8b32-9847a3211a58",
+      color: ["#48a24b", "#bf8891"],
+      id: "1d3adda5-22d0-48c0-b168-91609931f6e4",
       active: false,
     },
     {
@@ -6368,8 +6008,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/17 Jamie Foxx - Living Better Now (Ft. Rick Ross).mp3",
-      color: ["#4d5653", "#58dfac"],
-      id: "41e3a6a9-6dd8-4997-bd65-1b4001522021",
+      color: ["#211521", "#15c716"],
+      id: "f3f5c596-c15b-40c7-8f47-39450e315c7b",
       active: false,
     },
     {
@@ -6380,8 +6020,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/18 Slim Thug - Neighbourhood Supa Stars (Ft. Nipsey Hussle).mp3",
-      color: ["#0e1a23", "#33dad0"],
-      id: "a8f1d8c2-a20b-47dd-a42b-3b67ef937d59",
+      color: ["#8cc4fb", "#658fdf"],
+      id: "9add92cb-1aa8-4b0d-903c-0b687b053f01",
       active: false,
     },
     {
@@ -6392,8 +6032,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/19 Akon - Keep Up.mp3",
-      color: ["#ae4df8", "#5bb007"],
-      id: "0620f0d9-24c7-48a9-b47a-598e38b83203",
+      color: ["#97184e", "#1bfcf8"],
+      id: "1d5336e2-3802-4928-94a9-fcdb24c6335b",
       active: false,
     },
     {
@@ -6404,8 +6044,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/20 Travis Barker - knockin (Ft. Snoop Dogg Ludacris Dev).mp3",
-      color: ["#8072d7", "#d74d3e"],
-      id: "6b111101-90a7-4909-bc19-fa536e81ee1a",
+      color: ["#0dd37c", "#27e111"],
+      id: "d3eab2ce-5ba9-42a7-a2bf-1928ccc660c4",
       active: false,
     },
     {
@@ -6416,8 +6056,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/21 The Bloddy Beetroots - Awesome (feat The Cool Kids).mp3",
-      color: ["#af0d42", "#638f05"],
-      id: "937c3fee-0a71-485d-af45-c09978c7f511",
+      color: ["#9d8388", "#6fabaa"],
+      id: "85eeb0a2-0dc9-4ce0-b2cc-ea7db712f6ca",
       active: false,
     },
     {
@@ -6428,8 +6068,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/22 Tinie Tempah - Pass Out.mp3",
-      color: ["#fb8771", "#f87e87"],
-      id: "b0f98a88-53b6-48c9-b8b0-4a074681b74e",
+      color: ["#a330f8", "#921770"],
+      id: "5b8ce066-715d-4f37-8d9e-107d247694fa",
       active: false,
     },
     {
@@ -6440,8 +6080,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/23 Cookin Bananas- Aqui te pillo, aqui temazo.mp3",
-      color: ["#882b38", "#494a6d"],
-      id: "373e9d43-445d-46ce-899c-e6be44397366",
+      color: ["#2834e7", "#1ce936"],
+      id: "aa04c1c8-5d7f-4ac1-9950-77afe9d82d36",
       active: false,
     },
     {
@@ -6452,8 +6092,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/24 Fabolous - You Be Killin Em.mp3",
-      color: ["#fb6968", "#06cb0d"],
-      id: "dd862d92-d4b7-4c9e-8b05-6b00a07af165",
+      color: ["#16bd3a", "#fb1fa1"],
+      id: "c965fb08-535b-497f-bbaa-a0851567506d",
       active: false,
     },
     {
@@ -6464,8 +6104,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/25 New Boyz - Active Kids (Feat. Tyga).mp3",
-      color: ["#3639d5", "#a084e8"],
-      id: "eb383dcd-707b-4b72-ac50-3d6e9b01e503",
+      color: ["#04b5fb", "#6e85c8"],
+      id: "06666042-450a-45b5-811b-feab73950c8f",
       active: false,
     },
     {
@@ -6476,8 +6116,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/26 Markes & Gorka Suaia (kodigo Norte) prod. Big Z - Xclusive 4 Plata (Demo).mp3",
-      color: ["#b6b95e", "#02e0c9"],
-      id: "dcaf7812-4c10-4a28-a2a6-6d92e8015f07",
+      color: ["#f253d4", "#7417c7"],
+      id: "1a4a3b4a-7174-470b-876c-a4376023c2f0",
       active: false,
     },
     {
@@ -6488,8 +6128,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/27 Booba - Fast Life feat Ryan Leslie.mp3",
-      color: ["#17dac5", "#9ec746"],
-      id: "59f06eac-4fdb-41e8-a0b5-a2940cef20e3",
+      color: ["#4f82d6", "#a94e4b"],
+      id: "caa0f539-dec2-4019-abdf-407b876a7aca",
       active: false,
     },
     {
@@ -6500,8 +6140,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/28 Kid Ink- Daydreamer.mp3",
-      color: ["#1b82d5", "#866c95"],
-      id: "13e02801-67df-4075-8421-1b7cac1ee209",
+      color: ["#b1c57d", "#2a3624"],
+      id: "961a843c-c4f5-466d-8890-2cd20428f5b7",
       active: false,
     },
     {
@@ -6512,8 +6152,8 @@ function chillHop() {
       artist: "Plata rules III mixed by dj canyn",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/Plata rules III mixed by dj canyn/29 New Boyz- Zonin.mp3",
-      color: ["#651640", "#49def1"],
-      id: "a980e707-a010-484f-a706-4ef00b7cbd8f",
+      color: ["#b2e0e1", "#8482fb"],
+      id: "8eb3e34c-4258-455c-a6e7-10563db21420",
       active: false,
     },
     {
@@ -6524,8 +6164,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/10 Pista 10.mp3",
-      color: ["#11c2b3", "#60e774"],
-      id: "de471212-5930-42a1-8a55-fa4fc805121f",
+      color: ["#a8ef24", "#b2a93d"],
+      id: "1b22409a-6886-4c1e-97ce-3f06b4255113",
       active: false,
     },
     {
@@ -6536,8 +6176,8 @@ function chillHop() {
       artist: "Kaiz y Dj D-Beam",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/11. Kaiz y Dj D-Beam - Talisman (con Afro) [Producido por Afro] - www.HHGroups.com.mp3",
-      color: ["#2f5225", "#1df593"],
-      id: "c3661250-d9a3-4e02-b174-7882fe780db2",
+      color: ["#b155a0", "#044c35"],
+      id: "319178a5-52b0-43f9-a688-162439731ccf",
       active: false,
     },
     {
@@ -6548,8 +6188,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/12 Originales de Barrio.mp3",
-      color: ["#038f3b", "#d74d7a"],
-      id: "8cb8cbda-ed32-4f0d-b471-f078c2b1561e",
+      color: ["#21581d", "#18cf70"],
+      id: "9de5a796-2907-4d0b-8d27-4ceeae661578",
       active: false,
     },
     {
@@ -6560,8 +6200,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/14 Pista 14.mp3",
-      color: ["#d37350", "#555283"],
-      id: "f2d6f13d-7004-4d2b-9f8d-cd43c89d94fe",
+      color: ["#29fde1", "#9f7281"],
+      id: "6263b7f7-7829-4881-ba28-9c5458db1177",
       active: false,
     },
     {
@@ -6572,8 +6212,8 @@ function chillHop() {
       artist: "no artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/14-SDJ-Sonio cerdo.mp3",
-      color: ["#a08603", "#1945e4"],
-      id: "fe6f5a06-4eda-42c8-947f-4eedb1a49985",
+      color: ["#038550", "#2ff500"],
+      id: "8ff6961e-85e1-4d65-9bd2-721bb632d7f7",
       active: false,
     },
     {
@@ -6584,8 +6224,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/15 Pista 15.mp3",
-      color: ["#104734", "#da3fcf"],
-      id: "d5c05223-e64a-4a84-b918-0e930f07aed3",
+      color: ["#7ca058", "#661cc6"],
+      id: "68a31b83-d13c-4177-ac21-9c47d3a60ec6",
       active: false,
     },
     {
@@ -6596,8 +6236,8 @@ function chillHop() {
       artist: "no artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/15-SDJ                            _ Todo o Nada.mp3",
-      color: ["#b74ec4", "#1ae9be"],
-      id: "e6ad9eea-a39f-42d3-9909-4e1112e535f2",
+      color: ["#ec1f8a", "#3f6fbc"],
+      id: "5933f76c-e65c-4d8c-9379-71c8aa437310",
       active: false,
     },
     {
@@ -6608,8 +6248,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/A examen!!.mp3",
-      color: ["#7eb338", "#990269"],
-      id: "1a538746-03bb-4fb6-b3c6-80dd68176d20",
+      color: ["#4d920f", "#5b3797"],
+      id: "887a1565-6b8a-40a3-866b-5ec78e52ddab",
       active: false,
     },
     {
@@ -6620,8 +6260,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ADC- Lonja's tem.mp3",
-      color: ["#c06c62", "#a7aff6"],
-      id: "5ba06cf9-759c-4a5d-b36e-5d1c1f896a5e",
+      color: ["#a7a04f", "#f6d2e2"],
+      id: "29d45e39-f5a2-4281-927b-f9404d994e61",
       active: false,
     },
     {
@@ -6632,8 +6272,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afr0 - Hostyl y Dj N.mp3",
-      color: ["#509492", "#4cfd86"],
-      id: "e83a1821-2c34-4abe-8a52-d4c904e838b7",
+      color: ["#298505", "#abcda7"],
+      id: "59d32540-e5b7-4298-b838-8ca244814329",
       active: false,
     },
     {
@@ -6644,8 +6284,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afr0 y Dj N - A examen!!.mp3",
-      color: ["#538fdc", "#46b7b6"],
-      id: "8c7cedd5-d464-4fef-a3a0-b0410f1e2718",
+      color: ["#416bd3", "#989106"],
+      id: "e15c0016-00f0-434c-bdef-7f97f6d44f5f",
       active: false,
     },
     {
@@ -6656,8 +6296,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro , bay y rubo (FREESTYLE).mp3",
-      color: ["#300d65", "#7656c8"],
-      id: "34293b30-9d44-4223-8dcf-12afb1029f12",
+      color: ["#c9b4c1", "#3c55ea"],
+      id: "47fc75c7-b2bc-4568-adbe-dea570b77f4d",
       active: false,
     },
     {
@@ -6668,8 +6308,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro - As\u00c3\u00ad es el....mp3",
-      color: ["#3bca8e", "#1d8f92"],
-      id: "4f2e741d-dd27-42ed-8993-b0e68a0aab14",
+      color: ["#ddb6b0", "#32cfad"],
+      id: "3f11d9f1-13e8-4803-a7fc-4cd88fadfbe6",
       active: false,
     },
     {
@@ -6680,8 +6320,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro - Es como lanzar....mp3",
-      color: ["#a383ba", "#035216"],
-      id: "d7794624-a5f6-49fc-92e8-e014d51c3720",
+      color: ["#55f4f8", "#de6aa8"],
+      id: "134945f9-6375-4610-ac4d-fd8040b42170",
       active: false,
     },
     {
@@ -6692,8 +6332,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro - La gente cambia ( con Drujas )Final.mp3",
-      color: ["#2e67ae", "#9e8ff7"],
-      id: "776fc6fa-b6cf-4e79-8a35-52bc8394f70d",
+      color: ["#4381b7", "#747a02"],
+      id: "9da0d403-40ca-4583-bef5-e3860721c806",
       active: false,
     },
     {
@@ -6704,8 +6344,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro - Que no paro.mp3",
-      color: ["#c7f3e9", "#283fce"],
-      id: "9c77a44d-66ce-41fb-b7a9-27bc42a1b8ca",
+      color: ["#f9360e", "#039f78"],
+      id: "7561c25a-4fb2-4121-aa92-cf12fba11c0b",
       active: false,
     },
     {
@@ -6716,8 +6356,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro con Wiskas   2004.mp3",
-      color: ["#802a1a", "#9ca298"],
-      id: "c0b99378-a45c-4dea-89c8-1d7fc9478fc4",
+      color: ["#62fd02", "#9da97f"],
+      id: "e686e812-b03a-4ece-9c46-5e8ff97f335c",
       active: false,
     },
     {
@@ -6728,8 +6368,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afro DaMasterBombo - 1.mp3",
-      color: ["#b66d08", "#b6d0bb"],
-      id: "488bed12-5929-4084-8784-2e1113c69852",
+      color: ["#a48051", "#8b5913"],
+      id: "f9c6c5fa-7d03-4fbd-aef9-fa3a8a5427be",
       active: false,
     },
     {
@@ -6740,8 +6380,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro ft Paes - ................mp3",
-      color: ["#3d3d3c", "#e88d07"],
-      id: "a4d4af97-1ca5-4b53-bae8-a002bb23a7e0",
+      color: ["#6a7cb1", "#f53c0a"],
+      id: "f111186a-17f2-41b9-b998-fdf834d24a93",
       active: false,
     },
     {
@@ -6752,8 +6392,8 @@ function chillHop() {
       artist: "Int\u00e9rprete desconocido",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro Ruan - KoMoNo!.mp3",
-      color: ["#682732", "#a17c8d"],
-      id: "25982eee-44ac-4460-ae9e-95c07baf1a4a",
+      color: ["#06a60d", "#9531f4"],
+      id: "47dbf6ce-6ed7-443d-965c-f521c3d482b8",
       active: false,
     },
     {
@@ -6764,8 +6404,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro ruan exp-KoMo No!.mp3",
-      color: ["#084479", "#01b036"],
-      id: "907663e5-94f0-4518-95d8-3fa2496d678c",
+      color: ["#eca56e", "#1f942f"],
+      id: "af9470ea-8e2f-46ce-abcd-06bcc6f4f538",
       active: false,
     },
     {
@@ -6776,8 +6416,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afro rubo bay improsiadascerd.mp3",
-      color: ["#fb0c06", "#b29649"],
-      id: "27c6cb03-b0ce-4275-9800-22dd6055e34b",
+      color: ["#b299b7", "#aaa05f"],
+      id: "e3885786-db7e-4757-8f00-e3a303b3f1cd",
       active: false,
     },
     {
@@ -6788,8 +6428,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afro rubo bay improsiadascerdos.mp3",
-      color: ["#23d962", "#a44fbf"],
-      id: "1d5f652c-22fc-49a2-be33-82e172d16c5e",
+      color: ["#0db621", "#a86c49"],
+      id: "f5b84e34-ea81-4a55-9189-c02809f67603",
       active: false,
     },
     {
@@ -6800,8 +6440,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro y Hombre zero - Es nuestro asunto.mp3",
-      color: ["#35255c", "#c6ea63"],
-      id: "4c53c3f9-e7ad-4c52-a5f1-c4ecadc5291b",
+      color: ["#8b163d", "#601ae1"],
+      id: "bd122a9b-9ae5-47cb-8e0e-bbe344c27eaa",
       active: false,
     },
     {
@@ -6812,8 +6452,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afro y moro.mp3",
-      color: ["#cb10f7", "#45216c"],
-      id: "93327df2-1788-4775-8c30-096d859ace31",
+      color: ["#a65043", "#c163b6"],
+      id: "2212ae68-6578-4279-8f0d-a52a51e32fb8",
       active: false,
     },
     {
@@ -6824,8 +6464,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro y mos.mp3",
-      color: ["#c8e91a", "#e80d61"],
-      id: "32bee829-018c-464f-b8b6-29b6314a4423",
+      color: ["#099206", "#b42d07"],
+      id: "9ca7a8ec-57b3-4cc6-89cb-904b6a118018",
       active: false,
     },
     {
@@ -6836,8 +6476,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/AFRO Y OSTIL (FREESTYLE).mp3",
-      color: ["#8022b9", "#6f60a5"],
-      id: "f94c9054-36dd-45e9-90f4-2bc293ba65a2",
+      color: ["#eba2e1", "#10ed59"],
+      id: "d7985dd9-25ef-4224-940c-c675bebaed92",
       active: false,
     },
     {
@@ -6848,8 +6488,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afro y prosa.mp3",
-      color: ["#efb906", "#bb9ebe"],
-      id: "111a8384-d12c-40d7-a5d6-f003ad27fbb9",
+      color: ["#0f62d3", "#b88e2a"],
+      id: "069402d6-2845-45e6-8791-35888b2188c6",
       active: false,
     },
     {
@@ -6860,8 +6500,8 @@ function chillHop() {
       artist: "Afro",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro y Sore (SDJ) - La felicidad no existe - (PRODUCCIONES N.mp3",
-      color: ["#23ea11", "#065e09"],
-      id: "a78b546f-f24b-4425-8af9-05be918a573c",
+      color: ["#6b1c90", "#a4f19e"],
+      id: "d33472b4-6ec3-4b23-b5cd-0b4f3e72074f",
       active: false,
     },
     {
@@ -6872,8 +6512,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro y Urban - Mentes makiavelikas.mp3",
-      color: ["#f0b437", "#5a5a93"],
-      id: "0732e432-415e-4cd0-b9fc-1966812b4253",
+      color: ["#da7072", "#c91563"],
+      id: "f426842d-3424-4eaa-b227-829b69742b2c",
       active: false,
     },
     {
@@ -6884,8 +6524,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro y Urban ft Sore y Mayk - El tiempo de la infancia qued\u00c3\u00b3 atras.mp3",
-      color: ["#d5d3ac", "#b8a536"],
-      id: "a76f3c38-2351-4e6a-91d3-f5373abfd58b",
+      color: ["#0ba9cd", "#846466"],
+      id: "abaafa3f-8cc9-4c4d-b8d1-fb2fa81b4c86",
       active: false,
     },
     {
@@ -6896,8 +6536,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afrolandia.mp3",
-      color: ["#4e53f0", "#9cf119"],
-      id: "edd3aafd-7046-4a97-98b9-28eb7f1a9a0a",
+      color: ["#969450", "#1ffdce"],
+      id: "5933eb04-8e7e-4b87-875d-a3a4dee684ce",
       active: false,
     },
     {
@@ -6908,8 +6548,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/afroo_improvis.mp3",
-      color: ["#79de9b", "#5e588a"],
-      id: "1b95291f-a815-413f-bfa3-a80c33d6754a",
+      color: ["#5e54a5", "#95c730"],
+      id: "904fd3ab-08d4-4d91-916d-d2162b2cbdba",
       active: false,
     },
     {
@@ -6920,8 +6560,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Afro_con_Brcrew_-_L'important_c'est_la_qualit\u00c3\u00a9_-_WWW.PAXANGA.NET.mp3",
-      color: ["#e80157", "#37256c"],
-      id: "e658e429-8a9c-4223-b621-b4636a1c0b74",
+      color: ["#8177c8", "#4c2b2c"],
+      id: "da1f1d9d-8ab9-407e-a10f-d3d7a4990a21",
       active: false,
     },
     {
@@ -6932,8 +6572,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/AfRo_y_JoTaCe_-_ tRiAnGuLo_eScALeNo_-_dEzEgE_pRoDucCiOnEs.mp3",
-      color: ["#9605ab", "#776c43"],
-      id: "c1e09931-c7c6-40df-970f-eb997f18aaf4",
+      color: ["#79a50f", "#03ffb8"],
+      id: "0f048111-ad26-405f-8b26-cca2730e7521",
       active: false,
     },
     {
@@ -6944,8 +6584,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/As\u00c3\u00ad es el....mp3",
-      color: ["#4101ce", "#64bae6"],
-      id: "dcabe341-497d-47ae-9c81-5c2aead144e7",
+      color: ["#d1fae6", "#ae894a"],
+      id: "109f9dd6-2f1d-492f-b6ab-788eb086dd7d",
       active: false,
     },
     {
@@ -6956,8 +6596,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/blime_javi-our world(perla studios).mp3",
-      color: ["#73531f", "#42ebd9"],
-      id: "0bd3d500-db0c-4eb3-b16d-160e7d931fa0",
+      color: ["#b6953d", "#5071ef"],
+      id: "d973dc6f-a3e2-4dc4-a55e-cf7c1060cb22",
       active: false,
     },
     {
@@ -6968,8 +6608,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ciencia lirika - arrivederci.mp3",
-      color: ["#a1d83c", "#2113c4"],
-      id: "276fe69d-a689-4379-8c3f-55d38e297c8f",
+      color: ["#be2a28", "#f03dec"],
+      id: "f2bdc928-2e6a-45a0-b983-6e5ec31c7f0c",
       active: false,
     },
     {
@@ -6980,8 +6620,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ciencia lirika - bipolar.mp3",
-      color: ["#61e169", "#b5ae30"],
-      id: "98a73087-b668-4d4b-a286-4d8d4104f51d",
+      color: ["#e0d471", "#3db47f"],
+      id: "80356072-1e2a-4241-8b1b-b259f5c6293f",
       active: false,
     },
     {
@@ -6992,8 +6632,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ciencia lirika - cramerkaze.mp3",
-      color: ["#8eda28", "#318aec"],
-      id: "a062d04c-09d8-4a76-b277-892e0329b478",
+      color: ["#cc4650", "#66ef53"],
+      id: "1f9dd18a-5f20-433c-8b9c-79a0ff3a4d37",
       active: false,
     },
     {
@@ -7004,8 +6644,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Ciento y pico.mp3",
-      color: ["#27df62", "#95c522"],
-      id: "78665e23-f49f-4247-a72c-bf3c50d81eaf",
+      color: ["#546840", "#962903"],
+      id: "73c25ff9-744d-4690-af77-769e08b030ff",
       active: false,
     },
     {
@@ -7016,8 +6656,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/clk_rpd-retrogrado superior(perla studios).mp3",
-      color: ["#ba540a", "#d28d1f"],
-      id: "c19fe6f0-244b-420b-892e-2d03264c63ae",
+      color: ["#c9761b", "#a7b800"],
+      id: "66b0a12d-23bb-44fc-97f4-46bb03ba55fd",
       active: false,
     },
     {
@@ -7028,8 +6668,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/cramerkaze(perla studios).mp3",
-      color: ["#8851f4", "#5dc398"],
-      id: "43792d9a-ed02-435d-bfdb-e2e705f3fd7a",
+      color: ["#844797", "#8e23eb"],
+      id: "b5fab69f-4926-45fd-9bc5-4bf42e79613a",
       active: false,
     },
     {
@@ -7040,8 +6680,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/CREW Mayk y Sore de la con Ne.mp3",
-      color: ["#348674", "#bfb14e"],
-      id: "53916aaa-241f-41a0-9dc1-6513918d537c",
+      color: ["#8a554a", "#497dcc"],
+      id: "dab7b707-702a-43f0-8695-ccbfc49b3487",
       active: false,
     },
     {
@@ -7052,8 +6692,8 @@ function chillHop() {
       artist: "Gris Materia",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Dentro Del Groove.mp3",
-      color: ["#48765d", "#72ae8d"],
-      id: "1ff789b2-72ed-458f-a7d6-074ff4693b8c",
+      color: ["#7f0fb1", "#01ae4e"],
+      id: "4d8b985f-8fb4-4e38-ac52-f7c618c35f92",
       active: false,
     },
     {
@@ -7064,8 +6704,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Dj Loro & Timus_Reflexiones.mp3",
-      color: ["#479304", "#903566"],
-      id: "0b6a4c27-490e-4fe9-acb6-bccd5a34fa19",
+      color: ["#5609fc", "#4f48f6"],
+      id: "f34f6c4d-660f-4da5-9e1d-90371f97ed33",
       active: false,
     },
     {
@@ -7076,8 +6716,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/drogate.mp3",
-      color: ["#8ddbe1", "#0f578e"],
-      id: "4d641d6f-011e-4512-b45e-3bd515a4506b",
+      color: ["#1d01bc", "#7892aa"],
+      id: "c29d3362-e340-4941-877d-f61d920b22d1",
       active: false,
     },
     {
@@ -7088,8 +6728,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/El Se\u00c3\u00b1or Gris  - Sdj ..mp3",
-      color: ["#527fe1", "#c1a5d4"],
-      id: "523fa20c-b47d-4d33-b179-c6cae343cf96",
+      color: ["#043d42", "#645ac3"],
+      id: "11fc7944-a776-492c-a71a-afa279604aa6",
       active: false,
     },
     {
@@ -7100,8 +6740,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/eMeKa Afro SoRe.mp3",
-      color: ["#0e052f", "#23b869"],
-      id: "1409f1b5-e02a-433c-b8fc-1f3a262b9f9f",
+      color: ["#1c7bf9", "#98034c"],
+      id: "2527d0c2-e099-470e-89bf-2b8eba6cb058",
       active: false,
     },
     {
@@ -7112,8 +6752,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Es como lanzar....mp3",
-      color: ["#c619da", "#da7f96"],
-      id: "6d5f880c-69c8-443c-b4e6-837fb013c9e9",
+      color: ["#94b514", "#590901"],
+      id: "0e773eff-01f6-4fa1-873e-6b7129be81f4",
       active: false,
     },
     {
@@ -7124,8 +6764,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/FrEeStYlE - Afro Rubo Bay.mp3",
-      color: ["#7cbe84", "#a5fac9"],
-      id: "8c357c1f-46f1-4dde-8c2d-11b5d1fe779a",
+      color: ["#dd2b6a", "#523017"],
+      id: "be63c7bb-7da8-464b-94cd-fc4c5e9c0ffb",
       active: false,
     },
     {
@@ -7136,8 +6776,8 @@ function chillHop() {
       artist: "OROPESA 2",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/G14 - las cosas ya no son asi.mp3",
-      color: ["#7ffb39", "#e959b6"],
-      id: "808d7173-36cf-4d3f-99e3-5f34aa39b333",
+      color: ["#8b738b", "#5f5a41"],
+      id: "705de7e5-3ec2-4866-81d8-4182cd5de245",
       active: false,
     },
     {
@@ -7148,8 +6788,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/hhp_-_03__SDJSientoprod.dezege.mp3",
-      color: ["#39f0fb", "#2aff0c"],
-      id: "de499345-578f-4124-b08d-bd0ba6be15ce",
+      color: ["#b23345", "#7cf68e"],
+      id: "4f900d65-7faf-4596-9930-691cf0c0da46",
       active: false,
     },
     {
@@ -7160,8 +6800,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/improvis.mp3",
-      color: ["#d0a393", "#19e907"],
-      id: "d891846c-ff9e-4f00-bda3-46e1f5062730",
+      color: ["#2edcb7", "#dca8fe"],
+      id: "0bb45208-d61b-4c28-b136-eee237f17660",
       active: false,
     },
     {
@@ -7172,8 +6812,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/JaKeMaTeStUdIoS.mp3",
-      color: ["#839ec4", "#9f3247"],
-      id: "b2cd4c4a-3bd4-4955-8e65-8d22de9810a2",
+      color: ["#5add97", "#df5ba2"],
+      id: "3c5c157f-56ab-47c3-8983-452ef22d6e0d",
       active: false,
     },
     {
@@ -7184,8 +6824,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/JAKEMATE_AFRO.mp3",
-      color: ["#44a174", "#b6c4c1"],
-      id: "141586e2-86d7-4caa-80fd-8d43e7a6b500",
+      color: ["#e3a6ad", "#cf3ab2"],
+      id: "930ff1ce-ca1c-4dbe-8881-25e630a13ea3",
       active: false,
     },
     {
@@ -7196,8 +6836,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Kafes,Afro,Eseeme,Eimo,Sando y Phobia - La Verdad.mp3",
-      color: ["#1e77de", "#d7b3ab"],
-      id: "44b7eda5-3190-4d04-a8d5-68e87a1882ed",
+      color: ["#88e19a", "#89523d"],
+      id: "c5aa3e31-71b2-497b-a5a7-99ffaa9ff937",
       active: false,
     },
     {
@@ -7208,8 +6848,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ke cebao.mp3",
-      color: ["#fe30c7", "#97843d"],
-      id: "10aa4a0b-d8b5-4db2-810c-35fdcce536f6",
+      color: ["#021dee", "#f4481d"],
+      id: "8b4832c1-dd6f-4a99-9fd5-2633724a3125",
       active: false,
     },
     {
@@ -7220,8 +6860,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/KoMo No!.mp3",
-      color: ["#2dd933", "#d518a5"],
-      id: "a7edb836-ddea-4b96-b925-4dcb7057d903",
+      color: ["#b2b6ec", "#88332d"],
+      id: "cdb681f9-f28d-4d65-a4f6-f76c51df7f2a",
       active: false,
     },
     {
@@ -7232,8 +6872,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/la charla-feat pro.mp3",
-      color: ["#1bdf05", "#1e874c"],
-      id: "680e00b3-4949-4ca8-9246-4b64d15bb14c",
+      color: ["#b4d103", "#31d3ca"],
+      id: "f7692f36-0c02-4181-9ecc-332035a84b33",
       active: false,
     },
     {
@@ -7244,8 +6884,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/la ETC con el Dani.mp3",
-      color: ["#489f65", "#c7a859"],
-      id: "ab55496c-32d0-4243-a157-ccbefda2961b",
+      color: ["#a187b7", "#1b1b5c"],
+      id: "13c1c879-cc6a-442f-bdb4-da5e343f8866",
       active: false,
     },
     {
@@ -7256,8 +6896,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/La Felicidad No Existe.mp3",
-      color: ["#937a0f", "#a083d0"],
-      id: "c0488a14-053d-44dd-8f41-dadc74c1817a",
+      color: ["#e5200a", "#69e2de"],
+      id: "b24f0f4c-aa0f-4a10-a520-22736584aa0b",
       active: false,
     },
     {
@@ -7268,8 +6908,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/La gente cambia ( con Drujas.mp3",
-      color: ["#9c199d", "#59e166"],
-      id: "5549ab27-e89b-457f-bf96-09f7bb562dba",
+      color: ["#e5f174", "#a95107"],
+      id: "9162c547-2785-4e37-af60-972019b2b46a",
       active: false,
     },
     {
@@ -7280,8 +6920,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/La OtRa CaRa.mp3",
-      color: ["#21ac05", "#27f15a"],
-      id: "26429ba9-5129-4078-be97-d6b114122519",
+      color: ["#f34cf4", "#120ed3"],
+      id: "87a2672c-59b7-46de-87cb-0bb146bc5276",
       active: false,
     },
     {
@@ -7292,8 +6932,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/La SDJ-CREW- Le click low.mp3",
-      color: ["#3850c5", "#3434de"],
-      id: "e21ec720-f5aa-46d6-b3a2-12d2c39be835",
+      color: ["#3825f9", "#f6ef83"],
+      id: "bc5658fe-0d96-43b0-b53d-6289323c9727",
       active: false,
     },
     {
@@ -7304,8 +6944,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/La verdad duele..mp3",
-      color: ["#32c2fe", "#07cae0"],
-      id: "686737be-ac31-454b-ad14-2f28e41f6742",
+      color: ["#0eaf47", "#2514e0"],
+      id: "6897abb0-e319-4555-8e28-615d6788297e",
       active: false,
     },
     {
@@ -7316,8 +6956,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/LT - 001 - Termino Mafiosi.mp3",
-      color: ["#092373", "#ac8791"],
-      id: "fee863c8-40f5-4717-b0d5-cbd8dc0da9dd",
+      color: ["#4af50e", "#dc63c4"],
+      id: "026f3a61-3df4-4656-ad87-e5005a375ef9",
       active: false,
     },
     {
@@ -7328,8 +6968,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/MK_balad.mp3",
-      color: ["#148d6e", "#cdaf4f"],
-      id: "dc4c0663-9427-4a5f-9db0-ed488436a886",
+      color: ["#9bcde5", "#52b0d4"],
+      id: "d1386514-3d46-4cce-ab3c-ec7fc6873c10",
       active: false,
     },
     {
@@ -7340,8 +6980,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Momentos.mp3",
-      color: ["#850c61", "#994c5d"],
-      id: "8b8c4218-ec49-48fb-81b3-0af477140d82",
+      color: ["#9a03a3", "#9f478d"],
+      id: "0cf9338d-a5fb-4034-83f0-c71f1906af2f",
       active: false,
     },
     {
@@ -7352,8 +6992,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Moro_perdon.mp3",
-      color: ["#221adf", "#7f1f01"],
-      id: "9bfbf4cd-7ac0-4132-a68c-685dff0fbaf9",
+      color: ["#ba90fe", "#b9d18a"],
+      id: "98be1468-7a90-492a-a6a3-d52411c53f8e",
       active: false,
     },
     {
@@ -7364,8 +7004,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Moro_Voy a rebentar tus Buffles.mp3",
-      color: ["#77275a", "#00eec4"],
-      id: "343ab6a8-7895-481a-941c-89677380d5bf",
+      color: ["#6dc1be", "#e19f2a"],
+      id: "2a27eb8b-97c9-4ce3-80b1-5678faf66ba9",
       active: false,
     },
     {
@@ -7376,8 +7016,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Originales de barrio - KN.mp3",
-      color: ["#31bdd4", "#c8d555"],
-      id: "59ae30f2-70c6-4d24-a194-d7a566cd59f8",
+      color: ["#6c3691", "#d3c2fd"],
+      id: "2bb66d97-8f1c-4489-b3b3-da4212b5db11",
       active: false,
     },
     {
@@ -7388,8 +7028,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Pal Tonton Ares - www.Rimadero.es.vg.mp3",
-      color: ["#acb01c", "#4c21eb"],
-      id: "e91490f8-0214-497c-9c12-47e4e32f070b",
+      color: ["#677a7a", "#8227d7"],
+      id: "7ae70401-7433-4f54-997e-1c933b109108",
       active: false,
     },
     {
@@ -7400,8 +7040,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/parte cramer-pro.mp3",
-      color: ["#1c144d", "#6bfaa9"],
-      id: "b477838c-8f47-424c-adff-8cde083ee1aa",
+      color: ["#b08acf", "#a7817a"],
+      id: "86aabf5e-9160-42a9-b2b2-e356a6fdbd7e",
       active: false,
     },
     {
@@ -7412,8 +7052,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/PhOtOfRaMe_JuLy  AlEgRe.mp3",
-      color: ["#66d3ba", "#2d77cf"],
-      id: "3ad3c12e-2474-42f6-a52d-080f5d74868f",
+      color: ["#7c4767", "#06d6e8"],
+      id: "a83067b7-fd34-4a99-bdd8-6324474fa4e2",
       active: false,
     },
     {
@@ -7424,8 +7064,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/PuMa_PrO-BaKaLeTaS.mp3",
-      color: ["#369a51", "#671bf6"],
-      id: "00debb9c-52fc-4c24-8ebf-d59f4b7abd79",
+      color: ["#37a4f3", "#cfc3dd"],
+      id: "6e1ad7f7-55f2-43a8-af55-4e3cf072bb00",
       active: false,
     },
     {
@@ -7436,8 +7076,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Que no paro.mp3",
-      color: ["#b6f2fe", "#ed5cc1"],
-      id: "8a7b998c-b0ea-4b47-82dc-a3cd315419b1",
+      color: ["#861a8c", "#0d95dd"],
+      id: "f3965757-d2cd-45ea-be9a-8b62399ae011",
       active: false,
     },
     {
@@ -7448,8 +7088,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Reflexiones (Timus-dj Loro).mp3",
-      color: ["#8d79ff", "#47bb6c"],
-      id: "4072432a-6901-404c-9778-9b75db224b83",
+      color: ["#48b577", "#e1de54"],
+      id: "3c0ab38d-8dd4-49ae-bf5e-9219260da5a3",
       active: false,
     },
     {
@@ -7460,8 +7100,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ruan - temita de 2005.mp3",
-      color: ["#3789d4", "#38a098"],
-      id: "cae3aa35-2603-4afe-b2c1-e76d23ee33b7",
+      color: ["#7edcb3", "#33c632"],
+      id: "51309a80-6271-47b3-9132-f5251b0903b8",
       active: false,
     },
     {
@@ -7472,8 +7112,8 @@ function chillHop() {
       artist: "Rush feat. Kodigo Norte",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Salvajes_(Rushbla-ka_feat._.Kodigo Norte) - [www.kodigonorte.com].mp3",
-      color: ["#fcf326", "#48a948"],
-      id: "c5b8c51b-0092-45d4-9b1b-42c8def8a192",
+      color: ["#bc0044", "#c02cea"],
+      id: "58d0871d-cd93-4a07-9502-a27ba8b49e84",
       active: false,
     },
     {
@@ -7484,8 +7124,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ - Ciento y pico.mp3",
-      color: ["#3dfcc1", "#7db126"],
-      id: "d13938a9-ff79-43ca-b0ab-c177372d3897",
+      color: ["#51e8d3", "#6fdc14"],
+      id: "1fd2b8b8-478a-40af-b048-e521ca440679",
       active: false,
     },
     {
@@ -7496,8 +7136,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ - Pal Tonton Ares.mp3",
-      color: ["#5872e9", "#0e07ae"],
-      id: "e249336c-9a6d-4ab7-93fc-84ecde7e605d",
+      color: ["#2ba516", "#9d31cf"],
+      id: "0a7e06aa-9670-437c-b600-da137797ed1b",
       active: false,
     },
     {
@@ -7508,8 +7148,8 @@ function chillHop() {
       artist: "SDJ CREW sore,urban,mK",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ CREW sore,urban,mK _drogate.mp3",
-      color: ["#0302d6", "#96e507"],
-      id: "8190e468-ebe1-40df-bab1-0e64343ba95e",
+      color: ["#0e1d8d", "#a7c7ce"],
+      id: "5f40bfa2-3a89-4df0-b424-446a869a645b",
       active: false,
     },
     {
@@ -7520,8 +7160,8 @@ function chillHop() {
       artist: "PAXANGA.NET",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ- Mucha mierda.mp3",
-      color: ["#ab3771", "#bc6e89"],
-      id: "251a5bed-5250-4d47-8863-7486f76bba25",
+      color: ["#cb28eb", "#f90f16"],
+      id: "3eb10639-75be-4b23-a822-151f939ad01e",
       active: false,
     },
     {
@@ -7532,8 +7172,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ-04-Caos_(con_Emeka).mp3",
-      color: ["#1d08bd", "#d9e3bb"],
-      id: "ad5cd2d2-a8c8-44c4-aa9d-b1fc80c615dc",
+      color: ["#73e064", "#f2563f"],
+      id: "ede27d7e-31cd-4679-8406-879456ce7ab0",
       active: false,
     },
     {
@@ -7544,8 +7184,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ-CREW Mayk y Sore de la con Nez - Golpes como terapia.mp3",
-      color: ["#c03c55", "#6d1b8e"],
-      id: "d3d1b203-6aa9-4a92-b3e7-222f3007a2bd",
+      color: ["#63c88d", "#c4bd71"],
+      id: "8321aa4e-7fb1-4b1b-bcbf-1ed27ff346a9",
       active: false,
     },
     {
@@ -7556,8 +7196,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ-Shalom Aleikum.mp3",
-      color: ["#3fea47", "#637ded"],
-      id: "10cbb310-bc18-40f2-9995-3cf489effabc",
+      color: ["#8b6912", "#95f460"],
+      id: "ff10bc47-2c27-43ff-98ca-c5ca6bd05f99",
       active: false,
     },
     {
@@ -7568,8 +7208,8 @@ function chillHop() {
       artist: "sdj",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sdj-_Rimadero_19.mp3",
-      color: ["#cebae6", "#dab8b3"],
-      id: "5b8979b2-a880-48a7-930f-3290d62ef40d",
+      color: ["#c517d5", "#e0df09"],
+      id: "fdb6e616-65c1-44b3-8ea8-666c64502c5d",
       active: false,
     },
     {
@@ -7580,8 +7220,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sdjakem.mp3",
-      color: ["#b1bf48", "#48a512"],
-      id: "5764e4a4-7c80-48b9-9980-f25637f8d04f",
+      color: ["#8935f1", "#a00ed7"],
+      id: "07d0a43a-0ecc-4917-939f-09552ac98a6d",
       active: false,
     },
     {
@@ -7592,8 +7232,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJakemate.mp3",
-      color: ["#65aa3f", "#727cce"],
-      id: "d16497a5-07da-4367-bbc9-5c175ed130be",
+      color: ["#e245eb", "#2ffa33"],
+      id: "ee48a0cb-cbd4-4b7c-bb7b-7484ddbbd56e",
       active: false,
     },
     {
@@ -7604,8 +7244,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SdJcReW.mp3",
-      color: ["#500b1a", "#fa2800"],
-      id: "9d82ad8c-c038-4df7-847a-6e82d5655f56",
+      color: ["#1a2350", "#b3222e"],
+      id: "ee66a698-63a4-4b3e-badb-86e2a104bdb7",
       active: false,
     },
     {
@@ -7616,8 +7256,8 @@ function chillHop() {
       artist: "SDJ_ maik,cobos &  sore",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ_ maik,cobos &  sore- _la se\u00c3\u00b1al.mp3",
-      color: ["#293fae", "#594dec"],
-      id: "d4e723bf-dfcb-4ea3-8082-d3c40f8ac3f3",
+      color: ["#a640b8", "#b239dd"],
+      id: "56d8caee-f4a3-41da-8e54-6d2e20aad082",
       active: false,
     },
     {
@@ -7628,8 +7268,8 @@ function chillHop() {
       artist: "sdj_",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sdj_-_Rimadero_22.mp3",
-      color: ["#355482", "#ef445b"],
-      id: "dee5b42c-6d2d-4536-a16a-2bfefc295aa9",
+      color: ["#b0c7d1", "#bf4bfa"],
+      id: "aea7fc80-9d1a-4aa4-b2bd-3f4aed65e964",
       active: false,
     },
     {
@@ -7640,8 +7280,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SDJ_drogate.mp3",
-      color: ["#ddabb3", "#0bc246"],
-      id: "be3727db-8364-4ef6-be21-a1fcfe07ec29",
+      color: ["#d10d18", "#4b2600"],
+      id: "dacc8cbe-0a76-4b41-9242-dce8c3c1c6b0",
       active: false,
     },
     {
@@ -7652,8 +7292,8 @@ function chillHop() {
       artist: "sdj",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sdj_Rapabajocero.mp3",
-      color: ["#fdbe93", "#ca79bf"],
-      id: "d824aa95-fc43-45d3-9697-b51a7dce063e",
+      color: ["#084d6c", "#93cbc7"],
+      id: "314f54df-28b1-4332-adbd-c6f310b326f0",
       active: false,
     },
     {
@@ -7664,8 +7304,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sdj_voy con los mios.mp3",
-      color: ["#f738b0", "#c1df55"],
-      id: "05ce4bb8-3020-4c83-8276-974272387d04",
+      color: ["#98b210", "#181d41"],
+      id: "39ccf973-f85b-47df-abe1-3d50de3ac91c",
       active: false,
     },
     {
@@ -7676,8 +7316,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Sdj__Guardaros_vuestra_rabia.mp3",
-      color: ["#356636", "#1c4f76"],
-      id: "7a1c2583-9438-409f-b0c8-8e5a946ad957",
+      color: ["#7d64d0", "#c5cc75"],
+      id: "c0d8a3b8-bc4f-4eaf-9811-85b7771da6d5",
       active: false,
     },
     {
@@ -7688,8 +7328,8 @@ function chillHop() {
       artist: "SDJ",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Sdj__Todo_o_Nada.mp3",
-      color: ["#73a153", "#67a6f3"],
-      id: "e716efd0-2ddd-4694-a17f-e18df200adf7",
+      color: ["#c0035c", "#258bad"],
+      id: "2d0b245b-0ca5-4a09-8893-25a35c51f2b4",
       active: false,
     },
     {
@@ -7700,8 +7340,8 @@ function chillHop() {
       artist: "Sdj",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Sdj__Tofuuu.mp3",
-      color: ["#b557c1", "#d85362"],
-      id: "19819d8e-56cf-45a0-8c36-cd357d02150f",
+      color: ["#d56b24", "#65094d"],
+      id: "b0cb041e-2b12-4dbf-9b9f-2cc64bb42b2e",
       active: false,
     },
     {
@@ -7712,8 +7352,8 @@ function chillHop() {
       artist: "Sdj",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Sdj__Vida_reventada.mp3",
-      color: ["#7a396e", "#765149"],
-      id: "bc0e3898-8e74-40a3-b030-915b2f1c613b",
+      color: ["#c699b3", "#d9f8f2"],
+      id: "e813601d-366d-4dff-b7ba-d962c7b13856",
       active: false,
     },
     {
@@ -7724,8 +7364,8 @@ function chillHop() {
       artist: "Se\u00f1ores_del_jarcore_",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Se\u00c3\u00b1ores_del_jarcore_-_Sdj_y_Mos__Mas_alla_del_fracaso.mp3",
-      color: ["#22658e", "#fcb19b"],
-      id: "d875b3b0-a6e5-4f23-a956-d53ebf52cf9e",
+      color: ["#9be47b", "#46f21a"],
+      id: "0a9802c5-a78d-48a4-9f1a-26c8922013b4",
       active: false,
     },
     {
@@ -7736,8 +7376,8 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Siento prod.dezege.mp3",
-      color: ["#366b6b", "#7d9bad"],
-      id: "3728be9d-cce1-42c4-aeae-e552fd9f1bef",
+      color: ["#b88f22", "#bf137b"],
+      id: "0c9aec39-926b-48a8-89df-6fd15787afee",
       active: false,
     },
     {
@@ -7748,8 +7388,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sore sdj-Shalom Aleikum.mp3",
-      color: ["#51904b", "#ca873d"],
-      id: "11b659de-48fa-44b8-a74c-de41e2b05619",
+      color: ["#355026", "#640038"],
+      id: "3e85e5a0-cd51-447c-b482-a98bd2cb98fd",
       active: false,
     },
     {
@@ -7760,8 +7400,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Sore,Klito,Urban.mp3",
-      color: ["#b301ea", "#04af47"],
-      id: "31271508-2f93-4766-a248-7845ff3a10c4",
+      color: ["#33b25e", "#1b193d"],
+      id: "4d8e2dea-fc63-4bb5-9d77-65cd4f3a50e1",
       active: false,
     },
     {
@@ -7772,8 +7412,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/sore-totem-RAP PAMPERO(estribillo).mp3",
-      color: ["#330daf", "#cd2689"],
-      id: "2972684a-355e-4a19-b65e-c57c901cc2f9",
+      color: ["#82c565", "#369c97"],
+      id: "d54166b1-db65-4323-abe3-648288d2601c",
       active: false,
     },
     {
@@ -7784,8 +7424,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Soul.EditodeLujo.mp3",
-      color: ["#ac437b", "#307ba8"],
-      id: "3be01092-54a7-4f77-99b3-6abc989253d6",
+      color: ["#04244a", "#631fc4"],
+      id: "99a1a07f-d538-4597-a96b-022dbaba2247",
       active: false,
     },
     {
@@ -7796,8 +7436,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SrKtEaM-Bala Perdida (alegre, keke,pab, sdas, july).mp3",
-      color: ["#6ce862", "#198597"],
-      id: "38294ca0-6bb7-4770-b7b7-5b811c029c67",
+      color: ["#979cae", "#a8aaae"],
+      id: "4bc83e05-6e9c-45bb-8fac-76f6487ceeb9",
       active: false,
     },
     {
@@ -7808,8 +7448,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/SrK_alegre-sdas-pab-keke.mp3",
-      color: ["#f07aa3", "#04c19d"],
-      id: "f906f800-d864-405d-be96-f2458e529b2b",
+      color: ["#28d908", "#e598f6"],
+      id: "39dc50f6-0c13-4cd1-b081-2751002e7fe0",
       active: false,
     },
     {
@@ -7820,8 +7460,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ToTem & RuaN - le click low.mp3",
-      color: ["#ef4cb3", "#cc04d4"],
-      id: "3994d4f7-7290-459d-8f38-20c1e12fc960",
+      color: ["#af8ac8", "#ecdce2"],
+      id: "29414325-3594-4df8-8c49-3a08511baf7f",
       active: false,
     },
     {
@@ -7832,8 +7472,8 @@ function chillHop() {
       artist: "TOTEM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/TOTEM -sdj ElSe\u00c3\u00b1orGris - La Maldicion (prueba).mp3",
-      color: ["#155e97", "#693731"],
-      id: "b7492351-3d7d-45e1-9ad3-e76aa91e1547",
+      color: ["#82a71f", "#d00d1c"],
+      id: "c70fe0d3-3ec1-4f78-8d85-ed62b1ea793a",
       active: false,
     },
     {
@@ -7844,8 +7484,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/TOTEM-el se\u00c3\u00b1or gris.mp3",
-      color: ["#1e9c2f", "#4ee1ff"],
-      id: "0894df37-5e39-46a3-bfc6-6d2154a61fbd",
+      color: ["#1ab4e0", "#a6af47"],
+      id: "823b348a-7ac3-4607-8f47-87adaf52e195",
       active: false,
     },
     {
@@ -7856,8 +7496,8 @@ function chillHop() {
       artist: "ToTeM",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/ToTeM-ElSe\u00c3\u00b1orGris - Asi lo hacen en mi pueblo.mp3",
-      color: ["#26e2cc", "#191d87"],
-      id: "1b08f754-0cf4-46ea-b7b4-7cda7ddec022",
+      color: ["#427697", "#5b74fe"],
+      id: "789d7b27-15b7-4c49-b8a3-9951b0f0818f",
       active: false,
     },
     {
@@ -7868,8 +7508,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/TOTEM-GUETO BOY.mp3",
-      color: ["#bf0d67", "#1e3652"],
-      id: "067dd2da-0ac3-406c-806f-ad91e02a96f0",
+      color: ["#042165", "#b94136"],
+      id: "9c9bd3f8-48e3-41fc-b40e-3524b8481eab",
       active: false,
     },
     {
@@ -7880,8 +7520,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Totem-vacile a wiskas.mp3",
-      color: ["#9d793c", "#ed1903"],
-      id: "fbcfb79a-77cb-4cd1-9db1-a664dccb7be8",
+      color: ["#5c3aa4", "#f113b0"],
+      id: "3eab5ba5-9e7c-4047-aaf8-f66d8cae228c",
       active: false,
     },
     {
@@ -7892,8 +7532,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/totem_urban_clito_ruan_pro.mp3",
-      color: ["#c291f5", "#4724dc"],
-      id: "c2c05526-8538-4768-af61-e873b1378984",
+      color: ["#693c7d", "#6fec07"],
+      id: "64bec491-7844-4f42-9267-5a41c564e2c1",
       active: false,
     },
     {
@@ -7904,8 +7544,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Triangulo Eskaleno - Base (Afro JotaC).mp3",
-      color: ["#ec13a4", "#8668ba"],
-      id: "3cdf29fd-ef5b-4577-be27-c0af11aa3db0",
+      color: ["#a8c6da", "#23722b"],
+      id: "76b5ec2b-03f1-4b26-af24-f085ca45888c",
       active: false,
     },
     {
@@ -7916,8 +7556,8 @@ function chillHop() {
       artist: "Unknown Artist",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/TRIPLE COMBO  THE WARRIORS TIME (Clip Oficial).mp3",
-      color: ["#01620d", "#53b941"],
-      id: "527050fd-a61d-40b9-a2e7-49df5bc75c13",
+      color: ["#c8f9d4", "#1d2dd9"],
+      id: "130092d7-e627-4bd6-8668-d0cad332e007",
       active: false,
     },
     {
@@ -7928,8 +7568,584 @@ function chillHop() {
       artist: "Afro, Rubo, Sore, Sok,...",
       audio:
         "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/woper-era se una muchacha euskalduna.mp3",
-      color: ["#b44de6", "#54984f"],
-      id: "1d957d04-79ea-464b-8f77-115a020f873d",
+      color: ["#5052f2", "#5113ed"],
+      id: "b51ba593-3ea8-424e-99be-67dba6625893",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS",
+      name: "Xpe-Moro_Ventana Oculta",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/Xpe-Moro_Ventana Oculta.mp3",
+      color: ["#003ac2", "#4a487c"],
+      id: "35ff4912-b151-4698-a9ce-dca00d1f0b78",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/yeah po po no pruefva.mp3",
+      color: ["#b0ae37", "#621c81"],
+      id: "fa0e90ae-ea90-4142-a733-cafc20c42f13",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS/yose + afro + rone + samo - visita desorganizada.mp3",
+      color: ["#8d1e22", "#f355bc"],
+      id: "d16a4046-39b3-4228-a34e-a85c232ef3e4",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/-Cuando el dia cae_.mp3",
+      color: ["#a7ad59", "#321a19"],
+      id: "8d4d419c-15a5-45c0-9f20-54b01c8fb12a",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/-La squad garden.mp3",
+      color: ["#b2ce00", "#e22446"],
+      id: "faaf204f-8ab2-40f0-a628-9f58be0bb050",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "100% o nada",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barri & Java",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/100% o nada.mp3",
+      color: ["#bb26a4", "#4da71f"],
+      id: "7311b574-d018-468a-a3fa-8f80c5564085",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/365.mp3",
+      color: ["#cdaa5f", "#f902e8"],
+      id: "d38512cc-9e92-471e-97db-6be9e4c1b4f5",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/77814043_df0bd310.mp3",
+      color: ["#a7ba20", "#5eb9b4"],
+      id: "f5c74aba-9cb4-4b96-a670-5e135b53690c",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "ados",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "ados",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/ados.mp3",
+      color: ["#06e87c", "#bb55e2"],
+      id: "3c4c21cc-1eb8-4cb0-a03f-aadbca31c090",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Comparame",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso Tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/comparame.mp3",
+      color: ["#b32e73", "#f57fb9"],
+      id: "e8ba24b6-2331-4e52-9525-f0525974b404",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Con tanto amor",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Zona Ganjah",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/con tanto amor.mp3",
+      color: ["#6287aa", "#95824a"],
+      id: "951456c7-d55e-4d6d-a7db-e2ddea523c1f",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Dame de fumar",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Mayk & Mr.Ados",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Dame de fumar.mp3",
+      color: ["#c508bb", "#b5c0b7"],
+      id: "27181974-a4ba-4113-95b7-cae687602d56",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "dame tu droga lumi",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/dame tu droga lumi.mp3",
+      color: ["#a361af", "#3b9ca4"],
+      id: "58457b29-49a5-4770-8396-c79d3f25367c",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Domingo 8",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Domingo 8.mp3",
+      color: ["#179d85", "#22627a"],
+      id: "9c1f1183-a977-4964-877b-07a4e9b74b03",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/donde.mp3",
+      color: ["#d061fa", "#f0bac4"],
+      id: "29ce22de-bc1b-48ef-9750-71370de1d9dc",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/en el monte staf srgris ihon.mp3",
+      color: ["#c967ae", "#7a190b"],
+      id: "f6218565-8cc0-434b-afc5-d7edd09d3451",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "esss",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso Tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/esss.mp3",
+      color: ["#4475ba", "#2b60f6"],
+      id: "260a45b7-18f8-440e-8e46-c8cff9ab2fc1",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Fuma del humo y sana",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Zona Ganjah",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/fuma del humo y sana.mp3",
+      color: ["#0fb7e8", "#7327ed"],
+      id: "6df6d6ef-625f-4e42-aac3-5618257fcb84",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Gracias Nena",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Gracias Nena.mp3",
+      color: ["#78db33", "#76d5a7"],
+      id: "9a8b55d1-c8b2-48f1-84cb-2a95496549da",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Heroes Del Pueblo",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "iNiX & Ph.Fallaway",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/iNiX & Ph.Fallaway - Heroes Del Pueblo.mp3",
+      color: ["#9faab5", "#ddc2ed"],
+      id: "c7a67476-1c59-4dbc-ba82-427c44eed145",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "INIX DESDE ANIMA",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "INIX DESDE ANIMA",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/INIX DESDE ANIMA.mp3",
+      color: ["#0c2a69", "#6fec10"],
+      id: "e07d1e0f-d20e-4990-ac91-ee4a6ace3d76",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "iNiX Prueba (Falta TopoHans)",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "iNiX Prueba (Falta TopoHans",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/iNiX Prueba (Falta TopoHans).mp3",
+      color: ["#94fe76", "#6a4995"],
+      id: "c8223b17-9dd1-4436-ba6a-c8a49e54383a",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Y No Lo Entiendo(prueba)",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "iNiX y HoCh",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/iNiX y HoCh - Y No Lo Entiendo(prueba).mp3",
+      color: ["#02b266", "#7d4243"],
+      id: "3a1b254c-93c9-405b-a928-573c1e12aa2e",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "insert coin",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/insert coin.mp3",
+      color: ["#cf427f", "#a2d6d7"],
+      id: "ab8e49ec-bb32-4666-b2f5-539a4050ea99",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Komo Kapos",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "ZEUS & StanlenKubrik`s",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Komo Kapos.mp3",
+      color: ["#3297b3", "#33e32e"],
+      id: "a85c1e58-1713-4f15-bfb2-271dfba6fdeb",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "la flor de hipocresi",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/la flor de hipocresia.mp3",
+      color: ["#e225cc", "#7f7918"],
+      id: "042995ed-e339-42b3-9eab-2fa7dda04331",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "la noche se desnuda",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "la noche se desnuda",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/la noche se desnuda.mp3",
+      color: ["#edc7bd", "#32b86e"],
+      id: "0d9a8cc3-38ab-4132-af50-e10753174c78",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Las Blancas Nieves 1",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso Tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/las blancas nieves 1.mp3",
+      color: ["#8c9449", "#9ad4bb"],
+      id: "db814d35-008a-470d-adf3-5a83ba5e542d",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "LuCeS De La CiUdAd",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "ZoNa gAnJaH",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/luces de la ciudad.mp3",
+      color: ["#aca87f", "#697c5e"],
+      id: "d37e722d-74a9-4404-ac1a-c1cc90296d0f",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/mas a\u00f1os ke los simpsens.mp3",
+      color: ["#bb138f", "#22f8ee"],
+      id: "42bf0d07-6626-4de2-ae75-3a1a908fe377",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "No dejo de darle vueltas",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/No dejo de darle vueltas.mp3",
+      color: ["#317670", "#447424"],
+      id: "35300aa3-20ae-4e30-9f09-ba8b538967c9",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/nunca mas.mp3",
+      color: ["#268f26", "#661d85"],
+      id: "7493bcb7-558b-4ee9-85f8-38456f0227b3",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "NyahWarr",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "iNiX y HoCh",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Nyahwarr.mp3",
+      color: ["#7fa139", "#4ebec9"],
+      id: "04cbc84c-8fc5-41ec-a6f4-e4f66801a754",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Prueba",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/prueba barry.mp3",
+      color: ["#eb6405", "#2dadae"],
+      id: "ef53e482-b8f1-4013-b353-b8c7e2c610cf",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Rap brutal vasko",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Rap brutal vasko.mp3",
+      color: ["#2b68f7", "#a0e4a6"],
+      id: "fcc175bc-533d-4b9b-b134-8d405972bf07",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/secretosdelanoche.mp3",
+      color: ["#e9051c", "#1e1f8f"],
+      id: "225fb779-0956-4368-a373-ea4e9046b65f",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Sore feat ihon",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Sore feat ihon",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Sore feat ihon.mp3",
+      color: ["#5f6d7c", "#821179"],
+      id: "517e532b-ccbc-4741-b022-510c13fb625e",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "prueba_rsvcrew",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "stanlen",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/stanlen_prueba_rsvcrew.mp3",
+      color: ["#66b358", "#3f9dce"],
+      id: "cf3877ac-c667-43dd-989d-98169960ab5d",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "sue\u00f1a",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/sue\u00f1a.mp3",
+      color: ["#296de9", "#e30c5f"],
+      id: "1d3b4b28-826b-48ff-983e-c68ad6d9b4ae",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Unknown Title",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Unknown Artist",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/the santa garden.mp3",
+      color: ["#81e0fe", "#8a799a"],
+      id: "c0c0945c-faa8-4237-b51a-3120f34425a2",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Todo Puglafamy",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/Todo Puglafamy.mp3",
+      color: ["#f0dc96", "#5ab5a0"],
+      id: "e89b7ea1-4e9e-4df9-9c23-a6971f67a3da",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Donde ir\u00e1n (PRUEBA)",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "TuleN, iNiX & ArmandoJarana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/TuleN, iNiX & ArmandoJarana - Donde ir\u00e1n (PRUEBA).mp3",
+      color: ["#40851a", "#e676e9"],
+      id: "78394cdb-f357-4843-bf24-cb82c43069cb",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Fumando vamos a casa",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Zona Ganjah y Manuel (I&I Fusion)",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/vamos a  casa.mp3",
+      color: ["#5b0090", "#4d63c3"],
+      id: "0a2a2d16-428c-4805-882d-1249a7ebaac2",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Vendetta",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso Tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/vendetta.mp3",
+      color: ["#e6adb6", "#c3c03d"],
+      id: "86f5283f-60dc-4381-af4f-6a45338a9e7f",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "vIbRa PoSiTiVa",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "ZoNa GaNjAh",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/vibra positiva.mp3",
+      color: ["#4ecfce", "#c07d56"],
+      id: "be64181e-8d35-4a0c-8ef7-91506c300930",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "Ya Sabes",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso Tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/ya sabes.mp3",
+      color: ["#fbfe3f", "#8a6b4c"],
+      id: "5b63f9d4-67e0-42a6-8ab3-0c62a85aab21",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "zeus singan",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "Barriuso tramontana",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/zeus singan.mp3",
+      color: ["#3c2dd1", "#e41689"],
+      id: "a314d48b-0848-43e8-b96e-87082ad3b18c",
+      active: false,
+    },
+    {
+      album: "VITORIA VARIOS 2",
+      name: "\u00d1ETE Y EL IVAN",
+      cover:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/cover.jpg",
+      artist: "\u00d1ETE Y EL IVAN",
+      audio:
+        "https://retrogasteiz.blob.core.windows.net/gasteizkorap/VITORIA VARIOS 2/\u00d1ETE Y EL IVAN.mp3",
+      color: ["#d849ef", "#e2babc"],
+      id: "b9956baf-c5fa-40bc-8e0b-e7b62f24b880",
       active: false,
     },
   ];
