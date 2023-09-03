@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
 
@@ -9,17 +10,28 @@ import Library from "./components/Library";
 import Nav from "./components/Nav";
 import Credit from "./components/Credit";
 // Import data
-import data from "./data";
+import tracklist from "./tracklist.json";
 
 const App = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   // Ref
   const audioRef = useRef(null);
 
   // State
-  const [songs, setSongs] = useState(data());
+  const [songs, setSongs] = useState(tracklist);
 
-  const randomIndex = Math.floor(Math.random() * songs.length);
-  const [currentSong, setCurrentSong] = useState(songs[randomIndex]);
+  const songIdFromURL = location.pathname.substring(1);
+  const songToPlay = songIdFromURL
+    ? songs.find((song) => song.id === songIdFromURL)
+    : null;
+
+  const initialSong =
+    songToPlay || songs[Math.floor(Math.random() * songs.length)];
+
+  const [currentSong, setCurrentSong] = useState(initialSong);
+
   const [isPlaying, setIsPlaying] = useState(false);
   const [libraryStatus, setLibraryStatus] = useState(false);
   const [songInfo, setSongInfo] = useState({
@@ -66,6 +78,11 @@ const App = () => {
   lastPart[0] = encodeURIComponent(lastPart[0]);
   parts[parts.length - 1] = lastPart.join("?");
   const audioSrc = parts.join("/");
+
+  // UseNavigate code
+  useEffect(() => {
+    navigate(`/${currentSong.id}`);
+  }, [currentSong, navigate]);
 
   return (
     <AppContainer
