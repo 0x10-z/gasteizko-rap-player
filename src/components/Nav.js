@@ -8,8 +8,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
     <NavContainer>
       <H1 $isLibraryActive={libraryStatus}>VI y alrededores</H1>
       <Button onClick={() => setLibraryStatus(!libraryStatus)}>
-        Library
-        <FontAwesomeIcon icon={faMusic} />
+        Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>
     </NavContainer>
   );

@@ -97,6 +97,10 @@ const SearchInput = styled.input`
   border: 1px solid rgba(155, 155, 155, 0.5);
   border-radius: 5px;
   outline: none;
+  position: sticky; // Añade esta línea
+  top: 2rem; // Añade esta línea
+  background-color: white; // Añade esta línea para asegurarte de que el fondo sea opaco
+  z-index: 10; // Añade esta línea para asegurarte de que el input esté por encima de otros elementos
   &:focus {
     border-color: rgba(155, 155, 155, 0.8);
   }
