@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
@@ -13,6 +13,7 @@ const Library = ({
   libraryStatus,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
+  const inputRef = useRef(null); // Crea la referencia
 
   const filteredSongs = songs.filter((song) => {
     const searchTermLower = searchTerm.toLowerCase();
@@ -22,6 +23,12 @@ const Library = ({
       song.album.toLowerCase().includes(searchTermLower)
     );
   });
+
+  useEffect(() => {
+    if (libraryStatus && inputRef.current) {
+      inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+    }
+  }, [libraryStatus]);
   return (
     <LibraryContainer $libraryStatus={libraryStatus}>
       <H1>Tracklist</H1>
@@ -30,6 +37,7 @@ const Library = ({
         placeholder="Busca un tema..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        ref={inputRef}
       />
       <SongContainer>
         {filteredSongs.map((song) => (
@@ -58,13 +66,14 @@ const LibraryContainer = styled.div`
   box-shadow: 2px 2px 50px rgb(204, 204, 204);
   user-select: none;
   overflow: scroll;
+  overflow-x: hidden;
   transform: translateX(${(p) => (p.$libraryStatus ? "0%" : "-100%")});
   transition: all 0.5s ease;
   opacity: ${(p) => (p.$libraryStatus ? "100" : "0")};
   scrollbar-width: thin;
   scrollbar-color: rgba(155, 155, 155, 0.5) tranparent;
   &::-webkit-scrollbar {
-    width: 5px;
+    width: 15px;
   }
   &::-webkit-scrollbar-track {
     background: transparent;
@@ -98,16 +107,17 @@ const SearchInput = styled.input`
   top: 2rem;
   border-radius: 5px;
   outline: none;
-  position: sticky; // Añade esta línea
-  top: 2rem; // Añade esta línea
-  background-color: white; // Añade esta línea para asegurarte de que el fondo sea opaco
-  z-index: 10; // Añade esta línea para asegurarte de que el input esté por encima de otros elementos
+  position: sticky;
+  position: -webkit-sticky;
+  top: 2rem;
+  background-color: white;
+  z-index: 10;
   &:focus {
     border-color: rgba(155, 155, 155, 0.8);
   }
 
   @media screen and (max-width: 768px) {
-    top: 1.1rem; // Añade esta línea
+    top: 1.1rem;
     width: 65%;
   }
 `;

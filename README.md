@@ -41,6 +41,5 @@ This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
 
 ## TODO
 
-- Library tab, when song titles are too long text is not well seen.
 - Smartphone library tab is not working fine. Searchbox is not sticky on top.
 - About tab describing purpose of this webpage
