@@ -13,6 +13,16 @@ import Credit from "./components/Credit";
 // Import data
 import tracklist from "./tracklist.json";
 
+function prettifyString(str) {
+  let prettified = str.replace(/[^a-zA-Z0-9]+/g, "-");
+  prettified = prettified.replace(/-+/g, "-");
+  prettified = prettified.replace(/\w\S*/g, (txt) => {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+
+  return prettified.trim();
+}
+
 const App = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -25,7 +35,13 @@ const App = () => {
 
   const songIdFromURL = location.pathname.substring(1);
   const songToPlay = songIdFromURL
-    ? songs.find((song) => song.id === songIdFromURL)
+    ? songs.find(
+        (song) =>
+          prettifyString(song.artist) ===
+            prettifyString(songIdFromURL.split("@")[0]) &&
+          prettifyString(song.name) ===
+            prettifyString(songIdFromURL.split("@")[1])
+      )
     : null;
 
   const initialSong =
@@ -82,13 +98,18 @@ const App = () => {
 
   // UseNavigate code
   useEffect(() => {
-    navigate(`/${currentSong.id}`);
+    navigate(
+      `/${prettifyString(currentSong.artist)}@${prettifyString(
+        currentSong.name
+      )}`
+    );
   }, [currentSong, navigate]);
 
   return (
     <AppContainer
       $libraryStatus={libraryStatus}
-      $backgroundImage={currentSong.cover}>
+      $backgroundImage={currentSong.cover}
+    >
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
       <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player

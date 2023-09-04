@@ -3,12 +3,95 @@ import eyed3
 from PIL import Image
 from uuid import UUID
 from mutagen.mp4 import MP4, MP4Cover
+from mutagen.easyid3 import EasyID3
+from mutagen.mp3 import MP3
 import random
-from tqdm import tqdm
 import json
 import shutil
 import hashlib
 from random import randint
+from pydub import AudioSegment
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
+
+
+def set_m4a_metadata(file_path):
+    """Establece metadatos en un archivo m4a si no están presentes."""
+    filename_without_extension = os.path.basename(file_path).rsplit(".", 1)[0]
+    audiofile = MP4(file_path)
+
+    audiofile["©nam"] = audiofile.get("©nam", [filename_without_extension])[0]
+    audiofile["©ART"] = audiofile.get("©ART", [filename_without_extension])[0]
+    audiofile["©alb"] = audiofile.get("©alb", [filename_without_extension])[0]
+
+    audiofile.save()
+
+
+def copy_metadata(src_path, dest_path):
+    try:
+        mp3 = EasyID3(src_path)
+        m4a = MP4(dest_path)
+        filename_without_extension = os.path.basename(src_path).rsplit(".", 1)[0]
+
+        m4a["\xa9nam"] = mp3.get("title", [filename_without_extension])[0]
+        m4a["\xa9ART"] = mp3.get("artist", [filename_without_extension])[0]
+        m4a["\xa9alb"] = mp3.get("album", [filename_without_extension])[0]
+
+        audio = MP3(src_path)
+        if audio.tags and audio.tags.getall("APIC"):
+            artwork = audio.tags.getall("APIC")[0].data
+            m4a["covr"] = [MP4Cover(artwork)]
+
+        m4a.save()
+    except Exception as e:
+        print(f"Error copying metadata for {src_path}: {e}")
+
+
+def convert_file(file_path, src_folder, dest_folder):
+    filename = os.path.basename(file_path)
+    relative_path = os.path.relpath(os.path.dirname(file_path), src_folder)
+    dest_dir = os.path.join(dest_folder, relative_path)
+    dest_path = os.path.join(dest_dir, filename.rsplit(".", 1)[0] + ".m4a")
+
+    os.makedirs(dest_dir, exist_ok=True)
+
+    file_format = filename.rsplit(".", 1)[-1].lower()
+    if file_format not in ["mp3", "m4a", "wma"]:
+        print(f"Skipping unsupported format: {file_path}")
+        return
+
+    try:
+        if file_format == "m4a":
+            set_m4a_metadata(file_path)
+            shutil.copy(file_path, dest_path)
+        else:
+            audio = AudioSegment.from_file(file_path, format=file_format)
+            audio.export(dest_path, format="mp4")
+            if file_format == "mp3":
+                copy_metadata(file_path, dest_path)
+    except Exception as e:
+        print(f"Error processing {file_path} {dest_path}: {e}")
+
+
+def convert_to_aac(src_folder, dest_folder, max_workers=4):
+    all_files = [
+        os.path.join(foldername, filename)
+        for foldername, _, filenames in os.walk(src_folder)
+        for filename in filenames
+    ]
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        list(
+            tqdm(
+                executor.map(
+                    convert_file,
+                    all_files,
+                    [src_folder] * len(all_files),
+                    [dest_folder] * len(all_files),
+                ),
+                total=len(all_files),
+            )
+        )
 
 
 def get_music_files(path, extensions=[".mp3", ".m4a"]):
@@ -63,10 +146,10 @@ def extract_cover(file_path):
                 cover_data = audiofile["covr"][0]
                 with open(cover_path, "wb") as f:
                     f.write(cover_data)
-        print(f"Cover saved to {cover_path}")
+        print(f"\n[+] Cover saved to {cover_path}")
         return cover_path, True
     except Exception:
-        print(f"No cover found for {file_path}")
+        print(f"\n[-] No cover found for {file_path}")
         return cover_path, False
 
 
@@ -113,19 +196,19 @@ def generate_song_list(path):
             # Genera el UUID a partir del hash del song_file
             hashed_song_file = hashlib.md5(song_file.encode()).hexdigest()
             song_id = UUID(hashed_song_file)
-
+            print(cover_path)
             song = {
                 "album": metadata["album"],
                 "name": clean_text(metadata["title"]),
                 "cover": cover_path.replace(
-                    # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
-                    "C:/Users/iker.ocio/Downloads/Musica_compressed",
+                    "D:/Biblioteca/Descargas/Musica_compressed",
+                    #"C:/Users/iker.ocio/Downloads/Musica_compressed",
                     "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
                 ),
                 "artist": metadata["artist"],
                 "audio": song_file.replace(
-                    # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
-                    "C:/Users/iker.ocio/Downloads/Musica_compressed",
+                    "D:/Biblioteca/Descargas/Musica_compressed",
+                    #"C:/Users/iker.ocio/Downloads/Musica_compressed",
                     "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
                 ),
                 "color": colors,
@@ -158,13 +241,43 @@ def clean_text(text):
     return text
 
 
-"""
-The script is designed to process a collection of music files, extract their metadata, and generate a tracklist in JSON format.
-"""
+def main():
+    while True:
+        print("\nMenu:")
+        print("1. Convert music files to m4a and copy metadata")
+        print("2. Generate tracklist from music files")
+        print("3. Exit")
+        
+        choice = input("Enter your choice (1/2/3): ")
+        
+        if choice == "1":
+            """
+            The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
+            while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
+            """
+            src_directory = "C:/Users/iker.ocio/Downloads/Musica"
+            src_directory = "D:/Biblioteca/Descargas/Musica"
+            dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
+            dest_directory = "D:/Biblioteca/Descargas/Musica_compressed"
+            convert_to_aac(src_directory, dest_directory, max_workers=8)
+            print("Conversion completed!")
+            
+        elif choice == "2":
+            """
+            The script is designed to process a collection of music files, extract their metadata, and generate a tracklist in JSON format.
+            """
+            path = "D:/Biblioteca/Descargas/Musica_compressed"
+            #path = "C:/Users/iker.ocio/Downloads/Musica_compressed"
+            songs = generate_song_list(path)
+            with open("../src/tracklist.json", "w") as f:
+                json.dump(songs, f, indent=4)
+            print("Tracklist generated successfully!")
+            
+        elif choice == "3":
+            print("Exiting...")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
 if __name__ == "__main__":
-    path = "/mnt/d/Biblioteca/Descargas/Rap Vitoria"
-    path = "C:/Users/iker.ocio/Downloads/Musica_compressed"
-    songs = generate_song_list(path)
-    with open("../src/tracklist.json", "w") as f:
-        json.dump(songs, f, indent=4)
-    print("Tracklist generated successfully!")
+    main()
