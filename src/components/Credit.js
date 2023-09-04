@@ -4,17 +4,17 @@ import styled from "styled-components";
 const Credit = ({ songsNumber, aboutStatus, setAboutStatus }) => {
   return (
     <CreditContainer $aboutStatus={aboutStatus}>
+      <Button onClick={() => setAboutStatus(!aboutStatus)}>
+        Sobre este proyecto
+      </Button>
+      <span>{songsNumber} temas cargados</span>
+      <span>v{process.env.REACT_APP_BUILD_DATE}</span>
       <Link
         href="https://github.com/WilsonLe/react-music-player"
         target="_blank"
       >
         Basado en react-music-player
       </Link>
-      <span>{songsNumber} temas cargados</span>
-      <span>v{process.env.REACT_APP_BUILD_DATE}</span>
-      <Button onClick={() => setAboutStatus(!aboutStatus)}>
-        Sobre este proyecto
-      </Button>
     </CreditContainer>
   );
 };
@@ -45,7 +45,7 @@ const Button = styled.button`
   cursor: pointer;
   text-decoration: underline; // Underline to make it look like a link
   color: rgb(155, 155, 155); // Same color as the Link styled component
-  padding: 0.5rem;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   transition: all 0.3s ease;
   &:hover {
     background: rgb(65, 65, 65);
