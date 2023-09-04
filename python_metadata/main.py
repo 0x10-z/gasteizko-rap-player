@@ -148,13 +148,13 @@ def add_default_cover(mp3_file_path):
 
 def clean_text(text):
     dirty_text = [
-        "www.HHGroups.com",
+        " - www.HHGroups.com",
         "[Producido por Ruan]",
         "4x4hh",
         "[Producido por Daniel Bum]",
     ]
     for word in dirty_text:
-        text.replace(word, "")
+        text = text.replace(word, "")
     return text
 
 
