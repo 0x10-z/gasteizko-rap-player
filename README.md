@@ -30,3 +30,11 @@ yarn build
 ```
 
 The project is automatically deployed on Vercel. You can access the live application at [https://gasteizko-rap-player.vercel.app/](https://gasteizko-rap-player.vercel.app/).
+
+## Data Optimization
+
+All songs have been exported to the m4a format to reduce the amount of data required for song streaming.
+
+This conversion has reduced the size of 776 files **from 3.65GB to 2.45GB**.
+
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="white" /><rect x="30" y="10" width="40" height="80" fill="#4CAF50" /><rect x="130" y="25" width="40" height="65" fill="#FFC107" /><text x="50" y="95" font-family="Arial" font-size="12" fill="black">3.65GB</text><text x="150" y="95" font-family="Arial" font-size="12" fill="black">2.45GB</text></svg>

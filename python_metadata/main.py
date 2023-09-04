@@ -38,6 +38,7 @@ def get_metadata(file_path):
             title = audiofile.get("©nam", ["Unknown Title"])[0]
             artist = audiofile.get("©ART", ["Unknown Artist"])[0]
             return {"title": title, "artist": artist, "album": album_name}
+
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
 
@@ -45,14 +46,47 @@ def get_metadata(file_path):
 
 
 def save_cover_from_m4a(file_path):
-    audiofile = MP4(file_path)
-    if "covr" in audiofile:
-        cover_data = audiofile["covr"][0]
-        cover_path = os.path.join(os.path.dirname(file_path), "cover.jpg")
-        with open(cover_path, "wb") as f:
-            f.write(cover_data)
-        return cover_path
-    return None
+    album_folder = os.path.dirname(file_path)
+    cover_path = os.path.join(album_folder, "cover.jpg")
+    exists = True
+    if not os.path.exists(cover_path):
+        audiofile = MP4(file_path)
+
+        if "covr" in audiofile:
+            cover_data = audiofile["covr"][0]
+            cover_path = os.path.join(os.path.dirname(file_path), "cover.jpg")
+            with open(cover_path, "wb") as f:
+                f.write(cover_data)
+
+            print(f"Cover saved to {cover_path}")
+        else:
+            exists = False
+            print(f"No cover found for {file_path}")
+    return cover_path, exists
+
+
+def extract_cover_from_mp3(mp3_file_path):
+    album_folder = os.path.dirname(mp3_file_path)
+    cover_path = os.path.join(album_folder, "cover.jpg")
+    exists = True
+    if not os.path.exists(cover_path):
+        # Cargar el archivo MP3 con eyed3
+        audiofile = eyed3.load(mp3_file_path)
+
+        # Verificar si el archivo tiene etiquetas y una carátula
+        if audiofile.tag and audiofile.tag.images:
+            # Tomar la primera imagen (generalmente es la carátula del álbum)
+            image = audiofile.tag.images[0]
+
+            # Guardar la carátula en la carpeta del álbum
+            with open(cover_path, "wb") as img_file:
+                img_file.write(image.image_data)
+
+            print(f"Cover saved to {cover_path}")
+        else:
+            exists = False
+            print(f"No cover found for {mp3_file_path}")
+    return cover_path, exists
 
 
 def get_dominant_colors(img_path, num_colors=2):
@@ -92,7 +126,7 @@ def generate_song_list(path):
         try:
             metadata = get_metadata(song_file)
             if song_file.endswith(".m4a"):
-                cover_path = save_cover_from_m4a(song_file)
+                cover_path, exists = save_cover_from_m4a(song_file)
             else:
                 cover_path, exists = extract_cover_from_mp3(song_file)
 
@@ -129,38 +163,16 @@ def add_default_cover(mp3_file_path):
     return cover_path
 
 
-def extract_cover_from_mp3(mp3_file_path):
-    album_folder = os.path.dirname(mp3_file_path)
-    cover_path = os.path.join(album_folder, "cover.jpg")
-    exists = True
-    if not os.path.exists(cover_path):
-        # Cargar el archivo MP3 con eyed3
-        audiofile = eyed3.load(mp3_file_path)
-
-        # Verificar si el archivo tiene etiquetas y una carátula
-        if audiofile.tag and audiofile.tag.images:
-            # Tomar la primera imagen (generalmente es la carátula del álbum)
-            image = audiofile.tag.images[0]
-
-            # Guardar la carátula en la carpeta del álbum
-            with open(cover_path, "wb") as img_file:
-                img_file.write(image.image_data)
-
-            print(f"Cover saved to {cover_path}")
-        else:
-            exists = False
-            print(f"No cover found for {mp3_file_path}")
-    return cover_path, exists
-
-
 def replace_paths(songs):
     for song in songs:
         song["audio"] = song["audio"].replace(
-            "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
+            # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
+            "C:/Users/iker.ocio/Downloads/Musica_compressed/",
             "https://retrogasteiz.blob.core.windows.net/gasteizkorap/",
         )
         song["cover"] = song["cover"].replace(
-            "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
+            # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
+            "C:/Users/iker.ocio/Downloads/Musica_compressed/",
             "https://retrogasteiz.blob.core.windows.net/gasteizkorap/",
         )
     return songs
@@ -168,6 +180,7 @@ def replace_paths(songs):
 
 if __name__ == "__main__":
     path = "/mnt/d/Biblioteca/Descargas/Rap Vitoria"
+    path = "C:/Users/iker.ocio/Downloads/Musica_compressed"
     songs = generate_song_list(path)
     songs = replace_paths(songs)
     with open("../src/tracklist.json", "w") as f:
