@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-const Credit = () => {
+const Credit = ({ songsNumber }) => {
   return (
     <CreditContainer>
       <Link
@@ -8,7 +8,8 @@ const Credit = () => {
         target="_blank">
         Basado en react-music-player
       </Link>
-      v{process.env.REACT_APP_BUILD_DATE}
+      <span>{songsNumber} temas cargados</span>
+      <span>v{process.env.REACT_APP_BUILD_DATE}</span>
     </CreditContainer>
   );
 };

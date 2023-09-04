@@ -110,7 +110,7 @@ const App = () => {
         setSongs={setSongs}
         libraryStatus={libraryStatus}
       />
-      <Credit />
+      <Credit songsNumber={songs.length} />
       <audio
         onLoadedMetadata={updateTimeHandler}
         onTimeUpdate={updateTimeHandler}

@@ -1,32 +1,32 @@
-# A clean, minimalistic react music player web application.
+# Gasteizko Rap Player
 
-This project was made by following Dev Ed's react course, with some of my personal tweaks. In the course, he used scss modules to style, while I used styled components. I choose to use styled components because of the advantage of being able to style based on props, which is personally, is much more convenient than add class and scss modules.
+This music player is a tribute to the rap music from Vitoria and its surroundings from the 2000s, which was a significant part of my childhood. The tracks featured here are reminiscent of those times and bring back many memories.
 
-![alt text](https://i.ibb.co/VtT4JPc/image.png "Vibes music web application")
-![alt text](https://i.ibb.co/CtSvzvd/image.png "Vibes music web application with libraries")
+**Note to Artists:** If any artist comes across this and wishes for their track to be removed, please do not hesitate to contact me at [iker@ikerocio.com](mailto:iker@ikerocio.com).
 
-## Test it out yourself!
+This project is based on [WilsonLe's react-music-player](https://github.com/WilsonLe/react-music-player) with some enhancements. It operates entirely on the frontend without the need for a backend.
 
-https://wilson-react-music-player.vercel.app/
+## Getting Started
 
-Clone the repository and start testing out the application yourself!
+Follow the steps below to get the project up and running:
 
-In the project directory, you can run:
-
-```
-// 1. If you have not installed Yarn:
+```bash
+# 1. If you have not installed Yarn:
 npm install yarn
 
-// 2. Install the dependencies:
+# 2. Install the dependencies:
 yarn install
 
-// 3. Kick start the project in development mode:
+# 3. Kick start the project in development mode:
 yarn start
 ```
 
-If you're ready to deploy the application to the internet, use:
-```
+## Deployment
+
+When you're ready to deploy the application to the internet, use:
+
+```bash
 yarn build
 ```
-This will build the app for production to the "build" folder. The Built version will be optimized for best performance.
 
+The project is automatically deployed on Vercel. You can access the live application at [https://gasteizko-rap-player.vercel.app/](https://gasteizko-rap-player.vercel.app/).

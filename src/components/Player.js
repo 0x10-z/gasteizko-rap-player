@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -8,6 +8,7 @@ import {
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import useKeyboardControls from "../hooks/useKeyboardControls";
 
 // style
 const pointer = { cursor: "pointer" };
@@ -24,7 +25,7 @@ const Player = ({
   setSongs,
 }) => {
   // Event handlers
-  const playSongHandler = () => {
+  const playSongHandler = useCallback(() => {
     if (isPlaying) {
       audioRef.current.pause();
       setIsPlaying(!isPlaying);
@@ -32,7 +33,70 @@ const Player = ({
       audioRef.current.play();
       setIsPlaying(!isPlaying);
     }
-  };
+  }, [isPlaying, audioRef, setIsPlaying]);
+
+  const activeLibraryHandler = useCallback(
+    (newSong) => {
+      const newSongs = songs.map((song) => {
+        if (song.id === newSong.id) {
+          return {
+            ...song,
+            active: true,
+          };
+        } else {
+          return {
+            ...song,
+            active: false,
+          };
+        }
+      });
+      setSongs(newSongs);
+    },
+    [songs, setSongs]
+  );
+
+  const skipTrackHandler = useCallback(
+    async (direction) => {
+      let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+      if (direction === "skip-forward") {
+        setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+      } else if (direction === "skip-back") {
+        if ((currentIndex - 1) % songs.length === -1) {
+          await setCurrentSong(songs[songs.length - 1]);
+          activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
+        } else {
+          await setCurrentSong(songs[(currentIndex - 1) % songs.length]);
+          activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
+        }
+      }
+      if (isPlaying) {
+        audioRef.current.play();
+      }
+    },
+    [
+      currentSong,
+      songs,
+      setCurrentSong,
+      isPlaying,
+      audioRef,
+      activeLibraryHandler,
+    ]
+  );
+
+  const { handleKeyDown, handleKeyUp } = useKeyboardControls(
+    playSongHandler,
+    skipTrackHandler,
+    audioRef
+  );
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("keyup", handleKeyUp);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("keyup", handleKeyUp);
+    };
+  }, [handleKeyDown, handleKeyUp]);
 
   const togglePlayPauseIcon = () => {
     if (isPlaying) {
@@ -53,44 +117,8 @@ const Player = ({
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
-  const skipTrackHandler = async (direction) => {
-    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    if (direction === "skip-forward") {
-      await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-      activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
-    } else if (direction === "skip-back") {
-      if ((currentIndex - 1) % songs.length === -1) {
-        await setCurrentSong(songs[songs.length - 1]);
-        activeLibraryHandler(songs[songs.length - 1]);
-      } else {
-        await setCurrentSong(songs[(currentIndex - 1) % songs.length]);
-        activeLibraryHandler(songs[(currentIndex - 1) % songs.length]);
-      }
-    }
-    if (isPlaying) {
-      audioRef.current.play();
-    }
-  };
-
   const downloadSong = () => {
     window.open(currentSong.audio, "_blank");
-  };
-
-  const activeLibraryHandler = (newSong) => {
-    const newSongs = songs.map((song) => {
-      if (song.id === newSong.id) {
-        return {
-          ...song,
-          active: true,
-        };
-      } else {
-        return {
-          ...song,
-          active: false,
-        };
-      }
-    });
-    setSongs(newSongs);
   };
 
   const progress = songInfo.duration
