@@ -178,6 +178,9 @@ def replace_paths(songs):
     return songs
 
 
+"""
+The script is designed to process a collection of music files, extract their metadata, and generate a tracklist in JSON format.
+"""
 if __name__ == "__main__":
     path = "/mnt/d/Biblioteca/Descargas/Rap Vitoria"
     path = "C:/Users/iker.ocio/Downloads/Musica_compressed"

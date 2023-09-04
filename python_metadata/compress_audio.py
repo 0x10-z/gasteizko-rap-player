@@ -93,6 +93,10 @@ def convert_to_aac(src_folder, dest_folder, max_workers=4):
         )
 
 
+"""
+The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
+while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
+"""
 src_directory = "C:/Users/iker.ocio/Downloads/Musica"
 dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
 convert_to_aac(src_directory, dest_directory)
