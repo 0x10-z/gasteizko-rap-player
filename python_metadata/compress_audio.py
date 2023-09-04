@@ -5,6 +5,19 @@ from tqdm import tqdm
 from mutagen.easyid3 import EasyID3
 from mutagen.mp4 import MP4, MP4Cover
 from mutagen.mp3 import MP3
+import shutil
+
+
+def set_m4a_metadata(file_path):
+    """Establece metadatos en un archivo m4a si no están presentes."""
+    filename_without_extension = os.path.basename(file_path).rsplit(".", 1)[0]
+    audiofile = MP4(file_path)
+
+    audiofile["©nam"] = audiofile.get("©nam", [filename_without_extension])[0]
+    audiofile["©ART"] = audiofile.get("©ART", [filename_without_extension])[0]
+    audiofile["©alb"] = audiofile.get("©alb", [filename_without_extension])[0]
+
+    audiofile.save()
 
 
 def copy_metadata(src_path, dest_path):
@@ -13,29 +26,14 @@ def copy_metadata(src_path, dest_path):
         m4a = MP4(dest_path)
         filename_without_extension = os.path.basename(src_path).rsplit(".", 1)[0]
 
-        # Copiar metadatos básicos
-        if "title" in mp3:
-            m4a["\xa9nam"] = mp3["title"][0]
-        else:
-            m4a["\xa9nam"] = filename_without_extension
+        m4a["\xa9nam"] = mp3.get("title", [filename_without_extension])[0]
+        m4a["\xa9ART"] = mp3.get("artist", [filename_without_extension])[0]
+        m4a["\xa9alb"] = mp3.get("album", [filename_without_extension])[0]
 
-        if "artist" in mp3:
-            m4a["\xa9ART"] = mp3["artist"][0]
-        else:
-            m4a["\xa9ART"] = filename_without_extension
-
-        if "album" in mp3:
-            m4a["\xa9alb"] = mp3["album"][0]
-        else:
-            m4a["\xa9alb"] = filename_without_extension
-
-        # Copiar carátula si está presente
         audio = MP3(src_path)
         if audio.tags and audio.tags.getall("APIC"):
             artwork = audio.tags.getall("APIC")[0].data
             m4a["covr"] = [MP4Cover(artwork)]
-        else:
-            pass
 
         m4a.save()
     except Exception as e:
@@ -44,32 +42,28 @@ def copy_metadata(src_path, dest_path):
 
 def convert_file(file_path, src_folder, dest_folder):
     filename = os.path.basename(file_path)
-
-    # Cambiar la extensión a .aac y construir la ruta de destino
     relative_path = os.path.relpath(os.path.dirname(file_path), src_folder)
     dest_dir = os.path.join(dest_folder, relative_path)
     dest_path = os.path.join(dest_dir, filename.rsplit(".", 1)[0] + ".m4a")
 
-    # Crear subdirectorios en dest_folder si no existen
-    try:
-        os.makedirs(dest_dir)
-    except FileExistsError:
-        pass
+    os.makedirs(dest_dir, exist_ok=True)
 
-    # Determinar el formato del archivo basado en su extensión
     file_format = filename.rsplit(".", 1)[-1].lower()
     if file_format not in ["mp3", "m4a", "wma"]:
         print(f"Skipping unsupported format: {file_path}")
         return
 
-    # Convertir el archivo a AAC
     try:
-        audio = AudioSegment.from_file(file_path, format=file_format)
-        audio.export(dest_path, format="mp4")
-        if file_format == "mp3":
-            copy_metadata(file_path, dest_path)
+        if file_format == "m4a":
+            set_m4a_metadata(file_path)
+            shutil.copy(file_path, dest_path)
+        else:
+            audio = AudioSegment.from_file(file_path, format=file_format)
+            audio.export(dest_path, format="mp4")
+            if file_format == "mp3":
+                copy_metadata(file_path, dest_path)
     except Exception as e:
-        print(f"Error converting {file_path}: {e}")
+        print(f"Error processing {file_path}: {e}")
 
 
 def convert_to_aac(src_folder, dest_folder, max_workers=4):
@@ -97,6 +91,7 @@ def convert_to_aac(src_folder, dest_folder, max_workers=4):
 The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
 while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
 """
-src_directory = "C:/Users/iker.ocio/Downloads/Musica"
-dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
-convert_to_aac(src_directory, dest_directory)
+if __name__ == "__main__":
+    src_directory = "C:/Users/iker.ocio/Downloads/Musica"
+    dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
+    convert_to_aac(src_directory, dest_directory, max_workers=8)
