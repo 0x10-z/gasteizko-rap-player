@@ -3,11 +3,14 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
-const Nav = ({ libraryStatus, setLibraryStatus }) => {
+const Nav = ({ libraryStatus, setLibraryStatus, aboutStatus }) => {
   return (
     <NavContainer>
-      <H1 $isLibraryActive={libraryStatus}>VI y alrededores</H1>
-      <Button onClick={() => setLibraryStatus(!libraryStatus)}>
+      <H1 $isLibraryActive={libraryStatus || aboutStatus}>VI y alrededores</H1>
+      <Button
+        $aboutStatus={aboutStatus}
+        onClick={() => setLibraryStatus(!libraryStatus)}
+      >
         Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>
     </NavContainer>
@@ -42,6 +45,7 @@ const Button = styled.button`
   background: transparent;
   border: none;
   cursor: pointer;
+  opacity: ${(p) => (p.$aboutStatus ? "0" : "100")};
   border: 2px solid rgb(65, 65, 65);
   padding: 0.5rem;
   transition: all 0.3s ease;

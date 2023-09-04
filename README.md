@@ -6,6 +6,11 @@ This music player is a tribute to the rap music from Vitoria and its surrounding
 
 This project is based on [WilsonLe's react-music-player](https://github.com/WilsonLe/react-music-player) with some enhancements. It operates entirely on the frontend without the need for a backend.
 
+## Authors
+
+- **Iker Ocio Zuazo** - [Website](https://ikerocio.com)
+- **Jonzoone** - [Instagram](https://www.instagram.com/jonzoonegraphics/)
+
 ## Getting Started
 
 Follow the steps below to get the project up and running:

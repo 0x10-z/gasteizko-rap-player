@@ -96,7 +96,15 @@ const SongContainer = styled.div`
 `;
 
 const H1 = styled.h2`
-  padding: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); // Fondo oscuro con un poco de transparencia
+  color: white; // Cambiar el color del texto a blanco
 `;
 
 const SearchInput = styled.input`

@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
+import About from "./components/About";
 import Nav from "./components/Nav";
 import Credit from "./components/Credit";
 // Import data
@@ -51,6 +52,7 @@ const App = () => {
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [libraryStatus, setLibraryStatus] = useState(false);
+  const [aboutStatus, setAboutStatus] = useState(false);
   const [songInfo, setSongInfo] = useState({
     currentTime: 0,
     duration: 0,
@@ -108,9 +110,14 @@ const App = () => {
   return (
     <AppContainer
       $libraryStatus={libraryStatus}
+      $aboutStatus={aboutStatus}
       $backgroundImage={currentSong.cover}
     >
-      <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
+      <Nav
+        libraryStatus={libraryStatus}
+        aboutStatus={aboutStatus}
+        setLibraryStatus={setLibraryStatus}
+      />
       <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player
         isPlaying={isPlaying}
@@ -131,7 +138,12 @@ const App = () => {
         setSongs={setSongs}
         libraryStatus={libraryStatus}
       />
-      <Credit songsNumber={songs.length} />
+      <About aboutStatus={aboutStatus} setAboutStatus={setAboutStatus} />
+      <Credit
+        songsNumber={songs.length}
+        aboutStatus={aboutStatus}
+        setAboutStatus={setAboutStatus}
+      />
       <audio
         onLoadedMetadata={updateTimeHandler}
         onTimeUpdate={updateTimeHandler}
@@ -154,8 +166,10 @@ const App = () => {
 const AppContainer = styled.div`
   transition: all 0.5s ease;
   margin-left: ${(p) => (p.$libraryStatus ? "20rem" : "0")};
+  margin-right: ${(p) => (p.$aboutStatus ? "20rem" : "0")};
   @media screen and (max-width: 768px) {
     margin-left: 0;
+    margin-right: 0;
   }
 `;
 
