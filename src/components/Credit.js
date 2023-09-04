@@ -8,7 +8,7 @@ const Credit = () => {
         target="_blank">
         Basado en react-music-player
       </Link>
-      Build Date: {process.env.REACT_APP_BUILD_DATE}
+      v{process.env.REACT_APP_BUILD_DATE}
     </CreditContainer>
   );
 };
