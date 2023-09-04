@@ -167,13 +167,13 @@ def replace_paths(songs):
     for song in songs:
         song["audio"] = song["audio"].replace(
             # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
-            "C:/Users/iker.ocio/Downloads/Musica_compressed/",
-            "https://retrogasteiz.blob.core.windows.net/gasteizkorap/",
+            "C:/Users/iker.ocio/Downloads/Musica_compressed",
+            "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
         )
         song["cover"] = song["cover"].replace(
             # "/mnt/d/Biblioteca/Descargas/Rap Vitoria/",
-            "C:/Users/iker.ocio/Downloads/Musica_compressed/",
-            "https://retrogasteiz.blob.core.windows.net/gasteizkorap/",
+            "C:/Users/iker.ocio/Downloads/Musica_compressed",
+            "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
         )
     return songs
 

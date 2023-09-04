@@ -56,7 +56,6 @@ const LibrarySong = ({
       audioRef.current.play();
     }
   };
-  console.log(imageLoaded);
   return (
     <LibrarySongContainer onClick={songSelectHandler} $isActive={song.active}>
       {!imageLoaded && <Spinner />}
