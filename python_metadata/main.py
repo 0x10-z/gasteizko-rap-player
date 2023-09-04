@@ -14,6 +14,15 @@ from pydub import AudioSegment
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
 
+OVERWRITE_MODE = None
+
+def should_skip_file(dest_path):
+    """Verifica si el archivo ya existe y si se debe saltar según la elección del usuario."""
+    if os.path.exists(dest_path):
+        if OVERWRITE_MODE == 'n':
+            return True
+    return False
+
 
 def set_m4a_metadata(file_path):
     """Establece metadatos en un archivo m4a si no están presentes."""
@@ -55,6 +64,11 @@ def convert_file(file_path, src_folder, dest_folder):
 
     os.makedirs(dest_dir, exist_ok=True)
 
+    # Si el archivo ya existe y el usuario elige saltarlo, regresar
+    if should_skip_file(dest_path):
+        print(f"Saltando {file_path}")
+        return
+    
     file_format = filename.rsplit(".", 1)[-1].lower()
     if file_format not in ["mp3", "m4a", "wma"]:
         print(f"Skipping unsupported format: {file_path}")
@@ -242,6 +256,8 @@ def clean_text(text):
 
 
 def main():
+    global OVERWRITE_MODE
+
     while True:
         print("\nMenu:")
         print("1. Convert music files to m4a and copy metadata")
@@ -255,6 +271,10 @@ def main():
             The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
             while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
             """
+
+            # Preguntar al usuario al principio si desea sobrescribir los archivos o saltarlos
+            OVERWRITE_MODE = input("¿Deseas sobrescribir los archivos existentes? (s/n): ")
+
             src_directory = "C:/Users/iker.ocio/Downloads/Musica"
             src_directory = "D:/Biblioteca/Descargas/Musica"
             dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
