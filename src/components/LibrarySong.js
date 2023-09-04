@@ -1,5 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+
+const Spinner = styled.div`
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #000;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 20px 0;
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+`;
 
 const LibrarySong = ({
   song,
@@ -9,6 +28,8 @@ const LibrarySong = ({
   songs,
   setSongs,
 }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   // Function
   const songSelectHandler = async () => {
     await setCurrentSong(song);
@@ -35,10 +56,16 @@ const LibrarySong = ({
       audioRef.current.play();
     }
   };
-
+  console.log(imageLoaded);
   return (
     <LibrarySongContainer onClick={songSelectHandler} $isActive={song.active}>
-      <Img src={song.cover} alt={song.name}></Img>
+      {!imageLoaded && <Spinner />}
+      <Img
+        src={song.cover}
+        alt={song.name}
+        onLoad={() => setImageLoaded(true)}
+        loading="lazy"
+      />
       <LibrarySongDescription>
         <H1>{song.name}</H1>
         <H2>{song.artist}</H2>
