@@ -38,3 +38,9 @@ All songs have been exported to the m4a format to reduce the amount of data requ
 This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
 
 ![Data Reduction](data:image/svg+xml;utf8,<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="white" /><rect x="30" y="10" width="40" height="80" fill="#4CAF50" /><rect x="130" y="25" width="40" height="65" fill="#FFC107" /><text x="50" y="95" font-family="Arial" font-size="12" fill="black">3.65GB</text><text x="150" y="95" font-family="Arial" font-size="12" fill="black">2.45GB</text></svg>)
+
+## TODO
+
+- Library tab, when song titles are too long text is not well seen.
+- Smartphone library tab is not working fine. Searchbox is not sticky on top.
+- About tab describing purpose of this webpage
