@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 // Import components
 import Player from "./components/Player";
@@ -87,8 +88,7 @@ const App = () => {
   return (
     <AppContainer
       $libraryStatus={libraryStatus}
-      $backgroundImage={currentSong.cover}
-    >
+      $backgroundImage={currentSong.cover}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
       <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player
@@ -125,6 +125,7 @@ const App = () => {
         ref={audioRef}
         src={audioSrc}
       />
+      <Analytics />
     </AppContainer>
   );
 };
