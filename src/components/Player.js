@@ -182,12 +182,13 @@ const Player = ({
 const ControlIcon = styled(FontAwesomeIcon)`
   cursor: pointer;
   padding: 20px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 80%;
   transition: background-color 0.3s ease;
 
   &:hover {
+    border-radius: 50%;
     background-color: rgba(
       0,
       0,
