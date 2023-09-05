@@ -8,7 +8,6 @@ const Library = forwardRef(
   (
     {
       songs,
-      currentSong,
       setCurrentSong,
       audioRef,
       isPlaying,
@@ -52,9 +51,6 @@ const Library = forwardRef(
       );
     };
 
-    const componentSize = 100;
-    const totalHeight = filteredSongs.length * componentSize;
-    console.log(totalHeight);
     return (
       <LibraryContainer
         ref={ref}
@@ -77,7 +73,7 @@ const Library = forwardRef(
             X
           </CloseButton>
         </StickyHeader>
-        <SongContainer $totalHeight={totalHeight}>
+        <SongContainer>
           <AutoSizer>
             {({ height, width }) => (
               <StyledList
