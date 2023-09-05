@@ -59,7 +59,8 @@ const Library = forwardRef(
       <LibraryContainer
         ref={ref}
         $libraryStatus={libraryStatus}
-        onClick={(e) => e.stopPropagation()}>
+        onClick={(e) => e.stopPropagation()}
+      >
         <H1>Tracklist</H1>
         <StickyHeader>
           <SearchInput
@@ -71,7 +72,8 @@ const Library = forwardRef(
           />
           <CloseButton
             $libraryStatus={libraryStatus}
-            onClick={() => setLibraryStatus(false)}>
+            onClick={() => setLibraryStatus(false)}
+          >
             X
           </CloseButton>
         </StickyHeader>

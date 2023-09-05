@@ -296,7 +296,7 @@ const PlayControlContainer = styled.div`
   padding: 1rem;
   width: 30%;
   @media screen and (max-width: 768px) {
-    width: 60%;
+    width: 90%;
   }
 `;
 

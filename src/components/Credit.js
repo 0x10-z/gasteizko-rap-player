@@ -12,7 +12,8 @@ const Credit = ({
       <LeftContainer>
         <StyledLink
           href="https://github.com/0x10-z/gasteizko-rap-player/"
-          target="_blank">
+          target="_blank"
+        >
           Código en Github
         </StyledLink>
       </LeftContainer>
@@ -37,7 +38,7 @@ const CreditContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 0 20px;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 12;
   opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "1")};
   transition: opacity 0.3s ease;

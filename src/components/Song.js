@@ -4,11 +4,13 @@ import styled, { css, keyframes } from "styled-components";
 const Song = ({ currentSong, isPlaying }) => {
   return (
     <SongContainer>
-      <Img
-        src={currentSong.cover}
-        alt={currentSong.name}
-        $isRotating={isPlaying}
-      />
+      <ImgWrapper>
+        <Img
+          src={currentSong.cover}
+          alt={currentSong.name}
+          $isRotating={isPlaying}
+        />
+      </ImgWrapper>
       <H1>{currentSong.name}</H1>
       <H2>{currentSong.artist}</H2>
       <H2>{currentSong.album}</H2>
@@ -36,8 +38,24 @@ const rotate = keyframes`
 	}
 `;
 
-const Img = styled.img`
+const ImgWrapper = styled.div`
   width: 20%;
+  padding-bottom: 20%;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+`;
+
+const Img = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
   animation: ${(props) =>
     props.$isRotating
@@ -45,10 +63,6 @@ const Img = styled.img`
           ${rotate} 6s linear infinite
         `
       : "none"};
-
-  @media screen and (max-width: 768px) {
-    width: 50%;
-  }
 `;
 
 const H1 = styled.h2`
