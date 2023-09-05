@@ -9,11 +9,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const HelpModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
-
   return (
-    <ModalBackground onClick={onClose}>
-      <ModalContent onClick={(e) => e.stopPropagation()}>
+    <ModalBackground $isOpen={isOpen} onClick={onClose}>
+      <ModalContent $isOpen={isOpen} onClick={(e) => e.stopPropagation()}>
         <CloseButton onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />
         </CloseButton>
@@ -53,6 +51,9 @@ const ModalBackground = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: ${(props) => (props.$isOpen ? 1 : 0)};
+  pointer-events: ${(props) => (props.$isOpen ? "auto" : "none")};
+  transition: opacity 0.2s ease-in-out;
 `;
 
 const ModalContent = styled.div`
@@ -67,6 +68,8 @@ const ModalContent = styled.div`
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
+  transform: ${(props) => (props.$isOpen ? "scale(1)" : "scale(0.9)")};
+  transition: transform 0.2s ease-in-out;
 
   h2 {
     font-size: 1.5em;

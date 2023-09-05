@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, forwardRef } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
+import { List, AutoSizer } from "react-virtualized";
 
 const Library = forwardRef(
   (
@@ -35,6 +36,25 @@ const Library = forwardRef(
       }
     }, [libraryStatus]);
 
+    const rowRenderer = ({ index, key, style }) => {
+      const song = filteredSongs[index];
+      return (
+        <div key={key} style={style}>
+          <LibrarySong
+            song={song}
+            songs={songs}
+            setCurrentSong={setCurrentSong}
+            audioRef={audioRef}
+            isPlaying={isPlaying}
+            setSongs={setSongs}
+          />
+        </div>
+      );
+    };
+
+    const componentSize = 100;
+    const totalHeight = filteredSongs.length * componentSize;
+    console.log(totalHeight);
     return (
       <LibraryContainer
         ref={ref}
@@ -55,24 +75,46 @@ const Library = forwardRef(
             X
           </CloseButton>
         </StickyHeader>
-        <SongContainer>
-          {filteredSongs.map((song) => (
-            <LibrarySong
-              song={song}
-              songs={songs}
-              setCurrentSong={setCurrentSong}
-              key={song.id}
-              audioRef={audioRef}
-              isPlaying={isPlaying}
-              setSongs={setSongs}
-            />
-          ))}
+        <SongContainer $totalHeight={totalHeight}>
+          <AutoSizer>
+            {({ height, width }) => (
+              <StyledList
+                width={width}
+                height={height}
+                rowCount={filteredSongs.length}
+                rowHeight={100}
+                rowRenderer={rowRenderer}
+              />
+            )}
+          </AutoSizer>
         </SongContainer>
       </LibraryContainer>
     );
   }
 );
+
+const StyledList = styled(List)`
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+
+  &::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+  }
+`;
+
 const LibraryContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 99;
   top: 0;
@@ -81,47 +123,25 @@ const LibraryContainer = styled.div`
   height: 100%;
   background-color: white;
   box-shadow: 2px 2px 50px rgb(204, 204, 204);
-  user-select: none;
-  overflow: scroll;
-  overflow-x: hidden;
   transform: translateX(${(p) => (p.$libraryStatus ? "0%" : "-100%")});
   transition: all 0.5s ease;
   opacity: ${(p) => (p.$libraryStatus ? "100" : "0")};
-  scrollbar-width: thin;
-  scrollbar-color: rgba(155, 155, 155, 0.5) tranparent;
-  &::-webkit-scrollbar {
-    width: 15px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(155, 155, 155, 0.5);
-    border-radius: 20px;
-    border: transparent;
-  }
   @media screen and (max-width: 768px) {
     width: 100%;
-    z-index: 9;
   }
 `;
 
 const SongContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
   background-color: white;
 `;
 
 const H1 = styled.h2`
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.8
-  ); // Fondo oscuro con un poco de transparencia
-  color: white; // Cambiar el color del texto a blanco
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 `;
 
 const StickyHeader = styled.div`
@@ -136,12 +156,11 @@ const StickyHeader = styled.div`
 `;
 
 const SearchInput = styled.input`
-  flex: 1; // Ocupa todo el espacio disponible
+  flex: 1;
   padding: 0.5rem;
-  margin-right: 1rem; // Espacio entre el input y el botón
+  margin-right: 1rem;
   border: 1px solid rgba(155, 155, 155, 0.5);
   border-radius: 5px;
-  outline: none;
   &:focus {
     border-color: rgba(155, 155, 155, 0.8);
   }
@@ -156,8 +175,6 @@ const CloseButton = styled.button`
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  align-items: center;
-  justify-content: center;
   transition: background-color 0.3s ease;
 
   &:hover {
