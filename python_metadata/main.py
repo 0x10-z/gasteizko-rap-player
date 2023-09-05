@@ -143,7 +143,7 @@ def get_metadata(file_path):
 
 def extract_cover(file_path):
     album_folder = os.path.dirname(file_path)
-    cover_path = os.path.join(album_folder, "cover.jpg")
+    cover_path = os.path.join(album_folder, "cover.webp")
     if os.path.exists(cover_path):
         return cover_path, True
 
@@ -160,6 +160,9 @@ def extract_cover(file_path):
                 cover_data = audiofile["covr"][0]
                 with open(cover_path, "wb") as f:
                     f.write(cover_data)
+        
+        img = Image.open(cover_path)
+        img.save(cover_path, format="webp", quality=80)
         print(f"\n[+] Cover saved to {cover_path}")
         return cover_path, True
     except Exception:
@@ -173,6 +176,8 @@ def get_dominant_colors(img_path, num_colors=2):
     result = img.convert("P", palette=Image.ADAPTIVE, colors=num_colors)
     result.putalpha(0)
     main_colors = result.getcolors()
+
+    random.seed(12345)  # Cambia este valor si quieres otra secuencia de colores
 
     # Si main_colors tiene menos colores de los esperados, elige un color aleatorio y agrégalo
     while len(main_colors) < num_colors:
