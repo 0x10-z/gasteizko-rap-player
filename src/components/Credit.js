@@ -37,7 +37,7 @@ const CreditContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 0 20px;
-  bottom: 5px;
+  bottom: 10px;
   z-index: 12;
   opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "1")};
   transition: opacity 0.3s ease;
