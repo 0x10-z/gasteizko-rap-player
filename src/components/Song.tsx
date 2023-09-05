@@ -20,7 +20,6 @@ const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
         <Img
           src={currentSong.cover}
           alt={currentSong.name}
-          width={100}
           height={100}
           $isRotating={isPlaying}
         />
