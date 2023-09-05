@@ -3,24 +3,19 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { createGlobalStyle } from "styled-components";
+import WebFontLoader from "webfontloader";
 
-const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-  
-  body {
-    font-family: 'Lato', sans-serif; /* Utiliza la fuente cargada */
-    margin: 0;
-    padding: 0;
-  }
-`;
+WebFontLoader.load({
+  google: {
+    families: ["Lato:400,700"],
+  },
+});
 
 const root = document.getElementById("root");
 const appRoot = ReactDOM.createRoot(root as HTMLElement);
 
 appRoot.render(
   <React.StrictMode>
-    <GlobalStyle />
     <BrowserRouter>
       <App />
     </BrowserRouter>
