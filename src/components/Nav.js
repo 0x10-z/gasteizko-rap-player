@@ -9,8 +9,8 @@ const Nav = ({ libraryStatus, setLibraryStatus, aboutStatus }) => {
       <H1 $isLibraryActive={libraryStatus || aboutStatus}>VI y alrededores</H1>
       <Button
         $aboutStatus={aboutStatus}
-        onClick={() => setLibraryStatus(!libraryStatus)}
-      >
+        $libraryStatus={libraryStatus}
+        onClick={() => setLibraryStatus(!libraryStatus)}>
         Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>
     </NavContainer>
@@ -45,7 +45,7 @@ const Button = styled.button`
   background: transparent;
   border: none;
   cursor: pointer;
-  opacity: ${(p) => (p.$aboutStatus ? "0" : "100")};
+  opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "100")};
   border: 2px solid rgb(65, 65, 65);
   padding: 0.5rem;
   transition: all 0.3s ease;

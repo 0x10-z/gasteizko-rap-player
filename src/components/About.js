@@ -1,10 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import styled from "styled-components";
 
-const About = ({ aboutStatus, setAboutStatus }) => {
+const About = forwardRef(({ aboutStatus, setAboutStatus }, ref) => {
   return (
     <>
-      <AboutContainer $aboutStatus={aboutStatus}>
+      <AboutContainer ref={ref} $aboutStatus={aboutStatus}>
         <H1>Sobre este proyecto</H1>
         <P>
           Esta plataforma nace de un profundo respeto y admiración por la música
@@ -47,13 +47,12 @@ const About = ({ aboutStatus, setAboutStatus }) => {
       </AboutContainer>
       <CloseButton
         $aboutStatus={aboutStatus}
-        onClick={() => setAboutStatus(false)}
-      >
+        onClick={() => setAboutStatus(false)}>
         X
       </CloseButton>
     </>
   );
-};
+});
 
 const AboutContainer = styled.div`
   position: fixed;
@@ -94,24 +93,14 @@ const AboutContainer = styled.div`
 
 const H1 = styled.h2`
   padding: 1rem;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.8
-  ); // Fondo oscuro con un poco de transparencia
-  color: white; // Cambiar el color del texto a blanco
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 `;
 
 const H2 = styled.h3`
   padding: 1rem 2rem;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.7
-  ); // Fondo ligeramente menos oscuro para diferenciar de H1
-  color: white; // Cambiar el color del texto a blanco
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 `;
 
 const P = styled.p`
@@ -121,29 +110,24 @@ const P = styled.p`
 
 const CloseButton = styled.button`
   position: fixed;
-  bottom: 1rem;
+  bottom: 2rem;
   z-index: 100;
   right: 2rem;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.7
-  ); // Fondo rojo con un poco de transparencia
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: white; // Cambiar el color del texto a blanco para que contraste con el fondo rojo
+  color: white;
   display: ${(p) => (p.$aboutStatus ? "flex" : "none")};
-  border-radius: 50%; // Hacerlo redondo
-  width: 40px; // Tamaño fijo para el botón
-  height: 40px; // Tamaño fijo para el botón
-  align-items: center; // Centrar verticalmente
-  justify-content: center; // Centrar horizontalmente
-  transition: background-color 0.3s ease; // Transición suave para el hover
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 1); // Fondo rojo sólido en hover
+    background-color: rgba(0, 0, 0, 1);
   }
 `;
 

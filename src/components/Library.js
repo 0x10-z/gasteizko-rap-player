@@ -1,63 +1,84 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, forwardRef } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
 
-const Library = ({
-  songs,
-  currentSong,
-  setCurrentSong,
-  audioRef,
-  isPlaying,
-  setSongs,
-  libraryStatus,
-}) => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const inputRef = useRef(null); // Crea la referencia
+const Library = forwardRef(
+  (
+    {
+      songs,
+      currentSong,
+      setCurrentSong,
+      audioRef,
+      isPlaying,
+      setSongs,
+      setLibraryStatus,
+      libraryStatus,
+    },
+    ref
+  ) => {
+    const [searchTerm, setSearchTerm] = useState("");
+    const inputRef = useRef(null); // Crea la referencia
 
-  const filteredSongs = songs.filter((song) => {
-    const searchTermLower = searchTerm.toLowerCase();
+    const filteredSongs = songs.filter((song) => {
+      const searchTermLower = searchTerm.toLowerCase();
+      return (
+        song.name.toLowerCase().includes(searchTermLower) ||
+        song.artist.toLowerCase().includes(searchTermLower) ||
+        song.album.toLowerCase().includes(searchTermLower)
+      );
+    });
+
+    useEffect(() => {
+      if (libraryStatus && inputRef.current) {
+        inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+      }
+    }, [libraryStatus]);
+
+    const handleLibraryClick = (event) => {
+      event.stopPropagation();
+    };
+
     return (
-      song.name.toLowerCase().includes(searchTermLower) ||
-      song.artist.toLowerCase().includes(searchTermLower) ||
-      song.album.toLowerCase().includes(searchTermLower)
-    );
-  });
-
-  useEffect(() => {
-    if (libraryStatus && inputRef.current) {
-      inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
-    }
-  }, [libraryStatus]);
-  return (
-    <LibraryContainer $libraryStatus={libraryStatus}>
-      <H1>Tracklist</H1>
-      <SearchInput
-        type="text"
-        placeholder="Busca un tema..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        ref={inputRef}
-      />
-      <SongContainer>
-        {filteredSongs.map((song) => (
-          <LibrarySong
-            song={song}
-            songs={songs}
-            setCurrentSong={setCurrentSong}
-            key={song.id}
-            audioRef={audioRef}
-            isPlaying={isPlaying}
-            setSongs={setSongs}
+      <LibraryContainer
+        ref={ref}
+        $libraryStatus={libraryStatus}
+        onClick={handleLibraryClick}>
+        <H1>Tracklist</H1>
+        <StickyHeader>
+          <SearchInput
+            type="text"
+            placeholder="Busca un tema..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            ref={inputRef}
           />
-        ))}
-      </SongContainer>
-    </LibraryContainer>
-  );
-};
+          <CloseButton
+            $libraryStatus={libraryStatus}
+            onClick={() => setLibraryStatus(false)}>
+            X
+          </CloseButton>
+        </StickyHeader>
+        <SongContainer>
+          {filteredSongs.map((song) => (
+            <LibrarySong
+              song={song}
+              songs={songs}
+              setCurrentSong={setCurrentSong}
+              key={song.id}
+              audioRef={audioRef}
+              isPlaying={isPlaying}
+              setSongs={setSongs}
+            />
+          ))}
+        </SongContainer>
+      </LibraryContainer>
+    );
+  }
+);
 const LibraryContainer = styled.div`
   position: fixed;
-  z-index: 9;
+  z-index: 99;
   top: 0;
   left: 0;
   width: 20rem;
@@ -107,27 +128,44 @@ const H1 = styled.h2`
   color: white; // Cambiar el color del texto a blanco
 `;
 
-const SearchInput = styled.input`
-  width: 90%;
-  padding: 0.5rem 1rem;
-  margin: 0 auto 1rem 1rem;
-  border: 1px solid rgba(155, 155, 155, 0.5);
-  top: 2rem;
-  border-radius: 5px;
-  outline: none;
+const StickyHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: sticky;
-  position: -webkit-sticky;
-  top: 2rem;
+  top: 0;
   background-color: white;
   z-index: 10;
+  padding: 0.5rem 1rem;
+`;
+
+const SearchInput = styled.input`
+  flex: 1; // Ocupa todo el espacio disponible
+  padding: 0.5rem;
+  margin-right: 1rem; // Espacio entre el input y el botón
+  border: 1px solid rgba(155, 155, 155, 0.5);
+  border-radius: 5px;
+  outline: none;
   &:focus {
     border-color: rgba(155, 155, 155, 0.8);
   }
-
-  @media screen and (max-width: 768px) {
-    top: 1.1rem;
-    width: 65%;
-  }
 `;
 
+const CloseButton = styled.button`
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+`;
 export default Library;

@@ -1,26 +1,23 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
 import { Analytics } from "@vercel/analytics/react";
-
-// Import components
 import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Credit from "./components/Credit";
-// Import data
 import tracklist from "./tracklist.json";
 
+// Utility Functions
 function prettifyString(str) {
   let prettified = str.replace(/[^a-zA-Z0-9]+/g, "-");
   prettified = prettified.replace(/-+/g, "-");
   prettified = prettified.replace(/\w\S*/g, (txt) => {
     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
   });
-
   return prettified.trim();
 }
 
@@ -28,28 +25,14 @@ const App = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Ref
+  // Refs
   const audioRef = useRef(null);
+  const libraryRef = useRef(null);
+  const aboutRef = useRef(null);
 
-  // State
+  // State Initialization
   const [songs, setSongs] = useState(tracklist);
-
-  const songIdFromURL = location.pathname.substring(1);
-  const songToPlay = songIdFromURL
-    ? songs.find(
-        (song) =>
-          prettifyString(song.artist) ===
-            prettifyString(songIdFromURL.split("@")[0]) &&
-          prettifyString(song.name) ===
-            prettifyString(songIdFromURL.split("@")[1])
-      )
-    : null;
-
-  const initialSong =
-    songToPlay || songs[Math.floor(Math.random() * songs.length)];
-
-  const [currentSong, setCurrentSong] = useState(initialSong);
-
+  const [currentSong, setCurrentSong] = useState(determineInitialSong());
   const [isPlaying, setIsPlaying] = useState(false);
   const [libraryStatus, setLibraryStatus] = useState(false);
   const [aboutStatus, setAboutStatus] = useState(false);
@@ -58,18 +41,31 @@ const App = () => {
     duration: 0,
   });
 
-  // Functions
-  const updateTimeHandler = (e) => {
-    const currentTime = e.target.currentTime;
-    const duration = e.target.duration;
-    setSongInfo({ ...songInfo, currentTime, duration });
-  };
+  // Helper Functions
+  function determineInitialSong() {
+    const songIdFromURL = location.pathname.substring(1);
+    const songFromURL = songIdFromURL
+      ? songs.find(
+          (song) =>
+            prettifyString(song.artist) ===
+              prettifyString(songIdFromURL.split("@")[0]) &&
+            prettifyString(song.name) ===
+              prettifyString(songIdFromURL.split("@")[1])
+        )
+      : null;
+    return songFromURL || songs[Math.floor(Math.random() * songs.length)];
+  }
 
-  const songEndHandler = async () => {
-    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    let nextSong = songs[(currentIndex + 1) % songs.length];
+  function getAudioSrc(song) {
+    const parts = song.audio.split("/");
+    const lastPart = parts[parts.length - 1].split("?");
+    lastPart[0] = encodeURIComponent(lastPart[0]);
+    parts[parts.length - 1] = lastPart.join("?");
+    return parts.join("/");
+  }
+
+  async function updateActiveSongs(nextSong) {
     await setCurrentSong(nextSong);
-
     const newSongs = songs.map((song) => {
       if (song.id === nextSong.id) {
         return {
@@ -84,7 +80,19 @@ const App = () => {
       }
     });
     setSongs(newSongs);
+  }
 
+  // Event Handlers
+  const updateTimeHandler = (e) => {
+    const currentTime = e.target.currentTime;
+    const duration = e.target.duration;
+    setSongInfo({ ...songInfo, currentTime, duration });
+  };
+
+  const songEndHandler = async () => {
+    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+    let nextSong = songs[(currentIndex + 1) % songs.length];
+    await updateActiveSongs(nextSong);
     if (isPlaying) {
       audioRef.current.play().catch((error) => {
         console.error("Error al reproducir el audio:", error);
@@ -92,13 +100,19 @@ const App = () => {
     }
   };
 
-  const parts = currentSong.audio.split("/");
-  const lastPart = parts[parts.length - 1].split("?");
-  lastPart[0] = encodeURIComponent(lastPart[0]);
-  parts[parts.length - 1] = lastPart.join("?");
-  const audioSrc = parts.join("/");
+  const handleClickOutside = useCallback(
+    (event) => {
+      if (libraryStatus && !libraryRef.current.contains(event.target)) {
+        setLibraryStatus(false);
+      }
+      if (aboutStatus && !aboutRef.current.contains(event.target)) {
+        setAboutStatus(false);
+      }
+    },
+    [libraryStatus, aboutStatus, libraryRef, aboutRef]
+  );
 
-  // UseNavigate code
+  // Effects
   useEffect(() => {
     navigate(
       `/${prettifyString(currentSong.artist)}@${prettifyString(
@@ -107,12 +121,20 @@ const App = () => {
     );
   }, [currentSong, navigate]);
 
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [handleClickOutside]);
+
+  // Render
   return (
     <AppContainer
       $libraryStatus={libraryStatus}
       $aboutStatus={aboutStatus}
       $backgroundImage={currentSong.cover}
-    >
+      onClick={handleClickOutside}>
       <Nav
         libraryStatus={libraryStatus}
         aboutStatus={aboutStatus}
@@ -131,18 +153,25 @@ const App = () => {
         setSongs={setSongs}
       />
       <Library
+        ref={libraryRef}
         songs={songs}
         setCurrentSong={setCurrentSong}
         audioRef={audioRef}
         isPlaying={isPlaying}
         setSongs={setSongs}
+        setLibraryStatus={setLibraryStatus}
         libraryStatus={libraryStatus}
       />
-      <About aboutStatus={aboutStatus} setAboutStatus={setAboutStatus} />
+      <About
+        ref={aboutRef}
+        aboutStatus={aboutStatus}
+        setAboutStatus={setAboutStatus}
+      />
       <Credit
         songsNumber={songs.length}
         aboutStatus={aboutStatus}
         setAboutStatus={setAboutStatus}
+        libraryStatus={libraryStatus}
       />
       <audio
         onLoadedMetadata={updateTimeHandler}
@@ -156,7 +185,7 @@ const App = () => {
           }
         }}
         ref={audioRef}
-        src={audioSrc}
+        src={getAudioSrc(currentSong)}
       />
       <Analytics />
     </AppContainer>

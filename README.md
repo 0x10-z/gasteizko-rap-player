@@ -48,3 +48,6 @@ This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
 
 - Smartphone library tab is not working fine. Searchbox is not sticky on top.
 - About tab describing purpose of this webpage
+- Inifinite scroll lib to improve pagespeed https://pagespeed.web.dev/analysis/https-gasteizko-rap-player-vercel-app/r51xjq4dio?form_factor=mobile
+  - https://pagespeed.web.dev/analysis/https-gasteizko-rap-player-vercel-app/r51xjq4dio?form_factor=mobile
+- Make a legend to show keyboard player control

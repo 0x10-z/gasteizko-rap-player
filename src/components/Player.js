@@ -5,7 +5,6 @@ import {
   faAngleRight,
   faPlay,
   faPause,
-  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
@@ -117,9 +116,9 @@ const Player = ({
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
-  const downloadSong = () => {
-    window.open(currentSong.audio, "_blank");
-  };
+  //const downloadSong = () => {
+  //  window.open(currentSong.audio, "_blank");
+  //};
 
   const progress = songInfo.duration
     ? (songInfo.currentTime * 100) / songInfo.duration
@@ -166,13 +165,13 @@ const Player = ({
           size="2x"
           style={pointer}
         />
-        <FontAwesomeIcon
+        {/*<FontAwesomeIcon
           onClick={() => downloadSong()}
           className="download"
           icon={faDownload}
           size="2x"
           style={pointer}
-        />
+        />*/}
       </PlayControlContainer>
     </PlayerContainer>
   );

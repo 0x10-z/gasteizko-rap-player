@@ -1,20 +1,30 @@
 import React from "react";
 import styled from "styled-components";
 
-const Credit = ({ songsNumber, aboutStatus, setAboutStatus }) => {
+const Credit = ({
+  songsNumber,
+  aboutStatus,
+  setAboutStatus,
+  libraryStatus,
+}) => {
   return (
-    <CreditContainer $aboutStatus={aboutStatus}>
-      <Button onClick={() => setAboutStatus(!aboutStatus)}>
-        Sobre este proyecto
-      </Button>
-      <span>{songsNumber} temas cargados</span>
-      <span>v{process.env.REACT_APP_BUILD_DATE}</span>
-      <Link
-        href="https://github.com/WilsonLe/react-music-player"
-        target="_blank"
-      >
-        Basado en react-music-player
-      </Link>
+    <CreditContainer $aboutStatus={aboutStatus} $libraryStatus={libraryStatus}>
+      <LeftContainer>
+        <StyledLink
+          href="https://github.com/0x10-z/gasteizko-rap-player/"
+          target="_blank">
+          Código en Github
+        </StyledLink>
+      </LeftContainer>
+      <CenterContainer>
+        <StyledSpan>{songsNumber} temas cargados</StyledSpan>
+        <StyledSpan>v{process.env.REACT_APP_BUILD_DATE}</StyledSpan>
+      </CenterContainer>
+      <RightContainer>
+        <StyledLink href="#" onClick={() => setAboutStatus(!aboutStatus)}>
+          Sobre este proyecto
+        </StyledLink>
+      </RightContainer>
     </CreditContainer>
   );
 };
@@ -23,35 +33,34 @@ const CreditContainer = styled.div`
   user-select: none;
   position: fixed;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  opacity: ${(p) => (p.$aboutStatus ? "0" : "100")};
-  transition: opacity 0.3s ease;
-  justify-content: flex-end;
-  z-index: 12;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
   bottom: 5px;
-  right: 5px;
+  z-index: 12;
+  opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "1")};
+  transition: opacity 0.3s ease;
+`;
+
+const LeftContainer = styled.div``;
+
+const CenterContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const RightContainer = styled.div``;
+
+const StyledLink = styled.a`
   color: rgb(155, 155, 155);
   font-size: 0.75rem;
 `;
 
-const Link = styled.a`
+const StyledSpan = styled.span`
   color: rgb(155, 155, 155);
-`;
-
-const Button = styled.button`
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  text-decoration: underline; // Underline to make it look like a link
-  color: rgb(155, 155, 155); // Same color as the Link styled component
-  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
-  transition: all 0.3s ease;
-  &:hover {
-    background: rgb(65, 65, 65);
-    color: white;
-    text-decoration: none; // Remove underline on hover for a cleaner look
-  }
+  font-size: 0.75rem;
 `;
 
 export default Credit;

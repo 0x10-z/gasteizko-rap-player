@@ -8,7 +8,7 @@ const Song = ({ currentSong, isPlaying }) => {
         src={currentSong.cover}
         alt={currentSong.name}
         $isRotating={isPlaying}
-      ></Img>
+      />
       <H1>{currentSong.name}</H1>
       <H2>{currentSong.artist}</H2>
       <H2>{currentSong.album}</H2>
