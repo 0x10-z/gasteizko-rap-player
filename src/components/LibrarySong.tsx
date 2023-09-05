@@ -72,6 +72,8 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
       <Img
         src={song.cover}
         alt={song.name}
+        width={100}
+        height={100}
         onLoad={() => setImageLoaded(true)}
         loading="lazy"
       />
