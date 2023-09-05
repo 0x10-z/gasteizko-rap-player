@@ -5,12 +5,11 @@ import {
   faAngleRight,
   faPlay,
   faPause,
+  faInfo,
+  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
-
-// style
-const pointer = { cursor: "pointer" };
 
 const Player = ({
   currentSong,
@@ -22,6 +21,7 @@ const Player = ({
   setSongInfo,
   songs,
   setSongs,
+  setIsShortcutsModalOpen,
 }) => {
   // Event handlers
   const playSongHandler = useCallback(() => {
@@ -116,9 +116,9 @@ const Player = ({
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
-  //const downloadSong = () => {
-  //  window.open(currentSong.audio, "_blank");
-  //};
+  const downloadSong = () => {
+    window.open(currentSong.audio, "_blank");
+  };
 
   const progress = songInfo.duration
     ? (songInfo.currentTime * 100) / songInfo.duration
@@ -144,38 +144,58 @@ const Player = ({
       </TimeControlContainer>
 
       <PlayControlContainer>
-        <FontAwesomeIcon
+        <ControlIcon
+          onClick={() => setIsShortcutsModalOpen(true)}
+          className="shortcutModal"
+          icon={faInfo}
+          size="2x"
+        />
+        <ControlIcon
           onClick={() => skipTrackHandler("skip-back")}
           className="skip-back"
           icon={faAngleLeft}
           size="2x"
-          style={pointer}
         />
-        <FontAwesomeIcon
+        <ControlIcon
           onClick={playSongHandler}
           className="play"
           icon={togglePlayPauseIcon()}
           size="2x"
-          style={pointer}
         />
-        <FontAwesomeIcon
+        <ControlIcon
           onClick={() => skipTrackHandler("skip-forward")}
           className="skip-forward"
           icon={faAngleRight}
           size="2x"
-          style={pointer}
         />
-        {/*<FontAwesomeIcon
+        <ControlIcon
           onClick={() => downloadSong()}
           className="download"
           icon={faDownload}
           size="2x"
-          style={pointer}
-        />*/}
+        />
       </PlayControlContainer>
     </PlayerContainer>
   );
 };
+
+const ControlIcon = styled(FontAwesomeIcon)`
+  cursor: pointer;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.1
+    ); // Puedes ajustar el color y la opacidad según lo que prefieras
+  }
+`;
 
 const PlayerContainer = styled.div`
   min-height: 20vh;

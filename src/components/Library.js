@@ -35,15 +35,11 @@ const Library = forwardRef(
       }
     }, [libraryStatus]);
 
-    const handleLibraryClick = (event) => {
-      event.stopPropagation();
-    };
-
     return (
       <LibraryContainer
         ref={ref}
         $libraryStatus={libraryStatus}
-        onClick={handleLibraryClick}>
+        onClick={(e) => e.stopPropagation()}>
         <H1>Tracklist</H1>
         <StickyHeader>
           <SearchInput

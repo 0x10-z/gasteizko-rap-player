@@ -9,6 +9,7 @@ import Library from "./components/Library";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Credit from "./components/Credit";
+import HelpModal from "./components/HelpModal";
 import tracklist from "./tracklist.json";
 
 // Utility Functions
@@ -31,6 +32,7 @@ const App = () => {
   const aboutRef = useRef(null);
 
   // State Initialization
+  const [isShortcutsModalOpen, setIsShortcutsModalOpen] = useState(false);
   const [songs, setSongs] = useState(tracklist);
   const [currentSong, setCurrentSong] = useState(determineInitialSong());
   const [isPlaying, setIsPlaying] = useState(false);
@@ -151,6 +153,7 @@ const App = () => {
         setSongInfo={setSongInfo}
         songs={songs}
         setSongs={setSongs}
+        setIsShortcutsModalOpen={setIsShortcutsModalOpen}
       />
       <Library
         ref={libraryRef}
@@ -172,6 +175,10 @@ const App = () => {
         aboutStatus={aboutStatus}
         setAboutStatus={setAboutStatus}
         libraryStatus={libraryStatus}
+      />
+      <HelpModal
+        isOpen={isShortcutsModalOpen}
+        onClose={() => setIsShortcutsModalOpen(false)}
       />
       <audio
         onLoadedMetadata={updateTimeHandler}
