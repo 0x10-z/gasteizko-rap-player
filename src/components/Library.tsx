@@ -2,9 +2,20 @@ import { useState, useRef, useEffect, forwardRef } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
-import { List, AutoSizer } from "react-virtualized";
+import { List, AutoSizer, ListRowProps } from "react-virtualized";
+import { SongType } from "../App";
 
-const Library = forwardRef(
+type LibraryProps = {
+  songs: SongType[];
+  setCurrentSong: (song: SongType) => void;
+  audioRef: React.RefObject<HTMLAudioElement>;
+  isPlaying: boolean;
+  setSongs: (songs: SongType[]) => void;
+  setLibraryStatus: (status: boolean) => void;
+  libraryStatus: boolean;
+};
+
+const Library = forwardRef<HTMLDivElement, LibraryProps>(
   (
     {
       songs,
@@ -17,8 +28,8 @@ const Library = forwardRef(
     },
     ref
   ) => {
-    const [searchTerm, setSearchTerm] = useState("");
-    const inputRef = useRef(null); // Crea la referencia
+    const [searchTerm, setSearchTerm] = useState<string>("");
+    const inputRef = useRef<HTMLInputElement>(null);
 
     const filteredSongs = songs.filter((song) => {
       const searchTermLower = searchTerm.toLowerCase();
@@ -35,7 +46,7 @@ const Library = forwardRef(
       }
     }, [libraryStatus]);
 
-    const rowRenderer = ({ index, key, style }) => {
+    const rowRenderer = ({ index, key, style }: ListRowProps) => {
       const song = filteredSongs[index];
       return (
         <div key={key} style={style}>
@@ -66,16 +77,11 @@ const Library = forwardRef(
             onChange={(e) => setSearchTerm(e.target.value)}
             ref={inputRef}
           />
-          <CloseButton
-            $libraryStatus={libraryStatus}
-            onClick={() => setLibraryStatus(false)}
-          >
-            X
-          </CloseButton>
+          <CloseButton onClick={() => setLibraryStatus(false)}>X</CloseButton>
         </StickyHeader>
         <SongContainer>
           <AutoSizer>
-            {({ height, width }) => (
+            {({ height, width }: { height: number; width: number }) => (
               <StyledList
                 width={width}
                 height={height}
@@ -110,7 +116,7 @@ const StyledList = styled(List)`
   }
 `;
 
-const LibraryContainer = styled.div`
+const LibraryContainer = styled.div<{ $libraryStatus: boolean }>`
   display: flex;
   flex-direction: column;
   position: fixed;

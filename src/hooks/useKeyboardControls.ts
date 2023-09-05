@@ -1,28 +1,39 @@
 import { useCallback, useRef } from "react";
 
-const useKeyboardControls = (playSongHandler, skipTrackHandler, audioRef) => {
-  const pressTimer = useRef(null);
-  const keyHeld = useRef(false); // Nuevo ref para rastrear si la tecla fue mantenida
+type PlaySongHandlerType = () => void;
+type SkipTrackHandlerType = (direction: "skip-forward" | "skip-back") => void;
+type AudioRefType = React.RefObject<HTMLAudioElement>;
+
+const useKeyboardControls = (
+  playSongHandler: PlaySongHandlerType,
+  skipTrackHandler: SkipTrackHandlerType,
+  audioRef: AudioRefType
+) => {
+  const pressTimer = useRef<NodeJS.Timeout | null>(null);
+  const keyHeld = useRef(false);
 
   const handleKeyDown = useCallback(
-    (e) => {
-      if (e.code === "ArrowRight" || e.code === "ArrowLeft") {
+    (e: KeyboardEvent) => {
+      if (
+        audioRef.current &&
+        (e.code === "ArrowRight" || e.code === "ArrowLeft")
+      ) {
         pressTimer.current = setTimeout(() => {
-          keyHeld.current = true; // Establecer que la tecla fue mantenida
+          keyHeld.current = true;
           if (e.code === "ArrowRight") {
-            audioRef.current.currentTime += 5; // Avanza 5 segundos
+            audioRef.current!.currentTime += 5;
           } else {
-            audioRef.current.currentTime -= 5; // Retrocede 5 segundos
+            audioRef.current!.currentTime -= 5;
           }
-        }, 500); // Tiempo que se debe mantener presionada la tecla para avanzar/retroceder
+        }, 500);
       }
     },
     [audioRef]
   );
 
   const handleKeyUp = useCallback(
-    (e) => {
-      clearTimeout(pressTimer.current);
+    (e: KeyboardEvent) => {
+      clearTimeout(pressTimer.current!);
       switch (e.code) {
         case "Space":
           playSongHandler();

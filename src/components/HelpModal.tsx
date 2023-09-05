@@ -1,4 +1,4 @@
-import React from "react";
+import { FC, MouseEvent } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,10 +8,18 @@ import {
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 
-const HelpModal = ({ isOpen, onClose }) => {
+interface HelpModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose }) => {
   return (
     <ModalBackground $isOpen={isOpen} onClick={onClose}>
-      <ModalContent $isOpen={isOpen} onClick={(e) => e.stopPropagation()}>
+      <ModalContent
+        $isOpen={isOpen}
+        onClick={(e: MouseEvent) => e.stopPropagation()}
+      >
         <CloseButton onClick={onClose}>
           <FontAwesomeIcon icon={faTimes} />
         </CloseButton>
@@ -41,7 +49,7 @@ const HelpModal = ({ isOpen, onClose }) => {
   );
 };
 
-const ModalBackground = styled.div`
+const ModalBackground = styled.div<{ $isOpen: boolean }>`
   position: fixed;
   top: 0;
   left: 0;
@@ -56,7 +64,7 @@ const ModalBackground = styled.div`
   transition: opacity 0.2s ease-in-out;
 `;
 
-const ModalContent = styled.div`
+const ModalContent = styled.div<{ $isOpen: boolean }>`
   position: relative;
   width: 70%;
   max-width: 500px;

@@ -1,7 +1,14 @@
-import React from "react";
+import { FC } from "react";
 import styled from "styled-components";
 
-const Credit = ({
+type CreditProps = {
+  songsNumber: number;
+  aboutStatus: boolean;
+  setAboutStatus: (status: boolean) => void;
+  libraryStatus: boolean;
+};
+
+const Credit: FC<CreditProps> = ({
   songsNumber,
   aboutStatus,
   setAboutStatus,
@@ -30,7 +37,10 @@ const Credit = ({
   );
 };
 
-const CreditContainer = styled.div`
+const CreditContainer = styled.div<{
+  $aboutStatus: boolean;
+  $libraryStatus: boolean;
+}>`
   user-select: none;
   position: fixed;
   display: flex;

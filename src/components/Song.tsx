@@ -1,7 +1,19 @@
 import React from "react";
 import styled, { css, keyframes } from "styled-components";
 
-const Song = ({ currentSong, isPlaying }) => {
+type SongType = {
+  name: string;
+  artist: string;
+  album: string;
+  cover: string;
+};
+
+type SongProps = {
+  currentSong: SongType;
+  isPlaying: boolean;
+};
+
+const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
   return (
     <SongContainer>
       <ImgWrapper>
@@ -49,7 +61,7 @@ const ImgWrapper = styled.div`
   }
 `;
 
-const Img = styled.img`
+const Img = styled.img<{ $isRotating: boolean }>`
   position: absolute;
   top: 0;
   left: 0;

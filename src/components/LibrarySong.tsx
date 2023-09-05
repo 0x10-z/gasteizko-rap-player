@@ -1,5 +1,15 @@
-import React, { useState } from "react";
+import { useState, RefObject } from "react";
 import styled from "styled-components";
+import { SongType } from "../App";
+
+type LibrarySongProps = {
+  song: SongType;
+  setCurrentSong: (song: SongType) => void;
+  audioRef: RefObject<HTMLAudioElement>;
+  isPlaying: boolean;
+  songs: SongType[];
+  setSongs: (songs: SongType[]) => void;
+};
 
 const Spinner = styled.div`
   border: 4px solid rgba(255, 255, 255, 0.3);
@@ -20,7 +30,7 @@ const Spinner = styled.div`
   }
 `;
 
-const LibrarySong = ({
+const LibrarySong: React.FC<LibrarySongProps> = ({
   song,
   setCurrentSong,
   audioRef,
@@ -52,7 +62,7 @@ const LibrarySong = ({
     setSongs(newSongs);
 
     // check if user is wanting to play a song.
-    if (isPlaying) {
+    if (isPlaying && audioRef.current) {
       audioRef.current.play();
     }
   };
@@ -73,13 +83,13 @@ const LibrarySong = ({
     </LibrarySongContainer>
   );
 };
-const LibrarySongContainer = styled.div`
+const LibrarySongContainer = styled.div<{ $isActive: boolean }>`
   padding: 0 2rem 0 2rem;
   height: 100px;
   width: 100%;
   display: flex;
   transition: all 0.3s ease;
-  background-color: ${(p) => (p.isActive ? "pink" : "white")};
+  background-color: ${(p) => (p.$isActive ? "pink" : "white")};
   &:hover {
     background-color: lightblue;
     transition: all 0.3s ease;

@@ -1,9 +1,18 @@
-import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
-const Nav = ({ libraryStatus, setLibraryStatus, aboutStatus }) => {
+type NavProps = {
+  libraryStatus: boolean;
+  setLibraryStatus: (status: boolean) => void;
+  aboutStatus: boolean;
+};
+
+const Nav: React.FC<NavProps> = ({
+  libraryStatus,
+  setLibraryStatus,
+  aboutStatus,
+}) => {
   return (
     <NavContainer>
       <H1 $isLibraryActive={libraryStatus || aboutStatus}>VI y alrededores</H1>
@@ -32,7 +41,7 @@ const NavContainer = styled.div`
   }
 `;
 
-const H1 = styled.h1`
+const H1 = styled.h1<{ $isLibraryActive: boolean }>`
   transition: all 0.5s ease;
 
   @media screen and (max-width: 768px) {
@@ -42,7 +51,10 @@ const H1 = styled.h1`
   }
 `;
 
-const Button = styled.button`
+const Button = styled.button<{
+  $aboutStatus: boolean;
+  $libraryStatus: boolean;
+}>`
   background: transparent;
   border: none;
   cursor: pointer;

@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from "react";
+import { FC, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styled, { keyframes } from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
+import { useSongChange } from "../contexts/SongChangeProvider";
 
 const typingDots = keyframes`
   0%, 20% {
@@ -23,18 +24,27 @@ const typingDots = keyframes`
   }
 `;
 
-const Player = ({
+type PlayerProps = {
+  currentSong: any;
+  isPlaying: boolean;
+  setIsPlaying: (isPlaying: boolean) => void;
+  audioRef: any;
+  songInfo: any;
+  setSongInfo: (songInfo: any) => void;
+  setIsShortcutsModalOpen: (isOpen: boolean) => void;
+};
+
+const Player: FC<PlayerProps> = ({
   currentSong,
-  setCurrentSong,
   isPlaying,
   setIsPlaying,
   audioRef,
   songInfo,
   setSongInfo,
-  songs,
-  setSongs,
   setIsShortcutsModalOpen,
 }) => {
+  const { changeSong } = useSongChange();
+
   // Event handlers
   const playSongHandler = useCallback(() => {
     if (isPlaying) {
@@ -46,52 +56,15 @@ const Player = ({
     }
   }, [isPlaying, audioRef, setIsPlaying]);
 
-  const activeLibraryHandler = useCallback(
-    (newSong) => {
-      const newSongs = songs.map((song) => {
-        if (song.id === newSong.id) {
-          return {
-            ...song,
-            active: true,
-          };
-        } else {
-          return {
-            ...song,
-            active: false,
-          };
-        }
-      });
-      setSongs(newSongs);
-    },
-    [songs, setSongs]
-  );
-
   const skipTrackHandler = useCallback(
-    async (direction) => {
-      let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+    async (direction: "skip-forward" | "skip-back") => {
       if (direction === "skip-forward") {
-        setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+        await changeSong("forward");
       } else if (direction === "skip-back") {
-        if ((currentIndex - 1) % songs.length === -1) {
-          await setCurrentSong(songs[songs.length - 1]);
-          activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
-        } else {
-          await setCurrentSong(songs[(currentIndex - 1) % songs.length]);
-          activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
-        }
-      }
-      if (isPlaying) {
-        audioRef.current.play();
+        await changeSong("backward");
       }
     },
-    [
-      currentSong,
-      songs,
-      setCurrentSong,
-      isPlaying,
-      audioRef,
-      activeLibraryHandler,
-    ]
+    [changeSong]
   );
 
   const { handleKeyDown, handleKeyUp } = useKeyboardControls(
@@ -117,13 +90,13 @@ const Player = ({
     }
   };
 
-  const getTime = (time) => {
+  const getTime = (time: number) => {
     let minute = Math.floor(time / 60);
     let second = ("0" + Math.floor(time % 60)).slice(-2);
     return `${minute}:${second}`;
   };
 
-  const dragHandler = (e) => {
+  const dragHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     audioRef.current.currentTime = e.target.value;
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
@@ -151,7 +124,6 @@ const Player = ({
           />
           <AnimateTrack $progress={progress}></AnimateTrack>
         </Track>
-
         <P>
           {(songInfo.duration && getTime(songInfo.duration || 0)) || <Dots />}
         </P>
@@ -231,7 +203,7 @@ const TimeControlContainer = styled.div`
   }
 `;
 
-const Track = styled.div`
+const Track = styled.div<{ $color1: string; $color2: string }>`
   background: lightblue;
   width: 100%;
   height: 1rem;
@@ -245,11 +217,13 @@ const Track = styled.div`
   );
 `;
 
-const AnimateTrack = styled.div.attrs((props) => ({
-  style: {
-    transform: `translateX(${props.$progress}%)`,
-  },
-}))`
+const AnimateTrack = styled.div.attrs<{ $progress: number }>(
+  ({ $progress }) => ({
+    style: {
+      transform: `translateX(${$progress}%)`,
+    },
+  })
+)`
   background: rgb(204, 204, 204);
   width: 100%;
   height: 100%;
