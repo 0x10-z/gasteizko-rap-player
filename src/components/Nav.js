@@ -10,7 +10,8 @@ const Nav = ({ libraryStatus, setLibraryStatus, aboutStatus }) => {
       <Button
         $aboutStatus={aboutStatus}
         $libraryStatus={libraryStatus}
-        onClick={() => setLibraryStatus(!libraryStatus)}>
+        onClick={() => setLibraryStatus(!libraryStatus)}
+      >
         Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>
     </NavContainer>
@@ -45,6 +46,11 @@ const Button = styled.button`
   background: transparent;
   border: none;
   cursor: pointer;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "100")};
   border: 2px solid rgb(65, 65, 65);
   padding: 0.5rem;
