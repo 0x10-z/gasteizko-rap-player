@@ -8,8 +8,20 @@ import {
   faInfo,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
+
+const typingDots = keyframes`
+  0%, 20% {
+    content: '.';
+  }
+  40% {
+    content: '..';
+  }
+  60%, 100% {
+    content: '...';
+  }
+`;
 
 const Player = ({
   currentSong,
@@ -140,7 +152,9 @@ const Player = ({
           <AnimateTrack $progress={progress}></AnimateTrack>
         </Track>
 
-        <P>{getTime(songInfo.duration || 0)}</P>
+        <P>
+          {(songInfo.duration && getTime(songInfo.duration || 0)) || <Dots />}
+        </P>
       </TimeControlContainer>
 
       <PlayControlContainer>
@@ -179,6 +193,13 @@ const Player = ({
   );
 };
 
+const Dots = styled.span`
+  &::after {
+    content: "...";
+    animation: ${typingDots} 1s infinite;
+  }
+`;
+
 const ControlIcon = styled(FontAwesomeIcon)`
   cursor: pointer;
   padding: 20px;
@@ -189,12 +210,7 @@ const ControlIcon = styled(FontAwesomeIcon)`
 
   &:hover {
     border-radius: 50%;
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.1
-    ); // Puedes ajustar el color y la opacidad según lo que prefieras
+    background-color: rgba(0, 0, 0, 0.1);
   }
 `;
 
