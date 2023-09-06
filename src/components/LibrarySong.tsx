@@ -1,4 +1,4 @@
-import { useState, RefObject } from "react";
+import { RefObject } from "react";
 import styled from "styled-components";
 import { SongType } from "../App";
 
@@ -11,25 +11,6 @@ type LibrarySongProps = {
   setSongs: (songs: SongType[]) => void;
 };
 
-const Spinner = styled.div`
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  border-top: 4px solid #000;
-  width: 60px;
-  height: 60px;
-  animation: spin 1s linear infinite;
-  margin: 20px 0;
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-`;
-
 const LibrarySong: React.FC<LibrarySongProps> = ({
   song,
   setCurrentSong,
@@ -38,8 +19,6 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
   songs,
   setSongs,
 }) => {
-  const [imageLoaded, setImageLoaded] = useState(false);
-
   // Function
   const songSelectHandler = async () => {
     await setCurrentSong(song);
@@ -68,18 +47,9 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
   };
   return (
     <LibrarySongContainer onClick={songSelectHandler} $isActive={song.active}>
-      {!imageLoaded && <Spinner />}
-      <Img
-        src={song.cover}
-        alt={song.name}
-        height={100}
-        onLoad={() => setImageLoaded(true)}
-        loading="lazy"
-      />
       <LibrarySongDescription>
         <H1>{song.name}</H1>
         <H2>{song.artist}</H2>
-        <H2>{song.album}</H2>
       </LibrarySongDescription>
     </LibrarySongContainer>
   );
@@ -106,11 +76,6 @@ const LibrarySongDescription = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-const Img = styled.img`
-  margin: 20px 0;
-  height: 60px;
 `;
 
 const H1 = styled.h3`

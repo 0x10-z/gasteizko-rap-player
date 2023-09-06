@@ -46,28 +46,59 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       }
     }, [libraryStatus]);
 
+    const groupByAlbum = (
+      songs: SongType[]
+    ): { [album: string]: SongType[] } => {
+      return songs.reduce((acc, song) => {
+        if (!acc[song.album]) {
+          acc[song.album] = [];
+        }
+        acc[song.album].push(song);
+        return acc;
+      }, {} as { [album: string]: SongType[] });
+    };
+    const listRef = useRef<List>(null);
+
+    const albums = groupByAlbum(filteredSongs);
+
     const rowRenderer = ({ index, key, style }: ListRowProps) => {
-      const song = filteredSongs[index];
+      const albumName = Object.keys(albums)[index];
+      const albumSongs = albums[albumName];
+      const albumCover = albumSongs[0]?.cover; // Tomando la carátula de la primera canción
+      const uniqueKey = `${albumName}-${albumSongs
+        .map((song) => song.id)
+        .join("-")}`;
+
       return (
-        <div key={key} style={style}>
-          <LibrarySong
-            song={song}
-            songs={songs}
-            setCurrentSong={setCurrentSong}
-            audioRef={audioRef}
-            isPlaying={isPlaying}
-            setSongs={setSongs}
-          />
+        <div key={uniqueKey} style={style}>
+          <AlbumTitle>{albumName}</AlbumTitle>
+          <AlbumCoverWrapper>
+            <AlbumCover src={albumCover} alt={`${albumName} cover`} />
+          </AlbumCoverWrapper>
+          {/* Renderiza la carátula */}
+          {/* Puedes estilizar este título como quieras */}
+          {albumSongs.map((song) => (
+            <LibrarySong
+              key={song.id}
+              song={song}
+              songs={songs}
+              setCurrentSong={setCurrentSong}
+              audioRef={audioRef}
+              isPlaying={isPlaying}
+              setSongs={setSongs}
+            />
+          ))}
         </div>
       );
     };
-
+    if (listRef.current) {
+      listRef.current.forceUpdateGrid();
+    }
     return (
       <LibraryContainer
         ref={ref}
         $libraryStatus={libraryStatus}
-        onClick={(e) => e.stopPropagation()}
-      >
+        onClick={(e) => e.stopPropagation()}>
         <H1>Tracklist</H1>
         <StickyHeader>
           <SearchInput
@@ -83,10 +114,15 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
           <AutoSizer>
             {({ height, width }: { height: number; width: number }) => (
               <StyledList
+                ref={listRef}
                 width={width}
                 height={height}
-                rowCount={filteredSongs.length}
-                rowHeight={100}
+                rowCount={Object.keys(albums).length}
+                rowHeight={({ index }: { index: number }) => {
+                  const albumName = Object.keys(albums)[index];
+                  const albumSongs = albums[albumName];
+                  return 100 + albumSongs.length * 80; // 100 para la carátula, 50 para el título del álbum, y 100 para cada canción
+                }}
                 rowRenderer={rowRenderer}
               />
             )}
@@ -96,6 +132,42 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     );
   }
 );
+
+const AlbumCover = styled.img`
+  display: block;
+  max-width: 100%;
+  max-height: 150%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  transform: translate(-50%, -50%) scale(1.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+`;
+
+const AlbumCoverWrapper = styled.div`
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+
+  &:hover ${AlbumCover} {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+`;
+
+const AlbumTitle = styled.h2`
+  padding: 0.5rem 1rem;
+  background-color: #f3f4f6; /* Un gris claro */
+  color: #333; /* Casi negro */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0; /* Un borde sutil en la parte inferior para separar del contenido */
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #e0e0e0; /* Cambia el color de fondo al pasar el cursor por encima */
+  }
+`;
 
 const StyledList = styled(List)`
   scrollbar-width: thin;
