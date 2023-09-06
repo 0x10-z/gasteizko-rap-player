@@ -47,3 +47,4 @@ This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
 ## TODO
 
 - Most prominent color is not well calculated in python script. Needs to be reviewed.
+- In library, when mouse is hover a row, hand icon should be shown

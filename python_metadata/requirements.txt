@@ -4,3 +4,4 @@ pillow
 tqdm
 mutagen
 pydub
+colorthief

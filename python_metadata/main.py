@@ -13,13 +13,15 @@ from random import randint
 from pydub import AudioSegment
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
+from colorthief import ColorThief
 
 OVERWRITE_MODE = None
+
 
 def should_skip_file(dest_path):
     """Verifica si el archivo ya existe y si se debe saltar según la elección del usuario."""
     if os.path.exists(dest_path):
-        if OVERWRITE_MODE == 'n':
+        if OVERWRITE_MODE == "n":
             return True
     return False
 
@@ -68,7 +70,7 @@ def convert_file(file_path, src_folder, dest_folder):
     if should_skip_file(dest_path):
         print(f"Saltando {file_path}")
         return
-    
+
     file_format = filename.rsplit(".", 1)[-1].lower()
     if file_format not in ["mp3", "m4a", "wma"]:
         print(f"Skipping unsupported format: {file_path}")
@@ -147,6 +149,11 @@ def extract_cover(file_path):
     if os.path.exists(cover_path):
         return cover_path, True
 
+    # Borrar cover.jpg si existe
+    cover_jpg_path = os.path.join(album_folder, "cover.jpg")
+    if os.path.exists(cover_jpg_path):
+        os.remove(cover_jpg_path)
+
     try:
         if file_path.endswith(".mp3"):
             audiofile = eyed3.load(file_path)
@@ -160,7 +167,7 @@ def extract_cover(file_path):
                 cover_data = audiofile["covr"][0]
                 with open(cover_path, "wb") as f:
                     f.write(cover_data)
-        
+
         img = Image.open(cover_path)
         img.save(cover_path, format="webp", quality=80)
         print(f"\n[+] Cover saved to {cover_path}")
@@ -170,27 +177,23 @@ def extract_cover(file_path):
         return cover_path, False
 
 
-def get_dominant_colors(img_path, num_colors=2):
-    img = Image.open(img_path).convert("RGB")  # Convertir la imagen a RGB
-    img = img.resize((25, 25), reducing_gap=2.0)
-    result = img.convert("P", palette=Image.ADAPTIVE, colors=num_colors)
-    result.putalpha(0)
-    main_colors = result.getcolors()
+def get_colors_with_colorthief(img_path, num_colors=2):
+    dir_name = os.path.dirname(img_path)
+    base_name = os.path.splitext(os.path.basename(img_path))[0]
+    temp_file_name = base_name + "_temp.jpg"
+    temp_file = os.path.join(dir_name, temp_file_name)
 
-    random.seed(12345)  # Cambia este valor si quieres otra secuencia de colores
+    img = Image.open(img_path)
+    img = img.resize((100, 100))
+    img.save(temp_file)
+    color_thief = ColorThief(temp_file)
+    palette = color_thief.get_palette(color_count=num_colors, quality=1)
+    unique_colors = list(set(palette))
+    hex_colors = [
+        f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}" for color in unique_colors
+    ]
 
-    # Si main_colors tiene menos colores de los esperados, elige un color aleatorio y agrégalo
-    while len(main_colors) < num_colors:
-        main_colors.append(random.choice(main_colors))
-
-    # Convertir los colores a formato hexadecimal
-    hex_colors = []
-    for color in main_colors:
-        if len(color[1]) == 3:  # Si es RGB
-            hex_colors.append(f"#{color[1][0]:02x}{color[1][1]:02x}{color[1][2]:02x}")
-        else:  # Si no es RGB, usar un color por defecto (puedes cambiarlo)
-            hex_colors.append(random_color())
-
+    os.remove(temp_file)
     return hex_colors
 
 
@@ -210,7 +213,7 @@ def generate_song_list(path):
             if not exists:
                 cover_path = add_default_cover(song_file)
 
-            colors = get_dominant_colors(cover_path)
+            colors = get_colors_with_colorthief(cover_path)
 
             # Genera el UUID a partir del hash del song_file
             hashed_song_file = hashlib.md5(song_file.encode()).hexdigest()
@@ -221,13 +224,13 @@ def generate_song_list(path):
                 "name": clean_text(metadata["title"]),
                 "cover": cover_path.replace(
                     "D:/Biblioteca/Descargas/Musica_compressed",
-                    #"C:/Users/iker.ocio/Downloads/Musica_compressed",
+                    # "C:/Users/iker.ocio/Downloads/Musica_compressed",
                     "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
                 ),
                 "artist": metadata["artist"],
                 "audio": song_file.replace(
                     "D:/Biblioteca/Descargas/Musica_compressed",
-                    #"C:/Users/iker.ocio/Downloads/Musica_compressed",
+                    # "C:/Users/iker.ocio/Downloads/Musica_compressed",
                     "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
                 ),
                 "color": colors,
@@ -268,9 +271,9 @@ def main():
         print("1. Convert music files to m4a and copy metadata")
         print("2. Generate tracklist from music files")
         print("3. Exit")
-        
+
         choice = input("Enter your choice (1/2/3): ")
-        
+
         if choice == "1":
             """
             The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
@@ -278,7 +281,9 @@ def main():
             """
 
             # Preguntar al usuario al principio si desea sobrescribir los archivos o saltarlos
-            OVERWRITE_MODE = input("¿Deseas sobrescribir los archivos existentes? (s/n): ")
+            OVERWRITE_MODE = input(
+                "¿Deseas sobrescribir los archivos existentes? (s/n): "
+            )
 
             src_directory = "C:/Users/iker.ocio/Downloads/Musica"
             src_directory = "D:/Biblioteca/Descargas/Musica"
@@ -286,23 +291,24 @@ def main():
             dest_directory = "D:/Biblioteca/Descargas/Musica_compressed"
             convert_to_aac(src_directory, dest_directory, max_workers=8)
             print("Conversion completed!")
-            
+
         elif choice == "2":
             """
             The script is designed to process a collection of music files, extract their metadata, and generate a tracklist in JSON format.
             """
             path = "D:/Biblioteca/Descargas/Musica_compressed"
-            #path = "C:/Users/iker.ocio/Downloads/Musica_compressed"
+            # path = "C:/Users/iker.ocio/Downloads/Musica_compressed"
             songs = generate_song_list(path)
             with open("../src/tracklist.json", "w") as f:
                 json.dump(songs, f, indent=4)
             print("Tracklist generated successfully!")
-            
+
         elif choice == "3":
             print("Exiting...")
             break
         else:
             print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
     main()
