@@ -30,6 +30,9 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
   ) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
     const inputRef = useRef<HTMLInputElement>(null);
+    const [currentSongIndex, setCurrentSongIndex] = useState<number | null>(
+      null
+    );
 
     const filteredSongs = songs.filter((song) => {
       const searchTermLower = searchTerm.toLowerCase();
@@ -41,15 +44,18 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     });
 
     useEffect(() => {
-      if (libraryStatus && inputRef.current) {
-        inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+      if (libraryStatus) {
+        setCurrentSongIndex(filteredSongs.findIndex((song) => song.active));
+        if (inputRef.current) {
+          inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+        }
       }
-    }, [libraryStatus]);
+    }, [libraryStatus, filteredSongs]);
 
     const rowRenderer = ({ index, key, style }: ListRowProps) => {
       const song = filteredSongs[index];
       return (
-        <div key={key} style={style}>
+        <div key={key} style={{ ...style, cursor: "pointer" }}>
           <LibrarySong
             song={song}
             songs={songs}
@@ -88,6 +94,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
                 rowCount={filteredSongs.length}
                 rowHeight={100}
                 rowRenderer={rowRenderer}
+                scrollToIndex={currentSongIndex}
               />
             )}
           </AutoSizer>
