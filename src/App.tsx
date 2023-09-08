@@ -241,7 +241,7 @@ const App: React.FC = () => {
             artist: currentSong.artist,
             album: currentSong.album,
             artwork: [
-              { src: currentSong.cover, sizes: "96x96", type: "image/jpg" },
+              { src: currentSong.cover, sizes: "128x128", type: "image/webp" },
             ],
           });
           // Definir acciones de los botones
