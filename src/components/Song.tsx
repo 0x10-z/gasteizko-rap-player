@@ -73,9 +73,15 @@ const Img = styled.img<{ $isRotating: boolean }>`
   animation: ${(props) =>
     props.$isRotating
       ? css`
-          ${rotate} 6s linear infinite
+          ${rotate} 10s linear infinite
         `
       : "none"};
+  transition: border-radius 0.3s ease, animation 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+
+  &:hover {
+    border-radius: 2%;
+  }
 `;
 
 const H1 = styled.h2`
