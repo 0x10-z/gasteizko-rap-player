@@ -5,6 +5,12 @@ import styled from "styled-components";
 import { List, AutoSizer, ListRowProps } from "react-virtualized";
 import { SongType } from "../App";
 
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  );
+}
+
 type LibraryProps = {
   songs: SongType[];
   setCurrentSong: (song: SongType) => void;
@@ -47,7 +53,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     useEffect(() => {
       if (libraryStatus) {
         setCurrentSongIndex(filteredSongs.findIndex((song) => song.active));
-        if (inputRef.current) {
+        if (inputRef.current && !isMobileDevice()) {
           inputRef.current.focus();
         }
       }
