@@ -47,4 +47,9 @@ This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
 ## TODO
 
 - Most prominent color is not well calculated in python script. Needs to be reviewed.
-- In library, when mouse is hover a row, hand icon should be shown
+- When you're listening a song, if you click on library button, you should see that song in scroll rows
+- Random button to listen random songs
+- Light/Dark button
+- Button for options. Main buttons should be:
+- options - backward - play - forward - info
+- Album cover needs to be squared with some margins
