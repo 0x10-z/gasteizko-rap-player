@@ -241,10 +241,9 @@ const App: React.FC = () => {
             artist: currentSong.artist,
             album: currentSong.album,
             artwork: [
-              { src: currentSong.cover, sizes: "96x96", type: "image/webp" },
+              { src: currentSong.cover, sizes: "96x96", type: "image/jpg" },
             ],
           });
-
           // Definir acciones de los botones
           navigator.mediaSession.setActionHandler("play", () => {
             if (audioRef.current) audioRef.current.play();
