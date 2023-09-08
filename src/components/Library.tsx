@@ -29,7 +29,6 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     ref
   ) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
-    const inputRef = useRef<HTMLInputElement>(null);
 
     const filteredSongs = songs.filter((song) => {
       const searchTermLower = searchTerm.toLowerCase();
@@ -40,11 +39,19 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       );
     });
 
+    const inputRef = useRef<HTMLInputElement>(null);
+    const [currentSongIndex, setCurrentSongIndex] = useState<number>(
+      filteredSongs.findIndex((song) => song.active)
+    );
+
     useEffect(() => {
-      if (libraryStatus && inputRef.current) {
-        inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+      if (libraryStatus) {
+        setCurrentSongIndex(filteredSongs.findIndex((song) => song.active));
+        if (inputRef.current) {
+          inputRef.current.focus();
+        }
       }
-    }, [libraryStatus]);
+    }, [libraryStatus, filteredSongs]);
 
     const groupByAlbum = (
       songs: SongType[]
@@ -70,7 +77,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
         .join("-")}`;
 
       return (
-        <div key={uniqueKey} style={style}>
+        <div key={uniqueKey} style={{ ...style, cursor: "pointer" }}>
           <AlbumTitle>{albumName}</AlbumTitle>
           <AlbumCoverWrapper>
             <AlbumCover src={albumCover} alt={`${albumName} cover`} />
@@ -98,7 +105,8 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       <LibraryContainer
         ref={ref}
         $libraryStatus={libraryStatus}
-        onClick={(e) => e.stopPropagation()}>
+        onClick={(e) => e.stopPropagation()}
+      >
         <H1>Tracklist</H1>
         <StickyHeader>
           <SearchInput
@@ -124,6 +132,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
                   return 100 + albumSongs.length * 80; // 100 para la carátula, 50 para el título del álbum, y 100 para cada canción
                 }}
                 rowRenderer={rowRenderer}
+                scrollToIndex={currentSongIndex}
               />
             )}
           </AutoSizer>
@@ -257,4 +266,5 @@ const CloseButton = styled.button`
     background-color: rgba(0, 0, 0, 1);
   }
 `;
-export default Library;
+
+export default React.memo(Library);

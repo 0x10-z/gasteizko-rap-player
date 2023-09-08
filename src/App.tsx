@@ -41,6 +41,9 @@ function prettifyString(str: string): string {
 
 const App: React.FC = () => {
   const navigate = useNavigate();
+  const navigateRef = useRef(navigate);
+  navigateRef.current = navigate;
+
   const location = useLocation();
 
   // Refs
@@ -52,9 +55,8 @@ const App: React.FC = () => {
   const [isShortcutsModalOpen, setIsShortcutsModalOpen] =
     useState<boolean>(false);
   const [songs, setSongs] = useState<SongType[]>(tracklist);
-  const [currentSong, setCurrentSong] = useState<SongType>(
-    determineInitialSong()
-  );
+  const [currentSong, setCurrentSong] = useState<SongType | null>(null);
+
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [libraryStatus, setLibraryStatus] = useState<boolean>(false);
   const [aboutStatus, setAboutStatus] = useState<boolean>(false);
@@ -64,20 +66,6 @@ const App: React.FC = () => {
   });
 
   // Helper Functions
-  function determineInitialSong() {
-    const songIdFromURL = location.pathname.substring(1);
-    const songFromURL = songIdFromURL
-      ? songs.find(
-          (song) =>
-            prettifyString(song.artist) ===
-              prettifyString(songIdFromURL.split("@")[0]) &&
-            prettifyString(song.name) ===
-              prettifyString(songIdFromURL.split("@")[1])
-        )
-      : null;
-    return songFromURL || songs[Math.floor(Math.random() * songs.length)];
-  }
-
   function getAudioSrc(song: SongType) {
     const parts = song.audio.split("/");
     const lastPart = parts[parts.length - 1].split("?");
@@ -86,24 +74,28 @@ const App: React.FC = () => {
     return parts.join("/");
   }
 
-  async function updateActiveSongs(nextSong: SongType) {
-    setCurrentSong(nextSong);
-    const newSongs = songs.map((song) => {
-      console.log("Active: " + nextSong.id);
-      if (song.id === nextSong.id) {
-        return {
-          ...song,
-          active: true,
-        };
-      } else {
-        return {
-          ...song,
-          active: false,
-        };
-      }
-    });
-    setSongs(newSongs);
-  }
+  const updateActiveSongs = useCallback(
+    async (nextSong: SongType) => {
+      setCurrentSong(nextSong);
+
+      const newSongs = songs.map((song) => {
+        if (song.id === nextSong.id) {
+          return {
+            ...song,
+            active: true,
+          };
+        } else {
+          return {
+            ...song,
+            active: false,
+          };
+        }
+      });
+
+      setSongs(newSongs);
+    },
+    [songs]
+  );
 
   // Event Handlers
   const updateTimeHandler = (
@@ -116,13 +108,15 @@ const App: React.FC = () => {
   };
 
   const songEndHandler = async () => {
-    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    let nextSong = songs[(currentIndex + 1) % songs.length];
-    await updateActiveSongs(nextSong);
-    if (isPlaying && audioRef.current) {
-      audioRef.current.play().catch((error) => {
-        console.error("Error al reproducir el audio:", error);
-      });
+    if (currentSong) {
+      let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+      let nextSong = songs[(currentIndex + 1) % songs.length];
+      await updateActiveSongs(nextSong);
+      if (isPlaying && audioRef.current) {
+        audioRef.current.play().catch((error) => {
+          console.error("Error al reproducir el audio:", error);
+        });
+      }
     }
   };
 
@@ -154,12 +148,48 @@ const App: React.FC = () => {
 
   // Effects
   useEffect(() => {
-    navigate(
-      `/${prettifyString(currentSong.artist)}@${prettifyString(
-        currentSong.name
-      )}`
-    );
-  }, [currentSong, navigate]);
+    function determineInitialSong() {
+      const extractArtistAndNameFromURL = (url: string) => {
+        const parts = url.split("@");
+        if (parts.length < 2) return null;
+        return {
+          artist: prettifyString(parts[0]),
+          name: prettifyString(parts[1]),
+        };
+      };
+
+      const setActiveAndReturn = (song: SongType) => {
+        song.active = true;
+        return song;
+      };
+
+      const extractedData = extractArtistAndNameFromURL(
+        location.pathname.substring(1)
+      );
+
+      if (extractedData) {
+        const { artist, name } = extractedData;
+        const songFromURL = songs.find(
+          (song) =>
+            prettifyString(song.artist) === artist &&
+            prettifyString(song.name) === name
+        );
+
+        if (songFromURL) {
+          return setActiveAndReturn(songFromURL);
+        }
+      }
+
+      return setActiveAndReturn(
+        songs[Math.floor(Math.random() * songs.length)]
+      );
+    }
+
+    if (!currentSong) {
+      // Asegura que se establezca solo si currentSong es null al inicio.
+      setCurrentSong(determineInitialSong());
+    }
+  }, [currentSong, location.pathname, songs]);
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutsideDOM);
@@ -168,91 +198,142 @@ const App: React.FC = () => {
     };
   }, [handleClickOutsideDOM]);
 
-  const changeSong = async (direction: "forward" | "backward") => {
-    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    let nextIndex;
+  const changeSong = useCallback(
+    async (direction: "forward" | "backward") => {
+      if (currentSong) {
+        let currentIndex = songs.findIndex(
+          (song) => song.id === currentSong.id
+        );
+        let nextIndex;
 
-    if (direction === "forward") {
-      nextIndex = (currentIndex + 1) % songs.length;
-    } else {
-      nextIndex = (currentIndex - 1 + songs.length) % songs.length;
+        if (direction === "forward") {
+          nextIndex = (currentIndex + 1) % songs.length;
+        } else {
+          nextIndex = (currentIndex - 1 + songs.length) % songs.length;
+        }
+
+        const nextSong = songs[nextIndex];
+        await updateActiveSongs(nextSong);
+
+        if (isPlaying && audioRef.current) {
+          audioRef.current.play().catch((error) => {
+            console.error("Error al reproducir el audio:", error);
+            alert("Error al reproducir el audio: " + error);
+          });
+        }
+      }
+    },
+    [songs, currentSong, isPlaying, audioRef, updateActiveSongs]
+  );
+
+  useEffect(() => {
+    if (currentSong) {
+      navigateRef.current(
+        `/${prettifyString(currentSong.artist)}@${prettifyString(
+          currentSong.name
+        )}`
+      );
+    }
+    function updateMediaSession() {
+      if (currentSong) {
+        if ("mediaSession" in navigator) {
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: currentSong.name,
+            artist: currentSong.artist,
+            album: currentSong.album,
+            artwork: [
+              { src: currentSong.cover, sizes: "128x128", type: "image/webp" },
+            ],
+          });
+          // Definir acciones de los botones
+          navigator.mediaSession.setActionHandler("play", () => {
+            if (audioRef.current) audioRef.current.play();
+          });
+          navigator.mediaSession.setActionHandler("pause", () => {
+            if (audioRef.current) audioRef.current.pause();
+          });
+          navigator.mediaSession.setActionHandler("previoustrack", () => {
+            changeSong("backward");
+            if (audioRef.current) audioRef.current.play();
+          });
+          navigator.mediaSession.setActionHandler("nexttrack", () => {
+            changeSong("forward");
+            if (audioRef.current) audioRef.current.play();
+          });
+        }
+      }
     }
 
-    const nextSong = songs[nextIndex];
-    await updateActiveSongs(nextSong);
-
-    if (isPlaying && audioRef.current) {
-      audioRef.current.play().catch((error) => {
-        console.error("Error al reproducir el audio:", error);
-      });
-    }
-  };
+    updateMediaSession();
+  }, [currentSong, changeSong]);
 
   // Render
   return (
     <SongChangeProvider changeSong={changeSong}>
-      <AppContainer
-        $libraryStatus={libraryStatus}
-        $aboutStatus={aboutStatus}
-        $backgroundImage={currentSong.cover}
-        onClick={handleClickOutsideReact}
-      >
-        <Nav
-          libraryStatus={libraryStatus}
-          aboutStatus={aboutStatus}
-          setLibraryStatus={setLibraryStatus}
-        />
-        <Song currentSong={currentSong} isPlaying={isPlaying} />
-        <Player
-          isPlaying={isPlaying}
-          setIsPlaying={setIsPlaying}
-          currentSong={currentSong}
-          audioRef={audioRef}
-          songInfo={songInfo}
-          setSongInfo={setSongInfo}
-          setIsShortcutsModalOpen={setIsShortcutsModalOpen}
-        />
-        <Library
-          ref={libraryRef}
-          songs={songs}
-          setCurrentSong={setCurrentSong}
-          audioRef={audioRef}
-          isPlaying={isPlaying}
-          setSongs={setSongs}
-          setLibraryStatus={setLibraryStatus}
-          libraryStatus={libraryStatus}
-        />
-        <About
-          ref={aboutRef}
-          aboutStatus={aboutStatus}
-          setAboutStatus={setAboutStatus}
-        />
-        <Credit
-          songsNumber={songs.length}
-          aboutStatus={aboutStatus}
-          setAboutStatus={setAboutStatus}
-          libraryStatus={libraryStatus}
-        />
-        <HelpModal
-          isOpen={isShortcutsModalOpen}
-          onClose={() => setIsShortcutsModalOpen(false)}
-        />
-        <audio
-          onLoadedMetadata={updateTimeHandler}
-          onTimeUpdate={updateTimeHandler}
-          onEnded={songEndHandler}
-          onCanPlayThrough={() => {
-            if (isPlaying && audioRef.current) {
-              audioRef.current.play().catch((error) => {
-                console.error("Error al reproducir el audio:", error);
-              });
-            }
-          }}
-          ref={audioRef}
-          src={getAudioSrc(currentSong)}
-        />
-        <Analytics />
-      </AppContainer>
+      {currentSong && (
+        <AppContainer
+          $libraryStatus={libraryStatus}
+          $aboutStatus={aboutStatus}
+          $backgroundImage={currentSong.cover}
+          onClick={handleClickOutsideReact}
+        >
+          <Nav
+            libraryStatus={libraryStatus}
+            aboutStatus={aboutStatus}
+            setLibraryStatus={setLibraryStatus}
+          />
+          <Song currentSong={currentSong} isPlaying={isPlaying} />
+          <Player
+            isPlaying={isPlaying}
+            setIsPlaying={setIsPlaying}
+            currentSong={currentSong}
+            audioRef={audioRef}
+            songInfo={songInfo}
+            setSongInfo={setSongInfo}
+            setIsShortcutsModalOpen={setIsShortcutsModalOpen}
+          />
+          <Library
+            ref={libraryRef}
+            songs={songs}
+            setCurrentSong={setCurrentSong}
+            audioRef={audioRef}
+            isPlaying={isPlaying}
+            setSongs={setSongs}
+            setLibraryStatus={setLibraryStatus}
+            libraryStatus={libraryStatus}
+          />
+          <About
+            ref={aboutRef}
+            aboutStatus={aboutStatus}
+            setAboutStatus={setAboutStatus}
+          />
+          <Credit
+            songsNumber={songs.length}
+            aboutStatus={aboutStatus}
+            setAboutStatus={setAboutStatus}
+            libraryStatus={libraryStatus}
+          />
+          <HelpModal
+            isOpen={isShortcutsModalOpen}
+            onClose={() => setIsShortcutsModalOpen(false)}
+          />
+          <audio
+            onLoadedMetadata={updateTimeHandler}
+            onTimeUpdate={updateTimeHandler}
+            onEnded={songEndHandler}
+            onCanPlayThrough={() => {
+              if (isPlaying && audioRef.current) {
+                audioRef.current.play().catch((error) => {
+                  console.error("Error al reproducir el audio:", error);
+                });
+              }
+            }}
+            ref={audioRef}
+            src={getAudioSrc(currentSong)}
+          />
+          <Analytics />
+        </AppContainer>
+      )}
     </SongChangeProvider>
   );
 };
