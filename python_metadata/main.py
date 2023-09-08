@@ -14,6 +14,7 @@ from pydub import AudioSegment
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
 from colorthief import ColorThief
+import time
 
 OVERWRITE_MODE = None
 
@@ -146,8 +147,14 @@ def get_metadata(file_path):
 def extract_cover(file_path):
     album_folder = os.path.dirname(file_path)
     cover_path = os.path.join(album_folder, "cover.webp")
+    
     if os.path.exists(cover_path):
-        return cover_path, True
+        file_creation_time = os.path.getmtime(cover_path)
+        current_time = time.time()
+        if (current_time - file_creation_time) <= 60:  # Si fue creado hace menos de 60 segundos
+            print(f"\n[+] Cover {cover_path} already exist. Skipping...")
+            return cover_path, True
+
 
     # Borrar cover.jpg si existe
     cover_jpg_path = os.path.join(album_folder, "cover.jpg")
@@ -169,7 +176,8 @@ def extract_cover(file_path):
                     f.write(cover_data)
 
         img = Image.open(cover_path)
-        img.save(cover_path, format="webp", quality=80)
+        img_resized = img.resize((600, 600))
+        img_resized.save(cover_path, format="webp", quality=100)
         print(f"\n[+] Cover saved to {cover_path}")
         return cover_path, True
     except Exception:
@@ -275,16 +283,15 @@ def main():
         choice = input("Enter your choice (1/2/3): ")
 
         if choice == "1":
-            """
-            The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
-            while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
-            """
-
             # Preguntar al usuario al principio si desea sobrescribir los archivos o saltarlos
             OVERWRITE_MODE = input(
                 "¿Deseas sobrescribir los archivos existentes? (s/n): "
             )
-
+            
+            """
+            The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
+            while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.
+            """
             src_directory = "C:/Users/iker.ocio/Downloads/Musica"
             src_directory = "D:/Biblioteca/Descargas/Musica"
             dest_directory = "C:/Users/iker.ocio/Downloads/Musica_compressed"
