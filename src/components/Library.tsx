@@ -29,10 +29,6 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     ref
   ) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
-    const inputRef = useRef<HTMLInputElement>(null);
-    const [currentSongIndex, setCurrentSongIndex] = useState<number | null>(
-      null
-    );
 
     const filteredSongs = songs.filter((song) => {
       const searchTermLower = searchTerm.toLowerCase();
@@ -43,11 +39,16 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       );
     });
 
+    const inputRef = useRef<HTMLInputElement>(null);
+    const [currentSongIndex, setCurrentSongIndex] = useState<number>(
+      filteredSongs.findIndex((song) => song.active)
+    );
+
     useEffect(() => {
       if (libraryStatus) {
         setCurrentSongIndex(filteredSongs.findIndex((song) => song.active));
         if (inputRef.current) {
-          inputRef.current.focus(); // Establece el foco en el input cuando libraryStatus es true
+          inputRef.current.focus();
         }
       }
     }, [libraryStatus, filteredSongs]);
@@ -192,4 +193,5 @@ const CloseButton = styled.button`
     background-color: rgba(0, 0, 0, 1);
   }
 `;
-export default Library;
+
+export default React.memo(Library);
