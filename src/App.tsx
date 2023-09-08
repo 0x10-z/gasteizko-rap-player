@@ -254,9 +254,11 @@ const App: React.FC = () => {
           });
           navigator.mediaSession.setActionHandler("previoustrack", () => {
             changeSong("backward");
+            if (audioRef.current) audioRef.current.play();
           });
           navigator.mediaSession.setActionHandler("nexttrack", () => {
             changeSong("forward");
+            if (audioRef.current) audioRef.current.play();
           });
         }
       }
