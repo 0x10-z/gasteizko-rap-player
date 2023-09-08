@@ -218,6 +218,7 @@ const App: React.FC = () => {
         if (isPlaying && audioRef.current) {
           audioRef.current.play().catch((error) => {
             console.error("Error al reproducir el audio:", error);
+            alert("Error al reproducir el audio: " + error);
           });
         }
       }
