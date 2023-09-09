@@ -1,52 +1,62 @@
-# Gasteizko Rap Player
+# 🎵 Gasteizko Rap Player 🎵
 
-This music player is a tribute to the rap music from Vitoria and its surroundings from the 2000s, which was a significant part of my childhood. The tracks featured here are reminiscent of those times and bring back many memories.
+Este reproductor de música es un tributo al rap de Vitoria y sus alrededores de los años 2000, que fue una parte significativa de mi infancia. Las pistas que se presentan aquí recuerdan esos tiempos y traen muchos recuerdos.
 
-**Note to Artists:** If any artist comes across this and wishes for their track to be removed, please do not hesitate to contact me at [iker@ikerocio.com](mailto:iker@ikerocio.com).
+**Nota para los Artistas:** 🎤 Si algún artista ve esto y desea que se elimine su pista, no dude en ponerse en contacto conmigo en [iker@ikerocio.com](mailto:iker@ikerocio.com).
 
-This project is based on [WilsonLe's react-music-player](https://github.com/WilsonLe/react-music-player) with some enhancements. It operates entirely on the frontend without the need for a backend.
+Este proyecto se basa en [WilsonLe's react-music-player](https://github.com/WilsonLe/react-music-player) con algunas mejoras. Funciona completamente en el frontend sin necesidad de un backend.
 
-## Authors
+## 🖋 Autores
 
 - **Iker Ocio Zuazo** - [Website](https://ikerocio.com)
 - **Jonzoone** - [Instagram](https://www.instagram.com/jonzoonegraphics/)
 
-## Getting Started
+## 🚀 Empezando
 
-Follow the steps below to get the project up and running:
+Sigue los pasos a continuación para poner en marcha el proyecto:
 
 ```bash
-# 1. If you have not installed Yarn:
+# 1. Si no has instalado Yarn:
 npm install yarn
 
-# 2. Install the dependencies:
+# 2. Instala las dependencias:
 yarn install
 
-# 3. Kick start the project in development mode:
+# 3. Inicia el proyecto en modo desarrollo:
 yarn start
 ```
 
-## Deployment
+## 🛠 CI y Pruebas
 
-When you're ready to deploy the application to the internet, use:
+Este proyecto cuenta con integración continua (CI) que ejecuta pruebas automáticamente antes de cada despliegue.
+
+Para ejecutar las pruebas manualmente:
+
+```bash
+yarn test
+```
+
+## 🌐 Despliegue
+
+Cuando estés listo para desplegar la aplicación en internet, usa:
 
 ```bash
 yarn build
 ```
 
-The project is automatically deployed on Vercel. You can access the live application at [https://gasteizko-rap-player.vercel.app/](https://gasteizko-rap-player.vercel.app/).
+El proyecto se despliega automáticamente en Vercel. Puedes acceder a la aplicación en vivo en [https://gasteizko-rap-player.vercel.app/](https://gasteizko-rap-player.vercel.app/).
 
-## Data Optimization
+## 📉 Optimización de Datos
 
-All songs have been exported to the m4a format to reduce the amount of data required for song streaming.
+Todas las canciones han sido exportadas al formato m4a para reducir la cantidad de datos requeridos para la transmisión de canciones.
 
-This conversion has reduced the size of 727 files **from 3.65GB to 2.45GB**.
+Esta conversión ha reducido el tamaño de 727 archivos **de 3.65GB a 2.45GB**.
 
-![Data Reduction](data:image/svg+xml;utf8,<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="white" /><rect x="30" y="10" width="40" height="80" fill="#4CAF50" /><rect x="130" y="25" width="40" height="65" fill="#FFC107" /><text x="50" y="95" font-family="Arial" font-size="12" fill="black">3.65GB</text><text x="150" y="95" font-family="Arial" font-size="12" fill="black">2.45GB</text></svg>)
+![Reducción de Datos](data:image/svg+xml;utf8,<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="white" /><rect x="30" y="10" width="40" height="80" fill="#4CAF50" /><rect x="130" y="25" width="40" height="65" fill="#FFC107" /><text x="50" y="95" font-family="Arial" font-size="12" fill="black">3.65GB</text><text x="150" y="95" font-family="Arial" font-size="12" fill="black">2.45GB</text></svg>)
 
-## TODO
+## 📝 TODO
 
-- Random button to listen random songs
-- Light/Dark button
-- Button for options. Main buttons should be:
-- options - backward - play - forward - info
+- Botón aleatorio para escuchar canciones al azar
+- Botón de Modo Claro/Oscuro
+- Botón de opciones. Los botones principales deberían ser:
+- opciones - retroceder - reproducir - avanzar - info

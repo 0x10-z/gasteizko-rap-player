@@ -221,18 +221,19 @@ const App: React.FC = () => {
           // Cambiar el src del audio al de la siguiente canción
           audioRef.current.src = getAudioSrc(nextSong); // Asumiendo que tienes una función getAudioSrc que obtiene la URL del audio
 
-          // Reproducir la siguiente canción
-          audioRef.current.play().catch((error) => {
-            if (error.name === "AbortError") {
-              customToast.error("Upss! algo está pasando.", {
-                trace: error.toString(),
-              });
-            } else {
-              customToast.error("Upss! algo está pasando.", {
-                trace: error.toString(),
-              });
-            }
-          });
+          // Añadir un pequeño retraso antes de intentar reproducir el nuevo audio
+          setTimeout(() => {
+            audioRef.current?.play().catch((error) => {
+              if (error.name === "AbortError") {
+                console.warn("Play was aborted:", error);
+              } else {
+                customToast.error("Upss! algo está pasando.", {
+                  trace: error.toString(),
+                });
+              }
+              setIsPlaying(false);
+            });
+          }, 100);
         }
       }
     },
