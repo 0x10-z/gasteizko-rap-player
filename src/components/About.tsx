@@ -4,13 +4,14 @@ import styled from "styled-components";
 type AboutProps = {
   aboutStatus: boolean;
   setAboutStatus: (status: boolean) => void;
+  [x: string]: any;
 };
 
 const About = forwardRef<HTMLDivElement, AboutProps>(
-  ({ aboutStatus, setAboutStatus }, ref) => {
+  ({ aboutStatus, setAboutStatus, ...rest }, ref) => {
     return (
       <>
-        <AboutContainer ref={ref} $aboutStatus={aboutStatus}>
+        <AboutContainer ref={ref} $aboutStatus={aboutStatus} {...rest}>
           <H1>Sobre este proyecto</H1>
           <P>
             Esta plataforma nace de un profundo respeto y admiración por la

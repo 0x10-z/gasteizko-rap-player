@@ -6,15 +6,17 @@ type NavProps = {
   libraryStatus: boolean;
   setLibraryStatus: (status: boolean) => void;
   aboutStatus: boolean;
+  [x: string]: any;
 };
 
 const Nav: React.FC<NavProps> = ({
   libraryStatus,
   setLibraryStatus,
   aboutStatus,
+  ...rest
 }) => {
   return (
-    <NavContainer>
+    <NavContainer {...rest}>
       <H1 $isLibraryActive={libraryStatus || aboutStatus}>VI y alrededores</H1>
       <Button
         $aboutStatus={aboutStatus}

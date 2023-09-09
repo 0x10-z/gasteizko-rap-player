@@ -19,6 +19,7 @@ type LibraryProps = {
   setSongs: (songs: SongType[]) => void;
   setLibraryStatus: (status: boolean) => void;
   libraryStatus: boolean;
+  [x: string]: any;
 };
 
 const Library = forwardRef<HTMLDivElement, LibraryProps>(
@@ -31,6 +32,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       setSongs,
       setLibraryStatus,
       libraryStatus,
+      ...rest
     },
     ref
   ) => {
@@ -80,6 +82,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
         ref={ref}
         $libraryStatus={libraryStatus}
         onClick={(e) => e.stopPropagation()}
+        {...rest}
       >
         <H1>Tracklist</H1>
         <StickyHeader>

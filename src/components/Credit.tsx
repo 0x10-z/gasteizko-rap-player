@@ -6,6 +6,7 @@ type CreditProps = {
   aboutStatus: boolean;
   setAboutStatus: (status: boolean) => void;
   libraryStatus: boolean;
+  [x: string]: any;
 };
 
 const Credit: FC<CreditProps> = ({
@@ -13,9 +14,14 @@ const Credit: FC<CreditProps> = ({
   aboutStatus,
   setAboutStatus,
   libraryStatus,
+  ...rest
 }) => {
   return (
-    <CreditContainer $aboutStatus={aboutStatus} $libraryStatus={libraryStatus}>
+    <CreditContainer
+      $aboutStatus={aboutStatus}
+      $libraryStatus={libraryStatus}
+      {...rest}
+    >
       <LeftContainer>
         <StyledLink
           href="https://github.com/0x10-z/gasteizko-rap-player/"

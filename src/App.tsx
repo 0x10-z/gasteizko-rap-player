@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import "./App.css";
-import { Analytics } from "@vercel/analytics/react";
 import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
@@ -200,17 +199,6 @@ const App: React.FC = () => {
 
   const changeSong = useCallback(
     async (direction: "forward" | "backward") => {
-      if (audioRef.current) {
-        // Pausar el audio actual
-        audioRef.current.pause();
-
-        // Esperar un pequeño momento para asegurarse de que el audio esté pausado
-        await new Promise((resolve) => setTimeout(resolve, 100));
-
-        // Resetear el audio
-        audioRef.current.src = ""; // Esto detendrá la carga de la canción actual
-      }
-
       if (currentSong) {
         let currentIndex = songs.findIndex(
           (song) => song.id === currentSong.id
@@ -224,9 +212,16 @@ const App: React.FC = () => {
         }
 
         const nextSong = songs[nextIndex];
-        await updateActiveSongs(nextSong);
+        updateActiveSongs(nextSong);
 
-        if (isPlaying && audioRef.current) {
+        if (audioRef.current) {
+          // Pausar el audio actual
+          audioRef.current.pause();
+
+          // Cambiar el src del audio al de la siguiente canción
+          audioRef.current.src = getAudioSrc(nextSong); // Asumiendo que tienes una función getAudioSrc que obtiene la URL del audio
+
+          // Reproducir la siguiente canción
           audioRef.current.play().catch((error) => {
             if (error.name === "AbortError") {
               console.log("Play interrumpido por pause");
@@ -239,7 +234,7 @@ const App: React.FC = () => {
         }
       }
     },
-    [songs, currentSong, isPlaying, audioRef, updateActiveSongs]
+    [songs, currentSong, audioRef, updateActiveSongs]
   );
 
   useEffect(() => {
@@ -294,12 +289,14 @@ const App: React.FC = () => {
           onClick={handleClickOutsideReact}
         >
           <Nav
+            data-testid="navigation"
             libraryStatus={libraryStatus}
             aboutStatus={aboutStatus}
             setLibraryStatus={setLibraryStatus}
           />
           <Song currentSong={currentSong} isPlaying={isPlaying} />
           <Player
+            data-testid="player"
             isPlaying={isPlaying}
             setIsPlaying={setIsPlaying}
             currentSong={currentSong}
@@ -309,6 +306,7 @@ const App: React.FC = () => {
             setIsShortcutsModalOpen={setIsShortcutsModalOpen}
           />
           <Library
+            data-testid="library"
             ref={libraryRef}
             songs={songs}
             setCurrentSong={setCurrentSong}
@@ -319,17 +317,20 @@ const App: React.FC = () => {
             libraryStatus={libraryStatus}
           />
           <About
+            data-testid="about"
             ref={aboutRef}
             aboutStatus={aboutStatus}
             setAboutStatus={setAboutStatus}
           />
           <Credit
+            data-testid="credit"
             songsNumber={songs.length}
             aboutStatus={aboutStatus}
             setAboutStatus={setAboutStatus}
             libraryStatus={libraryStatus}
           />
           <HelpModal
+            data-testid="help-modal"
             isOpen={isShortcutsModalOpen}
             onClose={() => setIsShortcutsModalOpen(false)}
           />
@@ -347,7 +348,6 @@ const App: React.FC = () => {
             ref={audioRef}
             src={getAudioSrc(currentSong)}
           />
-          <Analytics />
         </AppContainer>
       )}
     </SongChangeProvider>

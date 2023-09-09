@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import WebFontLoader from "webfontloader";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/react";
 
 WebFontLoader.load({
   google: {
@@ -19,6 +20,7 @@ const appRoot = ReactDOM.createRoot(root as HTMLElement);
 appRoot.render(
   <React.StrictMode>
     <ToastContainer />
+    <Analytics />
     <BrowserRouter>
       <App />
     </BrowserRouter>

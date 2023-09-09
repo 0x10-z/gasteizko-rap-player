@@ -11,11 +11,12 @@ import {
 interface HelpModalProps {
   isOpen: boolean;
   onClose: () => void;
+  [x: string]: any;
 }
 
-const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose }) => {
+const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose, ...rest }) => {
   return (
-    <ModalBackground $isOpen={isOpen} onClick={onClose}>
+    <ModalBackground $isOpen={isOpen} onClick={onClose} {...rest}>
       <ModalContent
         $isOpen={isOpen}
         onClick={(e: MouseEvent) => e.stopPropagation()}

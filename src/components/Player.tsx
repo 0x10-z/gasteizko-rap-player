@@ -32,6 +32,7 @@ type PlayerProps = {
   songInfo: any;
   setSongInfo: (songInfo: any) => void;
   setIsShortcutsModalOpen: (isOpen: boolean) => void;
+  [x: string]: any;
 };
 
 const Player: FC<PlayerProps> = ({
@@ -42,6 +43,7 @@ const Player: FC<PlayerProps> = ({
   songInfo,
   setSongInfo,
   setIsShortcutsModalOpen,
+  ...rest
 }) => {
   const { changeSong } = useSongChange();
 
@@ -111,7 +113,7 @@ const Player: FC<PlayerProps> = ({
 
   const [color1, color2] = currentSong.color;
   return (
-    <PlayerContainer>
+    <PlayerContainer {...rest}>
       <TimeControlContainer>
         <P>{getTime(songInfo.currentTime || 0)}</P>
         <Track $color1={color1} $color2={color2}>
