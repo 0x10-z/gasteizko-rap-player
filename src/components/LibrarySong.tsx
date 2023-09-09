@@ -77,9 +77,11 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
         loading="lazy"
       />
       <LibrarySongDescription>
-        <H1>{song.name}</H1>
-        <H2>{song.artist}</H2>
-        <H2>{song.album}</H2>
+        <H1 className="text-ellipsis">{song.name}</H1>
+        <H2 className="text-ellipsis">{song.artist}</H2>
+        {song.artist !== song.album && (
+          <H2 className="text-ellipsis">{song.album}</H2>
+        )}
       </LibrarySongDescription>
     </LibrarySongContainer>
   );
@@ -98,6 +100,12 @@ const LibrarySongContainer = styled.div<{ $isActive: boolean }>`
   &.active {
     background-color: pink;
   }
+
+  &:hover .text-ellipsis {
+    overflow: visible;
+    white-space: normal;
+    max-width: auto;
+  }
 `;
 
 const LibrarySongDescription = styled.div`
@@ -106,6 +114,13 @@ const LibrarySongDescription = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  .text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; // Puedes ajustar este valor según tus necesidades
+  }
 `;
 
 const Img = styled.img`

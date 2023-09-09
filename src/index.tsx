@@ -4,6 +4,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import WebFontLoader from "webfontloader";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 WebFontLoader.load({
   google: {
@@ -16,6 +18,7 @@ const appRoot = ReactDOM.createRoot(root as HTMLElement);
 
 appRoot.render(
   <React.StrictMode>
+    <ToastContainer />
     <BrowserRouter>
       <App />
     </BrowserRouter>

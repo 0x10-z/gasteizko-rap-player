@@ -12,7 +12,7 @@ import Credit from "./components/Credit";
 import HelpModal from "./components/HelpModal";
 import tracklist from "./tracklist.json";
 import { SongChangeProvider } from "./contexts/SongChangeProvider";
-
+import { customToast } from "./components/CustomToast";
 // Define types for your state and props if needed
 export type SongType = {
   id: string;
@@ -200,6 +200,17 @@ const App: React.FC = () => {
 
   const changeSong = useCallback(
     async (direction: "forward" | "backward") => {
+      if (audioRef.current) {
+        // Pausar el audio actual
+        audioRef.current.pause();
+
+        // Esperar un pequeño momento para asegurarse de que el audio esté pausado
+        await new Promise((resolve) => setTimeout(resolve, 100));
+
+        // Resetear el audio
+        audioRef.current.src = ""; // Esto detendrá la carga de la canción actual
+      }
+
       if (currentSong) {
         let currentIndex = songs.findIndex(
           (song) => song.id === currentSong.id
@@ -217,8 +228,13 @@ const App: React.FC = () => {
 
         if (isPlaying && audioRef.current) {
           audioRef.current.play().catch((error) => {
-            console.error("Error al reproducir el audio:", error);
-            alert("Error al reproducir el audio: " + error);
+            if (error.name === "AbortError") {
+              console.log("Play interrumpido por pause");
+            } else {
+              customToast.error("Upss! algo está pasando.", {
+                trace: error.toString(),
+              });
+            }
           });
         }
       }
