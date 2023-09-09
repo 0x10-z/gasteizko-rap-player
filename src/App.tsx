@@ -224,7 +224,9 @@ const App: React.FC = () => {
           // Reproducir la siguiente canción
           audioRef.current.play().catch((error) => {
             if (error.name === "AbortError") {
-              console.log("Play interrumpido por pause");
+              customToast.error("Upss! algo está pasando.", {
+                trace: error.toString(),
+              });
             } else {
               customToast.error("Upss! algo está pasando.", {
                 trace: error.toString(),
