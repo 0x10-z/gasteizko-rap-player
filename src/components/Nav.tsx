@@ -25,6 +25,7 @@ const Nav: React.FC<NavProps> = ({
       >
         Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>
+      {/*<ThemeToggle />*/}
     </NavContainer>
   );
 };

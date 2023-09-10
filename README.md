@@ -59,4 +59,8 @@ Esta conversión ha reducido el tamaño de 727 archivos **de 3.65GB a 2.45GB**.
 - Botón aleatorio para escuchar canciones al azar
 - Botón de Modo Claro/Oscuro
 - Botón de opciones. Los botones principales deberían ser:
-- opciones - retroceder - reproducir - avanzar - info
+  - opciones
+  - retroceder
+  - reproducir
+  - avanzar
+  - info

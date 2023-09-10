@@ -12,31 +12,8 @@ import HelpModal from "./components/HelpModal";
 import tracklist from "./tracklist.json";
 import { SongChangeProvider } from "./contexts/SongChangeProvider";
 import { customToast } from "./components/CustomToast";
-// Define types for your state and props if needed
-export type SongType = {
-  id: string;
-  name: string;
-  artist: string;
-  cover: string;
-  audio: string;
-  album: string;
-  active: boolean;
-};
-
-type SongInfoType = {
-  currentTime: number;
-  duration: number;
-};
-
-// Utility Functions
-function prettifyString(str: string): string {
-  let prettified = str.replace(/[^a-zA-Z0-9]+/g, "-");
-  prettified = prettified.replace(/-+/g, "-");
-  prettified = prettified.replace(/\w\S*/g, (txt) => {
-    return txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase();
-  });
-  return prettified.trim();
-}
+import { prettifyString, getAudioSrc } from "./utils";
+import { SongType, SongInfoType } from "./types/models";
 
 const App: React.FC = () => {
   const navigate = useNavigate();
@@ -65,14 +42,6 @@ const App: React.FC = () => {
   });
 
   // Helper Functions
-  function getAudioSrc(song: SongType) {
-    const parts = song.audio.split("/");
-    const lastPart = parts[parts.length - 1].split("?");
-    lastPart[0] = encodeURIComponent(lastPart[0]);
-    parts[parts.length - 1] = lastPart.join("?");
-    return parts.join("/");
-  }
-
   const updateActiveSongs = useCallback(
     async (nextSong: SongType) => {
       setCurrentSong(nextSong);
@@ -365,6 +334,8 @@ const AppContainer = styled.div<{
   transition: all 0.5s ease;
   margin-left: ${(p) => (p.$libraryStatus ? "20rem" : "0")};
   margin-right: ${(p) => (p.$aboutStatus ? "20rem" : "0")};
+  height: 100vh;
+  overflow: hidden;
   @media screen and (max-width: 768px) {
     margin-left: 0;
     margin-right: 0;

@@ -1,4 +1,3 @@
-// CustomToast.tsx
 import { toast } from "react-toastify";
 
 // Objeto para llevar un registro de los mensajes y sus contadores
@@ -32,10 +31,8 @@ function showToast(
         // ... otras opciones que desees
       });
     } else {
-      // Mostrar el mensaje como una nueva notificación usando la función de toast proporcionada
       const toastId = toastFunction(content);
 
-      // Registrar el mensaje y su ID
       messageRegistry[message] = { count: 1, toastId };
     }
   }

@@ -1,6 +1,6 @@
 import { useState, RefObject } from "react";
 import styled from "styled-components";
-import { SongType } from "../App";
+import { SongType } from "../types/models";
 
 type LibrarySongProps = {
   song: SongType;

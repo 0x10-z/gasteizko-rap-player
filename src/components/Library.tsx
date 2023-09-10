@@ -3,13 +3,8 @@ import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
 import { List, AutoSizer, ListRowProps } from "react-virtualized";
-import { SongType } from "../App";
-
-function isMobileDevice() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  );
-}
+import { SongType } from "../types/models";
+import { isMobileDevice } from "../utils";
 
 type LibraryProps = {
   songs: SongType[];

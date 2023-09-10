@@ -7,6 +7,7 @@ import WebFontLoader from "webfontloader";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { Analytics } from "@vercel/analytics/react";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 WebFontLoader.load({
   google: {
@@ -18,13 +19,15 @@ const root = document.getElementById("root");
 const appRoot = ReactDOM.createRoot(root as HTMLElement);
 
 appRoot.render(
-  <React.StrictMode>
-    <ToastContainer />
-    <Analytics />
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+  <ThemeProvider>
+    <React.StrictMode>
+      <ToastContainer />
+      <Analytics />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>
+  </ThemeProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
