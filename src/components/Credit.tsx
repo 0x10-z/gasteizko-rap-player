@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styled from "styled-components";
-import ThemeToggle from "./ThemeToggle";
 
 type CreditProps = {
   songsNumber: number;
@@ -40,7 +39,6 @@ const Credit: FC<CreditProps> = ({
           Sobre este proyecto
         </StyledLink>
       </RightContainer>
-      <ThemeToggle />
     </CreditContainer>
   );
 };
