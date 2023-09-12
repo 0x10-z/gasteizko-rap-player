@@ -193,6 +193,7 @@ def get_colors_with_colorthief(img_path, num_colors=2):
 
     img = Image.open(img_path)
     img = img.resize((100, 100))
+    img = img.convert("RGB")
     img.save(temp_file)
     color_thief = ColorThief(temp_file)
     palette = color_thief.get_palette(color_count=num_colors, quality=1)
