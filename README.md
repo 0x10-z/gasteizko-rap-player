@@ -17,7 +17,7 @@ Sigue los pasos a continuación para poner en marcha el proyecto:
 
 ```bash
 # 1. Si no has instalado Yarn:
-npm install yarn
+npm install --global yarn
 
 # 2. Instala las dependencias:
 yarn install

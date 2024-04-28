@@ -147,14 +147,15 @@ def get_metadata(file_path):
 def extract_cover(file_path):
     album_folder = os.path.dirname(file_path)
     cover_path = os.path.join(album_folder, "cover.webp")
-    
+
     if os.path.exists(cover_path):
         file_creation_time = os.path.getmtime(cover_path)
         current_time = time.time()
-        if (current_time - file_creation_time) <= 60:  # Si fue creado hace menos de 60 segundos
+        if (
+            current_time - file_creation_time
+        ) <= 60:  # Si fue creado hace menos de 60 segundos
             print(f"\n[+] Cover {cover_path} already exist. Skipping...")
             return cover_path, True
-
 
     # Borrar cover.jpg si existe
     cover_jpg_path = os.path.join(album_folder, "cover.jpg")
@@ -288,7 +289,7 @@ def main():
             OVERWRITE_MODE = input(
                 "¿Deseas sobrescribir los archivos existentes? (s/n): "
             )
-            
+
             """
             The script is designed to convert audio files from one format to another, specifically from MP3 to M4A (AAC),
             while preserving the metadata (like song title, artist, album, and album cover) of the original MP3 files.

@@ -6181,7 +6181,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\01_Intro.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "3821993a-df54-fff0-a067-093fdc881168",
@@ -6195,7 +6195,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\02_Adivina quien ha vuelto.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "66624996-f6e9-fa22-804b-5ef3a193efa2",
@@ -6209,7 +6209,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\03_Chao.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "673de420-5cae-9830-5233-a31918d25567",
@@ -6223,7 +6223,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\04_Es un bonito dia.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "61ca42f3-109e-dfe2-3c90-97387b1d2ef1",
@@ -6237,7 +6237,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\05_Lo que fuman es muy fuerte.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "50b145b0-7560-1e77-e564-e7978844425b",
@@ -6251,7 +6251,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\06_Skit Membrillo y pepinillo.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "06884b33-a137-9f99-d939-1939e5276ef7",
@@ -6265,7 +6265,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\07_Mal ejemplo.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "0230b6a6-8cd1-81f7-253d-1d2b41dd5eb0",
@@ -6279,7 +6279,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\08_Represento.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "ac191d00-9a76-dd03-8649-08d58f131c8d",
@@ -6293,7 +6293,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\09_Levantate y resiste.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "34921962-07d2-81e1-adf4-5cec7e13081b",
@@ -6307,7 +6307,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\10_Podeis ir llamando al juez.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "3cc93dfb-04ab-5fbf-dcee-023362863fac",
@@ -6321,7 +6321,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\11_A quien le importa.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "a0a2d5e7-9b51-9e55-8736-e2470fe194e3",
@@ -6335,7 +6335,7 @@
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\Paes - Good Night Gasteiz\\12_Outro.m4a",
         "color": [
             "#0b0b0b",
-            "#b6b6b6",
+            "#b5b5b5",
             "#7c7c7c"
         ],
         "id": "84b576e9-c3c2-5228-376a-ea55171c079a",
@@ -7967,14 +7967,28 @@
     },
     {
         "album": "VITORIA VARIOS",
+        "name": "(OLASO) JABO MILENARIO Yo te quiero ver!",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "(OLASO) JABO MILENARIO Yo te quiero ver!",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\(OLASO) JABO MILENARIO Yo te quiero ver!.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "b7e1b4fc-e237-1c19-d292-dbd39d8061e8",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
         "name": "Pista 10",
         "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
         "artist": "10 Pista 10",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\10 Pista 10.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "186ff0b0-844c-bd08-1b4b-471aca7b6b8e",
         "active": false
@@ -7986,9 +8000,9 @@
         "artist": "Kaiz y Dj D-Beam",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\11. Kaiz y Dj D-Beam - Talisman (con Afro) [Producido por Afro] - www.HHGroups.com.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "70f800c4-39cc-f15d-4658-d8b947f7c067",
         "active": false
@@ -8000,9 +8014,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\12 Originales de Barrio.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "11ff0633-4b66-4e0b-dd91-f71ab4b0748e",
         "active": false
@@ -8014,9 +8028,9 @@
         "artist": "14 Pista 14",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\14 Pista 14.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1106b1ee-f559-f53a-c806-1edd1bc6681d",
         "active": false
@@ -8028,9 +8042,9 @@
         "artist": "no artist",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\14-SDJ-Sonio cerdo.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "d8abf960-3d60-12d9-0974-d37a8d482ac9",
         "active": false
@@ -8042,9 +8056,9 @@
         "artist": "15 Pista 15",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\15 Pista 15.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "3ce28dd8-5ccf-1eb6-0c64-1c274e0a538e",
         "active": false
@@ -8056,9 +8070,9 @@
         "artist": "no artist",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\15-SDJ                            _ Todo o Nada.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "6560a66c-9d4b-8e91-8634-0a7b7d29bca9",
         "active": false
@@ -8070,9 +8084,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\A examen!!.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "436ea827-9168-b26c-56d6-5e1742f1260e",
         "active": false
@@ -8084,9 +8098,9 @@
         "artist": "ADC- Lonja's tem",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ADC- Lonja's tem.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2076bfad-157c-a157-2db8-ac4a3614ffee",
         "active": false
@@ -8098,9 +8112,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afr0 - Hostyl y Dj N.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "52ab95a4-9b33-523b-1515-b95d2255e50a",
         "active": false
@@ -8112,9 +8126,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afr0 y Dj N - A examen!!.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "97636903-4dcd-b6f2-a446-9eb18b020859",
         "active": false
@@ -8126,9 +8140,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro , bay y rubo (FREESTYLE).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "7894ba07-702a-1c95-4c33-fab42f7e7763",
         "active": false
@@ -8140,9 +8154,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro - As\u00c3\u00ad es el....m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2670b4a6-4eca-1434-4bfb-e9d77f3c4770",
         "active": false
@@ -8154,9 +8168,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro - Es como lanzar....m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0a8e3bd4-45a1-6043-6059-b2f4f17c49e3",
         "active": false
@@ -8168,9 +8182,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro - La gente cambia ( con Drujas )Final.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "4460bfdb-e06b-2ce1-c207-47683893651b",
         "active": false
@@ -8182,9 +8196,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro - Que no paro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f7d23c0b-d94f-f65a-03f8-38d712f5f10c",
         "active": false
@@ -8196,9 +8210,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro con Wiskas   2004.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "02fe0112-fe01-3e8a-b8c0-1ca5ea3b5468",
         "active": false
@@ -8210,9 +8224,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afro DaMasterBombo - 1.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "193145cd-fd2d-ba09-4dfa-649b53b5c70a",
         "active": false
@@ -8224,9 +8238,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro ft Paes - ................m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "7eb9d334-4d8c-289c-60ed-36e324177bfe",
         "active": false
@@ -8238,9 +8252,9 @@
         "artist": "Int\u00e9rprete desconocido",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro Ruan - KoMoNo!.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "cf86a82b-cb18-3c87-6f24-2efacb4666c5",
         "active": false
@@ -8252,9 +8266,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro ruan exp-KoMo No!.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "7875b4c0-3e85-b3eb-d5af-ea2170cb2dd8",
         "active": false
@@ -8266,9 +8280,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afro rubo bay improsiadascerd.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e99acb94-e0d7-0b38-8c8c-8df510e6b296",
         "active": false
@@ -8280,9 +8294,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afro rubo bay improsiadascerdos.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "87fc04a0-d13c-4d5b-5776-c087e2ebd51b",
         "active": false
@@ -8294,9 +8308,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro y Hombre zero - Es nuestro asunto.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "5df0aa4d-7145-c7b8-948e-62f58aaa0c54",
         "active": false
@@ -8308,9 +8322,9 @@
         "artist": "afro y moro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afro y moro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "538e7240-1078-6ae9-ffd5-02066bd14dbe",
         "active": false
@@ -8322,9 +8336,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro y mos.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0325dc4f-9020-442b-836f-bc6608e33934",
         "active": false
@@ -8336,9 +8350,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\AFRO Y OSTIL (FREESTYLE).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "a5580077-66b0-5f2e-df78-c40444c53a1c",
         "active": false
@@ -8350,9 +8364,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afro y prosa.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f8ea9597-4fab-c211-2c74-452f4f0a7ed3",
         "active": false
@@ -8364,9 +8378,9 @@
         "artist": "Afro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro y Sore (SDJ) - La felicidad no existe - (PRODUCCIONES N.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "eb810064-b25b-874a-8e01-f008949e9fd3",
         "active": false
@@ -8378,9 +8392,9 @@
         "artist": "Afro y Urban - Mentes makiavelikas",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro y Urban - Mentes makiavelikas.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "28302c7c-52b8-7eb2-47d6-177b6c1d8caf",
         "active": false
@@ -8392,9 +8406,9 @@
         "artist": "Afro y Urban ft Sore y Mayk - El tiempo de la infancia qued\u00c3\u00b3 atras",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro y Urban ft Sore y Mayk - El tiempo de la infancia qued\u00c3\u00b3 atras.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "79628a7d-4337-c146-f504-3a5746e2544c",
         "active": false
@@ -8406,9 +8420,9 @@
         "artist": "afrolandia",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afrolandia.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1181d469-a9c5-23a8-d1b2-30b32d004948",
         "active": false
@@ -8420,9 +8434,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\afroo_improvis.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e92d3e0b-b8c6-31f4-9e9d-5cf220e6435c",
         "active": false
@@ -8434,9 +8448,9 @@
         "artist": "Afro_con_Brcrew_-_L'important_c'est_la_qualit\u00c3\u00a9_-_WWW.PAXANGA.NET",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Afro_con_Brcrew_-_L'important_c'est_la_qualit\u00c3\u00a9_-_WWW.PAXANGA.NET.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "8b0676c2-9b29-1039-33c1-f4d312b3ccf7",
         "active": false
@@ -8448,9 +8462,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\AfRo_y_JoTaCe_-_ tRiAnGuLo_eScALeNo_-_dEzEgE_pRoDucCiOnEs.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "4e7abe16-5fc6-4fd4-e32b-728b87eab6c0",
         "active": false
@@ -8462,9 +8476,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\As\u00c3\u00ad es el....m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "31bc19f9-398a-3b96-c133-745b62ff368e",
         "active": false
@@ -8476,9 +8490,9 @@
         "artist": "blime_javi-our world(perla studios)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\blime_javi-our world(perla studios).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "550b5caf-0d71-7bf5-a521-5b11d5e1a4db",
         "active": false
@@ -8490,9 +8504,9 @@
         "artist": "ciencia lirika - arrivederci",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ciencia lirika - arrivederci.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "5223c4a3-0a59-9ad3-0daf-f5bb3b37ec69",
         "active": false
@@ -8504,9 +8518,9 @@
         "artist": "ciencia lirika - bipolar",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ciencia lirika - bipolar.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "04d98cf9-85be-0a7d-6544-bd7be1e838e0",
         "active": false
@@ -8518,9 +8532,9 @@
         "artist": "ciencia lirika - cramerkaze",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ciencia lirika - cramerkaze.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "414e5110-d8b9-f9d6-7262-606af2991e7c",
         "active": false
@@ -8532,9 +8546,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Ciento y pico.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "5a3f6bcc-40b5-4c2e-5445-1bdaf5dbefb7",
         "active": false
@@ -8546,9 +8560,9 @@
         "artist": "clk_rpd-retrogrado superior(perla studios)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\clk_rpd-retrogrado superior(perla studios).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "aeda8f2a-008b-2a03-a5de-5fa80ea0104d",
         "active": false
@@ -8560,9 +8574,9 @@
         "artist": "cramerkaze(perla studios)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cramerkaze(perla studios).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "10d69ca0-8978-4f54-ae43-fa4a60cd2fd9",
         "active": false
@@ -8574,9 +8588,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\CREW Mayk y Sore de la con Ne.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "73e4fbd4-98c9-cb87-51ff-dca1b49e1c10",
         "active": false
@@ -8588,9 +8602,9 @@
         "artist": "Gris Materia",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Dentro Del Groove.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "af72c606-9092-b4f7-a39a-9b26330a31a4",
         "active": false
@@ -8602,9 +8616,9 @@
         "artist": "Dj Loro & Timus_Reflexiones",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Dj Loro & Timus_Reflexiones.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "93c33554-1bb7-fbc7-b63d-cdf117d85e03",
         "active": false
@@ -8616,9 +8630,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\drogate.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "ab934ee4-891c-fbfd-7373-5c377408acd0",
         "active": false
@@ -8630,9 +8644,9 @@
         "artist": "El Se\u00c3\u00b1or Gris  - Sdj .",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\El Se\u00c3\u00b1or Gris  - Sdj ..m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "342a19cf-5169-45ce-865e-30ec33d1c6c8",
         "active": false
@@ -8644,9 +8658,9 @@
         "artist": "eMeKa Afro SoRe",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\eMeKa Afro SoRe.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "aa9708bd-b73e-daf3-5081-a53a878e5791",
         "active": false
@@ -8658,9 +8672,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Es como lanzar....m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "c89c9eaa-6548-f490-031a-c1dc6a75d426",
         "active": false
@@ -8672,9 +8686,9 @@
         "artist": "FrEeStYlE - Afro Rubo Bay",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\FrEeStYlE - Afro Rubo Bay.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e6814913-c3c6-514a-120e-38a69a5e0445",
         "active": false
@@ -8686,9 +8700,9 @@
         "artist": "OROPESA 2",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\G14 - las cosas ya no son asi.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "b3c86034-1474-bec6-52af-e7f6401f3377",
         "active": false
@@ -8700,9 +8714,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\hhp_-_03__SDJSientoprod.dezege.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "a7c472a3-b6dc-bc45-c870-62930508f6cf",
         "active": false
@@ -8714,9 +8728,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\improvis.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "90fb7aa3-f78d-73ca-d33f-1caa1bc7f043",
         "active": false
@@ -8728,9 +8742,9 @@
         "artist": "JaKeMaTeStUdIoS",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\JaKeMaTeStUdIoS.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0c3c5926-2fd3-b2f1-8c45-06c24dfd3237",
         "active": false
@@ -8742,11 +8756,25 @@
         "artist": "JAKEMATE_AFRO",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\JAKEMATE_AFRO.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "fcf7693b-72da-655a-26d2-182db4b9d93a",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "Jean Paul VI  Stand By Me (Cover Prod Jazzy Dark)",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Jean Paul VI  Stand By Me (Cover Prod Jazzy Dark)",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Jean Paul VI  Stand By Me (Cover Prod Jazzy Dark).m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "24069a38-28d8-f454-05f2-a90c4e45b844",
         "active": false
     },
     {
@@ -8756,11 +8784,25 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Kafes,Afro,Eseeme,Eimo,Sando y Phobia - La Verdad.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "07e745ca-1c97-a348-695f-282b2d9e65da",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "Kaiz y Dj D-Beam - Necesito (con Afro) [Producido por Zi",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Kaiz, Dj D-Beam, Afro",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Kaiz y Dj D-Beam - Necesito (con Afro) [Producido por Zi.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "744b4ee6-4637-3ae9-5309-038b14bf9d91",
         "active": false
     },
     {
@@ -8770,9 +8812,9 @@
         "artist": "ke cebao",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ke cebao.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "3a114193-cefa-3ae6-b944-570b7c91f316",
         "active": false
@@ -8784,9 +8826,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\KoMo No!.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "099546e8-7f0b-9f63-3cf4-9096e8b1a049",
         "active": false
@@ -8798,9 +8840,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\la charla-feat pro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "aaaec70c-467a-1f33-52a3-c9f30ff2e730",
         "active": false
@@ -8812,9 +8854,9 @@
         "artist": "la ETC con el Dani",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\la ETC con el Dani.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e4789fab-e42f-fb42-c5d7-a6a2439499e4",
         "active": false
@@ -8826,9 +8868,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\La Felicidad No Existe.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2439e4bc-eb63-05d7-31c2-9fb6db9fba2b",
         "active": false
@@ -8840,9 +8882,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\La gente cambia ( con Drujas.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f5e819d1-35d2-fa7d-a7cd-4015ab8129c2",
         "active": false
@@ -8854,9 +8896,9 @@
         "artist": "La OtRa CaRa",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\La OtRa CaRa.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "7e50bd3e-2844-2105-0065-e50e501cddbb",
         "active": false
@@ -8868,9 +8910,9 @@
         "artist": "La SDJ-CREW- Le click low",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\La SDJ-CREW- Le click low.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "bea54fc1-f284-06e1-b9ea-7c0401790b7d",
         "active": false
@@ -8882,9 +8924,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\La verdad duele..m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "4b8cac37-57da-cfe8-ae93-6d47a4fed0e9",
         "active": false
@@ -8896,11 +8938,25 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\LT - 001 - Termino Mafiosi.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "6f4f9d7c-1980-8afb-e339-83ef1aa312d4",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "09.Maybach Music VI Remix ft.",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Drujas, Afro, DJ Nead",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Maybach Music VI Remix ft. Afro.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "0d09fba6-43e4-1646-cae2-986dfbbd2251",
         "active": false
     },
     {
@@ -8910,9 +8966,9 @@
         "artist": "MK_balad",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\MK_balad.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0a6df74a-958d-4ee7-322f-84db4f2cbe82",
         "active": false
@@ -8924,9 +8980,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Momentos.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1638fc31-6de5-e6a8-0dec-2e009811a153",
         "active": false
@@ -8938,9 +8994,9 @@
         "artist": "Moro_perdon",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Moro_perdon.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "378da87e-d8b8-ce97-f952-8105596ba272",
         "active": false
@@ -8952,9 +9008,9 @@
         "artist": "Moro_Voy a rebentar tus Buffles",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Moro_Voy a rebentar tus Buffles.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "50181a8e-75c5-d2ab-a8b9-cb608c6331b9",
         "active": false
@@ -8966,9 +9022,9 @@
         "artist": "Originales de barrio - KN",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Originales de barrio - KN.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2bcbad9e-d374-76ca-6e7c-2e0e6c17ada0",
         "active": false
@@ -8980,9 +9036,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Pal Tonton Ares - www.Rimadero.es.vg.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "b687504b-ee60-82aa-c952-9bd677c118a3",
         "active": false
@@ -8994,9 +9050,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\parte cramer-pro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e5d41efb-0ab9-df62-e5e3-2a46adbf1434",
         "active": false
@@ -9008,9 +9064,9 @@
         "artist": "PhOtOfRaMe_JuLy  AlEgRe",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\PhOtOfRaMe_JuLy  AlEgRe.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "a259b891-4b4a-13d9-4220-20c35e7c345e",
         "active": false
@@ -9022,9 +9078,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\PuMa_PrO-BaKaLeTaS.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "9ffa432b-db00-64ce-152d-d0e36b2b3b4d",
         "active": false
@@ -9036,9 +9092,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Que no paro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1c798529-6112-6b85-fc2a-040c3298748e",
         "active": false
@@ -9050,11 +9106,39 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Reflexiones (Timus-dj Loro).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "24f8cf6d-e88d-432d-41af-6fa607b97ded",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "Ruan - Desde el 86",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Ruan - Desde el 86",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Ruan - Desde el 86.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "79f8945b-cb1a-41d1-ff8a-518867ebb7d1",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "Ruan - Temita 2005",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Ruan - Temita 2005",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Ruan - Temita 2005.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "8fff16ca-f473-e0be-f325-52222432988d",
         "active": false
     },
     {
@@ -9064,9 +9148,9 @@
         "artist": "ruan - temita de 2005",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ruan - temita de 2005.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "673ff741-94ff-f355-407c-9213a5fab712",
         "active": false
@@ -9078,9 +9162,9 @@
         "artist": "Rush feat. Kodigo Norte",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Salvajes_(Rushbla-ka_feat._.Kodigo Norte) - [www.kodigonorte.com].m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "349255b5-5521-170f-cdd5-b69e3eb2a84c",
         "active": false
@@ -9092,9 +9176,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ - Ciento y pico.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "ce034282-93f3-4a10-5588-93e40b5c69b6",
         "active": false
@@ -9106,9 +9190,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ - Pal Tonton Ares.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2b6d25d4-ffa6-608d-0a48-fc07791d88cd",
         "active": false
@@ -9120,9 +9204,9 @@
         "artist": "SDJ CREW sore,urban,mK",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ CREW sore,urban,mK _drogate.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "423ef201-20e6-accb-22b1-31b0e0d0b8ce",
         "active": false
@@ -9134,9 +9218,9 @@
         "artist": "PAXANGA.NET",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ- Mucha mierda.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "d40cca2f-059c-c086-e320-fe9137e07644",
         "active": false
@@ -9148,9 +9232,9 @@
         "artist": "SDJ-04-Caos_(con_Emeka)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ-04-Caos_(con_Emeka).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "555bb39a-7490-e1eb-6e15-e533cc2b44d2",
         "active": false
@@ -9162,9 +9246,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ-CREW Mayk y Sore de la con Nez - Golpes como terapia.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "ee4c0844-0abb-995c-7bef-dafb3b7ec1d2",
         "active": false
@@ -9176,9 +9260,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ-Shalom Aleikum.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f0d64e82-b4e1-d40a-6a27-c325a2ade8b3",
         "active": false
@@ -9190,9 +9274,9 @@
         "artist": "sdj",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sdj-_Rimadero_19.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "5fcade41-d1d3-de37-82a4-356f4eb2afe4",
         "active": false
@@ -9204,9 +9288,9 @@
         "artist": "sdjakem",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sdjakem.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0a4d313a-e55e-6b71-3de8-ebd9de975de8",
         "active": false
@@ -9218,9 +9302,9 @@
         "artist": "SDJakemate",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJakemate.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "682d4b84-51ba-2e03-eb3c-ac7136216d7f",
         "active": false
@@ -9232,9 +9316,9 @@
         "artist": "SdJcReW",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SdJcReW.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "eaba01e0-cb55-ac5b-d8eb-2d8acb6fc936",
         "active": false
@@ -9246,9 +9330,9 @@
         "artist": "SDJ_ maik,cobos &  sore",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ_ maik,cobos &  sore- _la se\u00c3\u00b1al.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f2b0f87c-e29f-68cc-0831-d2a156ebeee6",
         "active": false
@@ -9260,9 +9344,9 @@
         "artist": "sdj_",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sdj_-_Rimadero_22.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "49d555e9-97b9-79fd-0e6d-ec979f00b8d3",
         "active": false
@@ -9274,9 +9358,9 @@
         "artist": "SDJ_drogate",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SDJ_drogate.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "aed49ac2-bb99-e24e-bf36-bba249bc57a2",
         "active": false
@@ -9288,9 +9372,9 @@
         "artist": "sdj",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sdj_Rapabajocero.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1eca0a73-9a40-bf09-6484-e3984285edc9",
         "active": false
@@ -9302,9 +9386,9 @@
         "artist": "sdj_voy con los mios",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sdj_voy con los mios.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "a5113555-03da-fbc7-6f47-59e54d22c710",
         "active": false
@@ -9316,9 +9400,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Sdj__Guardaros_vuestra_rabia.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "e7322673-7ca6-0cd2-5a2c-1323c69ee896",
         "active": false
@@ -9330,9 +9414,9 @@
         "artist": "SDJ",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Sdj__Todo_o_Nada.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "5630e17f-78ca-f282-3cc3-d85b15ece740",
         "active": false
@@ -9344,9 +9428,9 @@
         "artist": "Sdj",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Sdj__Tofuuu.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "8c38fe56-8ea7-ca81-85a3-5ea7283775a6",
         "active": false
@@ -9358,9 +9442,9 @@
         "artist": "Sdj",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Sdj__Vida_reventada.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "482a0610-8929-a6c6-b331-d8dccd6d76d6",
         "active": false
@@ -9372,9 +9456,9 @@
         "artist": "Se\u00f1ores_del_jarcore_",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Se\u00c3\u00b1ores_del_jarcore_-_Sdj_y_Mos__Mas_alla_del_fracaso.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f2cd44b5-307a-9ec3-b928-a5e64c422039",
         "active": false
@@ -9386,9 +9470,9 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Siento prod.dezege.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "93382295-fa45-25a3-c23a-bd8ff722d3ba",
         "active": false
@@ -9400,9 +9484,9 @@
         "artist": "sore sdj-Shalom Aleikum",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sore sdj-Shalom Aleikum.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "b45e61af-815c-5994-02ee-6dcc4642e05c",
         "active": false
@@ -9414,9 +9498,9 @@
         "artist": "Sore,Klito,Urban",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Sore,Klito,Urban.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0c0f3546-03cc-72b6-4d57-1e4e3cef9dd8",
         "active": false
@@ -9428,9 +9512,9 @@
         "artist": "sore-totem-RAP PAMPERO(estribillo)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\sore-totem-RAP PAMPERO(estribillo).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "446a937f-af54-619e-8431-024e3c0c00ab",
         "active": false
@@ -9442,9 +9526,9 @@
         "artist": "Soul.EditodeLujo",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Soul.EditodeLujo.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "bf31b365-7db2-55d4-7422-488ba2c74c76",
         "active": false
@@ -9456,9 +9540,9 @@
         "artist": "SrKtEaM-Bala Perdida (alegre, keke,pab, sdas, july)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SrKtEaM-Bala Perdida (alegre, keke,pab, sdas, july).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2dc8f5dd-6729-61c1-882b-b3d11abed755",
         "active": false
@@ -9470,9 +9554,9 @@
         "artist": "SrK_alegre-sdas-pab-keke",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\SrK_alegre-sdas-pab-keke.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "d9b02840-8d97-7a3a-9cc0-0010d44c03d6",
         "active": false
@@ -9484,9 +9568,9 @@
         "artist": "ToTem & RuaN - le click low",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ToTem & RuaN - le click low.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "600e823a-3eb0-cd2a-513a-1fce1728b737",
         "active": false
@@ -9498,9 +9582,9 @@
         "artist": "TOTEM",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\TOTEM -sdj ElSe\u00c3\u00b1orGris - La Maldicion (prueba).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "f2d8547e-c203-1600-4b99-b02a5233812c",
         "active": false
@@ -9512,9 +9596,9 @@
         "artist": "TOTEM-el se\u00c3\u00b1or gris",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\TOTEM-el se\u00c3\u00b1or gris.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "d8aeba6b-2424-a6af-ad1a-3bb3d135b3a5",
         "active": false
@@ -9526,9 +9610,9 @@
         "artist": "ToTeM",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\ToTeM-ElSe\u00c3\u00b1orGris - Asi lo hacen en mi pueblo.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "28488eaa-0f0c-111f-f47a-3715815247f0",
         "active": false
@@ -9540,9 +9624,9 @@
         "artist": "TOTEM-GUETO BOY",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\TOTEM-GUETO BOY.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "1900a44e-dca7-6885-a159-6fd515d17253",
         "active": false
@@ -9554,9 +9638,9 @@
         "artist": "Totem-vacile a wiskas",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Totem-vacile a wiskas.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "d2a743cd-e16f-d426-2ea8-7bbdd70adcbc",
         "active": false
@@ -9568,9 +9652,9 @@
         "artist": "totem_urban_clito_ruan_pro",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\totem_urban_clito_ruan_pro.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "0a52a441-4c2e-312a-683d-bc9bcc072481",
         "active": false
@@ -9582,9 +9666,9 @@
         "artist": "Triangulo Eskaleno - Base (Afro JotaC)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Triangulo Eskaleno - Base (Afro JotaC).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "7f8519a5-5d6a-e48d-332c-0c0f05599905",
         "active": false
@@ -9596,9 +9680,9 @@
         "artist": "TRIPLE COMBO  THE WARRIORS TIME (Clip Oficial)",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\TRIPLE COMBO  THE WARRIORS TIME (Clip Oficial).m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "fc6c6ad2-3ad9-41ce-7e9d-77e1dcd07cc6",
         "active": false
@@ -9610,11 +9694,25 @@
         "artist": "Afro, Rubo, Sore, Sok,...",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\woper-era se una muchacha euskalduna.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "2e8b97d7-e871-62db-6c08-6b301b6b9a9d",
+        "active": false
+    },
+    {
+        "album": "VITORIA VARIOS",
+        "name": "Xabi - Son recuerdos (con Iona) [Producido por Anima X B",
+        "cover": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\cover.webp",
+        "artist": "Xabi y Iona",
+        "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Xabi - Son recuerdos (con Iona) [Producido por Anima X B.m4a",
+        "color": [
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
+        ],
+        "id": "0fd27fce-395f-c65d-38fd-9d78161945a7",
         "active": false
     },
     {
@@ -9624,9 +9722,9 @@
         "artist": "Xpe-Moro_Ventana Oculta",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\Xpe-Moro_Ventana Oculta.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "6fbc379c-11b0-b575-3427-4038b1d7f613",
         "active": false
@@ -9638,9 +9736,9 @@
         "artist": "yeah po po no pruefva",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\yeah po po no pruefva.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "b1a9c2e1-f5af-f403-282d-2afde9ba20ec",
         "active": false
@@ -9652,9 +9750,9 @@
         "artist": "yose + afro + rone + samo - visita desorganizada",
         "audio": "https://retrogasteiz.blob.core.windows.net/gasteizkorap\\VITORIA VARIOS\\yose + afro + rone + samo - visita desorganizada.m4a",
         "color": [
-            "#848486",
-            "#cbcbcc",
-            "#19181a"
+            "#19191a",
+            "#848487",
+            "#cbcbcc"
         ],
         "id": "c1832ba7-519f-b858-849e-a76d4887919a",
         "active": false
