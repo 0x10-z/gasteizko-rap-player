@@ -6,6 +6,7 @@ type SongType = {
   artist: string;
   album: string;
   cover: string;
+  color?: string | null;
 };
 
 type SongProps = {
@@ -22,6 +23,11 @@ const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
           alt={currentSong.name}
           height={100}
           $isRotating={isPlaying}
+          $shadowColor={
+            currentSong.color && currentSong.color.length > 0
+              ? currentSong.color[currentSong.color.length - 1]
+              : "#f1d1f2"
+          }
         />
       </ImgWrapper>
       <H1>{currentSong.name}</H1>
@@ -41,14 +47,13 @@ const SongContainer = styled.div`
   justify-content: center;
 `;
 
-// Definir la animación de rotación
 const rotate = keyframes`
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 `;
 
 const ImgWrapper = styled.div`
@@ -62,7 +67,7 @@ const ImgWrapper = styled.div`
   }
 `;
 
-const Img = styled.img<{ $isRotating: boolean }>`
+const Img = styled.img<{ $isRotating: boolean; $shadowColor: string }>`
   position: absolute;
   top: 0;
   left: 0;
@@ -77,7 +82,7 @@ const Img = styled.img<{ $isRotating: boolean }>`
         `
       : "none"};
   transition: border-radius 0.3s ease, animation 0.3s ease;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 150px 20px ${(props) => props.$shadowColor};
 
   &:hover {
     border-radius: 2%;
