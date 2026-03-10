@@ -78,8 +78,8 @@ const Player: FC<PlayerProps> = ({
   };
 
   const getTime = (time: number) => {
-    let minute = Math.floor(time / 60);
-    let second = ("0" + Math.floor(time % 60)).slice(-2);
+    const minute = Math.floor(time / 60);
+    const second = ("0" + Math.floor(time % 60)).slice(-2);
     return `${minute}:${second}`;
   };
 

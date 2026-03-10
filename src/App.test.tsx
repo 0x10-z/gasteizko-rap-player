@@ -1,13 +1,16 @@
 import { render, screen } from "@testing-library/react";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
+import { AudioPlayerProvider } from "./contexts/AudioPlayerContext";
 
 describe("<App />", () => {
   beforeEach(() => {
     render(
-      <Router>
-        <App />
-      </Router>
+      <AudioPlayerProvider>
+        <Router>
+          <App />
+        </Router>
+      </AudioPlayerProvider>
     );
   });
 
@@ -45,6 +48,4 @@ describe("<App />", () => {
     const helpModalElement = screen.getByTestId("help-modal");
     expect(helpModalElement).toBeInTheDocument();
   });
-
-  // ... tus otros tests
 });

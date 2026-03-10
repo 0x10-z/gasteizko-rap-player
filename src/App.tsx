@@ -78,8 +78,8 @@ const App: React.FC = () => {
 
   const songEndHandler = async () => {
     if (currentSong) {
-      let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-      let nextSong = songs[(currentIndex + 1) % songs.length];
+      const currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+      const nextSong = songs[(currentIndex + 1) % songs.length];
       await updateActiveSongs(nextSong);
       if (isPlaying) {
         play();
@@ -167,7 +167,7 @@ const App: React.FC = () => {
   const changeSong = useCallback(
     async (direction: "forward" | "backward") => {
       if (currentSong) {
-        let currentIndex = songs.findIndex(
+        const currentIndex = songs.findIndex(
           (song) => song.id === currentSong.id
         );
         let nextIndex;

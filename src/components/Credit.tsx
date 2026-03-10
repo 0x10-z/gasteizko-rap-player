@@ -32,7 +32,7 @@ const Credit: FC<CreditProps> = ({
       </LeftContainer>
       <CenterContainer>
         <StyledSpan>{songsNumber} temas</StyledSpan>
-        <StyledSpan>v{process.env.REACT_APP_BUILD_DATE}</StyledSpan>
+        <StyledSpan>v{import.meta.env.VITE_BUILD_DATE}</StyledSpan>
       </CenterContainer>
       <RightContainer>
         <StyledLink href="#" onClick={() => setAboutStatus(!aboutStatus)}>

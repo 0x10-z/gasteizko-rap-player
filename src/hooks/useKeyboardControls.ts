@@ -9,7 +9,7 @@ const useKeyboardControls = (
   skipTrackHandler: SkipTrackHandlerType,
   audioRef: AudioRefType
 ) => {
-  const pressTimer = useRef<NodeJS.Timeout | null>(null);
+  const pressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const keyHeld = useRef(false);
 
   const handleKeyDown = useCallback(
