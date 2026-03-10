@@ -12,7 +12,6 @@ import HelpModal from "./components/HelpModal";
 import tracklist from "./tracklist.json";
 import { SongChangeProvider } from "./contexts/SongChangeProvider";
 import { useAudioPlayer } from "./contexts/AudioPlayerContext";
-import { customToast } from "./components/CustomToast";
 import { prettifyString, getAudioSrc } from "./utils";
 import { SongType, SongInfoType } from "./types/models";
 
@@ -23,7 +22,7 @@ const App: React.FC = () => {
 
   const location = useLocation();
 
-  const { audioRef, isPlaying, play, pause, setIsPlaying } = useAudioPlayer();
+  const { audioRef, isPlaying, play, pause } = useAudioPlayer();
 
   // Refs
   const libraryRef = useRef<HTMLDivElement | null>(null);
@@ -182,29 +181,16 @@ const App: React.FC = () => {
         updateActiveSongs(nextSong);
 
         if (audioRef.current) {
-          pause();
-
+          audioRef.current.pause();
           audioRef.current.src = getAudioSrc(nextSong);
 
           setTimeout(() => {
-            if (audioRef.current) {
-              const promise = audioRef.current.play();
-              if (promise !== undefined) {
-                promise.catch((error) => {
-                  if (error.name !== "AbortError") {
-                    customToast.error("Upss! algo está pasando.", {
-                      trace: error.toString(),
-                    });
-                  }
-                  setIsPlaying(false);
-                });
-              }
-            }
+            play();
           }, 100);
         }
       }
     },
-    [songs, currentSong, audioRef, updateActiveSongs, pause, setIsPlaying]
+    [songs, currentSong, audioRef, updateActiveSongs, play]
   );
 
   useEffect(() => {

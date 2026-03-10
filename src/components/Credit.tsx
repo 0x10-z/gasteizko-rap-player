@@ -22,23 +22,21 @@ const Credit: FC<CreditProps> = ({
       $libraryStatus={libraryStatus}
       {...rest}
     >
-      <LeftContainer>
+      <StyledSpan>{songsNumber} temas</StyledSpan>
+      <LinksRow>
         <StyledLink
           href="https://github.com/0x10-z/gasteizko-rap-player/"
           target="_blank"
         >
           Github
         </StyledLink>
-      </LeftContainer>
-      <CenterContainer>
-        <StyledSpan>{songsNumber} temas</StyledSpan>
+        <Separator>·</Separator>
         <StyledSpan>v{import.meta.env.VITE_BUILD_DATE}</StyledSpan>
-      </CenterContainer>
-      <RightContainer>
+        <Separator>·</Separator>
         <StyledLink href="#" onClick={() => setAboutStatus(!aboutStatus)}>
           Sobre este proyecto
         </StyledLink>
-      </RightContainer>
+      </LinksRow>
     </CreditContainer>
   );
 };
@@ -49,33 +47,34 @@ const CreditContainer = styled.div<{
 }>`
   user-select: none;
   position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 24px;
+  left: 0;
+  right: 0;
   bottom: 16px;
   z-index: 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
   opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "1")};
   transition: opacity 0.3s ease;
   pointer-events: ${(p) =>
     p.$aboutStatus || p.$libraryStatus ? "none" : "auto"};
 
   @media screen and (max-width: 768px) {
-    padding: 0 16px;
     bottom: 8px;
   }
 `;
 
-const LeftContainer = styled.div``;
-
-const CenterContainer = styled.div`
+const LinksRow = styled.div`
   display: flex;
-  gap: 0.75rem;
   align-items: center;
+  gap: 0.5rem;
 `;
 
-const RightContainer = styled.div``;
+const Separator = styled.span`
+  color: rgb(200, 200, 200);
+  font-size: 0.7rem;
+`;
 
 const StyledLink = styled.a`
   color: rgb(180, 180, 180);
