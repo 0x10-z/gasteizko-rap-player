@@ -80,7 +80,6 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
         alt={song.name}
         height={100}
         onLoad={handleImageLoad}
-        loading="lazy"
         $loaded={imageLoaded}
       />
       <LibrarySongDescription>
