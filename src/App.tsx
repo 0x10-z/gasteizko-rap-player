@@ -15,7 +15,7 @@ import { useAudioPlayer } from "./contexts/AudioPlayerContext";
 import { prettifyString, getAudioSrc } from "./utils";
 import { SongType, SongInfoType } from "./types/models";
 
-const App: React.FC = () => {
+const App = () => {
   const navigate = useNavigate();
   const navigateRef = useRef(navigate);
   navigateRef.current = navigate;
@@ -67,7 +67,7 @@ const App: React.FC = () => {
 
   // Event Handlers
   const updateTimeHandler = (
-    e: React.SyntheticEvent<HTMLAudioElement, Event>
+    e: React.SyntheticEvent<HTMLAudioElement>
   ) => {
     const target = e.currentTarget;
     const currentTime = target.currentTime;
@@ -109,7 +109,7 @@ const App: React.FC = () => {
   const handleClickOutsideReact: React.MouseEventHandler<HTMLDivElement> = (
     event
   ) => {
-    handleClickOutsideDOM(event as unknown as MouseEvent);
+    handleClickOutsideDOM(event.nativeEvent);
   };
 
   // Effects
@@ -241,21 +241,18 @@ const App: React.FC = () => {
           onClick={handleClickOutsideReact}
         >
           <Nav
-            data-testid="navigation"
             libraryStatus={libraryStatus}
             aboutStatus={aboutStatus}
             setLibraryStatus={setLibraryStatus}
           />
           <Song currentSong={currentSong} isPlaying={isPlaying} />
           <Player
-            data-testid="player"
             currentSong={currentSong}
             songInfo={songInfo}
             setSongInfo={setSongInfo}
             setIsShortcutsModalOpen={setIsShortcutsModalOpen}
           />
           <Credit
-            data-testid="credit"
             songsNumber={songs.length}
             aboutStatus={aboutStatus}
             setAboutStatus={setAboutStatus}
@@ -275,7 +272,6 @@ const App: React.FC = () => {
           />
         </AppContainer>
         <Library
-          data-testid="library"
           ref={libraryRef}
           songs={songs}
           setCurrentSong={setCurrentSong}
@@ -284,13 +280,11 @@ const App: React.FC = () => {
           libraryStatus={libraryStatus}
         />
         <About
-          data-testid="about"
           ref={aboutRef}
           aboutStatus={aboutStatus}
           setAboutStatus={setAboutStatus}
         />
         <HelpModal
-          data-testid="help-modal"
           isOpen={isShortcutsModalOpen}
           onClose={() => setIsShortcutsModalOpen(false)}
         />

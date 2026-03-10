@@ -12,6 +12,7 @@ import styled, { keyframes } from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
 import { useSongChange } from "../contexts/SongChangeProvider";
 import { useAudioPlayer } from "../contexts/AudioPlayerContext";
+import { SongType, SongInfoType } from "../types/models";
 
 const typingDots = keyframes`
   0%, 20% {
@@ -26,11 +27,10 @@ const typingDots = keyframes`
 `;
 
 type PlayerProps = {
-  currentSong: any;
-  songInfo: any;
-  setSongInfo: (songInfo: any) => void;
+  currentSong: SongType;
+  songInfo: SongInfoType;
+  setSongInfo: (songInfo: SongInfoType) => void;
   setIsShortcutsModalOpen: (isOpen: boolean) => void;
-  [x: string]: any;
 };
 
 const Player: FC<PlayerProps> = ({
@@ -38,7 +38,6 @@ const Player: FC<PlayerProps> = ({
   songInfo,
   setSongInfo,
   setIsShortcutsModalOpen,
-  ...rest
 }) => {
   const { changeSong } = useSongChange();
   const { audioRef, isPlaying, toggle } = useAudioPlayer();
@@ -85,7 +84,7 @@ const Player: FC<PlayerProps> = ({
 
   const dragHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     audioRef.current!.currentTime = Number(e.target.value);
-    setSongInfo({ ...songInfo, currentTime: e.target.value });
+    setSongInfo({ ...songInfo, currentTime: Number(e.target.value) });
   };
 
   const downloadSong = () => {
@@ -98,7 +97,7 @@ const Player: FC<PlayerProps> = ({
 
   const [color1, color2] = currentSong.color;
   return (
-    <PlayerContainer {...rest}>
+    <PlayerContainer>
       <TimeControlContainer>
         <TimeText>{getTime(songInfo.currentTime || 0)}</TimeText>
         <Track $color1={color1} $color2={color2}>
@@ -108,6 +107,7 @@ const Player: FC<PlayerProps> = ({
             max={songInfo.duration || 0}
             value={songInfo.currentTime}
             type="range"
+            aria-label="Progreso de la canción"
           />
           <AnimateTrack $progress={progress}></AnimateTrack>
         </Track>
@@ -122,17 +122,20 @@ const Player: FC<PlayerProps> = ({
           className="shortcutModal"
           icon={faInfo}
           size="lg"
+          aria-label="Atajos de teclado"
         />
         <ControlIcon
           onClick={() => skipTrackHandler("skip-back")}
           className="skip-back"
           icon={faAngleLeft}
           size="2x"
+          aria-label="Canción anterior"
         />
         <PlayButton
           onClick={toggle}
           $color1={color1}
           $color2={color2}
+          aria-label={isPlaying ? "Pausar" : "Reproducir"}
         >
           <FontAwesomeIcon
             icon={togglePlayPauseIcon()}
@@ -145,12 +148,14 @@ const Player: FC<PlayerProps> = ({
           className="skip-forward"
           icon={faAngleRight}
           size="2x"
+          aria-label="Siguiente canción"
         />
         <SecondaryIcon
           onClick={() => downloadSong()}
           className="download"
           icon={faDownload}
           size="lg"
+          aria-label="Descargar canción"
         />
       </PlayControlContainer>
     </PlayerContainer>

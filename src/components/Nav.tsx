@@ -1,3 +1,4 @@
+import { FC } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
@@ -6,22 +7,22 @@ type NavProps = {
   libraryStatus: boolean;
   setLibraryStatus: (status: boolean) => void;
   aboutStatus: boolean;
-  [x: string]: any;
 };
 
-const Nav: React.FC<NavProps> = ({
+const Nav: FC<NavProps> = ({
   libraryStatus,
   setLibraryStatus,
   aboutStatus,
-  ...rest
 }) => {
   return (
-    <NavContainer {...rest}>
+    <NavContainer>
       <H1 $isLibraryActive={libraryStatus || aboutStatus}>VI y alrededores</H1>
       <Button
         $aboutStatus={aboutStatus}
         $libraryStatus={libraryStatus}
         onClick={() => setLibraryStatus(!libraryStatus)}
+        aria-label="Abrir tracklist"
+        aria-expanded={libraryStatus}
       >
         Tracklist <FontAwesomeIcon icon={faMusic} />
       </Button>

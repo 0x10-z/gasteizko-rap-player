@@ -5,6 +5,7 @@ export type SongType = {
   cover: string;
   audio: string;
   album: string;
+  color: string[];
   active: boolean;
 };
 

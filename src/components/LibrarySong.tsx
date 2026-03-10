@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { FC, useState } from "react";
 import styled from "styled-components";
 import { SongType } from "../types/models";
 import { useAudioPlayer } from "../contexts/AudioPlayerContext";
 
 // Cache loaded image URLs across mount/unmount cycles (virtual list)
+const MAX_CACHE_SIZE = 800;
 const loadedCovers = new Set<string>();
 
 type LibrarySongProps = {
@@ -33,7 +34,7 @@ const Spinner = styled.div`
   }
 `;
 
-const LibrarySong: React.FC<LibrarySongProps> = ({
+const LibrarySong: FC<LibrarySongProps> = ({
   song,
   setCurrentSong,
   songs,
@@ -68,6 +69,10 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
   };
 
   const handleImageLoad = () => {
+    if (loadedCovers.size >= MAX_CACHE_SIZE) {
+      const first = loadedCovers.values().next().value;
+      if (first) loadedCovers.delete(first);
+    }
     loadedCovers.add(song.cover);
     setImageLoaded(true);
   };

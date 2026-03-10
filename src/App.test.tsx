@@ -20,32 +20,32 @@ describe("<App />", () => {
   });
 
   test("renders Nav component", () => {
-    const navElement = screen.getByTestId("navigation");
-    expect(navElement).toBeInTheDocument();
+    const tracklistButton = screen.getByRole("button", { name: /abrir tracklist/i });
+    expect(tracklistButton).toBeInTheDocument();
   });
 
   test("renders Player component", () => {
-    const playerElement = screen.getByTestId("player");
-    expect(playerElement).toBeInTheDocument();
+    const playButton = screen.getByRole("button", { name: /reproducir|pausar/i });
+    expect(playButton).toBeInTheDocument();
   });
 
   test("renders Library component", () => {
-    const libraryElement = screen.getByTestId("library");
-    expect(libraryElement).toBeInTheDocument();
+    const searchInput = screen.getByPlaceholderText(/busca un tema/i);
+    expect(searchInput).toBeInTheDocument();
   });
 
   test("renders About component", () => {
-    const aboutElement = screen.getByTestId("about");
-    expect(aboutElement).toBeInTheDocument();
+    const aboutHeading = screen.getByRole("heading", { name: /sobre este proyecto/i });
+    expect(aboutHeading).toBeInTheDocument();
   });
 
   test("renders Credit component", () => {
-    const creditElement = screen.getByTestId("credit");
-    expect(creditElement).toBeInTheDocument();
+    const githubLink = screen.getByRole("link", { name: /github/i });
+    expect(githubLink).toBeInTheDocument();
   });
 
-  test("renders HelpModal component", () => {
-    const helpModalElement = screen.getByTestId("help-modal");
-    expect(helpModalElement).toBeInTheDocument();
+  test("renders song progress slider", () => {
+    const slider = screen.getByRole("slider", { name: /progreso/i });
+    expect(slider).toBeInTheDocument();
   });
 });

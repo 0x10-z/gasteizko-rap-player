@@ -4,14 +4,13 @@ import styled from "styled-components";
 type AboutProps = {
   aboutStatus: boolean;
   setAboutStatus: (status: boolean) => void;
-  [x: string]: any;
 };
 
 const About = forwardRef<HTMLDivElement, AboutProps>(
-  ({ aboutStatus, setAboutStatus, ...rest }, ref) => {
+  ({ aboutStatus, setAboutStatus }, ref) => {
     return (
       <>
-        <AboutContainer ref={ref} $aboutStatus={aboutStatus} {...rest}>
+        <AboutContainer ref={ref} $aboutStatus={aboutStatus}>
           <Header>Sobre este proyecto</Header>
           <P>
             Esta plataforma nace de un profundo respeto y admiración por la
@@ -67,6 +66,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
         <CloseButton
           $aboutStatus={aboutStatus}
           onClick={() => setAboutStatus(false)}
+          aria-label="Cerrar panel"
         >
           &times;
         </CloseButton>

@@ -1,20 +1,13 @@
-import React from "react";
+import { FC } from "react";
 import styled, { css, keyframes } from "styled-components";
-
-type SongType = {
-  name: string;
-  artist: string;
-  album: string;
-  cover: string;
-  color?: string | null;
-};
+import { SongType } from "../types/models";
 
 type SongProps = {
   currentSong: SongType;
   isPlaying: boolean;
 };
 
-const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
+const Song: FC<SongProps> = ({ currentSong, isPlaying }) => {
   return (
     <SongContainer>
       <ImgWrapper>
@@ -23,11 +16,7 @@ const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
           alt={currentSong.name}
           height={100}
           $isRotating={isPlaying}
-          $shadowColor={
-            currentSong.color && currentSong.color.length > 0
-              ? currentSong.color[currentSong.color.length - 1]
-              : "#f1d1f2"
-          }
+          $shadowColor={currentSong.color[currentSong.color.length - 1]}
         />
       </ImgWrapper>
       <SongInfo>

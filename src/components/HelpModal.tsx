@@ -11,17 +11,16 @@ import {
 interface HelpModalProps {
   isOpen: boolean;
   onClose: () => void;
-  [x: string]: any;
 }
 
-const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose, ...rest }) => {
+const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose }) => {
   return (
-    <ModalBackground $isOpen={isOpen} onClick={onClose} {...rest}>
+    <ModalBackground $isOpen={isOpen} onClick={onClose}>
       <ModalContent
         $isOpen={isOpen}
         onClick={(e: MouseEvent) => e.stopPropagation()}
       >
-        <CloseButton onClick={onClose}>
+        <CloseButton onClick={onClose} aria-label="Cerrar">
           <FontAwesomeIcon icon={faTimes} />
         </CloseButton>
         <h2>Atajos del Teclado</h2>

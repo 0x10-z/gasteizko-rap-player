@@ -6,7 +6,6 @@ type CreditProps = {
   aboutStatus: boolean;
   setAboutStatus: (status: boolean) => void;
   libraryStatus: boolean;
-  [x: string]: any;
 };
 
 const Credit: FC<CreditProps> = ({
@@ -14,13 +13,11 @@ const Credit: FC<CreditProps> = ({
   aboutStatus,
   setAboutStatus,
   libraryStatus,
-  ...rest
 }) => {
   return (
     <CreditContainer
       $aboutStatus={aboutStatus}
       $libraryStatus={libraryStatus}
-      {...rest}
     >
       <StyledSpan>{songsNumber} temas</StyledSpan>
       <LinksRow>
@@ -72,24 +69,24 @@ const LinksRow = styled.div`
 `;
 
 const Separator = styled.span`
-  color: rgb(200, 200, 200);
+  color: rgb(160, 160, 160);
   font-size: 0.7rem;
 `;
 
 const StyledLink = styled.a`
-  color: rgb(180, 180, 180);
+  color: rgb(130, 130, 130);
   font-size: 0.7rem;
   text-decoration: none;
   transition: color 0.2s ease;
   letter-spacing: 0.02em;
 
   &:hover {
-    color: rgb(100, 100, 100);
+    color: rgb(80, 80, 80);
   }
 `;
 
 const StyledSpan = styled.span`
-  color: rgb(190, 190, 190);
+  color: rgb(140, 140, 140);
   font-size: 0.7rem;
   letter-spacing: 0.02em;
 `;

@@ -1,7 +1,7 @@
-import React, { createContext, useContext, useRef, useState, useCallback } from "react";
+import { createContext, useContext, useRef, useState, useCallback, type RefObject } from "react";
 
 type AudioPlayerContextType = {
-  audioRef: React.RefObject<HTMLAudioElement | null>;
+  audioRef: RefObject<HTMLAudioElement | null>;
   isPlaying: boolean;
   play: () => void;
   pause: () => void;
@@ -19,7 +19,7 @@ export const useAudioPlayer = () => {
   return context;
 };
 
-export const AudioPlayerProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const AudioPlayerProvider = ({ children }: { children: React.ReactNode }) => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -27,7 +27,11 @@ export const AudioPlayerProvider: React.FC<{ children: React.ReactNode }> = ({ c
     if (audioRef.current) {
       const promise = audioRef.current.play();
       if (promise !== undefined) {
-        promise.catch(() => {});
+        promise.catch((err: DOMException) => {
+          if (err.name !== "AbortError") {
+            console.error("Audio playback failed:", err);
+          }
+        });
       }
       setIsPlaying(true);
     }

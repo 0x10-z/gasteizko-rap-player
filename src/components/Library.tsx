@@ -1,5 +1,4 @@
-import { useState, useRef, useEffect, useMemo, useCallback, forwardRef } from "react";
-import React from "react";
+import { useState, useRef, useEffect, useMemo, useCallback, forwardRef, memo } from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
 import { useVirtualizer } from "@tanstack/react-virtual";
@@ -12,7 +11,6 @@ type LibraryProps = {
   setSongs: (songs: SongType[]) => void;
   setLibraryStatus: (status: boolean) => void;
   libraryStatus: boolean;
-  [x: string]: any;
 };
 
 const Library = forwardRef<HTMLDivElement, LibraryProps>(
@@ -23,7 +21,6 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
       setSongs,
       setLibraryStatus,
       libraryStatus,
-      ...rest
     },
     ref
   ) => {
@@ -72,7 +69,6 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
         ref={ref}
         $libraryStatus={libraryStatus}
         onClick={(e) => e.stopPropagation()}
-        {...rest}
       >
         <Header>
           <HeaderTitle>Tracklist</HeaderTitle>
@@ -86,7 +82,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
             onChange={(e) => setSearchTerm(e.target.value)}
             ref={inputRef}
           />
-          <CloseButton onClick={() => setLibraryStatus(false)}>
+          <CloseButton onClick={() => setLibraryStatus(false)} aria-label="Cerrar tracklist">
             <CloseIcon>&times;</CloseIcon>
           </CloseButton>
         </StickyHeader>
@@ -248,4 +244,4 @@ const CloseIcon = styled.span`
   line-height: 1;
 `;
 
-export default React.memo(Library);
+export default memo(Library);

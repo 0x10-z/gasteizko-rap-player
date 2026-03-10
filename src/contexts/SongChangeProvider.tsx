@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from "react";
+import { createContext, useContext, type ReactNode } from "react";
 
 type SongChangeContextType = {
   changeSong: (direction: "forward" | "backward") => Promise<void>;
@@ -18,13 +18,13 @@ export const useSongChange = () => {
 
 type SongChangeProviderProps = {
   changeSong: (direction: "forward" | "backward") => Promise<void>;
-  children: React.ReactNode; // Añade esta línea
+  children: ReactNode;
 };
 
-export const SongChangeProvider: React.FC<SongChangeProviderProps> = ({
+export const SongChangeProvider = ({
   changeSong,
   children,
-}) => {
+}: SongChangeProviderProps) => {
   return (
     <SongChangeContext.Provider value={{ changeSong }}>
       {children}
