@@ -33,7 +33,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
   ) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
 
-    const filteredSongs = songs.filter((song) => {
+    const filteredSongs = songs.filter((song: SongType) => {
       const searchTermLower = searchTerm.toLowerCase();
       return (
         song.name.toLowerCase().includes(searchTermLower) ||
