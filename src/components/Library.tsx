@@ -1,12 +1,10 @@
-import { useState, useRef, useEffect, forwardRef } from "react";
+import { useState, useRef, useEffect, forwardRef, useCallback } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
-import { List, AutoSizer as _AutoSizer, ListRowProps, AutoSizerProps } from "react-virtualized";
+import { useVirtualizer } from "@tanstack/react-virtual";
 import { SongType } from "../types/models";
 import { isMobileDevice } from "../utils";
-
-const AutoSizer = _AutoSizer as unknown as React.ComponentType<AutoSizerProps>;
 
 type LibraryProps = {
   songs: SongType[];
@@ -45,34 +43,28 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     });
 
     const inputRef = useRef<HTMLInputElement>(null);
-    const [currentSongIndex, setCurrentSongIndex] = useState<number>(
-      filteredSongs.findIndex((song: SongType) => song.active)
-    );
+    const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+    const virtualizer = useVirtualizer({
+      count: filteredSongs.length,
+      getScrollElement: () => scrollContainerRef.current,
+      estimateSize: useCallback(() => 80, []),
+      overscan: 5,
+    });
 
     useEffect(() => {
       if (libraryStatus) {
-        setCurrentSongIndex(filteredSongs.findIndex((song: SongType) => song.active));
+        const activeIndex = filteredSongs.findIndex(
+          (song: SongType) => song.active
+        );
+        if (activeIndex >= 0) {
+          virtualizer.scrollToIndex(activeIndex, { align: "center" });
+        }
         if (inputRef.current && !isMobileDevice()) {
           inputRef.current.focus();
         }
       }
-    }, [libraryStatus, filteredSongs]);
-
-    const rowRenderer = ({ index, key, style }: ListRowProps) => {
-      const song = filteredSongs[index];
-      return (
-        <div key={key} style={{ ...style, cursor: "pointer" }}>
-          <LibrarySong
-            song={song}
-            songs={songs}
-            setCurrentSong={setCurrentSong}
-            audioRef={audioRef}
-            isPlaying={isPlaying}
-            setSongs={setSongs}
-          />
-        </div>
-      );
-    };
+    }, [libraryStatus, filteredSongs, virtualizer]);
 
     return (
       <LibraryContainer
@@ -97,43 +89,33 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
             <CloseIcon>&times;</CloseIcon>
           </CloseButton>
         </StickyHeader>
-        <SongContainer>
-          <AutoSizer>
-            {({ height, width }: { height: number; width: number }) => (
-              <StyledList
-                width={width}
-                height={height}
-                rowCount={filteredSongs.length}
-                rowHeight={80}
-                rowRenderer={rowRenderer}
-                scrollToIndex={currentSongIndex}
-              />
-            )}
-          </AutoSizer>
+        <SongContainer ref={scrollContainerRef}>
+          <VirtualList $height={virtualizer.getTotalSize()}>
+            {virtualizer.getVirtualItems().map((virtualRow) => {
+              const song = filteredSongs[virtualRow.index];
+              return (
+                <VirtualRow
+                  key={virtualRow.key}
+                  $start={virtualRow.start}
+                  $size={virtualRow.size}
+                >
+                  <LibrarySong
+                    song={song}
+                    songs={songs}
+                    setCurrentSong={setCurrentSong}
+                    audioRef={audioRef}
+                    isPlaying={isPlaying}
+                    setSongs={setSongs}
+                  />
+                </VirtualRow>
+              );
+            })}
+          </VirtualList>
         </SongContainer>
       </LibraryContainer>
     );
   }
 );
-
-const StyledList = styled(List)`
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
-
-  &::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
-    border: transparent;
-  }
-`;
 
 const LibraryContainer = styled.div<{ $libraryStatus: boolean }>`
   display: flex;
@@ -160,6 +142,37 @@ const LibraryContainer = styled.div<{ $libraryStatus: boolean }>`
 const SongContainer = styled.div`
   flex: 1;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+  }
+`;
+
+const VirtualList = styled.div<{ $height: number }>`
+  height: ${(p) => p.$height}px;
+  width: 100%;
+  position: relative;
+`;
+
+const VirtualRow = styled.div<{ $start: number; $size: number }>`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: ${(p) => p.$size}px;
+  transform: translateY(${(p) => p.$start}px);
+  cursor: pointer;
 `;
 
 const Header = styled.div`
