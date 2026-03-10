@@ -46,7 +46,7 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
     const curSong = song;
     const songList = songs;
 
-    const newSongs = songList.map((song) => {
+    const newSongs = songList.map((song: SongType) => {
       if (song.id === curSong.id) {
         return {
           ...song,

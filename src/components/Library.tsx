@@ -44,12 +44,12 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
 
     const inputRef = useRef<HTMLInputElement>(null);
     const [currentSongIndex, setCurrentSongIndex] = useState<number>(
-      filteredSongs.findIndex((song) => song.active)
+      filteredSongs.findIndex((song: SongType) => song.active)
     );
 
     useEffect(() => {
       if (libraryStatus) {
-        setCurrentSongIndex(filteredSongs.findIndex((song) => song.active));
+        setCurrentSongIndex(filteredSongs.findIndex((song: SongType) => song.active));
         if (inputRef.current && !isMobileDevice()) {
           inputRef.current.focus();
         }
