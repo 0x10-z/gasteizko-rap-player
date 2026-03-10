@@ -2,9 +2,11 @@ import { useState, useRef, useEffect, forwardRef } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
-import { List, AutoSizer, ListRowProps } from "react-virtualized";
+import { List, AutoSizer as _AutoSizer, ListRowProps, AutoSizerProps } from "react-virtualized";
 import { SongType } from "../types/models";
 import { isMobileDevice } from "../utils";
+
+const AutoSizer = _AutoSizer as unknown as React.ComponentType<AutoSizerProps>;
 
 type LibraryProps = {
   songs: SongType[];
