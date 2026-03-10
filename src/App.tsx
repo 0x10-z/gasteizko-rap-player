@@ -11,6 +11,7 @@ import Credit from "./components/Credit";
 import HelpModal from "./components/HelpModal";
 import tracklist from "./tracklist.json";
 import { SongChangeProvider } from "./contexts/SongChangeProvider";
+import { useAudioPlayer } from "./contexts/AudioPlayerContext";
 import { customToast } from "./components/CustomToast";
 import { prettifyString, getAudioSrc } from "./utils";
 import { SongType, SongInfoType } from "./types/models";
@@ -22,8 +23,9 @@ const App: React.FC = () => {
 
   const location = useLocation();
 
+  const { audioRef, isPlaying, play, pause, setIsPlaying } = useAudioPlayer();
+
   // Refs
-  const audioRef = useRef<HTMLAudioElement | null>(null);
   const libraryRef = useRef<HTMLDivElement | null>(null);
   const aboutRef = useRef<HTMLDivElement | null>(null);
 
@@ -33,7 +35,6 @@ const App: React.FC = () => {
   const [songs, setSongs] = useState<SongType[]>(tracklist);
   const [currentSong, setCurrentSong] = useState<SongType | null>(null);
 
-  const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [libraryStatus, setLibraryStatus] = useState<boolean>(false);
   const [aboutStatus, setAboutStatus] = useState<boolean>(false);
   const [songInfo, setSongInfo] = useState<SongInfoType>({
@@ -80,10 +81,8 @@ const App: React.FC = () => {
       let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
       let nextSong = songs[(currentIndex + 1) % songs.length];
       await updateActiveSongs(nextSong);
-      if (isPlaying && audioRef.current) {
-        audioRef.current.play().catch((error) => {
-          console.error("Error al reproducir el audio:", error);
-        });
+      if (isPlaying) {
+        play();
       }
     }
   };
@@ -154,7 +153,6 @@ const App: React.FC = () => {
     }
 
     if (!currentSong) {
-      // Asegura que se establezca solo si currentSong es null al inicio.
       setCurrentSong(determineInitialSong());
     }
   }, [currentSong, location.pathname, songs]);
@@ -184,29 +182,29 @@ const App: React.FC = () => {
         updateActiveSongs(nextSong);
 
         if (audioRef.current) {
-          // Pausar el audio actual
-          audioRef.current.pause();
+          pause();
 
-          // Cambiar el src del audio al de la siguiente canción
-          audioRef.current.src = getAudioSrc(nextSong); // Asumiendo que tienes una función getAudioSrc que obtiene la URL del audio
+          audioRef.current.src = getAudioSrc(nextSong);
 
-          // Añadir un pequeño retraso antes de intentar reproducir el nuevo audio
           setTimeout(() => {
-            audioRef.current?.play().catch((error) => {
-              if (error.name === "AbortError") {
-                console.warn("Play was aborted:", error);
-              } else {
-                customToast.error("Upss! algo está pasando.", {
-                  trace: error.toString(),
+            if (audioRef.current) {
+              const promise = audioRef.current.play();
+              if (promise !== undefined) {
+                promise.catch((error) => {
+                  if (error.name !== "AbortError") {
+                    customToast.error("Upss! algo está pasando.", {
+                      trace: error.toString(),
+                    });
+                  }
+                  setIsPlaying(false);
                 });
               }
-              setIsPlaying(false);
-            });
+            }
           }, 100);
         }
       }
     },
-    [songs, currentSong, audioRef, updateActiveSongs]
+    [songs, currentSong, audioRef, updateActiveSongs, pause, setIsPlaying]
   );
 
   useEffect(() => {
@@ -228,27 +226,24 @@ const App: React.FC = () => {
               { src: currentSong.cover, sizes: "128x128", type: "image/webp" },
             ],
           });
-          // Definir acciones de los botones
           navigator.mediaSession.setActionHandler("play", () => {
-            if (audioRef.current) audioRef.current.play();
+            play();
           });
           navigator.mediaSession.setActionHandler("pause", () => {
-            if (audioRef.current) audioRef.current.pause();
+            pause();
           });
           navigator.mediaSession.setActionHandler("previoustrack", () => {
             changeSong("backward");
-            if (audioRef.current) audioRef.current.play();
           });
           navigator.mediaSession.setActionHandler("nexttrack", () => {
             changeSong("forward");
-            if (audioRef.current) audioRef.current.play();
           });
         }
       }
     }
 
     updateMediaSession();
-  }, [currentSong, changeSong]);
+  }, [currentSong, changeSong, play, pause]);
 
   // Render
   return (
@@ -268,10 +263,7 @@ const App: React.FC = () => {
           <Song currentSong={currentSong} isPlaying={isPlaying} />
           <Player
             data-testid="player"
-            isPlaying={isPlaying}
-            setIsPlaying={setIsPlaying}
             currentSong={currentSong}
-            audioRef={audioRef}
             songInfo={songInfo}
             setSongInfo={setSongInfo}
             setIsShortcutsModalOpen={setIsShortcutsModalOpen}
@@ -288,13 +280,11 @@ const App: React.FC = () => {
             onTimeUpdate={updateTimeHandler}
             onEnded={songEndHandler}
             onCanPlayThrough={() => {
-              if (isPlaying && audioRef.current) {
-                audioRef.current.play().catch((error) => {
-                  console.error("Error al reproducir el audio:", error);
-                });
+              if (isPlaying) {
+                play();
               }
             }}
-            ref={audioRef}
+            ref={audioRef as React.RefObject<HTMLAudioElement>}
             src={getAudioSrc(currentSong)}
           />
         </AppContainer>
@@ -303,8 +293,6 @@ const App: React.FC = () => {
           ref={libraryRef}
           songs={songs}
           setCurrentSong={setCurrentSong}
-          audioRef={audioRef}
-          isPlaying={isPlaying}
           setSongs={setSongs}
           setLibraryStatus={setLibraryStatus}
           libraryStatus={libraryStatus}

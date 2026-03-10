@@ -11,6 +11,7 @@ import {
 import styled, { keyframes } from "styled-components";
 import useKeyboardControls from "../hooks/useKeyboardControls";
 import { useSongChange } from "../contexts/SongChangeProvider";
+import { useAudioPlayer } from "../contexts/AudioPlayerContext";
 
 const typingDots = keyframes`
   0%, 20% {
@@ -26,9 +27,6 @@ const typingDots = keyframes`
 
 type PlayerProps = {
   currentSong: any;
-  isPlaying: boolean;
-  setIsPlaying: (isPlaying: boolean) => void;
-  audioRef: any;
   songInfo: any;
   setSongInfo: (songInfo: any) => void;
   setIsShortcutsModalOpen: (isOpen: boolean) => void;
@@ -37,25 +35,13 @@ type PlayerProps = {
 
 const Player: FC<PlayerProps> = ({
   currentSong,
-  isPlaying,
-  setIsPlaying,
-  audioRef,
   songInfo,
   setSongInfo,
   setIsShortcutsModalOpen,
   ...rest
 }) => {
   const { changeSong } = useSongChange();
-
-  const playSongHandler = useCallback(() => {
-    if (isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(!isPlaying);
-    } else {
-      audioRef.current.play();
-      setIsPlaying(!isPlaying);
-    }
-  }, [isPlaying, audioRef, setIsPlaying]);
+  const { audioRef, isPlaying, toggle } = useAudioPlayer();
 
   const skipTrackHandler = useCallback(
     async (direction: "skip-forward" | "skip-back") => {
@@ -69,7 +55,7 @@ const Player: FC<PlayerProps> = ({
   );
 
   const { handleKeyDown, handleKeyUp } = useKeyboardControls(
-    playSongHandler,
+    toggle,
     skipTrackHandler,
     audioRef
   );
@@ -98,7 +84,7 @@ const Player: FC<PlayerProps> = ({
   };
 
   const dragHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
-    audioRef.current.currentTime = e.target.value;
+    audioRef.current!.currentTime = Number(e.target.value);
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
@@ -144,7 +130,7 @@ const Player: FC<PlayerProps> = ({
           size="2x"
         />
         <PlayButton
-          onClick={playSongHandler}
+          onClick={toggle}
           $color1={color1}
           $color2={color2}
         >

@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { AudioPlayerProvider } from "./contexts/AudioPlayerContext";
 
 WebFontLoader.load({
   google: {
@@ -21,11 +22,13 @@ const appRoot = ReactDOM.createRoot(root as HTMLElement);
 appRoot.render(
   <ThemeProvider>
     <React.StrictMode>
-      <ToastContainer />
-      <Analytics />
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <AudioPlayerProvider>
+        <ToastContainer />
+        <Analytics />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </AudioPlayerProvider>
     </React.StrictMode>
   </ThemeProvider>
 );

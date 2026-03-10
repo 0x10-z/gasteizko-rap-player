@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, forwardRef, useCallback } from "react";
+import { useState, useRef, useEffect, useMemo, useCallback, forwardRef } from "react";
 import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
@@ -9,8 +9,6 @@ import { isMobileDevice } from "../utils";
 type LibraryProps = {
   songs: SongType[];
   setCurrentSong: (song: SongType) => void;
-  audioRef: React.RefObject<HTMLAudioElement>;
-  isPlaying: boolean;
   setSongs: (songs: SongType[]) => void;
   setLibraryStatus: (status: boolean) => void;
   libraryStatus: boolean;
@@ -22,8 +20,6 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
     {
       songs,
       setCurrentSong,
-      audioRef,
-      isPlaying,
       setSongs,
       setLibraryStatus,
       libraryStatus,
@@ -33,14 +29,18 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
   ) => {
     const [searchTerm, setSearchTerm] = useState<string>("");
 
-    const filteredSongs = songs.filter((song: SongType) => {
-      const searchTermLower = searchTerm.toLowerCase();
-      return (
-        song.name.toLowerCase().includes(searchTermLower) ||
-        song.artist.toLowerCase().includes(searchTermLower) ||
-        song.album.toLowerCase().includes(searchTermLower)
-      );
-    });
+    const filteredSongs = useMemo(
+      () =>
+        songs.filter((song: SongType) => {
+          const searchTermLower = searchTerm.toLowerCase();
+          return (
+            song.name.toLowerCase().includes(searchTermLower) ||
+            song.artist.toLowerCase().includes(searchTermLower) ||
+            song.album.toLowerCase().includes(searchTermLower)
+          );
+        }),
+      [songs, searchTerm]
+    );
 
     const inputRef = useRef<HTMLInputElement>(null);
     const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -64,7 +64,8 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
           inputRef.current.focus();
         }
       }
-    }, [libraryStatus, filteredSongs, virtualizer]);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [libraryStatus]);
 
     return (
       <LibraryContainer
@@ -90,27 +91,38 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
           </CloseButton>
         </StickyHeader>
         <SongContainer ref={scrollContainerRef}>
-          <VirtualList $height={virtualizer.getTotalSize()}>
+          <div
+            style={{
+              height: `${virtualizer.getTotalSize()}px`,
+              width: "100%",
+              position: "relative",
+            }}
+          >
             {virtualizer.getVirtualItems().map((virtualRow) => {
               const song = filteredSongs[virtualRow.index];
               return (
-                <VirtualRow
+                <div
                   key={virtualRow.key}
-                  $start={virtualRow.start}
-                  $size={virtualRow.size}
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: `${virtualRow.size}px`,
+                    transform: `translateY(${virtualRow.start}px)`,
+                    cursor: "pointer",
+                  }}
                 >
                   <LibrarySong
                     song={song}
                     songs={songs}
                     setCurrentSong={setCurrentSong}
-                    audioRef={audioRef}
-                    isPlaying={isPlaying}
                     setSongs={setSongs}
                   />
-                </VirtualRow>
+                </div>
               );
             })}
-          </VirtualList>
+          </div>
         </SongContainer>
       </LibraryContainer>
     );
@@ -159,21 +171,6 @@ const SongContainer = styled.div`
   }
 `;
 
-const VirtualList = styled.div<{ $height: number }>`
-  height: ${(p) => p.$height}px;
-  width: 100%;
-  position: relative;
-`;
-
-const VirtualRow = styled.div<{ $start: number; $size: number }>`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: ${(p) => p.$size}px;
-  transform: translateY(${(p) => p.$start}px);
-  cursor: pointer;
-`;
 
 const Header = styled.div`
   display: flex;

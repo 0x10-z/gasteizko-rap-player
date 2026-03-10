@@ -1,12 +1,11 @@
-import { useState, RefObject } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { SongType } from "../types/models";
+import { useAudioPlayer } from "../contexts/AudioPlayerContext";
 
 type LibrarySongProps = {
   song: SongType;
   setCurrentSong: (song: SongType) => void;
-  audioRef: RefObject<HTMLAudioElement>;
-  isPlaying: boolean;
   songs: SongType[];
   setSongs: (songs: SongType[]) => void;
 };
@@ -34,12 +33,11 @@ const Spinner = styled.div`
 const LibrarySong: React.FC<LibrarySongProps> = ({
   song,
   setCurrentSong,
-  audioRef,
-  isPlaying,
   songs,
   setSongs,
 }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const { isPlaying, play } = useAudioPlayer();
 
   const songSelectHandler = async () => {
     await setCurrentSong(song);
@@ -61,8 +59,8 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
     });
     setSongs(newSongs);
 
-    if (isPlaying && audioRef.current) {
-      audioRef.current.play();
+    if (isPlaying) {
+      play();
     }
   };
   return (
