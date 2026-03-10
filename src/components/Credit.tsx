@@ -27,11 +27,11 @@ const Credit: FC<CreditProps> = ({
           href="https://github.com/0x10-z/gasteizko-rap-player/"
           target="_blank"
         >
-          Código en Github
+          Github
         </StyledLink>
       </LeftContainer>
       <CenterContainer>
-        <StyledSpan>{songsNumber} temas cargados</StyledSpan>
+        <StyledSpan>{songsNumber} temas</StyledSpan>
         <StyledSpan>v{process.env.REACT_APP_BUILD_DATE}</StyledSpan>
       </CenterContainer>
       <RightContainer>
@@ -53,31 +53,41 @@ const CreditContainer = styled.div<{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 20px;
-  bottom: 20px;
+  padding: 0 24px;
+  bottom: 16px;
   z-index: 12;
   opacity: ${(p) => (p.$aboutStatus || p.$libraryStatus ? "0" : "1")};
   transition: opacity 0.3s ease;
+  pointer-events: ${(p) =>
+    p.$aboutStatus || p.$libraryStatus ? "none" : "auto"};
 `;
 
 const LeftContainer = styled.div``;
 
 const CenterContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  gap: 0.75rem;
   align-items: center;
 `;
 
 const RightContainer = styled.div``;
 
 const StyledLink = styled.a`
-  color: rgb(155, 155, 155);
-  font-size: 0.75rem;
+  color: rgb(180, 180, 180);
+  font-size: 0.7rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    color: rgb(100, 100, 100);
+  }
 `;
 
 const StyledSpan = styled.span`
-  color: rgb(155, 155, 155);
-  font-size: 0.75rem;
+  color: rgb(190, 190, 190);
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
 `;
 
 export default Credit;

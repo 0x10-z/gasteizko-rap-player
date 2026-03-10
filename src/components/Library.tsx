@@ -79,7 +79,10 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
         onClick={(e) => e.stopPropagation()}
         {...rest}
       >
-        <H1>Tracklist</H1>
+        <Header>
+          <HeaderTitle>Tracklist</HeaderTitle>
+          <SongCount>{filteredSongs.length} temas</SongCount>
+        </Header>
         <StickyHeader>
           <SearchInput
             type="text"
@@ -88,7 +91,9 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
             onChange={(e) => setSearchTerm(e.target.value)}
             ref={inputRef}
           />
-          <CloseButton onClick={() => setLibraryStatus(false)}>X</CloseButton>
+          <CloseButton onClick={() => setLibraryStatus(false)}>
+            <CloseIcon>&times;</CloseIcon>
+          </CloseButton>
         </StickyHeader>
         <SongContainer>
           <AutoSizer>
@@ -97,7 +102,7 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
                 width={width}
                 height={height}
                 rowCount={filteredSongs.length}
-                rowHeight={100}
+                rowHeight={80}
                 rowRenderer={rowRenderer}
                 scrollToIndex={currentSongIndex}
               />
@@ -111,10 +116,10 @@ const Library = forwardRef<HTMLDivElement, LibraryProps>(
 
 const StyledList = styled(List)`
   scrollbar-width: thin;
-  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
 
   &::-webkit-scrollbar {
-    width: 15px;
+    width: 6px;
   }
 
   &::-webkit-scrollbar-track {
@@ -122,7 +127,7 @@ const StyledList = styled(List)`
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: rgba(155, 155, 155, 0.5);
+    background-color: rgba(0, 0, 0, 0.12);
     border-radius: 20px;
     border: transparent;
   }
@@ -135,13 +140,16 @@ const LibraryContainer = styled.div<{ $libraryStatus: boolean }>`
   z-index: 99;
   top: 0;
   left: 0;
-  width: 20rem;
+  width: 22rem;
   height: 100%;
-  background-color: white;
-  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.08);
   transform: translateX(${(p) => (p.$libraryStatus ? "0%" : "-100%")});
-  transition: all 0.5s ease;
-  opacity: ${(p) => (p.$libraryStatus ? "100" : "0")};
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: ${(p) => (p.$libraryStatus ? "1" : "0")};
   @media screen and (max-width: 768px) {
     width: 100%;
   }
@@ -150,14 +158,24 @@ const LibraryContainer = styled.div<{ $libraryStatus: boolean }>`
 const SongContainer = styled.div`
   flex: 1;
   overflow-y: auto;
-  background-color: white;
 `;
 
-const H1 = styled.h2`
-  padding: 1rem;
-  margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.25rem 1.25rem 0.75rem;
+`;
+
+const HeaderTitle = styled.h2`
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(30, 30, 30);
+`;
+
+const SongCount = styled.span`
+  font-size: 0.8rem;
+  color: rgb(155, 155, 155);
 `;
 
 const StickyHeader = styled.div`
@@ -166,36 +184,56 @@ const StickyHeader = styled.div`
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: white;
   z-index: 10;
-  padding: 0.5rem 1rem;
+  padding: 0 1.25rem 1rem;
+  gap: 0.75rem;
 `;
 
 const SearchInput = styled.input`
   flex: 1;
-  padding: 0.5rem;
-  margin-right: 1rem;
-  border: 1px solid rgba(155, 155, 155, 0.5);
-  border-radius: 5px;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.03);
+  color: rgb(30, 30, 30);
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  outline: none;
+
+  &::placeholder {
+    color: rgb(180, 180, 180);
+  }
+
   &:focus {
-    border-color: rgba(155, 155, 155, 0.8);
+    border-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.05);
   }
 `;
 
 const CloseButton = styled.button`
-  background-color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.06);
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
-  color: white;
+  color: rgb(120, 120, 120);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  transition: background-color 0.3s ease;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.12);
+    color: rgb(30, 30, 30);
   }
+`;
+
+const CloseIcon = styled.span`
+  font-size: 1.4rem;
+  line-height: 1;
 `;
 
 export default React.memo(Library);

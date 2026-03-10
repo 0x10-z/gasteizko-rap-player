@@ -12,7 +12,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
     return (
       <>
         <AboutContainer ref={ref} $aboutStatus={aboutStatus} {...rest}>
-          <H1>Sobre este proyecto</H1>
+          <Header>Sobre este proyecto</Header>
           <P>
             Esta plataforma nace de un profundo respeto y admiración por la
             música rap que resonó en Vitoria y sus alrededores durante los años
@@ -36,7 +36,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
             </Remark>
             , y atenderemos su petición de inmediato.
           </P>
-          <H2>Motivación detrás del proyecto</H2>
+          <SectionTitle>Motivación detrás del proyecto</SectionTitle>
           <P>
             La música tiene el poder de transportarnos en el tiempo, de revivir
             emociones y momentos que creíamos olvidados. Con esta plataforma,
@@ -45,7 +45,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
             reencontrarse con aquellas canciones que marcaron una era dorada del
             rap en la región.
           </P>
-          <H2>Sobre los archivos y su formato</H2>
+          <SectionTitle>Sobre los archivos y su formato</SectionTitle>
           <P>
             Conscientes de la importancia de la eficiencia y el respeto por el
             consumo de datos en la era digital, hemos optado por exportar todos
@@ -54,7 +54,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
             mantiene un tamaño de archivo reducido, garantizando así una
             experiencia de usuario óptima.
           </P>
-          <H2>Tecnología y diseño</H2>
+          <SectionTitle>Tecnología y diseño</SectionTitle>
           <P>
             Esta web ha sido desarrollada utilizando{" "}
             <Remark href="#">React</Remark>, una de las bibliotecas más
@@ -68,7 +68,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
           $aboutStatus={aboutStatus}
           onClick={() => setAboutStatus(false)}
         >
-          X
+          &times;
         </CloseButton>
       </>
     );
@@ -77,72 +77,76 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
 
 const Remark = styled.a`
   font-style: normal;
-  background: #414141;
-  color: #fff;
-  padding: 0 0.25rem;
-  text-decoration:none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  margin:.25rem;
+  background: rgba(0, 0, 0, 0.06);
+  color: rgb(30, 30, 30);
+  padding: 0.1rem 0.35rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  margin: 0 0.15rem;
 
   &:hover {
-    background: #d9d9d9;
-    color: #414141;
+    background: rgba(0, 0, 0, 0.12);
   }
-}
 `;
 
 const AboutContainer = styled.div<{ $aboutStatus: boolean }>`
   position: fixed;
   z-index: 99;
-  background: white;
   top: 0;
   right: 0;
-  width: 30rem; // Aumentar el ancho
+  width: 28rem;
   height: 100%;
-  background-color: white;
-  box-shadow: -2px 2px 50px rgb(204, 204, 204); // Change shadow direction
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border-left: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
   user-select: none;
-  overflow: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
-  transform: translateX(
-    ${(p) => (p.$aboutStatus ? "0%" : "100%")}
-  ); // Modify transform for right side
-  transition: all 0.5s ease;
-  opacity: ${(p) => (p.$aboutStatus ? "100" : "0")};
+  transform: translateX(${(p) => (p.$aboutStatus ? "0%" : "100%")});
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: ${(p) => (p.$aboutStatus ? "1" : "0")};
   scrollbar-width: thin;
-  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+  scrollbar-color: rgba(0, 0, 0, 0.12) transparent;
+
   &::-webkit-scrollbar {
-    width: 15px;
+    width: 6px;
   }
   &::-webkit-scrollbar-track {
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: rgba(155, 155, 155, 0.5);
+    background-color: rgba(0, 0, 0, 0.12);
     border-radius: 20px;
-    border: transparent;
   }
+
   @media screen and (max-width: 768px) {
     width: 100%;
     z-index: 9;
   }
 `;
 
-const H1 = styled.h2`
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+const Header = styled.h2`
+  padding: 1.5rem 1.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(30, 30, 30);
 `;
 
-const H2 = styled.h3`
-  padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+const SectionTitle = styled.h3`
+  padding: 1.25rem 1.5rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(60, 60, 60);
 `;
 
 const P = styled.p`
-  margin: 1rem 2rem;
-  line-height: 1.5;
+  margin: 0.5rem 1.5rem 1rem;
+  line-height: 1.7;
+  font-size: 0.9rem;
+  color: rgb(120, 120, 120);
 `;
 
 const CloseButton = styled.button<{ $aboutStatus: boolean }>`
@@ -150,21 +154,22 @@ const CloseButton = styled.button<{ $aboutStatus: boolean }>`
   bottom: 2rem;
   z-index: 100;
   right: 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.06);
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: white;
+  color: rgb(100, 100, 100);
   display: ${(p) => (p.$aboutStatus ? "flex" : "none")};
   border-radius: 50%;
   width: 40px;
   height: 40px;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: all 0.2s ease;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.12);
+    color: rgb(30, 30, 30);
   }
 `;
 

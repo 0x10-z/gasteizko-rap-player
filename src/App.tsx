@@ -254,9 +254,8 @@ const App: React.FC = () => {
   return (
     <SongChangeProvider changeSong={changeSong}>
       {currentSong && (
+        <>
         <AppContainer
-          $libraryStatus={libraryStatus}
-          $aboutStatus={aboutStatus}
           $backgroundImage={currentSong.cover}
           onClick={handleClickOutsideReact}
         >
@@ -277,34 +276,12 @@ const App: React.FC = () => {
             setSongInfo={setSongInfo}
             setIsShortcutsModalOpen={setIsShortcutsModalOpen}
           />
-          <Library
-            data-testid="library"
-            ref={libraryRef}
-            songs={songs}
-            setCurrentSong={setCurrentSong}
-            audioRef={audioRef}
-            isPlaying={isPlaying}
-            setSongs={setSongs}
-            setLibraryStatus={setLibraryStatus}
-            libraryStatus={libraryStatus}
-          />
-          <About
-            data-testid="about"
-            ref={aboutRef}
-            aboutStatus={aboutStatus}
-            setAboutStatus={setAboutStatus}
-          />
           <Credit
             data-testid="credit"
             songsNumber={songs.length}
             aboutStatus={aboutStatus}
             setAboutStatus={setAboutStatus}
             libraryStatus={libraryStatus}
-          />
-          <HelpModal
-            data-testid="help-modal"
-            isOpen={isShortcutsModalOpen}
-            onClose={() => setIsShortcutsModalOpen(false)}
           />
           <audio
             onLoadedMetadata={updateTimeHandler}
@@ -321,24 +298,61 @@ const App: React.FC = () => {
             src={getAudioSrc(currentSong)}
           />
         </AppContainer>
+        <Library
+          data-testid="library"
+          ref={libraryRef}
+          songs={songs}
+          setCurrentSong={setCurrentSong}
+          audioRef={audioRef}
+          isPlaying={isPlaying}
+          setSongs={setSongs}
+          setLibraryStatus={setLibraryStatus}
+          libraryStatus={libraryStatus}
+        />
+        <About
+          data-testid="about"
+          ref={aboutRef}
+          aboutStatus={aboutStatus}
+          setAboutStatus={setAboutStatus}
+        />
+        <HelpModal
+          data-testid="help-modal"
+          isOpen={isShortcutsModalOpen}
+          onClose={() => setIsShortcutsModalOpen(false)}
+        />
+        </>
       )}
     </SongChangeProvider>
   );
 };
 
 const AppContainer = styled.div<{
-  $libraryStatus: boolean;
-  $aboutStatus: boolean;
   $backgroundImage: string;
 }>`
-  transition: all 0.5s ease;
-  margin-left: ${(p) => (p.$libraryStatus ? "20rem" : "0")};
-  margin-right: ${(p) => (p.$aboutStatus ? "20rem" : "0")};
   height: 100vh;
   overflow: hidden;
-  @media screen and (max-width: 768px) {
-    margin-left: 0;
-    margin-right: 0;
+  position: relative;
+  background: #fff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: url(${(p) => p.$backgroundImage});
+    background-size: cover;
+    background-position: center;
+    filter: blur(100px) saturate(1.8) brightness(1.1);
+    opacity: 0.25;
+    transition: background-image 0.8s ease;
+    z-index: 0;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
   }
 `;
 

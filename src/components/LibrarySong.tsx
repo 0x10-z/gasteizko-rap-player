@@ -12,13 +12,14 @@ type LibrarySongProps = {
 };
 
 const Spinner = styled.div`
-  border: 4px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.08);
   border-radius: 50%;
-  border-top: 4px solid #000;
-  width: 60px;
-  height: 60px;
+  border-top: 3px solid rgb(80, 80, 80);
+  width: 48px;
+  height: 48px;
   animation: spin 1s linear infinite;
-  margin: 20px 0;
+  margin: 16px 0;
+  flex-shrink: 0;
 
   @keyframes spin {
     0% {
@@ -40,7 +41,6 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
 }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  // Function
   const songSelectHandler = async () => {
     await setCurrentSong(song);
     const curSong = song;
@@ -61,7 +61,6 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
     });
     setSongs(newSongs);
 
-    // check if user is wanting to play a song.
     if (isPlaying && audioRef.current) {
       audioRef.current.play();
     }
@@ -75,69 +74,76 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
         height={100}
         onLoad={() => setImageLoaded(true)}
         loading="lazy"
+        $loaded={imageLoaded}
       />
       <LibrarySongDescription>
-        <H1 className="text-ellipsis">{song.name}</H1>
-        <H2 className="text-ellipsis">{song.artist}</H2>
+        <SongName className="text-ellipsis">{song.name}</SongName>
+        <SongDetail className="text-ellipsis">{song.artist}</SongDetail>
         {song.artist !== song.album && (
-          <H2 className="text-ellipsis">{song.album}</H2>
+          <SongDetail className="text-ellipsis">{song.album}</SongDetail>
         )}
       </LibrarySongDescription>
     </LibrarySongContainer>
   );
 };
+
 const LibrarySongContainer = styled.div<{ $isActive: boolean }>`
-  padding: 0 2rem 0 2rem;
-  height: 100px;
+  padding: 0 1.25rem;
+  height: 80px;
   width: 100%;
   display: flex;
-  transition: all 0.3s ease;
-  background-color: ${(p) => (p.$isActive ? "pink" : "white")};
+  align-items: center;
+  gap: 0.75rem;
+  transition: background-color 0.2s ease;
+  background-color: ${(p) =>
+    p.$isActive ? "rgba(0, 0, 0, 0.06)" : "transparent"};
+  border-left: ${(p) =>
+    p.$isActive ? "3px solid rgb(80, 80, 80)" : "3px solid transparent"};
+
   &:hover {
-    background-color: lightblue;
-    transition: all 0.3s ease;
-  }
-  &.active {
-    background-color: pink;
+    background-color: rgba(0, 0, 0, 0.04);
   }
 
   &:hover .text-ellipsis {
     overflow: visible;
     white-space: normal;
-    max-width: auto;
+    max-width: none;
   }
 `;
 
 const LibrarySongDescription = styled.div`
-  width: 100%;
-  height: 100%;
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2px;
 
   .text-ellipsis {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 200px; // Puedes ajustar este valor según tus necesidades
   }
 `;
 
-const Img = styled.img`
-  margin: 20px 0;
-  border-radius: 5px;
-  border: 0.5px solid black;
-  height: 60px;
+const Img = styled.img<{ $loaded: boolean }>`
+  border-radius: 8px;
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: ${(p) => (p.$loaded ? "block" : "none")};
 `;
 
-const H1 = styled.h3`
-  padding-left: 1rem;
-  font-size: 1rem;
+const SongName = styled.h3`
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(40, 40, 40);
 `;
 
-const H2 = styled.h4`
-  padding-left: 1rem;
-  font-size: 0.7rem;
+const SongDetail = styled.h4`
+  font-size: 0.75rem;
+  color: rgb(140, 140, 140);
 `;
 
 export default LibrarySong;

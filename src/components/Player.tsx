@@ -47,7 +47,6 @@ const Player: FC<PlayerProps> = ({
 }) => {
   const { changeSong } = useSongChange();
 
-  // Event handlers
   const playSongHandler = useCallback(() => {
     if (isPlaying) {
       audioRef.current.pause();
@@ -115,7 +114,7 @@ const Player: FC<PlayerProps> = ({
   return (
     <PlayerContainer {...rest}>
       <TimeControlContainer>
-        <P>{getTime(songInfo.currentTime || 0)}</P>
+        <TimeText>{getTime(songInfo.currentTime || 0)}</TimeText>
         <Track $color1={color1} $color2={color2}>
           <Input
             onChange={dragHandler}
@@ -126,17 +125,17 @@ const Player: FC<PlayerProps> = ({
           />
           <AnimateTrack $progress={progress}></AnimateTrack>
         </Track>
-        <P>
+        <TimeText>
           {(songInfo.duration && getTime(songInfo.duration || 0)) || <Dots />}
-        </P>
+        </TimeText>
       </TimeControlContainer>
 
       <PlayControlContainer>
-        <ControlIcon
+        <SecondaryIcon
           onClick={() => setIsShortcutsModalOpen(true)}
           className="shortcutModal"
           icon={faInfo}
-          size="2x"
+          size="lg"
         />
         <ControlIcon
           onClick={() => skipTrackHandler("skip-back")}
@@ -144,23 +143,28 @@ const Player: FC<PlayerProps> = ({
           icon={faAngleLeft}
           size="2x"
         />
-        <ControlIcon
+        <PlayButton
           onClick={playSongHandler}
-          className="play"
-          icon={togglePlayPauseIcon()}
-          size="2x"
-        />
+          $color1={color1}
+          $color2={color2}
+        >
+          <FontAwesomeIcon
+            icon={togglePlayPauseIcon()}
+            size="lg"
+            style={{ marginLeft: isPlaying ? 0 : 2 }}
+          />
+        </PlayButton>
         <ControlIcon
           onClick={() => skipTrackHandler("skip-forward")}
           className="skip-forward"
           icon={faAngleRight}
           size="2x"
         />
-        <ControlIcon
+        <SecondaryIcon
           onClick={() => downloadSong()}
           className="download"
           icon={faDownload}
-          size="2x"
+          size="lg"
         />
       </PlayControlContainer>
     </PlayerContainer>
@@ -176,15 +180,64 @@ const Dots = styled.span`
 
 const ControlIcon = styled(FontAwesomeIcon)`
   cursor: pointer;
-  padding: 20px;
-  width: 30px;
-  height: 30px;
-  border-radius: 80%;
-  transition: background-color 0.3s ease;
+  width: 28px;
+  height: 28px;
+  padding: 16px;
+  color: rgb(80, 80, 80);
+  transition: all 0.2s ease;
+  border-radius: 50%;
 
   &:hover {
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(30, 30, 30);
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+
+  &:active {
+    transform: scale(0.92);
+  }
+`;
+
+const SecondaryIcon = styled(FontAwesomeIcon)`
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 14px;
+  color: rgb(180, 180, 180);
+  transition: all 0.2s ease;
+  border-radius: 50%;
+
+  &:hover {
+    color: rgb(100, 100, 100);
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+`;
+
+const PlayButton = styled.button<{ $color1: string; $color2: string }>`
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    ${(p) => p.$color1},
+    ${(p) => p.$color2}
+  );
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 16px ${(p) => p.$color1}44;
+
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 24px ${(p) => p.$color1}66;
+  }
+
+  &:active {
+    transform: scale(0.95);
   }
 `;
 
@@ -197,26 +250,32 @@ const PlayerContainer = styled.div`
 `;
 
 const TimeControlContainer = styled.div`
-  margin-top: 5vh;
-  width: 50%;
+  margin-top: 3vh;
+  width: 45%;
   display: flex;
+  align-items: center;
+  gap: 0.75rem;
   @media screen and (max-width: 768px) {
     width: 90%;
   }
 `;
 
 const Track = styled.div<{ $color1: string; $color2: string }>`
-  background: lightblue;
   width: 100%;
-  height: 1rem;
+  height: 5px;
   position: relative;
-  border-radius: 1rem;
+  border-radius: 5px;
   overflow: hidden;
   background: linear-gradient(
     to right,
     ${(p) => p.$color1},
     ${(p) => p.$color2}
   );
+  transition: height 0.15s ease;
+
+  &:hover {
+    height: 7px;
+  }
 `;
 
 const AnimateTrack = styled.div.attrs<{ $progress: number }>(
@@ -226,7 +285,7 @@ const AnimateTrack = styled.div.attrs<{ $progress: number }>(
     },
   })
 )`
-  background: rgb(204, 204, 204);
+  background: rgba(220, 220, 220, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -240,8 +299,6 @@ const Input = styled.input`
   -webkit-appearance: none;
   background: transparent;
   cursor: pointer;
-  /* padding-top: 1rem;
-	padding-bottom: 1rem; */
   &:focus {
     outline: none;
     -webkit-appearance: none;
@@ -269,26 +326,24 @@ const Input = styled.input`
     background: transparent;
     border: none;
   }
-  &::-moz-range-thumb {
-    -webkit-appearance: none;
-    background: transparent;
-    border: none;
-  }
 `;
 
-const P = styled.p`
-  padding: 0 1rem 0 1rem;
+const TimeText = styled.p`
+  font-size: 0.8rem;
+  color: rgb(155, 155, 155);
   user-select: none;
+  font-variant-numeric: tabular-nums;
+  min-width: 3ch;
 `;
 
 const PlayControlContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
-  width: 30%;
+  gap: 0.75rem;
   @media screen and (max-width: 768px) {
-    width: 90%;
+    gap: 0.5rem;
   }
 `;
 

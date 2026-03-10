@@ -56,33 +56,35 @@ const ModalBackground = styled.div<{ $isOpen: boolean }>`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: ${(props) => (props.$isOpen ? 1 : 0)};
   pointer-events: ${(props) => (props.$isOpen ? "auto" : "none")};
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 200;
 `;
 
 const ModalContent = styled.div<{ $isOpen: boolean }>`
   position: relative;
-  width: 70%;
-  max-width: 500px;
-  background: white;
-  padding: 50px;
-  border-radius: 10px;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(209, 213, 219, 0.3);
-  transform: ${(props) => (props.$isOpen ? "scale(1)" : "scale(0.9)")};
-  transition: transform 0.2s ease-in-out;
+  width: 90%;
+  max-width: 460px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transform: ${(props) => (props.$isOpen ? "scale(1)" : "scale(0.95)")};
+  transition: transform 0.25s ease-in-out;
 
   h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(30, 30, 30);
+    font-weight: 700;
   }
 
   ul {
@@ -90,12 +92,19 @@ const ModalContent = styled.div<{ $isOpen: boolean }>`
     padding: 0;
 
     li {
-      margin-bottom: 15px;
-      font-size: 1.1em;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: rgb(100, 100, 100);
+      line-height: 1.5;
+
+      strong {
+        color: rgb(40, 40, 40);
+      }
 
       svg {
         margin-right: 10px;
         vertical-align: middle;
+        color: rgb(150, 150, 150);
       }
     }
   }
@@ -103,16 +112,24 @@ const ModalContent = styled.div<{ $isOpen: boolean }>`
 
 const CloseButton = styled.button`
   position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
+  top: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.05);
   border: none;
-  font-size: 1.5em;
+  font-size: 1.1rem;
   cursor: pointer;
-  color: #333;
+  color: rgb(150, 150, 150);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
 
   &:hover {
-    color: #555;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgb(50, 50, 50);
   }
 `;
 

@@ -30,21 +30,24 @@ const Song: React.FC<SongProps> = ({ currentSong, isPlaying }) => {
           }
         />
       </ImgWrapper>
-      <H1>{currentSong.name}</H1>
-      <H2>{currentSong.artist}</H2>
-      <H2>{currentSong.album}</H2>
+      <SongInfo>
+        <SongTitle>{currentSong.name}</SongTitle>
+        <SongArtist>{currentSong.artist}</SongArtist>
+        <SongAlbum>{currentSong.album}</SongAlbum>
+      </SongInfo>
     </SongContainer>
   );
 };
 
 const SongContainer = styled.div`
-  margin-top: 10vh;
+  margin-top: 8vh;
   min-height: 50vh;
   max-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 `;
 
 const rotate = keyframes`
@@ -57,13 +60,13 @@ const rotate = keyframes`
 `;
 
 const ImgWrapper = styled.div`
-  width: 20%;
-  padding-bottom: 20%;
+  width: 22%;
+  padding-bottom: 22%;
   position: relative;
 
   @media screen and (max-width: 768px) {
-    width: 50%;
-    padding-bottom: 50%;
+    width: 55%;
+    padding-bottom: 55%;
   }
 `;
 
@@ -74,29 +77,52 @@ const Img = styled.img<{ $isRotating: boolean; $shadowColor: string }>`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: ${(props) => (props.$isRotating ? "50%" : "16px")};
   animation: ${(props) =>
     props.$isRotating
       ? css`
-          ${rotate} 10s linear infinite
+          ${rotate} 15s linear infinite
         `
       : "none"};
-  transition: border-radius 0.3s ease, animation 0.3s ease;
-  box-shadow: 0 0 150px 20px ${(props) => props.$shadowColor};
+  transition: border-radius 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.5s ease;
+  box-shadow: 0 0 60px 15px ${(props) => props.$shadowColor}33,
+    0 8px 32px rgba(0, 0, 0, 0.12);
 
   &:hover {
-    border-radius: 2%;
+    border-radius: 16px;
   }
 `;
 
-const H1 = styled.h2`
-  padding: 3rem 1rem 1rem 1rem;
-  text-align: center;
+const SongInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding-top: 1.5rem;
 `;
 
-const H2 = styled.h3`
-  font-size: 1rem;
+const SongTitle = styled.h2`
+  font-size: 1.5rem;
+  font-weight: 700;
   text-align: center;
+  letter-spacing: -0.02em;
+  color: rgb(30, 30, 30);
+  padding: 0 1rem;
+`;
+
+const SongArtist = styled.h3`
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(100, 100, 100);
+`;
+
+const SongAlbum = styled.h3`
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(155, 155, 155);
 `;
 
 export default Song;

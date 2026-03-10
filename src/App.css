@@ -5,6 +5,9 @@
 }
 body {
   font-family: "Lato", sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  overflow: hidden;
 }
 
 h1,
@@ -17,4 +20,9 @@ h3,
 h4 {
   font-weight: 400;
   color: rgb(100, 100, 100);
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.15);
+  color: #000;
 }

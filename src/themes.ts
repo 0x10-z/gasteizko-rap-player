@@ -16,7 +16,7 @@ export const lightTheme: Theme = {
 
 export const darkTheme: Theme = {
   text: "#f7f7f7",
-  backgroundImage: `linear-gradient(to right, #444444 1px, transparent 1px), 
+  backgroundImage: `linear-gradient(to right, #444444 1px, transparent 1px),
                     linear-gradient(to bottom, #444444 1px, transparent 1px)`,
   backgroundColor: "#000000",
   backgroundSize: "100px 100px",
