@@ -285,6 +285,7 @@ const Input = styled.input`
   -webkit-appearance: none;
   background: transparent;
   cursor: pointer;
+  touch-action: none;
   &:focus {
     outline: none;
     -webkit-appearance: none;

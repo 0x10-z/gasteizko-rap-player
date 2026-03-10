@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { SongType } from "../types/models";
 import { useAudioPlayer } from "../contexts/AudioPlayerContext";
 
+// Cache loaded image URLs across mount/unmount cycles (virtual list)
+const loadedCovers = new Set<string>();
+
 type LibrarySongProps = {
   song: SongType;
   setCurrentSong: (song: SongType) => void;
@@ -36,7 +39,7 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
   songs,
   setSongs,
 }) => {
-  const [imageLoaded, setImageLoaded] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(() => loadedCovers.has(song.cover));
   const { isPlaying, play } = useAudioPlayer();
 
   const songSelectHandler = async () => {
@@ -63,6 +66,12 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
       play();
     }
   };
+
+  const handleImageLoad = () => {
+    loadedCovers.add(song.cover);
+    setImageLoaded(true);
+  };
+
   return (
     <LibrarySongContainer onClick={songSelectHandler} $isActive={song.active}>
       {!imageLoaded && <Spinner />}
@@ -70,7 +79,7 @@ const LibrarySong: React.FC<LibrarySongProps> = ({
         src={song.cover}
         alt={song.name}
         height={100}
-        onLoad={() => setImageLoaded(true)}
+        onLoad={handleImageLoad}
         loading="lazy"
         $loaded={imageLoaded}
       />

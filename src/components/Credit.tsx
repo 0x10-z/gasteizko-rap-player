@@ -60,6 +60,11 @@ const CreditContainer = styled.div<{
   transition: opacity 0.3s ease;
   pointer-events: ${(p) =>
     p.$aboutStatus || p.$libraryStatus ? "none" : "auto"};
+
+  @media screen and (max-width: 768px) {
+    padding: 0 16px;
+    bottom: 8px;
+  }
 `;
 
 const LeftContainer = styled.div``;
