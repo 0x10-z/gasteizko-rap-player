@@ -128,7 +128,9 @@ const ImgWrapper = styled.div<{ $glowColor: string }>`
     0 26px 80px rgba(0, 0, 0, 0.36),
     0 0 0 1px rgba(255, 255, 255, 0.08),
     0 0 72px ${(p) => `${p.$glowColor}33`};
-  transition: box-shadow 0.35s ease, transform 0.35s ease;
+  transition:
+    box-shadow 0.35s ease,
+    transform 0.35s ease;
 
   &::before {
     content: "";

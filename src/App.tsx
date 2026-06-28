@@ -239,54 +239,59 @@ const App = () => {
           {(() => {
             const currentAlbumSongs = songs.filter(
               (song) =>
-                song.album === currentSong.album && song.cover === currentSong.cover,
+                song.album === currentSong.album &&
+                song.cover === currentSong.cover,
             );
             const currentAlbumSongIndex = currentAlbumSongs.findIndex(
               (song) => song.id === currentSong.id,
             );
 
             return (
-          <AppContainer
-            $backgroundImage={currentSong.cover}
-            $colorA={currentSong.color[0] || "#1db954"}
-            $colorB={currentSong.color[1] || currentSong.color[0] || "#15803d"}
-            $colorC={currentSong.color[2] || currentSong.color[1] || "#d9f99d"}
-            onClick={handleClickOutsideReact}>
-            <Nav
-              libraryStatus={libraryStatus}
-              aboutStatus={aboutStatus}
-              setLibraryStatus={setLibraryStatus}
-            />
-            <MainStage>
-              <Song currentSong={currentSong} isPlaying={isPlaying} />
-              <Player
-                currentSong={currentSong}
-                currentSongIndex={currentAlbumSongIndex}
-                totalSongs={currentAlbumSongs.length}
-                songInfo={songInfo}
-                setSongInfo={setSongInfo}
-                setIsShortcutsModalOpen={setIsShortcutsModalOpen}
-              />
-            </MainStage>
-            <Credit
-              songsNumber={songs.length}
-              aboutStatus={aboutStatus}
-              setAboutStatus={setAboutStatus}
-              libraryStatus={libraryStatus}
-            />
-            <audio
-              onLoadedMetadata={updateTimeHandler}
-              onTimeUpdate={updateTimeHandler}
-              onEnded={songEndHandler}
-              onCanPlayThrough={() => {
-                if (isPlaying) {
-                  play();
+              <AppContainer
+                $backgroundImage={currentSong.cover}
+                $colorA={currentSong.color[0] || "#1db954"}
+                $colorB={
+                  currentSong.color[1] || currentSong.color[0] || "#15803d"
                 }
-              }}
-              ref={audioRef as React.RefObject<HTMLAudioElement>}
-              src={getAudioSrc(currentSong)}
-            />
-          </AppContainer>
+                $colorC={
+                  currentSong.color[2] || currentSong.color[1] || "#d9f99d"
+                }
+                onClick={handleClickOutsideReact}>
+                <Nav
+                  libraryStatus={libraryStatus}
+                  aboutStatus={aboutStatus}
+                  setLibraryStatus={setLibraryStatus}
+                />
+                <MainStage>
+                  <Song currentSong={currentSong} isPlaying={isPlaying} />
+                  <Player
+                    currentSong={currentSong}
+                    currentSongIndex={currentAlbumSongIndex}
+                    totalSongs={currentAlbumSongs.length}
+                    songInfo={songInfo}
+                    setSongInfo={setSongInfo}
+                    setIsShortcutsModalOpen={setIsShortcutsModalOpen}
+                  />
+                </MainStage>
+                <Credit
+                  songsNumber={songs.length}
+                  aboutStatus={aboutStatus}
+                  setAboutStatus={setAboutStatus}
+                  libraryStatus={libraryStatus}
+                />
+                <audio
+                  onLoadedMetadata={updateTimeHandler}
+                  onTimeUpdate={updateTimeHandler}
+                  onEnded={songEndHandler}
+                  onCanPlayThrough={() => {
+                    if (isPlaying) {
+                      play();
+                    }
+                  }}
+                  ref={audioRef as React.RefObject<HTMLAudioElement>}
+                  src={getAudioSrc(currentSong)}
+                />
+              </AppContainer>
             );
           })()}
           <Library
