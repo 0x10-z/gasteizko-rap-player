@@ -3,26 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html,
+#root {
+  height: 100%;
+  min-height: 100%;
+}
+
 body {
-  font-family: "Lato", sans-serif;
-  background: #fff;
-  color: #1a1a1a;
+  min-height: 100dvh;
+  font-family: "Aptos", "Segoe UI Variable", "Segoe UI", sans-serif;
+  background: #05080a;
+  color: #f4f7f5;
   overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(54, 54, 54);
+  color: inherit;
 }
 
 h3,
 h4 {
   font-weight: 400;
-  color: rgb(100, 100, 100);
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
 }
 
 ::selection {
-  background: rgba(0, 0, 0, 0.15);
-  color: #000;
+  background: rgba(29, 185, 84, 0.28);
+  color: #f8fff8;
 }

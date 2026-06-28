@@ -62,13 +62,11 @@ const App = () => {
 
       setSongs(newSongs);
     },
-    [songs]
+    [songs],
   );
 
   // Event Handlers
-  const updateTimeHandler = (
-    e: React.SyntheticEvent<HTMLAudioElement>
-  ) => {
+  const updateTimeHandler = (e: React.SyntheticEvent<HTMLAudioElement>) => {
     const target = e.currentTarget;
     const currentTime = target.currentTime;
     const duration = target.duration;
@@ -77,7 +75,9 @@ const App = () => {
 
   const songEndHandler = async () => {
     if (currentSong) {
-      const currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+      const currentIndex = songs.findIndex(
+        (song) => song.id === currentSong.id,
+      );
       const nextSong = songs[(currentIndex + 1) % songs.length];
       await updateActiveSongs(nextSong);
       if (isPlaying) {
@@ -103,11 +103,11 @@ const App = () => {
         setAboutStatus(false);
       }
     },
-    [aboutStatus, libraryStatus]
+    [aboutStatus, libraryStatus],
   );
 
   const handleClickOutsideReact: React.MouseEventHandler<HTMLDivElement> = (
-    event
+    event,
   ) => {
     handleClickOutsideDOM(event.nativeEvent);
   };
@@ -130,7 +130,7 @@ const App = () => {
       };
 
       const extractedData = extractArtistAndNameFromURL(
-        location.pathname.substring(1)
+        location.pathname.substring(1),
       );
 
       if (extractedData) {
@@ -138,7 +138,7 @@ const App = () => {
         const songFromURL = songs.find(
           (song) =>
             prettifyString(song.artist) === artist &&
-            prettifyString(song.name) === name
+            prettifyString(song.name) === name,
         );
 
         if (songFromURL) {
@@ -147,7 +147,7 @@ const App = () => {
       }
 
       return setActiveAndReturn(
-        songs[Math.floor(Math.random() * songs.length)]
+        songs[Math.floor(Math.random() * songs.length)],
       );
     }
 
@@ -167,7 +167,7 @@ const App = () => {
     async (direction: "forward" | "backward") => {
       if (currentSong) {
         const currentIndex = songs.findIndex(
-          (song) => song.id === currentSong.id
+          (song) => song.id === currentSong.id,
         );
         let nextIndex;
 
@@ -190,15 +190,15 @@ const App = () => {
         }
       }
     },
-    [songs, currentSong, audioRef, updateActiveSongs, play]
+    [songs, currentSong, audioRef, updateActiveSongs, play],
   );
 
   useEffect(() => {
     if (currentSong) {
       navigateRef.current(
         `/${prettifyString(currentSong.artist)}@${prettifyString(
-          currentSong.name
-        )}`
+          currentSong.name,
+        )}`,
       );
     }
     function updateMediaSession() {
@@ -236,58 +236,76 @@ const App = () => {
     <SongChangeProvider changeSong={changeSong}>
       {currentSong && (
         <>
-        <AppContainer
-          $backgroundImage={currentSong.cover}
-          onClick={handleClickOutsideReact}
-        >
-          <Nav
-            libraryStatus={libraryStatus}
-            aboutStatus={aboutStatus}
+          {(() => {
+            const currentAlbumSongs = songs.filter(
+              (song) =>
+                song.album === currentSong.album && song.cover === currentSong.cover,
+            );
+            const currentAlbumSongIndex = currentAlbumSongs.findIndex(
+              (song) => song.id === currentSong.id,
+            );
+
+            return (
+          <AppContainer
+            $backgroundImage={currentSong.cover}
+            $colorA={currentSong.color[0] || "#1db954"}
+            $colorB={currentSong.color[1] || currentSong.color[0] || "#15803d"}
+            $colorC={currentSong.color[2] || currentSong.color[1] || "#d9f99d"}
+            onClick={handleClickOutsideReact}>
+            <Nav
+              libraryStatus={libraryStatus}
+              aboutStatus={aboutStatus}
+              setLibraryStatus={setLibraryStatus}
+            />
+            <MainStage>
+              <Song currentSong={currentSong} isPlaying={isPlaying} />
+              <Player
+                currentSong={currentSong}
+                currentSongIndex={currentAlbumSongIndex}
+                totalSongs={currentAlbumSongs.length}
+                songInfo={songInfo}
+                setSongInfo={setSongInfo}
+                setIsShortcutsModalOpen={setIsShortcutsModalOpen}
+              />
+            </MainStage>
+            <Credit
+              songsNumber={songs.length}
+              aboutStatus={aboutStatus}
+              setAboutStatus={setAboutStatus}
+              libraryStatus={libraryStatus}
+            />
+            <audio
+              onLoadedMetadata={updateTimeHandler}
+              onTimeUpdate={updateTimeHandler}
+              onEnded={songEndHandler}
+              onCanPlayThrough={() => {
+                if (isPlaying) {
+                  play();
+                }
+              }}
+              ref={audioRef as React.RefObject<HTMLAudioElement>}
+              src={getAudioSrc(currentSong)}
+            />
+          </AppContainer>
+            );
+          })()}
+          <Library
+            ref={libraryRef}
+            songs={songs}
+            setCurrentSong={setCurrentSong}
+            setSongs={setSongs}
             setLibraryStatus={setLibraryStatus}
+            libraryStatus={libraryStatus}
           />
-          <Song currentSong={currentSong} isPlaying={isPlaying} />
-          <Player
-            currentSong={currentSong}
-            songInfo={songInfo}
-            setSongInfo={setSongInfo}
-            setIsShortcutsModalOpen={setIsShortcutsModalOpen}
-          />
-          <Credit
-            songsNumber={songs.length}
+          <About
+            ref={aboutRef}
             aboutStatus={aboutStatus}
             setAboutStatus={setAboutStatus}
-            libraryStatus={libraryStatus}
           />
-          <audio
-            onLoadedMetadata={updateTimeHandler}
-            onTimeUpdate={updateTimeHandler}
-            onEnded={songEndHandler}
-            onCanPlayThrough={() => {
-              if (isPlaying) {
-                play();
-              }
-            }}
-            ref={audioRef as React.RefObject<HTMLAudioElement>}
-            src={getAudioSrc(currentSong)}
+          <HelpModal
+            isOpen={isShortcutsModalOpen}
+            onClose={() => setIsShortcutsModalOpen(false)}
           />
-        </AppContainer>
-        <Library
-          ref={libraryRef}
-          songs={songs}
-          setCurrentSong={setCurrentSong}
-          setSongs={setSongs}
-          setLibraryStatus={setLibraryStatus}
-          libraryStatus={libraryStatus}
-        />
-        <About
-          ref={aboutRef}
-          aboutStatus={aboutStatus}
-          setAboutStatus={setAboutStatus}
-        />
-        <HelpModal
-          isOpen={isShortcutsModalOpen}
-          onClose={() => setIsShortcutsModalOpen(false)}
-        />
         </>
       )}
     </SongChangeProvider>
@@ -296,11 +314,29 @@ const App = () => {
 
 const AppContainer = styled.div<{
   $backgroundImage: string;
+  $colorA: string;
+  $colorB: string;
+  $colorC: string;
 }>`
-  height: 100vh;
+  height: 100dvh;
+  min-height: 100dvh;
   overflow: hidden;
   position: relative;
-  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.25rem 0;
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      ${(p) => `${p.$colorA}44`},
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 85% 18%,
+      ${(p) => `${p.$colorB}33`},
+      transparent 28%
+    ),
+    linear-gradient(160deg, #06090b 0%, #0b1014 45%, #10181d 100%);
 
   &::before {
     content: "";
@@ -312,15 +348,61 @@ const AppContainer = styled.div<{
     background-image: url(${(p) => p.$backgroundImage});
     background-size: cover;
     background-position: center;
-    filter: blur(100px) saturate(1.8) brightness(1.1);
-    opacity: 0.25;
+    filter: blur(120px) saturate(1.4) brightness(0.55);
+    opacity: 0.18;
     transition: background-image 0.8s ease;
+    z-index: 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.42)),
+      radial-gradient(
+        circle at top,
+        ${(p) => `${p.$colorC}14`},
+        transparent 35%
+      );
+    pointer-events: none;
     z-index: 0;
   }
 
   & > * {
     position: relative;
     z-index: 1;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 3.5rem 1rem 0;
+  }
+`;
+
+const MainStage = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 1rem 0 7rem;
+  min-height: 0;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    gap: 1.25rem;
+    padding: 0.5rem 0 7.5rem;
+  }
+
+  @media screen and (max-height: 860px) {
+    gap: 1rem;
+    padding: 0.5rem 0 6.5rem;
+  }
+
+  @media screen and (max-height: 760px) {
+    gap: 0.75rem;
+    padding: 0.25rem 0 6rem;
   }
 `;
 

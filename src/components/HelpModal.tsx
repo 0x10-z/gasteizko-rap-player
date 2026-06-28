@@ -18,8 +18,7 @@ const HelpModal: FC<HelpModalProps> = ({ isOpen, onClose }) => {
     <ModalBackground $isOpen={isOpen} onClick={onClose}>
       <ModalContent
         $isOpen={isOpen}
-        onClick={(e: MouseEvent) => e.stopPropagation()}
-      >
+        onClick={(e: MouseEvent) => e.stopPropagation()}>
         <CloseButton onClick={onClose} aria-label="Cerrar">
           <FontAwesomeIcon icon={faTimes} />
         </CloseButton>
@@ -55,7 +54,7 @@ const ModalBackground = styled.div<{ $isOpen: boolean }>`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(3, 5, 6, 0.72);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,19 +69,23 @@ const ModalContent = styled.div<{ $isOpen: boolean }>`
   width: 90%;
   max-width: 460px;
   padding: 2.5rem;
-  border-radius: 16px;
+  border-radius: 24px;
   backdrop-filter: blur(40px) saturate(180%);
   -webkit-backdrop-filter: blur(40px) saturate(180%);
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(
+    180deg,
+    rgba(12, 18, 22, 0.94),
+    rgba(8, 12, 15, 0.96)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.28);
   transform: ${(props) => (props.$isOpen ? "scale(1)" : "scale(0.95)")};
   transition: transform 0.25s ease-in-out;
 
   h2 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
-    color: rgb(30, 30, 30);
+    color: #f3fbf5;
     font-weight: 700;
   }
 
@@ -93,17 +96,17 @@ const ModalContent = styled.div<{ $isOpen: boolean }>`
     li {
       margin-bottom: 1rem;
       font-size: 0.95rem;
-      color: rgb(100, 100, 100);
+      color: rgba(205, 217, 208, 0.78);
       line-height: 1.5;
 
       strong {
-        color: rgb(40, 40, 40);
+        color: #f0f9f2;
       }
 
       svg {
         margin-right: 10px;
         vertical-align: middle;
-        color: rgb(150, 150, 150);
+        color: rgba(29, 185, 84, 0.9);
       }
     }
   }
@@ -113,11 +116,11 @@ const CloseButton = styled.button`
   position: absolute;
   top: 12px;
   right: 12px;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.06);
   border: none;
   font-size: 1.1rem;
   cursor: pointer;
-  color: rgb(150, 150, 150);
+  color: rgba(234, 244, 237, 0.76);
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -127,8 +130,8 @@ const CloseButton = styled.button`
   transition: all 0.2s ease;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.08);
-    color: rgb(50, 50, 50);
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
   }
 `;
 

@@ -29,8 +29,7 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
             o
             <Remark
               href="https://www.instagram.com/jonzoonegraphics/"
-              target="_blank"
-            >
+              target="_blank">
               JonzoOne
             </Remark>
             , y atenderemos su petición de inmediato.
@@ -66,27 +65,26 @@ const About = forwardRef<HTMLDivElement, AboutProps>(
         <CloseButton
           $aboutStatus={aboutStatus}
           onClick={() => setAboutStatus(false)}
-          aria-label="Cerrar panel"
-        >
+          aria-label="Cerrar panel">
           &times;
         </CloseButton>
       </>
     );
-  }
+  },
 );
 
 const Remark = styled.a`
   font-style: normal;
-  background: rgba(0, 0, 0, 0.06);
-  color: rgb(30, 30, 30);
+  background: rgba(29, 185, 84, 0.14);
+  color: #ebfaef;
   padding: 0.1rem 0.35rem;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 999px;
   transition: background-color 0.2s ease;
   margin: 0 0.15rem;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.12);
+    background: rgba(29, 185, 84, 0.24);
   }
 `;
 
@@ -95,13 +93,17 @@ const AboutContainer = styled.div<{ $aboutStatus: boolean }>`
   z-index: 99;
   top: 0;
   right: 0;
-  width: 28rem;
+  width: min(32rem, 100vw);
   height: 100%;
-  background: rgba(255, 255, 255, 0.92);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 14, 17, 0.96),
+    rgba(6, 10, 12, 0.98)
+  );
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
-  border-left: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: -20px 0 50px rgba(0, 0, 0, 0.28);
   user-select: none;
   overflow-y: auto;
   overflow-x: hidden;
@@ -109,7 +111,7 @@ const AboutContainer = styled.div<{ $aboutStatus: boolean }>`
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: ${(p) => (p.$aboutStatus ? "1" : "0")};
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.12) transparent;
+  scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
 
   &::-webkit-scrollbar {
     width: 6px;
@@ -118,7 +120,7 @@ const AboutContainer = styled.div<{ $aboutStatus: boolean }>`
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.12);
+    background-color: rgba(255, 255, 255, 0.12);
     border-radius: 20px;
   }
 
@@ -132,21 +134,21 @@ const Header = styled.h2`
   padding: 1.5rem 1.5rem 1rem;
   font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(30, 30, 30);
+  color: #f4fbf6;
 `;
 
 const SectionTitle = styled.h3`
   padding: 1.25rem 1.5rem 0.5rem;
   font-size: 1rem;
   font-weight: 600;
-  color: rgb(60, 60, 60);
+  color: rgba(236, 247, 239, 0.92);
 `;
 
 const P = styled.p`
   margin: 0.5rem 1.5rem 1rem;
   line-height: 1.7;
   font-size: 0.9rem;
-  color: rgb(120, 120, 120);
+  color: rgba(199, 214, 203, 0.76);
 `;
 
 const CloseButton = styled.button<{ $aboutStatus: boolean }>`
@@ -154,11 +156,11 @@ const CloseButton = styled.button<{ $aboutStatus: boolean }>`
   bottom: 2rem;
   z-index: 100;
   right: 2rem;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.08);
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: rgb(100, 100, 100);
+  color: rgba(231, 242, 234, 0.82);
   display: ${(p) => (p.$aboutStatus ? "flex" : "none")};
   border-radius: 50%;
   width: 40px;
@@ -168,8 +170,8 @@ const CloseButton = styled.button<{ $aboutStatus: boolean }>`
   transition: all 0.2s ease;
 
   &:hover {
-    background: rgba(0, 0, 0, 0.12);
-    color: rgb(30, 30, 30);
+    background: rgba(255, 255, 255, 0.14);
+    color: #ffffff;
   }
 `;
 

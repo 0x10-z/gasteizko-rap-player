@@ -2,6 +2,7 @@ import { FC, useState } from "react";
 import styled from "styled-components";
 import { SongType } from "../types/models";
 import { useAudioPlayer } from "../contexts/AudioPlayerContext";
+import { getAudioSrc } from "../utils";
 
 // Cache loaded image URLs across mount/unmount cycles (virtual list)
 const MAX_CACHE_SIZE = 800;
@@ -15,11 +16,11 @@ type LibrarySongProps = {
 };
 
 const Spinner = styled.div`
-  border: 3px solid rgba(0, 0, 0, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.08);
   border-radius: 50%;
-  border-top: 3px solid rgb(80, 80, 80);
-  width: 48px;
-  height: 48px;
+  border-top: 3px solid rgba(236, 247, 240, 0.82);
+  width: 40px;
+  height: 40px;
   animation: spin 1s linear infinite;
   margin: 16px 0;
   flex-shrink: 0;
@@ -40,8 +41,10 @@ const LibrarySong: FC<LibrarySongProps> = ({
   songs,
   setSongs,
 }) => {
-  const [imageLoaded, setImageLoaded] = useState(() => loadedCovers.has(song.cover));
-  const { isPlaying, play } = useAudioPlayer();
+  const [imageLoaded, setImageLoaded] = useState(() =>
+    loadedCovers.has(song.cover),
+  );
+  const { audioRef, play, setIsPlaying } = useAudioPlayer();
 
   const songSelectHandler = async () => {
     await setCurrentSong(song);
@@ -63,9 +66,15 @@ const LibrarySong: FC<LibrarySongProps> = ({
     });
     setSongs(newSongs);
 
-    if (isPlaying) {
-      play();
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.src = getAudioSrc(song);
     }
+
+    setIsPlaying(true);
+    setTimeout(() => {
+      play();
+    }, 100);
   };
 
   const handleImageLoad = () => {
@@ -99,20 +108,23 @@ const LibrarySong: FC<LibrarySongProps> = ({
 };
 
 const LibrarySongContainer = styled.div<{ $isActive: boolean }>`
-  padding: 0 1.25rem;
-  height: 80px;
+  padding: 0.85rem 1rem;
+  min-height: 78px;
   width: 100%;
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  transition: background-color 0.2s ease;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
   background-color: ${(p) =>
-    p.$isActive ? "rgba(0, 0, 0, 0.06)" : "transparent"};
+    p.$isActive ? "rgba(29, 185, 84, 0.14)" : "transparent"};
   border-left: ${(p) =>
-    p.$isActive ? "3px solid rgb(80, 80, 80)" : "3px solid transparent"};
+    p.$isActive ? "3px solid rgb(29, 185, 84)" : "3px solid transparent"};
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: rgba(255, 255, 255, 0.06);
   }
 
   &:hover .text-ellipsis {
@@ -138,7 +150,7 @@ const LibrarySongDescription = styled.div`
 `;
 
 const Img = styled.img<{ $loaded: boolean }>`
-  border-radius: 8px;
+  border-radius: 10px;
   height: 48px;
   width: 48px;
   object-fit: cover;
@@ -148,13 +160,13 @@ const Img = styled.img<{ $loaded: boolean }>`
 
 const SongName = styled.h3`
   font-size: 0.9rem;
-  font-weight: 600;
-  color: rgb(40, 40, 40);
+  font-weight: 700;
+  color: #eff8f2;
 `;
 
 const SongDetail = styled.h4`
   font-size: 0.75rem;
-  color: rgb(140, 140, 140);
+  color: rgba(202, 214, 205, 0.72);
 `;
 
 export default LibrarySong;
