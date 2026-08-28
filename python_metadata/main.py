@@ -232,16 +232,16 @@ def generate_song_list(path):
             song = {
                 "album": metadata["album"],
                 "name": clean_text(metadata["title"]),
-                "cover": cover_path.replace(
+                "cover": cover_path.replace("\\", "/").replace(
                     "D:/Biblioteca/Descargas/Musica_compressed",
                     # "C:/Users/iker.ocio/Downloads/Musica_compressed",
-                    "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
+                    "https://cronolyprodstor.blob.core.windows.net/gasteizkorap",
                 ),
                 "artist": metadata["artist"],
-                "audio": song_file.replace(
+                "audio": song_file.replace("\\", "/").replace(
                     "D:/Biblioteca/Descargas/Musica_compressed",
                     # "C:/Users/iker.ocio/Downloads/Musica_compressed",
-                    "https://retrogasteiz.blob.core.windows.net/gasteizkorap",
+                    "https://cronolyprodstor.blob.core.windows.net/gasteizkorap",
                 ),
                 "color": colors,
                 "id": str(song_id),
